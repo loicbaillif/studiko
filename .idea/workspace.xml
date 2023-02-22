@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736f692e-e7d7-41c5-aeca-354db6992b49" name="Changes" comment="Kotlin/begin/v0&#10;Print course main title" />
+    <list default="true" id="736f692e-e7d7-41c5-aeca-354db6992b49" name="Changes" comment="Kotlin/begin/v1&#10;Update gitignore">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/overview/Index.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677096629113</updated>
-      <workItem from="1677096630546" duration="702000" />
+      <workItem from="1677096630546" duration="1665000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin/begin/init">
       <created>1677097047946</created>
@@ -90,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677097331259</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Kotlin/begin/v1&#10;Update gitignore">
+      <created>1677097469587</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677097469587</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Kotlin/begin/v1&#10;Update gitignore">
+      <created>1677097586790</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677097586790</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +135,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Kotlin/begin/init" />
     <MESSAGE value="Kotlin/begin/v0&#10;Print course main title" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin/begin/v0&#10;Print course main title" />
+    <MESSAGE value="Kotlin/begin/v1&#10;Update gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin/begin/v1&#10;Update gitignore" />
   </component>
 </project>
