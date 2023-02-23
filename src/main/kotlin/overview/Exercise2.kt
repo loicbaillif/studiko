@@ -7,5 +7,5 @@ fun exercise2() {
      * Overview - Exercise : Your name
      */
     println("Overview - Exercise 2 : Your name")
-
+    println("My name is larmedeciel")
 }
