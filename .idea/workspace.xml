@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736f692e-e7d7-41c5-aeca-354db6992b49" name="Changes" comment="Kotlin/begin/overview/v2&#10;Update gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="736f692e-e7d7-41c5-aeca-354db6992b49" name="Changes" comment="Kotlin/begin/overview/ex1/v1&#10;First proposal">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/overview/Exercise1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/overview/Exercise1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677096629113</updated>
       <workItem from="1677096630546" duration="2029000" />
-      <workItem from="1677132425317" duration="306000" />
+      <workItem from="1677132425317" duration="665000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin/begin/init">
       <created>1677097047946</created>
@@ -128,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677098645441</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Kotlin/begin/overview/ex1/init&#10;Exercise 1 : Multiple Statement - init">
+      <created>1677132977595</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677132977595</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Kotlin/begin/overview/ex1/v1&#10;First proposal">
+      <created>1677133021716</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677133021716</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +165,8 @@
     <MESSAGE value="Kotlin/begin/v1&#10;Update gitignore" />
     <MESSAGE value="Kotlin/begin/overview/v0&#10;overview of a basic program - init" />
     <MESSAGE value="Kotlin/begin/overview/v2&#10;Update gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin/begin/overview/v2&#10;Update gitignore" />
+    <MESSAGE value="Kotlin/begin/overview/ex1/init&#10;Exercise 1 : Multiple Statement - init" />
+    <MESSAGE value="Kotlin/begin/overview/ex1/v1&#10;First proposal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin/begin/overview/ex1/v1&#10;First proposal" />
   </component>
 </project>
