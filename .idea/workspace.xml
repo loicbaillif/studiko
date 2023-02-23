@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736f692e-e7d7-41c5-aeca-354db6992b49" name="Changes" comment="Kotlin/begin/overview/ex2/init&#10;Overview - Exercise2: init" />
+    <list default="true" id="736f692e-e7d7-41c5-aeca-354db6992b49" name="Changes" comment="Kotlin/begin/overview/ex2/v1&#10;First proposal" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677096629113</updated>
       <workItem from="1677096630546" duration="2029000" />
-      <workItem from="1677132425317" duration="2258000" />
+      <workItem from="1677132425317" duration="2937000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin/begin/init">
       <created>1677097047946</created>
@@ -154,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677152157444</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Kotlin/begin/overview/ex2/init&#10;Overview - Exercise2: init">
+      <created>1677152200664</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677152200664</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Kotlin/begin/overview/ex2/v1&#10;First proposal">
+      <created>1677152235811</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677152235811</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +195,7 @@
     <MESSAGE value="Kotlin/begin/overview/ex1/v1&#10;First proposal" />
     <MESSAGE value="Kotlin/begin/overview/ex1/v2&#10;Second proposal" />
     <MESSAGE value="Kotlin/begin/overview/ex2/init&#10;Overview - Exercise2: init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin/begin/overview/ex2/init&#10;Overview - Exercise2: init" />
+    <MESSAGE value="Kotlin/begin/overview/ex2/v1&#10;First proposal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin/begin/overview/ex2/v1&#10;First proposal" />
   </component>
 </project>
