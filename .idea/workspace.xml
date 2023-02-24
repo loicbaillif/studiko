@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736f692e-e7d7-41c5-aeca-354db6992b49" name="Changes" comment="Kotlin/begin/overview/ex2/v1&#10;First proposal" />
+    <list default="true" id="736f692e-e7d7-41c5-aeca-354db6992b49" name="Changes" comment="Kotlin/begin/overview/e3/v1&#10;First proposal">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +85,9 @@
       <option name="presentableId" value="Default" />
       <updated>1677096629113</updated>
       <workItem from="1677096630546" duration="2029000" />
-      <workItem from="1677132425317" duration="2937000" />
+      <workItem from="1677132425317" duration="3965000" />
+      <workItem from="1677180431958" duration="714000" />
+      <workItem from="1677270750650" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin/begin/init">
       <created>1677097047946</created>
@@ -168,7 +173,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677152235811</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Kotlin/begin/overview/e3/init&#10;Fix the line - init">
+      <created>1677153265841</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677153265841</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Kotlin/begin/overview/e3/init&#10;Fix the line - init">
+      <created>1677153276260</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677153276261</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Kotlin/begin/overview/e3/v1&#10;First proposal">
+      <created>1677153301099</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677153301099</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +222,8 @@
     <MESSAGE value="Kotlin/begin/overview/ex1/v2&#10;Second proposal" />
     <MESSAGE value="Kotlin/begin/overview/ex2/init&#10;Overview - Exercise2: init" />
     <MESSAGE value="Kotlin/begin/overview/ex2/v1&#10;First proposal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin/begin/overview/ex2/v1&#10;First proposal" />
+    <MESSAGE value="Kotlin/begin/overview/e3/init&#10;Fix the line - init" />
+    <MESSAGE value="Kotlin/begin/overview/e3/v1&#10;First proposal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin/begin/overview/e3/v1&#10;First proposal" />
   </component>
 </project>
