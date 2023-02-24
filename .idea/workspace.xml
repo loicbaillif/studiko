@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736f692e-e7d7-41c5-aeca-354db6992b49" name="Changes" comment="Kotlin/begin/overview/e3/v1&#10;First proposal">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+    <list default="true" id="736f692e-e7d7-41c5-aeca-354db6992b49" name="Changes" comment="Kotlin/begin/valvar/init&#10;Values and Variables - Init">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/valuesVariables/Theory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/valuesVariables/Theory.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <workItem from="1677096630546" duration="2029000" />
       <workItem from="1677132425317" duration="3965000" />
       <workItem from="1677180431958" duration="714000" />
-      <workItem from="1677270750650" duration="301000" />
+      <workItem from="1677270750650" duration="1031000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin/begin/init">
       <created>1677097047946</created>
@@ -194,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677153301099</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Kotlin/begin/valvar/init&#10;Values and Variables - Init">
+      <created>1677271100662</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677271100662</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +230,7 @@
     <MESSAGE value="Kotlin/begin/overview/ex2/v1&#10;First proposal" />
     <MESSAGE value="Kotlin/begin/overview/e3/init&#10;Fix the line - init" />
     <MESSAGE value="Kotlin/begin/overview/e3/v1&#10;First proposal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin/begin/overview/e3/v1&#10;First proposal" />
+    <MESSAGE value="Kotlin/begin/valvar/init&#10;Values and Variables - Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin/begin/valvar/init&#10;Values and Variables - Init" />
   </component>
 </project>
