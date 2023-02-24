@@ -11,4 +11,6 @@ fun theory() {
     var pseudo = "learner"
     println("My name is $pseudo")
     println("I am learning to code with $language")
+    pseudo = "KotBeginner"
+    println("I am currently known as $pseudo")
 }
