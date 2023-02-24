@@ -9,4 +9,6 @@ fun theory() {
     println("\tconst to add as a prefix, for variables known at compile time")
     val language = "Kotlin"
     var pseudo = "learner"
+    println("My name is $pseudo")
+    println("I am learning to code with $language")
 }
