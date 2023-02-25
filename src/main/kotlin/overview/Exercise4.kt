@@ -8,5 +8,8 @@ fun exercise4() {
      */
     println("Exercise 4 : I like Kotlin")
 
+    val passion = "I like kotlin"
+    println(passion)
+
     println("*** End of Exercise ***")
 }
