@@ -32,4 +32,5 @@ fun theory() {
     // ten = "twelve" // Type mismatch
     println("Once a var is defined, it shall keep the same type in further assignments")
 
+    println("***** End Of Theory *****")
 }
