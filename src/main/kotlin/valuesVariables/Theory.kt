@@ -13,4 +13,7 @@ fun theory() {
     println("I am learning to code with $language")
     pseudo = "KotBeginner"
     println("I am currently known as $pseudo")
+
+    println("2) Storing different types of values")
+
 }
