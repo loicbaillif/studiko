@@ -15,10 +15,17 @@ fun theory() {
     println("I am currently known as $pseudo")
 
     println("2) Storing different types of values")
+    // With val
     val neun = 9
     val welcome = "You are welcome my friend"
     val firstLetter = 'A'
-    println(neun)
-    println(welcome)
-    println(firstLetter)
+    println("\t$neun")
+    println("\t$welcome")
+    println("\t$firstLetter")
+
+    // With var
+    var ten = 10
+    println("\n\t$ten")
+    ten = 11
+    println("\n\t$ten")
 }
