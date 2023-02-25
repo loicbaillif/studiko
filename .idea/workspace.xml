@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736f692e-e7d7-41c5-aeca-354db6992b49" name="Changes" comment="Kotlin/begin/valvar/th/v7&#10;Storing different types of values">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="736f692e-e7d7-41c5-aeca-354db6992b49" name="Changes" comment="Kotlin/begin/valvar/th/v8&#10;Examples with var">
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/valuesVariables/Theory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/valuesVariables/Theory.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +87,7 @@
       <workItem from="1677132425317" duration="3965000" />
       <workItem from="1677180431958" duration="714000" />
       <workItem from="1677270750650" duration="2549000" />
-      <workItem from="1677355591684" duration="861000" />
+      <workItem from="1677355591684" duration="1759000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin/begin/init">
       <created>1677097047946</created>
@@ -237,7 +236,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677274850393</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Kotlin/begin/valvar/th/v7&#10;Storing different types of values">
+      <created>1677356919586</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1677356919586</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Kotlin/begin/valvar/th/v8&#10;Different types examples">
+      <created>1677357023962</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1677357023962</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Kotlin/begin/valvar/th/v8&#10;Examples with var">
+      <created>1677357156960</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1677357156960</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +294,8 @@
     <MESSAGE value="Kotlin/begin/valvar/th/v5&#10;val and var print values" />
     <MESSAGE value="Kotlin/begin/valvar/th/v6&#10;var value update" />
     <MESSAGE value="Kotlin/begin/valvar/th/v7&#10;Storing different types of values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin/begin/valvar/th/v7&#10;Storing different types of values" />
+    <MESSAGE value="Kotlin/begin/valvar/th/v8&#10;Different types examples" />
+    <MESSAGE value="Kotlin/begin/valvar/th/v8&#10;Examples with var" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin/begin/valvar/th/v8&#10;Examples with var" />
   </component>
 </project>

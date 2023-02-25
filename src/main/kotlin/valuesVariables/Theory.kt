@@ -27,5 +27,9 @@ fun theory() {
     var ten = 10
     println("\n\t$ten")
     ten = 11
-    println("\n\t$ten")
+    println("\t$ten")
+    // Following is forbidden
+    // ten = "twelve" // Type mismatch
+    println("Once a var is defined, it shall keep the same type in further assignments")
+
 }
