@@ -4,5 +4,6 @@ package valuesVariables
 fun index() {
     println("********** Values and Variables **********\n")
     // theory()
-    exercise1()
+    // exercise1()
+    exercise2()
 }
