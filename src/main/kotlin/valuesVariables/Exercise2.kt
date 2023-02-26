@@ -8,5 +8,8 @@ fun exercise2() {
      */
     println("*** Exercise 2 : Very Big Number ***")
 
+    val bigNumber = 100_000_000
+    println(bigNumber)
+
     println("*** End of Exercise ***")
 }
