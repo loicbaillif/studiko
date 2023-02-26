@@ -11,5 +11,10 @@ fun theory() {
     println(greetingsMsg)
     // pi = 3.14159 // val cannot be reassigned
 
+    val boolFalse: Boolean
+    val someInt: Int
+    val anyFloat: Float
+    // println(boolFalse) // Must be initialized first
+
     println("***** End of Theory *****")
 }
