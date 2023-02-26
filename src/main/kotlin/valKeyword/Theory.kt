@@ -2,6 +2,9 @@ package valKeyword
 
 const val MY_STRING = "I am a constant String"
 const val PI_FIVE = 3.14159
+const val SOME_INT = 99
+const val FIRST_LETTER = 'A'
+
 fun theory() {
     // https://hyperskill.org/learn/step/17408
     println("***** Theory *****")
@@ -39,6 +42,10 @@ fun theory() {
     println("const var is known at compile time")
     println(PI_FIVE)
     println(MY_STRING)
+    println("const can only be used for primary type variable")
+    println(SOME_INT)
+    println(FIRST_LETTER)
+
 
     println("\n\n***** End of Theory *****")
 }
