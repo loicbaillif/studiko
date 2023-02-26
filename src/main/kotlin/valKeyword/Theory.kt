@@ -1,5 +1,7 @@
 package valKeyword
 
+const val MY_STRING = "I am a constant String"
+const val PI_FIVE = 3.14159
 fun theory() {
     // https://hyperskill.org/learn/step/17408
     println("***** Theory *****")
@@ -33,6 +35,10 @@ fun theory() {
     println(myMutableList)
 
     println("\n*** 3) const Variables")
+    println("must be declared out of function")
+    println("const var is known at compile time")
+    println(PI_FIVE)
+    println(MY_STRING)
 
     println("\n\n***** End of Theory *****")
 }
