@@ -27,6 +27,7 @@ fun theory() {
     // Create a new val
     val myMutableList = mutableListOf(1, 2, 3, 4, 5)
     // Update the previous val with another value, won't work
+    println(myMutableList)
     // myMutableList = mutableListOf(1, 2, 3, 4, 5, 6) // Forbidden
 
     println("\n\n***** End of Theory *****")
