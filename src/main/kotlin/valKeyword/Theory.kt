@@ -32,5 +32,7 @@ fun theory() {
     myMutableList.add(6)
     println(myMutableList)
 
+    println("\n*** 3) const Variables")
+
     println("\n\n***** End of Theory *****")
 }
