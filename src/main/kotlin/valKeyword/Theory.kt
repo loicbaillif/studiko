@@ -15,6 +15,12 @@ fun theory() {
     val someInt: Int
     val anyFloat: Float
     // println(boolFalse) // Must be initialized first
+    boolFalse = false
+    someInt = 42
+    anyFloat = 13.579f
+    println(boolFalse)
+    println(someInt)
+    println(anyFloat)
 
     println("***** End of Theory *****")
 }
