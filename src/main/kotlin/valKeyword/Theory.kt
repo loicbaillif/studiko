@@ -9,6 +9,7 @@ fun theory() {
     val greetingsMsg = "Hello and Welcome"
     println(pi)
     println(greetingsMsg)
+    // pi = 3.14159 // val cannot be reassigned
 
     println("***** End of Theory *****")
 }
