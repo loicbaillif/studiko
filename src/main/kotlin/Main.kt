@@ -13,7 +13,8 @@ fun main(args: Array<String>) {
     // Old Chapters
     // overview.index()
     // valuesVariables.index()
+    // valKeyword.index()
 
     // Current Chapter
-    valKeyword.index()
+    typesDataStruct.dataTypes.index()
 }
