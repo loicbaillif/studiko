@@ -9,6 +9,11 @@ fun theory() {
     val integer2: Int = 55
     println("First integer = $integer1")
     println("Second integer = $integer2")
+    val myText: String = "Hello, I am studying Kotlin"
+    val nInt: Int = 111_111
+    println("My text = $myText")
+    println("My int = $nInt")
+
 
     println("\n\n***** End of Theory *****")
 }
