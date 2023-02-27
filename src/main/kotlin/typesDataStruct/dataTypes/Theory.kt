@@ -6,6 +6,9 @@ fun theory() {
 
     println("1) Variable types")
     val integer1 = 32
+    val integer2: Int = 55
+    println("First integer = $integer1")
+    println("Second integer = $integer2")
 
     println("\n\n***** End of Theory *****")
 }
