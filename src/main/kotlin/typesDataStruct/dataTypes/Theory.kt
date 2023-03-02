@@ -15,6 +15,8 @@ fun theory() {
     println("My int = $nInt")
 
     println("\n***2) Type mismatch")
+    // val nInt2: Int = "abc"; // Type mismatch
+
 
 
     println("\n\n***** End of Theory *****")
