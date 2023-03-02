@@ -16,6 +16,8 @@ fun theory() {
 
     println("\n***2) Type mismatch")
     // val nInt2: Int = "abc"; // Type mismatch
+    var myAge = 33
+    // myAge = "33 years old" // Type mismatch, we cannot change a var type
 
 
 
