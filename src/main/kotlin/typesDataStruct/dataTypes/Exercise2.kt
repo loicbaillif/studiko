@@ -5,7 +5,7 @@ fun exercise2() {
     // Exercise 2 : Edit it
 
     val part1: String = "Kotlin "
-    val part2 = is a cross-platform
+    val part2 = "is a cross-platform"
     String val = ", statically typed, "
     val part4 = "general-purpose programming language with type coercion."
 
