@@ -14,7 +14,8 @@ fun main(args: Array<String>) {
     // overview.index()
     // valuesVariables.index()
     // valKeyword.index()
+    // typesDataStruct.dataTypes.index()
 
     // Current Chapter
-    typesDataStruct.dataTypes.index()
+    basics.stdinout.stdOutput.index()
 }
