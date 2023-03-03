@@ -12,9 +12,9 @@ fun main(args: Array<String>) {
 
     // Old Chapters
     // overview.index()
-    valuesVariables.index()
+    // valuesVariables.index()
     // valKeyword.index()
 
     // Current Chapter
-    // typesDataStruct.dataTypes.index()
+    typesDataStruct.dataTypes.index()
 }
