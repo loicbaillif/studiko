@@ -7,7 +7,7 @@ fun exercise3() {
     println("*** Exercise: Correct the code ***")
 
     println("1, 2, 3...")
-    printLine("Line print here ")
+    print("Line print here ")
     lnPrint(42)
     printLn("Pay attention to")
     println("syntax")
