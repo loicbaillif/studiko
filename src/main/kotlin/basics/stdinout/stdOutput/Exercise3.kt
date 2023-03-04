@@ -8,7 +8,7 @@ fun exercise3() {
 
     println("1, 2, 3...")
     print("Line print here ")
-    lnPrint(42)
+    println(42)
     printLn("Pay attention to")
     println("syntax")
 
