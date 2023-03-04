@@ -9,7 +9,7 @@ fun exercise3() {
     println("1, 2, 3...")
     print("Line print here ")
     println(42)
-    print("Pay attention to")
+    print("Pay attention to ")
     println("syntax")
 
     println("*** End of exercise ***")
