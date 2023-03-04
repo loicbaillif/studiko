@@ -6,6 +6,10 @@ fun exercise1() {
 
     println("*** Exercise: first, second, third ***")
 
+    println("first")
+    println("second")
+    println("third")
+
 
     println("End of exercise")
 }
