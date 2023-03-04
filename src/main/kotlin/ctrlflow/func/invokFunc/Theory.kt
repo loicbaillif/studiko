@@ -5,7 +5,7 @@ fun theory() {
     println("***** Theory *****")
 
     println("1) Functions arguments")
-
+    println("println(\"ping\") ==> function with & argument")
 
 
     println("\n\n***** End of Theory *****")
