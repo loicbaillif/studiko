@@ -6,7 +6,7 @@ fun exercise3() {
 
     println("*** Exercise: Correct the code ***")
 
-    System.out.printf(1, 2, 3...)
+    println("1, 2, 3...")
     printLine("Line print here ")
     lnPrint(42)
     printLn("Pay attention to")
