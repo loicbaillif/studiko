@@ -21,6 +21,12 @@ fun theory() {
     scanner.useDelimiter("_")
     println(scanner.nextInt())
     println(scanner.nextInt())
+    scanner = Scanner("red,yellow,blue,green")
+    scanner.useDelimiter(",")
+    println(scanner.next())
+    println(scanner.next())
+    println(scanner.next())
+    println(scanner.next())
 
 
     println("\n\n***** End of Theory *****")
