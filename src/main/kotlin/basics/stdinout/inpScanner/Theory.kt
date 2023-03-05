@@ -9,6 +9,12 @@ fun theory() {
     println("*** 1) What is Java Scanner")
     println("Need to be imported")
     val scanner = Scanner(System.`in`)
+    val someText = scanner.nextLine() // Reads an entire line
+    val someInt = scanner.nextInt() // Reads an integer
+    val someWord = scanner.next() // Reads a 'word' (breaks at space)
+    println("Some text: $someText")
+    println("An integer: $someInt")
+    println("A word: $someWord")
 
     println("\n\n***** End of Theory *****")
 }
