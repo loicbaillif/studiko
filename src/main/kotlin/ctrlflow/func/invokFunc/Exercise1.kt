@@ -8,8 +8,7 @@ fun exercise1() {
 
     // write your code below
     println("*** Exercise: square root ***")
-    val squareRoot = Math.sqrt(number)
-    println(squareRoot)
+    println(Math.sqrt(number))
 
     println("End of exercise")
 }
