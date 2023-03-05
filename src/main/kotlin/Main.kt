@@ -18,7 +18,8 @@ fun main(args: Array<String>) {
     // valKeyword.index()
     // typesDataStruct.dataTypes.index()
     // basics.stdinout.stdOutput.index()
+    // ctrlflow.func.invokFunc.index()
 
     // Current Chapter
-    //ctrlflow.func.invokFunc.index()
+    basics.stdinout.inpScanner.index()
 }
