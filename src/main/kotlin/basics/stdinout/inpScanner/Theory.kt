@@ -28,6 +28,18 @@ fun theory() {
     println(scanner.next())
     println(scanner.next())
 
+    println("*** 3) Check next element ***")
+    scanner = Scanner ("One Two")
+    if (scanner.hasNext()) {
+        val someWord1 = scanner.next()
+    }
+    if (scanner.hasNext()) {
+        val someWord2 = scanner.next()
+    }
+    if (scanner.hasNext()) {
+        val someWord3 = scanner.next()
+    }
+
 
     println("\n\n***** End of Theory *****")
 }
