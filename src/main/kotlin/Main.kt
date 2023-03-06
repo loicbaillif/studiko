@@ -10,16 +10,16 @@ fun main(args: Array<String>) {
     // println("Program arguments: ${args.joinToString()}")
 
     // PROJECT
-    zookeeper.index()
+    // zookeeper.index()
 
     // Old Chapters
     // overview.index()
     // valuesVariables.index()
     // valKeyword.index()
     // typesDataStruct.dataTypes.index()
-    // basics.stdinout.stdOutput.index()
+    basics.stdinout.stdOutput.index()
     // ctrlflow.func.invokFunc.index()
 
     // Current Chapter
-    basics.stdinout.inpScanner.index()
+    // basics.stdinout.inpScanner.index()
 }
