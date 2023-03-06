@@ -5,7 +5,7 @@ fun exercise4() {
     // Amount on the account
     println("*** Exercise: Amount on the account ***")
 
-
+    println("08:00 You have one billion dollars")
 
     println("*** End of exercise ***")
 }
