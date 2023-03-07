@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736f692e-e7d7-41c5-aeca-354db6992b49" name="Changes" comment="Kotlin/begin/valvar/th/v8&#10;Examples with var">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/valuesVariables/Theory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/valuesVariables/Theory.kt" afterDir="false" />
+    <list default="true" id="736f692e-e7d7-41c5-aeca-354db6992b49" name="Changes" comment="Kotlin/begin/inpScanner/th/v4&#10;Custom delimiters - example 2">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/typesDataStruct/dataTypes/classification/Theory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/typesDataStruct/dataTypes/classification/Theory.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +45,13 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -54,17 +59,6 @@
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="studiko" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,6 +82,9 @@
       <workItem from="1677180431958" duration="714000" />
       <workItem from="1677270750650" duration="2549000" />
       <workItem from="1677355591684" duration="1759000" />
+      <workItem from="1677964316378" duration="845000" />
+      <workItem from="1678010666314" duration="7270000" />
+      <workItem from="1678172510599" duration="666000" />
     </task>
     <task id="LOCAL-00001" summary="Kotlin/begin/init">
       <created>1677097047946</created>
@@ -257,7 +254,91 @@
       <option name="project" value="LOCAL" />
       <updated>1677357156960</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Kotlin/begin/invFun/ex1/init&#10;Square root : initialization">
+      <created>1678011348403</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1678011348403</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Kotlin/begin/invFun/ex1/v1&#10;First version">
+      <created>1678011411358</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1678011411358</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Kotlin/begin/invFun/ex1/v1&#10;Second version: no transient var">
+      <created>1678011463591</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1678011463591</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Kotlin/begin/zookeper/st1/init&#10;Project Stage 1: Rush into print">
+      <created>1678012422540</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1678012422540</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Kotlin/begin/zookeper/st1/v1&#10;Stage 1 title">
+      <created>1678012476655</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1678012476655</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Kotlin/begin/zookeper/st1/v2&#10;Print all text - end of stage 1">
+      <created>1678012579877</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1678012579877</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Kotlin/begin/inpScanner/init&#10;Standard Input with Java Scanner">
+      <created>1678020818439</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1678020818439</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Kotlin/begin/inpScanner/th/init&#10;Theory">
+      <created>1678040477864</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1678040477864</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Kotlin/begin/inpScanner/th/v1&#10;Create and import scanner">
+      <created>1678040776057</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1678040776057</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Kotlin/begin/inpScanner/th/v2&#10;First examples">
+      <created>1678041134956</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1678041134956</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Kotlin/begin/inpScanner/th/v3&#10;Custom delimiters - example 1">
+      <created>1678042039663</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1678042039663</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Kotlin/begin/inpScanner/th/v4&#10;Custom delimiters - example 2">
+      <created>1678042245411</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1678042245411</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,14 +356,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Kotlin/begin/init" />
-    <MESSAGE value="Kotlin/begin/v0&#10;Print course main title" />
-    <MESSAGE value="Kotlin/begin/v1&#10;Update gitignore" />
-    <MESSAGE value="Kotlin/begin/overview/v0&#10;overview of a basic program - init" />
-    <MESSAGE value="Kotlin/begin/overview/v2&#10;Update gitignore" />
-    <MESSAGE value="Kotlin/begin/overview/ex1/init&#10;Exercise 1 : Multiple Statement - init" />
-    <MESSAGE value="Kotlin/begin/overview/ex1/v1&#10;First proposal" />
-    <MESSAGE value="Kotlin/begin/overview/ex1/v2&#10;Second proposal" />
     <MESSAGE value="Kotlin/begin/overview/ex2/init&#10;Overview - Exercise2: init" />
     <MESSAGE value="Kotlin/begin/overview/ex2/v1&#10;First proposal" />
     <MESSAGE value="Kotlin/begin/overview/e3/init&#10;Fix the line - init" />
@@ -296,6 +369,18 @@
     <MESSAGE value="Kotlin/begin/valvar/th/v7&#10;Storing different types of values" />
     <MESSAGE value="Kotlin/begin/valvar/th/v8&#10;Different types examples" />
     <MESSAGE value="Kotlin/begin/valvar/th/v8&#10;Examples with var" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin/begin/valvar/th/v8&#10;Examples with var" />
+    <MESSAGE value="Kotlin/begin/invFun/ex1/init&#10;Square root : initialization" />
+    <MESSAGE value="Kotlin/begin/invFun/ex1/v1&#10;First version" />
+    <MESSAGE value="Kotlin/begin/invFun/ex1/v1&#10;Second version: no transient var" />
+    <MESSAGE value="Kotlin/begin/zookeper/st1/init&#10;Project Stage 1: Rush into print" />
+    <MESSAGE value="Kotlin/begin/zookeper/st1/v1&#10;Stage 1 title" />
+    <MESSAGE value="Kotlin/begin/zookeper/st1/v2&#10;Print all text - end of stage 1" />
+    <MESSAGE value="Kotlin/begin/inpScanner/init&#10;Standard Input with Java Scanner" />
+    <MESSAGE value="Kotlin/begin/inpScanner/th/init&#10;Theory" />
+    <MESSAGE value="Kotlin/begin/inpScanner/th/v1&#10;Create and import scanner" />
+    <MESSAGE value="Kotlin/begin/inpScanner/th/v2&#10;First examples" />
+    <MESSAGE value="Kotlin/begin/inpScanner/th/v3&#10;Custom delimiters - example 1" />
+    <MESSAGE value="Kotlin/begin/inpScanner/th/v4&#10;Custom delimiters - example 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin/begin/inpScanner/th/v4&#10;Custom delimiters - example 2" />
   </component>
 </project>

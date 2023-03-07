@@ -14,6 +14,11 @@ fun theory() {
     println("\t. zero = $zero")
     println("\t. one = $one")
     println("\t. one million = $oneMillion")
+    val twoMillions = 2_000_000L // Long because tagged with L
+    val bigNumber = 1_000_000_000_000_000 // Long because too big for Int
+    val ten: Long = 10 // Long because explicitely specified
+    println("\nOther examples:")
+    println("\t. two millions: Value = $twoMillions - Type = ${twoMillions::class.java.typeName}")
 
 
 
