@@ -31,8 +31,11 @@ fun theory() {
     println("\t. e: Value = $eFloat - Type = ${eFloat::class.java.typeName}")
     print("\t. some float: Value = $someFloat - ")
     println("Type = ${someFloat::class.java.typeName}")
-
-
+    println("\nGet min and max values:")
+    println("\t. Int.MIN_VALUE = ${Int.MIN_VALUE}")
+    println("\t. Int.MAX_VALUE = ${Int.MAX_VALUE}")
+    println("\t. Int.SIZE_BITS = ${Int.SIZE_BITS}")
+    println("\t. Int.SIZE_BYTES = ${Int.SIZE_BYTES}")
 
     println("\n\n***** End of Theory *****")
 }
