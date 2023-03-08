@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736f692e-e7d7-41c5-aeca-354db6992b49" name="Changes" comment="Kotlin/begin/inpScanner/th/v4&#10;Custom delimiters - example 2">
+    <list default="true" id="736f692e-e7d7-41c5-aeca-354db6992b49" name="Changes" comment="Kotlin/begin/classif/th/v4&#10;Numbers - some examples">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/typesDataStruct/dataTypes/classification/Theory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/typesDataStruct/dataTypes/classification/Theory.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,13 +44,11 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -59,6 +56,17 @@
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="studiko" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,264 +89,361 @@
       <workItem from="1677132425317" duration="3965000" />
       <workItem from="1677180431958" duration="714000" />
       <workItem from="1677270750650" duration="2549000" />
-      <workItem from="1677355591684" duration="1759000" />
-      <workItem from="1677964316378" duration="845000" />
-      <workItem from="1678010666314" duration="7270000" />
-      <workItem from="1678172510599" duration="666000" />
+      <workItem from="1677355591684" duration="3544000" />
+      <workItem from="1677399397689" duration="9907000" />
+      <workItem from="1677530831567" duration="921000" />
+      <workItem from="1677736932487" duration="489000" />
+      <workItem from="1677780734082" duration="2415000" />
+      <workItem from="1677874427156" duration="2774000" />
+      <workItem from="1677941254089" duration="5198000" />
+      <workItem from="1678003782868" duration="2882000" />
+      <workItem from="1678131031665" duration="2294000" />
+      <workItem from="1678302598851" duration="2137000" />
     </task>
-    <task id="LOCAL-00001" summary="Kotlin/begin/init">
-      <created>1677097047946</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00039" summary="Kotlin/begin/val/th/v4&#10;values assignment">
+      <created>1677407542783</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
       <option name="project" value="LOCAL" />
-      <updated>1677097047946</updated>
+      <updated>1677407542783</updated>
     </task>
-    <task id="LOCAL-00002" summary="Kotlin/begin/v0&#10;Print course main title">
-      <created>1677097331259</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+    <task id="LOCAL-00040" summary="Kotlin/begin/val/th/v5&#10;mutating a val ?">
+      <created>1677408348229</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
       <option name="project" value="LOCAL" />
-      <updated>1677097331259</updated>
+      <updated>1677408348229</updated>
     </task>
-    <task id="LOCAL-00003" summary="Kotlin/begin/v1&#10;Update gitignore">
-      <created>1677097469587</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+    <task id="LOCAL-00041" summary="Kotlin/begin/val/th/v6&#10;See result">
+      <created>1677408368518</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
       <option name="project" value="LOCAL" />
-      <updated>1677097469587</updated>
+      <updated>1677408368518</updated>
     </task>
-    <task id="LOCAL-00004" summary="Kotlin/begin/v1&#10;Update gitignore">
-      <created>1677097586790</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+    <task id="LOCAL-00042" summary="Kotlin/begin/val/th/v6&#10;update a val variable">
+      <created>1677408482995</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
       <option name="project" value="LOCAL" />
-      <updated>1677097586790</updated>
+      <updated>1677408482995</updated>
     </task>
-    <task id="LOCAL-00005" summary="Kotlin/begin/overview/v0&#10;overview of a basic program - init">
-      <created>1677098377286</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+    <task id="LOCAL-00043" summary="Kotlin/begin/val/th/v7&#10;const val : intro">
+      <created>1677437476022</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
       <option name="project" value="LOCAL" />
-      <updated>1677098377286</updated>
+      <updated>1677437476022</updated>
     </task>
-    <task id="LOCAL-00006" summary="Kotlin/begin/overview/v2&#10;Update gitignore">
-      <created>1677098645441</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+    <task id="LOCAL-00044" summary="Kotlin/begin/val/th/v8&#10;const val : examples">
+      <created>1677437532642</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
       <option name="project" value="LOCAL" />
-      <updated>1677098645441</updated>
+      <updated>1677437532642</updated>
     </task>
-    <task id="LOCAL-00007" summary="Kotlin/begin/overview/ex1/init&#10;Exercise 1 : Multiple Statement - init">
-      <created>1677132977595</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+    <task id="LOCAL-00045" summary="Kotlin/begin/val/th/v9&#10;const val : restrictions">
+      <created>1677443335946</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
       <option name="project" value="LOCAL" />
-      <updated>1677132977595</updated>
+      <updated>1677443335946</updated>
     </task>
-    <task id="LOCAL-00008" summary="Kotlin/begin/overview/ex1/v1&#10;First proposal">
-      <created>1677133021716</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
+    <task id="LOCAL-00046" summary="Kotlin/begin/dataTypes/init&#10;Data Types : Init">
+      <created>1677531055778</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
       <option name="project" value="LOCAL" />
-      <updated>1677133021716</updated>
+      <updated>1677531055778</updated>
     </task>
-    <task id="LOCAL-00009" summary="Kotlin/begin/overview/ex1/v2&#10;Second proposal">
-      <created>1677133136070</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
+    <task id="LOCAL-00047" summary="Kotlin/begin/dataTypes/v1&#10;first declaration">
+      <created>1677531382350</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
       <option name="project" value="LOCAL" />
-      <updated>1677133136070</updated>
+      <updated>1677531382350</updated>
     </task>
-    <task id="LOCAL-00010" summary="Kotlin/begin/overview/ex2/init&#10;Overview - Exercise2: init">
-      <created>1677152157444</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
+    <task id="LOCAL-00048" summary="Kotlin/begin/dataTypes/v2&#10;Second example, with type declaration">
+      <created>1677531488051</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
       <option name="project" value="LOCAL" />
-      <updated>1677152157444</updated>
+      <updated>1677531488051</updated>
     </task>
-    <task id="LOCAL-00011" summary="Kotlin/begin/overview/ex2/init&#10;Overview - Exercise2: init">
-      <created>1677152200664</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
+    <task id="LOCAL-00049" summary="Kotlin/begin/dataTypes/v3&#10;Other declarations">
+      <created>1677531732194</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
       <option name="project" value="LOCAL" />
-      <updated>1677152200664</updated>
+      <updated>1677531732194</updated>
     </task>
-    <task id="LOCAL-00012" summary="Kotlin/begin/overview/ex2/v1&#10;First proposal">
-      <created>1677152235811</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
+    <task id="LOCAL-00050" summary="Kotlin/begin/valVar/ex3/v0&#10;Initialization">
+      <created>1677737247742</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
       <option name="project" value="LOCAL" />
-      <updated>1677152235811</updated>
+      <updated>1677737247742</updated>
     </task>
-    <task id="LOCAL-00013" summary="Kotlin/begin/overview/e3/init&#10;Fix the line - init">
-      <created>1677153265841</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
+    <task id="LOCAL-00051" summary="Kotlin/begin/valVar/ex3/v1&#10;Original version, to be fixed">
+      <created>1677737283783</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
       <option name="project" value="LOCAL" />
-      <updated>1677153265841</updated>
+      <updated>1677737283783</updated>
     </task>
-    <task id="LOCAL-00014" summary="Kotlin/begin/overview/e3/init&#10;Fix the line - init">
-      <created>1677153276260</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
+    <task id="LOCAL-00052" summary="Kotlin/begin/valVar/ex3/v2&#10;First proposal">
+      <created>1677737347637</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
       <option name="project" value="LOCAL" />
-      <updated>1677153276261</updated>
+      <updated>1677737347637</updated>
     </task>
-    <task id="LOCAL-00015" summary="Kotlin/begin/overview/e3/v1&#10;First proposal">
-      <created>1677153301099</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
+    <task id="LOCAL-00053" summary="Kotlin/begin/dataTypes/v4&#10;Type mismatch - init">
+      <created>1677781196225</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
       <option name="project" value="LOCAL" />
-      <updated>1677153301099</updated>
+      <updated>1677781196225</updated>
     </task>
-    <task id="LOCAL-00016" summary="Kotlin/begin/valvar/init&#10;Values and Variables - Init">
-      <created>1677271100662</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
+    <task id="LOCAL-00054" summary="Kotlin/begin/dataTypes/v5&#10;Type mismatch - first example">
+      <created>1677790667974</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
       <option name="project" value="LOCAL" />
-      <updated>1677271100662</updated>
+      <updated>1677790667974</updated>
     </task>
-    <task id="LOCAL-00017" summary="Kotlin/begin/valvar/th/v2&#10;Declaration">
-      <created>1677273806297</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
+    <task id="LOCAL-00055" summary="Kotlin/begin/dataTypes/v6&#10;Type mismatch - other example">
+      <created>1677790776238</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
       <option name="project" value="LOCAL" />
-      <updated>1677273806297</updated>
+      <updated>1677790776238</updated>
     </task>
-    <task id="LOCAL-00018" summary="Kotlin/begin/valvar/th/v3&#10;const keyword">
-      <created>1677274043496</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
+    <task id="LOCAL-00056" summary="Kotlin/begin/dataTypes/ex1/init&#10;Fix the program - init">
+      <created>1677874648587</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
       <option name="project" value="LOCAL" />
-      <updated>1677274043496</updated>
+      <updated>1677874648588</updated>
     </task>
-    <task id="LOCAL-00019" summary="Kotlin/begin/valvar/th/v4&#10;val and var examples">
-      <created>1677274169346</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
+    <task id="LOCAL-00057" summary="Kotlin/begin/dataTypes/ex1/v1&#10;Version 1 : treat as String">
+      <created>1677874752625</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
       <option name="project" value="LOCAL" />
-      <updated>1677274169346</updated>
+      <updated>1677874752625</updated>
     </task>
-    <task id="LOCAL-00020" summary="Kotlin/begin/valvar/th/v5&#10;val and var print values">
-      <created>1677274783325</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
+    <task id="LOCAL-00058" summary="Kotlin/begin/dataTypes/ex1/v2&#10;Version 2 : treat as Int">
+      <created>1677874857001</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
       <option name="project" value="LOCAL" />
-      <updated>1677274783325</updated>
+      <updated>1677874857001</updated>
     </task>
-    <task id="LOCAL-00021" summary="Kotlin/begin/valvar/th/v6&#10;var value update">
-      <created>1677274850393</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
+    <task id="LOCAL-00059" summary="Kotlin/begin/dataTypes/ex2/init&#10;Edit it">
+      <created>1677877215556</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
       <option name="project" value="LOCAL" />
-      <updated>1677274850393</updated>
+      <updated>1677877215556</updated>
     </task>
-    <task id="LOCAL-00022" summary="Kotlin/begin/valvar/th/v7&#10;Storing different types of values">
-      <created>1677356919586</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
+    <task id="LOCAL-00060" summary="Kotlin/begin/dataTypes/ex2/v1&#10;First correction">
+      <created>1677877253545</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
       <option name="project" value="LOCAL" />
-      <updated>1677356919586</updated>
+      <updated>1677877253545</updated>
     </task>
-    <task id="LOCAL-00023" summary="Kotlin/begin/valvar/th/v8&#10;Different types examples">
-      <created>1677357023962</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
+    <task id="LOCAL-00061" summary="Kotlin/begin/dataTypes/ex2/v1&#10;Second correction">
+      <created>1677877270329</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
       <option name="project" value="LOCAL" />
-      <updated>1677357023962</updated>
+      <updated>1677877270330</updated>
     </task>
-    <task id="LOCAL-00024" summary="Kotlin/begin/valvar/th/v8&#10;Examples with var">
-      <created>1677357156960</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
+    <task id="LOCAL-00062" summary="Kotlin/begin/dataTypes/ex2/v1&#10;Third correction">
+      <created>1677877304751</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
       <option name="project" value="LOCAL" />
-      <updated>1677357156960</updated>
+      <updated>1677877304751</updated>
     </task>
-    <task id="LOCAL-00025" summary="Kotlin/begin/invFun/ex1/init&#10;Square root : initialization">
-      <created>1678011348403</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
+    <task id="LOCAL-00063" summary="Kotlin/begin/stdOut/init&#10;Standard output: Initialization">
+      <created>1677878048668</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
       <option name="project" value="LOCAL" />
-      <updated>1678011348403</updated>
+      <updated>1677878048668</updated>
     </task>
-    <task id="LOCAL-00026" summary="Kotlin/begin/invFun/ex1/v1&#10;First version">
-      <created>1678011411358</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
+    <task id="LOCAL-00064" summary="Kotlin/begin/stdOut/ex1/init&#10;first, second, third">
+      <created>1677941784992</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
       <option name="project" value="LOCAL" />
-      <updated>1678011411358</updated>
+      <updated>1677941784992</updated>
     </task>
-    <task id="LOCAL-00027" summary="Kotlin/begin/invFun/ex1/v1&#10;Second version: no transient var">
-      <created>1678011463591</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
+    <task id="LOCAL-00065" summary="Kotlin/begin/stdOut/ex1/v1&#10;First proposal">
+      <created>1677941816089</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
       <option name="project" value="LOCAL" />
-      <updated>1678011463591</updated>
+      <updated>1677941816089</updated>
     </task>
-    <task id="LOCAL-00028" summary="Kotlin/begin/zookeper/st1/init&#10;Project Stage 1: Rush into print">
-      <created>1678012422540</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
+    <task id="LOCAL-00066" summary="Kotlin/begin/stdOut/ex1/v2&#10;Second proposal">
+      <created>1677941924573</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
       <option name="project" value="LOCAL" />
-      <updated>1678012422540</updated>
+      <updated>1677941924574</updated>
     </task>
-    <task id="LOCAL-00029" summary="Kotlin/begin/zookeper/st1/v1&#10;Stage 1 title">
-      <created>1678012476655</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
+    <task id="LOCAL-00067" summary="Kotlin/begin/stdOut/ex2/init&#10;From 0 to 9">
+      <created>1677942777518</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
       <option name="project" value="LOCAL" />
-      <updated>1678012476655</updated>
+      <updated>1677942777518</updated>
     </task>
-    <task id="LOCAL-00030" summary="Kotlin/begin/zookeper/st1/v2&#10;Print all text - end of stage 1">
-      <created>1678012579877</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
+    <task id="LOCAL-00068" summary="Kotlin/begin/stdOut/ex2/v1&#10;First version">
+      <created>1677942983024</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
       <option name="project" value="LOCAL" />
-      <updated>1678012579877</updated>
+      <updated>1677942983024</updated>
     </task>
-    <task id="LOCAL-00031" summary="Kotlin/begin/inpScanner/init&#10;Standard Input with Java Scanner">
-      <created>1678020818439</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
+    <task id="LOCAL-00069" summary="Kotlin/begin/stdOut/ex2/v1&#10;Second version">
+      <created>1677943024591</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
       <option name="project" value="LOCAL" />
-      <updated>1678020818439</updated>
+      <updated>1677943024591</updated>
     </task>
-    <task id="LOCAL-00032" summary="Kotlin/begin/inpScanner/th/init&#10;Theory">
-      <created>1678040477864</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
+    <task id="LOCAL-00070" summary="Kotlin/begin/stdOut/ex3/init&#10;Correct the code">
+      <created>1677943557103</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
       <option name="project" value="LOCAL" />
-      <updated>1678040477864</updated>
+      <updated>1677943557103</updated>
     </task>
-    <task id="LOCAL-00033" summary="Kotlin/begin/inpScanner/th/v1&#10;Create and import scanner">
-      <created>1678040776057</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
+    <task id="LOCAL-00071" summary="Kotlin/begin/stdOut/ex3/v1&#10;First line corrected">
+      <created>1677943593755</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
       <option name="project" value="LOCAL" />
-      <updated>1678040776057</updated>
+      <updated>1677943593755</updated>
     </task>
-    <task id="LOCAL-00034" summary="Kotlin/begin/inpScanner/th/v2&#10;First examples">
-      <created>1678041134956</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
+    <task id="LOCAL-00072" summary="Kotlin/begin/stdOut/ex3/v2&#10;Second line corrected">
+      <created>1677943614771</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
       <option name="project" value="LOCAL" />
-      <updated>1678041134956</updated>
+      <updated>1677943614771</updated>
     </task>
-    <task id="LOCAL-00035" summary="Kotlin/begin/inpScanner/th/v3&#10;Custom delimiters - example 1">
-      <created>1678042039663</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
+    <task id="LOCAL-00073" summary="Kotlin/begin/stdOut/ex3/v3&#10;Third line corrected">
+      <created>1677943659250</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
       <option name="project" value="LOCAL" />
-      <updated>1678042039663</updated>
+      <updated>1677943659250</updated>
     </task>
-    <task id="LOCAL-00036" summary="Kotlin/begin/inpScanner/th/v4&#10;Custom delimiters - example 2">
-      <created>1678042245411</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
+    <task id="LOCAL-00074" summary="Kotlin/begin/stdOut/ex3/v4&#10;Fourth line corrected">
+      <created>1677943689892</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
       <option name="project" value="LOCAL" />
-      <updated>1678042245411</updated>
+      <updated>1677943689892</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00075" summary="Kotlin/begin/stdOut/ex3/v5&#10;Final version">
+      <created>1677944080033</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1677944080033</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Kotlin/begin/invFun/init&#10;Invoking functions - init">
+      <created>1677944769489</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1677944769489</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Kotlin/begin/invFun/th/v1&#10;Functions arguments">
+      <created>1677944820257</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1677944820257</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Kotlin/begin/invFun/th/v2&#10;function with 1 argument">
+      <created>1677945314908</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1677945314908</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Kotlin/begin/invFun/th/v3&#10;function producing a value">
+      <created>1677965013583</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1677965013583</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Kotlin/begin/inpScanner/th/v5&#10;Check next element">
+      <created>1678051410707</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1678051410709</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Kotlin/begin/stdOut/ex4/init&#10;Amount on the account">
+      <created>1678131733270</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1678131733270</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Kotlin/begin/stdOut/ex4/v1&#10;First sentence">
+      <created>1678131806152</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1678131806152</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Kotlin/begin/stdOut/ex4/v2&#10;Second sentence">
+      <created>1678131832274</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1678131832274</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Kotlin/begin/stdOut/ex4/v3&#10;Third sentence">
+      <created>1678131862259</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1678131862259</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Kotlin/begin/classif/th/v1&#10;Theory : Init">
+      <created>1678132891982</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1678132891982</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Kotlin/begin/classif/th/v2&#10;Numbers - the 4 types">
+      <created>1678133153514</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1678133153514</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Kotlin/begin/classif/th/v4&#10;Numbers - some examples">
+      <created>1678133320299</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1678133320299</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,31 +461,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Kotlin/begin/overview/ex2/init&#10;Overview - Exercise2: init" />
-    <MESSAGE value="Kotlin/begin/overview/ex2/v1&#10;First proposal" />
-    <MESSAGE value="Kotlin/begin/overview/e3/init&#10;Fix the line - init" />
-    <MESSAGE value="Kotlin/begin/overview/e3/v1&#10;First proposal" />
-    <MESSAGE value="Kotlin/begin/valvar/init&#10;Values and Variables - Init" />
-    <MESSAGE value="Kotlin/begin/valvar/th/v2&#10;Declaration" />
-    <MESSAGE value="Kotlin/begin/valvar/th/v3&#10;const keyword" />
-    <MESSAGE value="Kotlin/begin/valvar/th/v4&#10;val and var examples" />
-    <MESSAGE value="Kotlin/begin/valvar/th/v5&#10;val and var print values" />
-    <MESSAGE value="Kotlin/begin/valvar/th/v6&#10;var value update" />
-    <MESSAGE value="Kotlin/begin/valvar/th/v7&#10;Storing different types of values" />
-    <MESSAGE value="Kotlin/begin/valvar/th/v8&#10;Different types examples" />
-    <MESSAGE value="Kotlin/begin/valvar/th/v8&#10;Examples with var" />
-    <MESSAGE value="Kotlin/begin/invFun/ex1/init&#10;Square root : initialization" />
-    <MESSAGE value="Kotlin/begin/invFun/ex1/v1&#10;First version" />
-    <MESSAGE value="Kotlin/begin/invFun/ex1/v1&#10;Second version: no transient var" />
-    <MESSAGE value="Kotlin/begin/zookeper/st1/init&#10;Project Stage 1: Rush into print" />
-    <MESSAGE value="Kotlin/begin/zookeper/st1/v1&#10;Stage 1 title" />
-    <MESSAGE value="Kotlin/begin/zookeper/st1/v2&#10;Print all text - end of stage 1" />
-    <MESSAGE value="Kotlin/begin/inpScanner/init&#10;Standard Input with Java Scanner" />
-    <MESSAGE value="Kotlin/begin/inpScanner/th/init&#10;Theory" />
-    <MESSAGE value="Kotlin/begin/inpScanner/th/v1&#10;Create and import scanner" />
-    <MESSAGE value="Kotlin/begin/inpScanner/th/v2&#10;First examples" />
-    <MESSAGE value="Kotlin/begin/inpScanner/th/v3&#10;Custom delimiters - example 1" />
-    <MESSAGE value="Kotlin/begin/inpScanner/th/v4&#10;Custom delimiters - example 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin/begin/inpScanner/th/v4&#10;Custom delimiters - example 2" />
+    <MESSAGE value="Kotlin/begin/stdOut/init&#10;Standard output: Initialization" />
+    <MESSAGE value="Kotlin/begin/stdOut/ex1/init&#10;first, second, third" />
+    <MESSAGE value="Kotlin/begin/stdOut/ex1/v1&#10;First proposal" />
+    <MESSAGE value="Kotlin/begin/stdOut/ex1/v2&#10;Second proposal" />
+    <MESSAGE value="Kotlin/begin/stdOut/ex2/init&#10;From 0 to 9" />
+    <MESSAGE value="Kotlin/begin/stdOut/ex2/v1&#10;First version" />
+    <MESSAGE value="Kotlin/begin/stdOut/ex2/v1&#10;Second version" />
+    <MESSAGE value="Kotlin/begin/stdOut/ex3/init&#10;Correct the code" />
+    <MESSAGE value="Kotlin/begin/stdOut/ex3/v1&#10;First line corrected" />
+    <MESSAGE value="Kotlin/begin/stdOut/ex3/v2&#10;Second line corrected" />
+    <MESSAGE value="Kotlin/begin/stdOut/ex3/v3&#10;Third line corrected" />
+    <MESSAGE value="Kotlin/begin/stdOut/ex3/v4&#10;Fourth line corrected" />
+    <MESSAGE value="Kotlin/begin/stdOut/ex3/v5&#10;Final version" />
+    <MESSAGE value="Kotlin/begin/invFun/init&#10;Invoking functions - init" />
+    <MESSAGE value="Kotlin/begin/invFun/th/v1&#10;Functions arguments" />
+    <MESSAGE value="Kotlin/begin/invFun/th/v2&#10;function with 1 argument" />
+    <MESSAGE value="Kotlin/begin/invFun/th/v3&#10;function producing a value" />
+    <MESSAGE value="Kotlin/begin/inpScanner/th/v5&#10;Check next element" />
+    <MESSAGE value="Kotlin/begin/stdOut/ex4/init&#10;Amount on the account" />
+    <MESSAGE value="Kotlin/begin/stdOut/ex4/v1&#10;First sentence" />
+    <MESSAGE value="Kotlin/begin/stdOut/ex4/v2&#10;Second sentence" />
+    <MESSAGE value="Kotlin/begin/stdOut/ex4/v3&#10;Third sentence" />
+    <MESSAGE value="Kotlin/begin/classif/th/v1&#10;Theory : Init" />
+    <MESSAGE value="Kotlin/begin/classif/th/v2&#10;Numbers - the 4 types" />
+    <MESSAGE value="Kotlin/begin/classif/th/v4&#10;Numbers - some examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin/begin/classif/th/v4&#10;Numbers - some examples" />
   </component>
 </project>
