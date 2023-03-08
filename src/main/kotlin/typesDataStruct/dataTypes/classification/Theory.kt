@@ -36,6 +36,10 @@ fun theory() {
     println("\t. Int.MAX_VALUE = ${Int.MAX_VALUE}")
     println("\t. Int.SIZE_BITS = ${Int.SIZE_BITS}")
     println("\t. Int.SIZE_BYTES = ${Int.SIZE_BYTES}")
+    println("\t. Long.MIN_VALUE = ${Long.MIN_VALUE}")
+    println("\t. Long.MAX_VALUE = ${Long.MAX_VALUE}")
+    println("\t. Long.SIZE_BITS = ${Long.SIZE_BITS}")
+    println("\t. Long.SIZE_BYTES = ${Long.SIZE_BYTES}")
 
     println("\n\n***** End of Theory *****")
 }
