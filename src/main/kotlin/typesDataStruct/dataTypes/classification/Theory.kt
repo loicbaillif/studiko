@@ -64,5 +64,12 @@ fun theory() {
     println("\t. User found a bug? $bugFound")
 
 
+    println("\n4) Strings")
+    val creditCardNumber = "1234 5678 9010 1112"
+    val someSuggestion = "Lean Kotlin instead of Java"
+    println("\t. Your credit card number: $creditCardNumber")
+    println("\t. A recommendation? $someSuggestion")
+
+
     println("\n\n***** End of Theory *****")
 }
