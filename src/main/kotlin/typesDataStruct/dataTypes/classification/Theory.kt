@@ -43,7 +43,7 @@ fun theory() {
 
 
     println("\n2) Characters")
-    val lowerCaseLetter = 'g'
+    var lowerCaseLetter = 'g'
     val upperCaseLetter = 'U'
     val charNumber = '3'
     val charSpace = ' '
@@ -53,6 +53,9 @@ fun theory() {
     println("\t. A number as a char: $charNumber")
     println("\t. Space character as a char: $charSpace")
     println("\t. Euro currency as a char: $charEuro")
+    lowerCaseLetter++
+    println("\t. The next character to lower case letter: $lowerCaseLetter")
+
 
     println("\n\n***** End of Theory *****")
 }
