@@ -57,5 +57,12 @@ fun theory() {
     println("\t. The next character to lower case letter: $lowerCaseLetter")
 
 
+    println("\n3) Booleans")
+    val statusEnabled = false
+    val bugFound = true
+    println("\t. Is this status enabled? $statusEnabled")
+    println("\t. User found a bug? $bugFound")
+
+
     println("\n\n***** End of Theory *****")
 }
