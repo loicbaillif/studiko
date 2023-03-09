@@ -41,5 +41,13 @@ fun theory() {
     println("\t. Long.SIZE_BITS = ${Long.SIZE_BITS}")
     println("\t. Long.SIZE_BYTES = ${Long.SIZE_BYTES}")
 
+
+    println("\n2) Characters")
+    val lowerCaseLetter = 'g'
+    val upperCaseLetter = 'U'
+    val charNumber = '3'
+    var charSpace = ' '
+    var charEuro = '€'
+
     println("\n\n***** End of Theory *****")
 }
