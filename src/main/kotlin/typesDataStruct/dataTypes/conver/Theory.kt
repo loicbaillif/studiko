@@ -31,6 +31,12 @@ fun theory() {
     println(someDouble4::class.java.typeName)
     print("\t. Number.toInt(): Value = $someInt4 - Type = ")
     println(someInt4::class.java.typeName)
+    val someDouble5 = 78.9
+    val someInt5 = someDouble5.toInt()
+    print("\t. Number: Value = $someDouble5 - Type = ")
+    println(someDouble5::class.java.typeName)
+    print("\t. Number.toInt(): Value = $someInt5 - Type = ")
+    println(someInt5::class.java.typeName)
 
 
 
