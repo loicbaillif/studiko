@@ -11,6 +11,11 @@ fun theory() {
     println("\t. Number: Value = $someInt1 - Type = ${someInt1::class.java.typeName}")
     print("\t. sqrt(Number): Value = $someResult1 - ")
     println(someResult1::class.java.typeName)
+    val someInt2 = 321
+    val someDouble2 = someInt2.toDouble()
+    println("\t. Number: value = $someInt2 - Type = ${someInt2::class.java.typeName}")
+    print("\t. Number.toDouble(): value = $someDouble2 - ")
+    println("Type = ${someDouble2::class.java.typeName}")
 
 
 
