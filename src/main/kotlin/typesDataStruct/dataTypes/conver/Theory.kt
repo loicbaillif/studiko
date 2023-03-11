@@ -26,11 +26,11 @@ fun theory() {
     println(someChar3::class.java.typeName)
 
     val someDouble4 = 32.1
-    val someInt4 = someDouble4.toInt()
+    val someLong4 = someDouble4.toLong()
     print("\n\t. Number: Value = $someDouble4 - Type = ")
     println(someDouble4::class.java.typeName)
-    print("\t. Number.toInt(): Value = $someInt4 - Type = ")
-    println(someInt4::class.java.typeName)
+    print("\t. Number.toLong(): Value = $someLong4 - Type = ")
+    println(someLong4::class.java.typeName)
     val someDouble5 = 78.9
     val someInt5 = someDouble5.toInt()
     print("\t. Number: Value = $someDouble5 - Type = ")
@@ -42,9 +42,14 @@ fun theory() {
     val someInt6 = someDouble6.toInt()
     print("\n\t. Number: Value = $someDouble6 - Type = ")
     println(someDouble6::class.java.typeName)
-    print("\t. Number.toInt: Value = $someInt6 - Type = ")
+    print("\t. Number.toInt(): Value = $someInt6 - Type = ")
     println(someInt6::class.java.typeName)
-
+    val someLong6 = 42L
+    val someInt7 = someLong6.toInt()
+    print("\n\t. Number: Value = $someLong6 - Type = ")
+    println(someLong6::class.java.typeName)
+    print("\t. Number.toInt(): Value = $someInt7 - Type = ")
+    println(someInt7::class.java.typeName)
 
 
     println("\n\n***** End of Theory *****")
