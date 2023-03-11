@@ -6,7 +6,7 @@ fun theory() {
     // https://hyperskill.org/learn/step/4672
     println("***** Theory *****")
     println("1) Conversion between numeric types")
-    val someInt1: Int = 169
+    val someInt1 = 169
     val someResult1: Double = sqrt(someInt1.toDouble())
     println("\t. Number: Value = $someInt1 - Type = ${someInt1::class.java.typeName}")
     print("\t. sqrt(Number): Value = $someResult1 - ")
@@ -18,7 +18,7 @@ fun theory() {
     print("\t. Number.toDouble(): value = $someDouble2 - ")
     println("Type = ${someDouble2::class.java.typeName}")
 
-    val someInt3: Int = 125
+    val someInt3 = 125
     val someChar3: Char = someInt3.toChar()
     print("\n\t. Number: Value = $someInt3 - Type = ")
     println(someInt3::class.java.typeName)
@@ -37,6 +37,13 @@ fun theory() {
     println(someDouble5::class.java.typeName)
     print("\t. Number.toInt(): Value = $someInt5 - Type = ")
     println(someInt5::class.java.typeName)
+
+    val someDouble6 = 53.1
+    val someInt6 = someDouble6.toInt()
+    print("\n\t. Number: Value = $someDouble6 - Type = ")
+    println(someDouble6::class.java.typeName)
+    print("\t. Number.toInt: Value = $someInt6 - Type = ")
+    println(someInt6::class.java.typeName)
 
 
 
