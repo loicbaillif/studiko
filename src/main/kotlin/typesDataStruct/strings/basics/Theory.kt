@@ -24,7 +24,10 @@ fun theory() {
     println("\n\n3) Appending values to Strings")
     val someString9 = "ghi" + 123 + false
     println("\t. \"ghi\" + 123 + false = $someString9")
-
+    val someString10 = 'j' + "kl"
+    val someString11 = "mn" + 'o'
+    println("\t. 'j' + \"kl\" = $someString10")
+    println("\t. \"mn\" + 'o' = $someString11")
 
 
 
