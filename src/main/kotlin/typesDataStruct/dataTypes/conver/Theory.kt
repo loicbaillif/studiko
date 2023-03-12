@@ -61,6 +61,12 @@ fun theory() {
     println(someFloat8::class.java.typeName)
     print("\t. Number.toInt().toShort(): Value = $someShort8 - Type = ")
     println(someShort8::class.java.typeName)
+    val someDouble9 = 97.4
+    val someByte9 = someDouble9.toInt().toByte()
+    print("\n\t. Number: Value = $someDouble9 - Type = ")
+    println(someDouble9::class.java.typeName)
+    print("\t. Number.toInt().toByte(): Value = $someByte9 - Type = ")
+    println(someByte9::class.java.typeName)
 
 
     println("\n\n***** End of Theory *****")
