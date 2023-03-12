@@ -22,7 +22,8 @@ fun main(args: Array<String>) {
     // basics.stdinout.inpScanner.index()
     // typesDataStruct.dataTypes.classification.index()
     // typesDataStruct.dataTypes.conver.index()
+    // typesDataStruct.strings.basics.index()
 
     // Current Chapter
-    typesDataStruct.strings.basics.index()
+    typesDataStruct.basicOps.boolLog.index()
 }
