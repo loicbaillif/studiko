@@ -96,6 +96,19 @@ fun theory() {
     println(someString4::class.java.typeName)
 
 
+    println("\n\n4) Chain conversion example")
+    val someString11 = "1000.0123456789"
+    val someDouble11 = someString11.toDouble()
+    val someFloat11 = someDouble11.toFloat()
+    val someInt11 = someFloat11.toInt()
+    val someShort11 = someInt11.toShort()
+    val someChar11 = Char(someShort11.toInt())
+    val someByte11 = someShort11.toByte()
+    println("\t. String: $someString11\n\t. Double: $someDouble11")
+    println("\t. Float: $someFloat11\n\t. Int: $someInt11")
+    println("\t. Short: $someShort11\n\t. Char: $someChar11")
+    println("\t. Byte: $someByte11")
+
 
 
     println("\n\n***** End of Theory *****")
