@@ -32,7 +32,8 @@ fun theory() {
     println("\n\n4) Repeating the string")
     val someString12 = "-*".repeat(10)
     println("\t. \"-*\".repeat(10) = $someString12")
-
+    val someString13 = "\t- Eat. Sleep. Code.\n".repeat(7)
+    println("\t. \"Eat. Sleep. Code.\\n\".repeat(7) =>\n$someString13")
 
 
 
