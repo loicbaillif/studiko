@@ -104,10 +104,11 @@ fun theory() {
     val someShort11 = someInt11.toShort()
     val someChar11 = Char(someShort11.toInt())
     val someByte11 = someShort11.toByte()
+    val someBoolean11 = someString11?.toBoolean()
     println("\t. String: $someString11\n\t. Double: $someDouble11")
     println("\t. Float: $someFloat11\n\t. Int: $someInt11")
     println("\t. Short: $someShort11\n\t. Char: $someChar11")
-    println("\t. Byte: $someByte11")
+    println("\t. Byte: $someByte11\n\t. Boolean: $someBoolean11")
 
 
 
