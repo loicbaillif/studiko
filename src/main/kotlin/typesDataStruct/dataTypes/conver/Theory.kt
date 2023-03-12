@@ -69,5 +69,34 @@ fun theory() {
     println(someByte9::class.java.typeName)
 
 
+    println("\n\n3) String conversion")
+    val someInt10 = 33
+    val someChar10 = '/'
+    val someDouble10 = 33.3
+    val someBoolean10 = (3 > 2)
+    val someString1 = someInt10.toString()
+    val someString2 = someChar10.toString()
+    val someString3 = someDouble10.toString()
+    val someString4 = someBoolean10.toString()
+    print("\n\t. Number: Value = $someInt10 - Type = ")
+    println(someInt10::class.java.typeName)
+    print("\t. Number.toString: Value = $someString1 - Type = ")
+    println(someString1::class.java.typeName)
+    print("\n\t. Char: Value = $someChar10 - Type = ")
+    println(someChar10::class.java.typeName)
+    print("\t. Number.toString: Value = $someString2 - Type = ")
+    println(someString2::class.java.typeName)
+    print("\n\t. Double: Value = $someDouble10 - Type = ")
+    println(someDouble10::class.java.typeName)
+    print("\t. Number.toString: Value = $someString3 - Type = ")
+    println(someString3::class.java.typeName)
+    print("\n\t. Boolean: Value = $someBoolean10 - Type = ")
+    println(someBoolean10::class.java.typeName)
+    print("\t. Number.toString: Value = $someString4 - Type = ")
+    println(someString4::class.java.typeName)
+
+
+
+
     println("\n\n***** End of Theory *****")
 }
