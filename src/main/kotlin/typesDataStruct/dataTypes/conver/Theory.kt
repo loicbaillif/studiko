@@ -52,5 +52,10 @@ fun theory() {
     println(someInt7::class.java.typeName)
 
 
+    println("\n\n2) Conversion to Short and Byte")
+    println("Double > Short/Byte = !!! TO BE AVOIDED !!!")
+    println("Float > Short/Byte = !!! TO BE AVOIDED !!!")
+
+
     println("\n\n***** End of Theory *****")
 }
