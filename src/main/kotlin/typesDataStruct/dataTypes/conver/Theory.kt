@@ -55,6 +55,12 @@ fun theory() {
     println("\n\n2) Conversion to Short and Byte")
     println("Double > Short/Byte = !!! TO BE AVOIDED !!!")
     println("Float > Short/Byte = !!! TO BE AVOIDED !!!")
+    val someFloat8 = 11f
+    val someShort8 = someFloat8.toInt().toShort()
+    print("\t. Number: Value = $someFloat8 - Type = ")
+    println(someFloat8::class.java.typeName)
+    print("\t. Number.toInt().toShort(): Value = $someShort8 - Type = ")
+    println(someShort8::class.java.typeName)
 
 
     println("\n\n***** End of Theory *****")
