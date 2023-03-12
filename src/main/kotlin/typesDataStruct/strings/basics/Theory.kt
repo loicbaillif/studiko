@@ -29,6 +29,11 @@ fun theory() {
     println("\t. 'j' + \"kl\" = $someString10")
     println("\t. \"mn\" + 'o' = $someString11")
 
+    println("\n\n4) Repeating the string")
+    val someString12 = "-*".repeat(10)
+    println("\t. \"-*\".repeat(10) = $someString12")
+
+
 
 
     println("\n\n***** End of Theory *****")
