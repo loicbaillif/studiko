@@ -35,6 +35,19 @@ fun theory() {
     val someString13 = "\t- Eat. Sleep. Code.\n".repeat(7)
     println("\t. \"Eat. Sleep. Code.\\n\".repeat(7) =>\n$someString13")
 
+    println("\n\n4) Raw String")
+    val someString14 = """
+    This is the house that Jack built.
+      
+    This is the malt that lay in the house that Jack built.
+       
+    This is the rat that ate the malt
+    That lay in the house that Jack built.
+       
+    This is the cat
+    That killed the rat that ate the malt
+    That lay in the house that Jack built."""
+    println(someString14.trimIndent())
 
 
     println("\n\n***** End of Theory *****")
