@@ -47,6 +47,14 @@ fun theory() {
     println("\t. $boolFalse xor $boolTrue = ${boolFalse xor boolTrue}")
     println("\t. $boolTrue xor $boolTrue = ${boolTrue xor boolTrue}")
 
+    println("\n\n4) Logical operator precedence")
+    println("\t. true && !false = ${true && !false}")
+    println("Precedence, from first to last")
+    println("\t. ! (NOT)")
+    println("\t. xor (XOR)")
+    println("\t. && (AND)")
+    println("\t. || (OR)")
+
 
 
     println("\n\n***** End of Theory *****")
