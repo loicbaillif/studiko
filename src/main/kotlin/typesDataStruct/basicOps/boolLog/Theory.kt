@@ -41,6 +41,11 @@ fun theory() {
     println("\t. $boolTrue || $boolFalse = ${boolTrue || boolFalse}")
     println("\t. $boolFalse || $boolTrue = ${boolFalse || boolTrue}")
     println("\t. $boolTrue || $boolTrue = ${boolTrue || boolTrue}")
+    println("\n==> XOR : xor")
+    println("\t. $boolFalse xor $boolFalse = ${boolFalse xor boolFalse}")
+    println("\t. $boolTrue xor $boolFalse = ${boolTrue xor boolFalse}")
+    println("\t. $boolFalse xor $boolTrue = ${boolFalse xor boolTrue}")
+    println("\t. $boolTrue xor $boolTrue = ${boolTrue xor boolTrue}")
 
 
 
