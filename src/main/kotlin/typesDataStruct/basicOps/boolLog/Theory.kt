@@ -36,6 +36,11 @@ fun theory() {
     println("\t. $boolTrue && $boolFalse = ${boolTrue && boolFalse}")
     println("\t. $boolFalse && $boolTrue = ${boolFalse && boolTrue}")
     println("\t. $boolTrue && $boolTrue = ${boolTrue && boolTrue}")
+    println("\n==> OR : ||")
+    println("\t. $boolFalse || $boolFalse = ${boolFalse || boolFalse}")
+    println("\t. $boolTrue || $boolFalse = ${boolTrue || boolFalse}")
+    println("\t. $boolFalse || $boolTrue = ${boolFalse || boolTrue}")
+    println("\t. $boolTrue || $boolTrue = ${boolTrue || boolTrue}")
 
 
 
