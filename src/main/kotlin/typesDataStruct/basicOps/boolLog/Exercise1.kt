@@ -9,9 +9,7 @@ fun exercise1() {
     val y = readLine().toBoolean()
     val z = readLine().toBoolean()
 
-    val result = ! (x && y) || z
-
-    println(result)
+    println(! (x && y) || z)
 
     println("End of exercise")
 }
