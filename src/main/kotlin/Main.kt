@@ -21,9 +21,9 @@ fun main(args: Array<String>) {
     // ctrlflow.func.invokFunc.index()
     // basics.stdinout.inpScanner.index()
     // typesDataStruct.dataTypes.classification.index()
-    // typesDataStruct.dataTypes.conver.index()
+    typesDataStruct.dataTypes.conver.index()
     // typesDataStruct.strings.basics.index()
 
     // Current Chapter
-    typesDataStruct.basicOps.boolLog.index()
+    // typesDataStruct.basicOps.boolLog.index()
 }
