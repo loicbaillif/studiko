@@ -16,14 +16,15 @@ fun main(args: Array<String>) {
     // overview.index()
     // valuesVariables.index()
     // valKeyword.index()
-    typesDataStruct.dataTypes.index()
+    // typesDataStruct.dataTypes.index()
     // basics.stdinout.stdOutput.index()
     // ctrlflow.func.invokFunc.index()
     // basics.stdinout.inpScanner.index()
     // typesDataStruct.dataTypes.classification.index()
     // typesDataStruct.dataTypes.conver.index()
     // typesDataStruct.strings.basics.index()
+    // typesDataStruct.basicOps.boolLog.index()
 
     // Current Chapter
-    // typesDataStruct.basicOps.boolLog.index()
+    typesDataStruct.`var`.objects.index()
 }
