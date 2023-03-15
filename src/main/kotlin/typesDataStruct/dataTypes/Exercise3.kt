@@ -6,6 +6,7 @@ fun exercise3() {
     println("***** Exercise: Max values of integer types *****")
     println(Short.MAX_VALUE)
     println(Int.MAX_VALUE)
+    println(Long.MAX_VALUE)
 
     println("\n\n***** End of exercise *****")
 }
