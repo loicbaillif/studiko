@@ -26,7 +26,10 @@ fun theory() {
     println("\t. myInt2 = myInt")
     println("\t. myInt == myInt2 : ${someInt1 == someInt2}")
     println("\t. myInt === myInt2 : ${someInt1 === someInt2}")
-
+    someInt1 = 200
+    println("\t. myInt = 200")
+    println("\t. myInt == myInt2 : ${someInt1 == someInt2}")
+    println("\t. myInt === myInt2 : ${someInt1 === someInt2}")
 
 
 
