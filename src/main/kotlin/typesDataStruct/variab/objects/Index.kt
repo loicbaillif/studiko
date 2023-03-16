@@ -1,4 +1,4 @@
-package typesDataStruct.`var`.objects
+package typesDataStruct.variab.objects
 
 fun index() {
     println("********** Objects **********\n")
