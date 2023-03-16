@@ -13,6 +13,12 @@ fun theory() {
     println("\n\t. myString: $someString1")
     println("\t. myString.repeat(3) = ${someString1.repeat(3)}")
 
+    println("\n2) Copying by reference")
+    val someString2 = "Bingo"
+    val someString3 = someString2
+    println("\t. msg1 = $someString2")
+    println("\t. msg2 = msg1 ==> msg2 = $someString3")
+
 
     println("\n\n***** End of Theory *****")
 }
