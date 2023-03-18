@@ -7,13 +7,20 @@ fun theory() {
     println("1) Using readln()")
     println("!!!!! readLine()!! to be used for old versions of Kotlin !!!!!")
     println("Since version 1.6, use readln()")
+    /*
     val someString1 = readln()
     println("You entered: \n\t $someString1")
+     */
 
     println("2) toInt() and toLong()")
     println("Enter any number:")
+    /*
     val someInt1 = readln().toInt()
     println("You entered: \n\t Type: ${someInt1::class.java.typeName} - $someInt1")
+    */
+    val someLong1 = readln().toLong()
+    println("You entered: \n\t Type: ${someLong1::class.java.typeName} - $someLong1")
+
 
 
     println("\n\n***** End of Theory *****")
