@@ -5,12 +5,7 @@ fun exercise5() {
     // Print a triangle
     println("*** Exercise: Print a triangle ***")
 
-    println("#")
-    println("##")
-    println("###")
-    println("####")
-    println("#####")
-    println("######")
+    println("#\n##\n###\n####\n#####\n######")
 
     println("\n\n*** End of Exercise ***")
 }
