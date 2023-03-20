@@ -5,7 +5,16 @@ fun exercise5() {
     // Print a triangle
     println("*** Exercise: Print a triangle ***")
 
-    println("#\n##\n###\n####\n#####\n######")
+    println(
+        """
+        #
+        ##
+        ###
+        ####
+        #####
+        ######
+        """.trimIndent()
+    )
 
     println("\n\n*** End of Exercise ***")
 }
