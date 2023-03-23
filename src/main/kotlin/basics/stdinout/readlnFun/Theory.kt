@@ -22,10 +22,15 @@ fun theory() {
      */
 
     println("\n3) toDouble() and toBoolean()")
+    /*
     println("Enter any floating type number")
     val someDouble1 = readln().toDouble()
     println("You entered:\n\t. Type: ${someDouble1::class.java.typeName}")
     println("\t. Value: $someDouble1")
+    */
+    println("Do you like vanilla ice-cream? type true or false")
+    val someBoolean1 = readln().toBoolean()
+    println("you like vanilla ice-cream: $someBoolean1")
 
 
 
