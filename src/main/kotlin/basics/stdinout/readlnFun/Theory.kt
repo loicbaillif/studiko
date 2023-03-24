@@ -33,6 +33,7 @@ fun theory() {
     */
 
     println("\n4) Multiple inputs")
+    /*
     val a = readln()
     val b = readln().toInt()
     val c = readln()
@@ -41,6 +42,12 @@ fun theory() {
     print(b)
     print(" ")
     print(c)
+     */
+
+    println("\n5) Reading multiple values in one line")
+    val (a, b) = readln().split(" ")
+    println(a)
+    println(b)
 
 
     println("\n\n***** End of Theory *****")
