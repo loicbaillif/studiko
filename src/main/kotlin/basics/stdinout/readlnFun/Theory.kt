@@ -27,11 +27,20 @@ fun theory() {
     val someDouble1 = readln().toDouble()
     println("You entered:\n\t. Type: ${someDouble1::class.java.typeName}")
     println("\t. Value: $someDouble1")
-    */
     println("Do you like vanilla ice-cream? type true or false")
     val someBoolean1 = readln().toBoolean()
     println("you like vanilla ice-cream: $someBoolean1")
+    */
 
+    println("\n4) Multiple inputs")
+    val a = readln()
+    val b = readln().toInt()
+    val c = readln()
+    print(a)
+    print(" ")
+    print(b)
+    print(" ")
+    print(c)
 
 
     println("\n\n***** End of Theory *****")
