@@ -26,7 +26,8 @@ fun main(args: Array<String>) {
     // typesDataStruct.strings.basics.index()
     // typesDataStruct.basicOps.boolLog.index()
     // typesDataStruct.variab.objects.index()
+    // basics.stdinout.readlnFun.index()
 
     // Current Chapter
-    basics.stdinout.readlnFun.index()
+    typesDataStruct.basicOps.arith.index()
 }
