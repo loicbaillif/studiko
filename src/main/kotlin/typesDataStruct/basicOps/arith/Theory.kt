@@ -18,6 +18,8 @@ fun theory() {
 
     println("\n2) Complex expressions")
     println("\t1 + 2 * 3 - 4 = ${1 + 2 * 3 - 4}")
+    println("\t(1 + 2) * (3 - 4) = ${(1+2)*(3-4)}")
+    println("\t(1 + 2) * 3 - 4 = ${(1 + 2) * 3 - 4}")
 
 
     println("\n\n***** End of theory *****")
