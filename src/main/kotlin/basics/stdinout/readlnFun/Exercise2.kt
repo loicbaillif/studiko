@@ -6,6 +6,7 @@ fun exercise2() {
 
     println("*** Exercise: Fix the input ***")
 
+    val n: Int = readLine()
 
     println("End of exercise")
 }
