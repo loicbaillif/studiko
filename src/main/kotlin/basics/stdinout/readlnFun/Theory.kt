@@ -45,9 +45,17 @@ fun theory() {
      */
 
     println("\n5) Reading multiple values in one line")
+    /*
     val (a, b) = readln().split(" ")
     println(a)
     println(b)
+     */
+    val (a, b, c, d) = readln().split(" ")
+    println(a)
+    println(b)
+    println(c)
+    println(d)
+
 
 
     println("\n\n***** End of Theory *****")
