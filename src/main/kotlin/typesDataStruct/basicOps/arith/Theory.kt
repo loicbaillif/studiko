@@ -13,6 +13,8 @@ fun theory() {
     println("\t\t3 * 33 = 99\n\t\t21 * 12 = 252")
     println("\t. Integer division: /")
     println("\t\t9 / 4 = ${9 / 4}\n\t\t37 / 6 = ${37 / 6}")
+    println("\t. Remainder (modulo): %")
+    println("\t\t9 % 4 = ${9 % 4}\n\t\t37 % 6 = ${37 % 6}")
 
 
 
