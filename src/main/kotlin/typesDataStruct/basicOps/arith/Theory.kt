@@ -13,7 +13,7 @@ fun theory() {
     println("\t\t3 * 33 = 99\n\t\t21 * 12 = 252")
     println("\t. Integer division: /")
     println("\t\t9 / 4 = ${9 / 4}\n\t\t37 / 6 = ${37 / 6}")
-    println("\t. Remainder (modulo): %")
+    println("\t. Remainder (modulus): %")
     println("\t\t9 % 4 = ${9 % 4}\n\t\t37 % 6 = ${37 % 6}")
 
     println("\n2) Complex expressions")
@@ -24,6 +24,13 @@ fun theory() {
     println("\n3) Unary Operators")
     println("\t+(5) = ${+(5)}")
     println("\t-(5) = ${-(5)}")
+
+    println("\n4) Precedence order")
+    println("From the highest to the lowest priority:")
+    println("\t. Parentheses")
+    println("\t. Unary plus/minus")
+    println("\t. Multiplication, division, modulus")
+    println("\t. Addition and subtraction")
 
 
     println("\n\n***** End of theory *****")
