@@ -21,6 +21,10 @@ fun theory() {
     println("\t(1 + 2) * (3 - 4) = ${(1+2)*(3-4)}")
     println("\t(1 + 2) * 3 - 4 = ${(1 + 2) * 3 - 4}")
 
+    println("\n3) Unary Operators")
+    println("\t+(5) = ${+(5)}")
+    println("\t-(5) = ${-(5)}")
+
 
     println("\n\n***** End of theory *****")
 }
