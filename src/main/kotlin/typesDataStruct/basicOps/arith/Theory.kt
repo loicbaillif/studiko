@@ -16,6 +16,8 @@ fun theory() {
     println("\t. Remainder (modulo): %")
     println("\t\t9 % 4 = ${9 % 4}\n\t\t37 % 6 = ${37 % 6}")
 
+    println("\n2) Complex expressions")
+    println("\t1 + 2 * 3 - 4 = ${1 + 2 * 3 - 4}")
 
 
     println("\n\n***** End of theory *****")
