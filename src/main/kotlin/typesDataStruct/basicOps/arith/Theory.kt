@@ -5,12 +5,14 @@ fun theory() {
     println("***** Theory *****")
 
     println("\n1) Binary Operators")
-    println("\t. Addition")
+    println("\t. Addition: +")
     println("\t\t24 + 31 = 55\n\t\t32 + 10 = 42")
-    println("\t. Subtraction")
+    println("\t. Subtraction: -")
     println("\t\t40 - 20 = 20\n\t\t20 - 40 = -20")
-    println("\t. Multiplication")
+    println("\t. Multiplication: *")
     println("\t\t3 * 33 = 99\n\t\t21 * 12 = 252")
+    println("\t. Integer division: /")
+    println("\t\t9 / 4 = ${9 / 4}\n\t\t37 / 6 = ${37 / 6}")
 
 
 
