@@ -22,12 +22,12 @@ fun main(args: Array<String>) {
     // ctrlflow.func.invokFunc.index()
     // basics.stdinout.inpScanner.index()
     // typesDataStruct.dataTypes.classification.index()
-    // typesDataStruct.dataTypes.conver.index()
+    typesDataStruct.dataTypes.conver.index()
     // typesDataStruct.strings.basics.index()
     // typesDataStruct.basicOps.boolLog.index()
     // typesDataStruct.variab.objects.index()
     // basics.stdinout.readlnFun.index()
 
     // Current Chapter
-    typesDataStruct.basicOps.arith.index()
+    // typesDataStruct.basicOps.arith.index()
 }
