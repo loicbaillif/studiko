@@ -31,6 +31,9 @@ fun theory() {
     println("\t. Unary plus/minus")
     println("\t. Multiplication, division, modulus")
     println("\t. Addition and subtraction")
+    println("\nTip for precedence order: BODMAS")
+    println("\t. Brackets\n\t. Order\n\t. Division")
+    println("\t. Multiplication\n\t. Addition\n\t. Subtraction")
 
 
     println("\n\n***** End of theory *****")
