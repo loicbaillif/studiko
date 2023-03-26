@@ -5,6 +5,8 @@ fun exercise2() {
     // The superior forces of the Empire
     println("*** Exercise: The superior forces of the Empire ***")
 
+    val empFleet = readln().toInt()
+    val rebFleet = readln().toInt()
 
     println("*** End of exercise ***")
 }
