@@ -7,6 +7,7 @@ fun exercise2() {
 
     val empFleet = readln().toInt()
     val rebFleet = readln().toInt()
+    println(empFleet / rebFleet)
 
     println("*** End of exercise ***")
 }
