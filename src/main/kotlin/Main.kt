@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
     // zookeeper.index()
 
     // Old Chapters
-    // overview.index()
+    overview.index()
     // valuesVariables.index()
     // valKeyword.index()
     // typesDataStruct.dataTypes.index()
@@ -22,7 +22,7 @@ fun main(args: Array<String>) {
     // ctrlflow.func.invokFunc.index()
     // basics.stdinout.inpScanner.index()
     // typesDataStruct.dataTypes.classification.index()
-    typesDataStruct.dataTypes.conver.index()
+    // typesDataStruct.dataTypes.conver.index()
     // typesDataStruct.strings.basics.index()
     // typesDataStruct.basicOps.boolLog.index()
     // typesDataStruct.variab.objects.index()
