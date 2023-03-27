@@ -5,6 +5,7 @@ fun exercise5() {
     // The eternal truth
     println("\n*** Exercise: The eternal truth ***")
 
+    println("2 + 2 = 4")
 
     println("\n*** End of exercise ***")
 }
