@@ -12,5 +12,9 @@ fun theory() {
     print("\t. Value: $someInt + $someLong = $result1 - ")
     println("type: ${result1::class.java.typeName}")
 
+    val someDouble: Double = 1.0
+    println("\n\t. Value: $someLong - type: ${someLong::class.java.typeName}")
+    println("\t. Value: $someDouble - type: ${someDouble::class.java.typeName}")
+
     println("\n\n***** End of theory *****")
 }
