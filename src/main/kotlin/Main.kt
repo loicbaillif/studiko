@@ -21,13 +21,14 @@ fun main(args: Array<String>) {
     // basics.stdinout.stdOutput.index()
     // ctrlflow.func.invokFunc.index()
     // basics.stdinout.inpScanner.index()
-    typesDataStruct.dataTypes.classification.index()
+    // typesDataStruct.dataTypes.classification.index()
     // typesDataStruct.dataTypes.conver.index()
     // typesDataStruct.strings.basics.index()
     // typesDataStruct.basicOps.boolLog.index()
     // typesDataStruct.variab.objects.index()
     // basics.stdinout.readlnFun.index()
+    // typesDataStruct.basicOps.arith.index()
 
     // Current Chapter
-    // typesDataStruct.basicOps.arith.index()
+    typesDataStruct.dataTypes.typeNumEx.index()
 }
