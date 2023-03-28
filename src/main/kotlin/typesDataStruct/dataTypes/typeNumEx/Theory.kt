@@ -15,6 +15,8 @@ fun theory() {
     val someDouble: Double = 1.0
     println("\n\t. Value: $someLong - type: ${someLong::class.java.typeName}")
     println("\t. Value: $someDouble - type: ${someDouble::class.java.typeName}")
+    val result2 = someLong + someDouble
+    println("\t. Value: $result2 - type: ${result2::class.java.typeName}")
 
     println("\n\n***** End of theory *****")
 }
