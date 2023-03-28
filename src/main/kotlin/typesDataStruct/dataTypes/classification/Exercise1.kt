@@ -6,6 +6,7 @@ fun exercise1() {
     println("*** Exercise : Size, min and max ***")
 
     println(Int.SIZE_BITS) // size
+    println(Int.MIN_VALUE) // min
 
     println("*** End of exercise ***")
 }
