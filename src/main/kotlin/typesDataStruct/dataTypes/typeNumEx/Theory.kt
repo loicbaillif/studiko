@@ -45,6 +45,12 @@ fun theory() {
     print("\t. Value: ($someShort1 + $someShort2).toShort() = $result6 - ")
     println("type: ${result6::class.java.typeName}")
 
+    println("\n3) Conclusion")
+    println("\t. If either operand is Double, the result is Double")
+    println("\t. Else if either operand is Float, the result is Float")
+    println("\t. Else if either operand is Long, the result is Long")
+    println("\t. Otherwise the result is Int")
+
 
 
     println("\n\n***** End of theory *****")
