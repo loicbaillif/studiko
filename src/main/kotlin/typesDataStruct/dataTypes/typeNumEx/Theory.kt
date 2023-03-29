@@ -37,6 +37,14 @@ fun theory() {
     println("\t. Value: $someShort2 - type: ${someShort2::class.java.typeName}")
     print("\t. Value: $someShort1 + $someShort2 = $result4 - ")
     println("type: ${result4::class.java.typeName}")
+    println("Force result to byte or short")
+    val result5 = (someByte1 + someByte2).toByte()
+    val result6 = (someShort1 + someShort2).toShort()
+    print("\t. Value: ($someByte1 + $someByte2).toByte() = $result5 - ")
+    println("type: ${result5::class.java.typeName}")
+    print("\t. Value: ($someShort1 + $someShort2).toShort() = $result6 - ")
+    println("type: ${result6::class.java.typeName}")
+
 
 
     println("\n\n***** End of theory *****")
