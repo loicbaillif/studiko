@@ -18,5 +18,17 @@ fun theory() {
     val result2 = someLong + someDouble
     println("\t. Value: $result2 - type: ${result2::class.java.typeName}")
 
+    println("\n2) Short and Byte types")
+    println("Result of the calculation involving Byte or Short will ")
+    println("be converted to Int")
+    val someByte1: Byte = 3
+    val someByte2: Byte = 6
+    val result3 = someByte1 + someByte2
+    println("\t. Value: $someByte1 - type: ${someByte1::class.java.typeName}")
+    println("\t. Value: $someByte2 - type: ${someByte2::class.java.typeName}")
+    print("\t. Value: $someByte1 + $someByte2 = $result3 - ")
+    println("type: ${result3::class.java.typeName}")
+
+
     println("\n\n***** End of theory *****")
 }
