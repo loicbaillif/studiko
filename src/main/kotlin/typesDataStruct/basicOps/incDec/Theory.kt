@@ -25,6 +25,13 @@ fun theory() {
     a--
     println("\t. a-- ==> a = $a")
 
+    println("\n3) Prefix form")
+    println("Prefix form changes the value BEFORE variable is used")
+    println("\t. a = $a")
+    val b = ++a
+    println("\t. b = ++a ==> b = $b - a = $a")
+
+
 
     println("\n\n***** End of theory *****")
 }
