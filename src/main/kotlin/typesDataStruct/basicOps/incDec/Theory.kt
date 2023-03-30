@@ -12,8 +12,10 @@ fun theory() {
     println("\t. a -= 2 ==> $a")
     a *= 4
     println("\t. a *= 4 ==> $a")
-    a /= 10
-    println("\t. a /= 10 ==> $a")
+    a /= 2
+    println("\t. a /= 2 ==> $a")
+    a %= 6
+    println("\t. a %= 6 ==> $a")
 
 
     println("\n\n***** End of theory *****")
