@@ -22,6 +22,8 @@ fun theory() {
     println("\t. a = $a")
     a++
     println("\t. a++ ==> a = $a")
+    a--
+    println("\t. a-- ==> a = $a")
 
 
     println("\n\n***** End of theory *****")
