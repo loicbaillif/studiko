@@ -1,6 +1,7 @@
 package typesDataStruct.basicOps.incDec
 
 fun theory() {
+    // https://hyperskill.org/learn/step/10776
     println("***** Theory *****")
 
     println("1) Assignment Operations")
@@ -16,6 +17,11 @@ fun theory() {
     println("\t. a /= 2 ==> $a")
     a %= 6
     println("\t. a %= 6 ==> $a")
+
+    println("\n2) Using increment and decrement")
+    println("\t. a = $a")
+    a++
+    println("\t. a++ ==> a = $a")
 
 
     println("\n\n***** End of theory *****")
