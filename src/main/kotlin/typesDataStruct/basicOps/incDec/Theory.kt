@@ -8,6 +8,8 @@ fun theory() {
     println("\t. a = $a")
     a += 3
     println("\t. a += 3 ==> $a")
+    a -= 2
+    println("\t. a -= 2 ==> $a")
 
 
     println("\n\n***** End of theory *****")
