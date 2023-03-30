@@ -31,6 +31,11 @@ fun theory() {
     val b = ++a
     println("\t. b = ++a ==> b = $b - a = $a")
 
+    println("\n4) Postfix form")
+    println("Postfix form changes the value AFTER variable is used")
+    println("\t. a = $a")
+    val c = a++
+    println("\t. c = a++ ==> c = $c - a = $a")
 
 
     println("\n\n***** End of theory *****")
