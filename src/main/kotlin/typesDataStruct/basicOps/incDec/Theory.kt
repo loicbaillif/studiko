@@ -37,6 +37,14 @@ fun theory() {
     val c = a++
     println("\t. c = a++ ==> c = $c - a = $a")
 
+    println("\n5) Precedence order")
+    println("\t. Parentheses")
+    println("\t. Postfix increment/decrement")
+    println("\t. Unary plus/minus and prefix increment/decrement")
+    println("\t. Multiplication, division and modulus")
+    println("\t. Addition and subtraction")
+    println("\t. Assignment operators: = += -= *= /+ %=")
+
 
     println("\n\n***** End of theory *****")
 }
