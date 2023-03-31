@@ -24,6 +24,12 @@ fun theory() {
     println("\t. $someLong1 - $someLong2 = $result4")
     println("\t. $result4 / $someLong3 = $result5")
 
+    println("\n\n2) Reading numbers from standard input")
+    val someInt4 = readln().toInt()
+    val someLong4 = readln().toLong()
+    println("\t. 1st value read: $someInt4 - type = ${someInt4::class.java.typeName}")
+    println("\t. 2nd value read: $someLong4 - type = ${someLong4::class.java.typeName}")
+
 
 
     println("\n\n***** End of theory *****")
