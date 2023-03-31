@@ -29,7 +29,8 @@ fun main(args: Array<String>) {
     // basics.stdinout.readlnFun.index()
     // typesDataStruct.basicOps.arith.index()
     // typesDataStruct.dataTypes.typeNumEx.index()
+    // typesDataStruct.basicOps.incDec.index()
 
     // Current Chapter
-    typesDataStruct.basicOps.incDec.index()
+    typesDataStruct.basicOps.intAction.index()
 }
