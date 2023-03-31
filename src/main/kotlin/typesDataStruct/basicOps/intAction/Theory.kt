@@ -38,6 +38,10 @@ fun theory() {
     println("\t\t. Type = ${someUByte1::class.java.typeName}")
     println("\t\t. Declaration: val c: UByte = 123U")
 
+    println("\t. UShort: \n\t\t. Max Value = ${UShort.MAX_VALUE}")
+    println("\t\t. Type = ${UShort::class.java.typeName}")
+    println("\t\t. Declaration: val c: UShort = 123")
+
 
 
     println("\n\n***** End of theory *****")
