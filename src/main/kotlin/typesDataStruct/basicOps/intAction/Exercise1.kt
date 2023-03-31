@@ -5,5 +5,9 @@ fun exercise1() {
     // Desks
     println("*** Exercise: Desks ***")
 
+    val studentsClass1 = readln().toInt()
+    val studentsClass2 = readln().toInt()
+    val studentsClass3 = readln().toInt()
+
     println("*** End of exercise ***")
 }
