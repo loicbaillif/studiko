@@ -34,9 +34,9 @@ fun theory() {
 
     println("\n\n3) Unsigned integers")
     val someUByte1 : UByte = 123U
-    println("\t. UByte: \n\t\t. Max Value = ${UByte.MAX_VALUE} ;")
+    println("\t. UByte: \n\t\t. Max Value = ${UByte.MAX_VALUE}")
     println("\t\t. Type = ${someUByte1::class.java.typeName}")
-    println("\t\t. Declaration: val c = ")
+    println("\t\t. Declaration: val c: UByte = 123U")
 
 
 
