@@ -9,5 +9,9 @@ fun exercise1() {
     val studentsClass2 = readln().toInt()
     val studentsClass3 = readln().toInt()
 
+    val desksClass1 = studentsClass1 / 2 + studentsClass1 % 2
+    val desksClass2 = studentsClass2 / 2 + studentsClass2 % 2
+    val desksClass3 = studentsClass3 / 2 + studentsClass3 % 2
+
     println("*** End of exercise ***")
 }
