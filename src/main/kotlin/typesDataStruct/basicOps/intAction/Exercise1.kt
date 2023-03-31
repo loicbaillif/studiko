@@ -13,5 +13,8 @@ fun exercise1() {
     val desksClass2 = studentsClass2 / 2 + studentsClass2 % 2
     val desksClass3 = studentsClass3 / 2 + studentsClass3 % 2
 
+    val result = desksClass1 + desksClass2 + desksClass3
+    println(result)
+
     println("*** End of exercise ***")
 }
