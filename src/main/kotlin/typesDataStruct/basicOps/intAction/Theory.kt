@@ -25,10 +25,18 @@ fun theory() {
     println("\t. $result4 / $someLong3 = $result5")
 
     println("\n\n2) Reading numbers from standard input")
-    val someInt4 = readln().toInt()
-    val someLong4 = readln().toLong()
+    // val someInt4 = readln().toInt()
+    // val someLong4 = readln().toLong()
+    val someInt4 = 13
+    val someLong4 = 24L
     println("\t. 1st value read: $someInt4 - type = ${someInt4::class.java.typeName}")
     println("\t. 2nd value read: $someLong4 - type = ${someLong4::class.java.typeName}")
+
+    println("\n\n3) Unsigned integers")
+    val someUByte1 : UByte = 123U
+    println("\t. UByte: \n\t\t. Max Value = ${UByte.MAX_VALUE} ;")
+    println("\t\t. Type = ${someUByte1::class.java.typeName}")
+    println("\t\t. Declaration: val c = ")
 
 
 
