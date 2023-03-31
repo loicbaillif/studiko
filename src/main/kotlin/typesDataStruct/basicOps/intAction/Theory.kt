@@ -46,6 +46,12 @@ fun theory() {
     println("\t\t. Type = ${UInt::class.java.typeName}")
     println("\t\t. Declaration: val c = 123u // postfix u ==> UInt by default")
 
+    println("\t. ULong: \n\t\t. Max Value = ${ULong.MAX_VALUE}")
+    println("\t\t. Type = ${ULong::class.java.typeName}")
+    println("\t\t. Declaration: val c = 123uL")
+    val someULong = 123uL
+    println("\t\t. Value = $someULong - type = ${someULong::class.java.typeName}")
+
 
 
     println("\n\n***** End of theory *****")
