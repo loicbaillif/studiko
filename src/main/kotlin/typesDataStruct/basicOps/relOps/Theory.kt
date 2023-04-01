@@ -30,6 +30,9 @@ fun theory() {
     print("\t. $someLong1 (${someLong1::class.java.typeName}) >= ")
     print("$someLong2 (${someLong2::class.java.typeName}) ==> ")
     println(someLong1 >= someLong2)
+    print("\t. $someInt1 (${someInt1::class.java.typeName}) == ")
+    print("$someLong1 (${someLong1::class.java.typeName}) ==> ")
+    println("ERROR: Operator '==' cannot be applied to 'Int' and 'Long'")
 
 
     println("\n\n***** End of theory *****")
