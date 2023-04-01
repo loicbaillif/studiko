@@ -10,6 +10,8 @@ fun theory() {
     val someChar3 = ' '
     val someChar4 = '€'
     println("Characters: $someChar1 - $someChar2 - $someChar3 - $someChar4")
+    val someChar5 = '\u0040' // @
+    println(someChar5)
 
     println("\n\n***** End of theory *****")
 }
