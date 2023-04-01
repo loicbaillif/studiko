@@ -37,6 +37,12 @@ fun theory() {
     println("\t. \\' : single quote mark")
     println("\t. \\\" : double quote mark")
 
+    println("\n5) Relational operations with characters")
+    println("\t. 'a' < 'c' ==> ${'a' < 'c'}")
+    println("\t. 'x' >= 'z' ==> ${'x' >= 'z'}")
+    println("\t. 'D' == 'D' ==> ${'D' == 'D'}")
+    println("\t. 'a' < 'A' ==> ${'a' < 'A'}")
+
 
     println("\n\n***** End of theory *****")
 }
