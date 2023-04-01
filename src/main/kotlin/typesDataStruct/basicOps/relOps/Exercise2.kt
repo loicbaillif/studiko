@@ -5,6 +5,9 @@ fun exercise2() {
     // Are the numbers different?
     println("*** Exercise: Are the numbers different? ***")
 
+    val userInput1 = readln().toInt()
+    val userInput2 = readln().toInt()
+    val userInput3 = readln().toInt()
 
 
     println("\n*** End of Exercise ***")
