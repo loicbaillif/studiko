@@ -46,6 +46,10 @@ fun theory() {
     val isDigit1 = someChar8 >= '\u0030' && someChar8 <= '\u0039'
     println("$someChar8 is a digit? $isDigit1")
 
+    println("\n6) Processing Characters")
+    println("\t. isDigit()")
+    println("\t\t'c'.isDigit()? ${'c'.isDigit()} - '5'.isDigit()? ${'5'.isDigit()}")
+
 
     println("\n\n***** End of theory *****")
 }
