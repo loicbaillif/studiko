@@ -30,7 +30,8 @@ fun main(args: Array<String>) {
     // typesDataStruct.basicOps.arith.index()
     // typesDataStruct.dataTypes.typeNumEx.index()
     // typesDataStruct.basicOps.incDec.index()
+    // typesDataStruct.basicOps.intAction.index()
 
     // Current Chapter
-    typesDataStruct.basicOps.intAction.index()
+    typesDataStruct.basicOps.relOps.index()
 }
