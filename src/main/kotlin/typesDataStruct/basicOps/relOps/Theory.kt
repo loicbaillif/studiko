@@ -37,6 +37,13 @@ fun theory() {
     println("\n3) Joining relational operations")
     println("Kotlin cannot assess something such as : a < b < c")
     println("This shall be assessed as : a < b && b < c")
+    println("Example:")
+    val someInt3 = 64
+    val someInt4 = 256
+    println("\tPlease provide an int value:")
+    val userInput1 = readln().toInt()
+    print("\t$userInput1 is in [$someInt3; $someInt4] (included)? ")
+    println((someInt3 <= userInput1) && (userInput1 <= someInt4))
 
     println("\n\n***** End of theory *****")
 }
