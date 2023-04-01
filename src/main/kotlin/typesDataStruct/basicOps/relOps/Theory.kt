@@ -34,6 +34,9 @@ fun theory() {
     print("$someLong1 (${someLong1::class.java.typeName}) ==> ")
     println("ERROR: Operator '==' cannot be applied to 'Int' and 'Long'")
 
+    println("\n3) Joining relational operations")
+    println("Kotlin cannot assess something such as : a < b < c")
+    println("This shall be assessed as : a < b && b < c")
 
     println("\n\n***** End of theory *****")
 }
