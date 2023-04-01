@@ -6,6 +6,7 @@ fun exercise1() {
     println("\n*** Exercise: Who is less than 10? ***")
     val lowLimit = 10
     val userInput = readln().toInt()
+    println(userInput < lowLimit)
 
     println("\n*** End of Exercise ***")
 }
