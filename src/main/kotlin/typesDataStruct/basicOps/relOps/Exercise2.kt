@@ -8,6 +8,8 @@ fun exercise2() {
     val userInput1 = readln().toInt()
     val userInput2 = readln().toInt()
     val userInput3 = readln().toInt()
+    val result = (userInput1 != userInput2) && (userInput1 != userInput3)
+    println(result)
 
 
     println("\n*** End of Exercise ***")
