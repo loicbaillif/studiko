@@ -13,6 +13,14 @@ fun theory() {
     println("\t. <= \t To check lower than or equal")
     println("It always result in a Boolean value")
 
+    println("\n2) Examples with int numbers")
+    val someInt1 = 1
+    val someInt2 = 2
+    val someLong1 = 1L
+    val someLong2 = 2L
+    print("\t. $someInt1 (${someInt1::class.java.typeName}) < ")
+    print("$someInt2 (${someInt2::class.java.typeName}) ==> ")
+    println(someInt1 < someInt2)
 
 
     println("\n\n***** End of theory *****")
