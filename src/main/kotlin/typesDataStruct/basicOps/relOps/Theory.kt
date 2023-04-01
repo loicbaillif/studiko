@@ -21,6 +21,9 @@ fun theory() {
     print("\t. $someInt1 (${someInt1::class.java.typeName}) < ")
     print("$someInt2 (${someInt2::class.java.typeName}) ==> ")
     println(someInt1 < someInt2)
+    print("\t. $someInt1 (${someInt1::class.java.typeName}) <= ")
+    print("$someLong1 (${someLong1::class.java.typeName}) ==> ")
+    println(someInt1 <= someLong1)
 
 
     println("\n\n***** End of theory *****")
