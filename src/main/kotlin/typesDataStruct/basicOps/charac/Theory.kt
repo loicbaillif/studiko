@@ -29,6 +29,14 @@ fun theory() {
     println("\tCharacter: $someChar3 -\t $someChar3 + 7 = ${someChar3 + 7}")
     println("\tCharacter: $someChar4 -\t $someChar4 - 9 = ${someChar4 - 9}")
 
+    println("\n4) Escape sequences")
+    println("\t. \\n : new line character")
+    println("\t. \\t : tab character")
+    println("\t. \\r : carriage return character")
+    println("\t. \\\\ : backslash character")
+    println("\t. \\' : single quote mark")
+    println("\t. \\\" : double quote mark")
+
 
     println("\n\n***** End of theory *****")
 }
