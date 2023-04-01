@@ -17,5 +17,9 @@ fun theory() {
     val someInt1 = 169
     println(someInt1.toChar())
 
+    println("2) How to read characters")
+    val someChar7 = readln().first()
+    println("First character = $someChar7 - code = ${someChar7.code}")
+
     println("\n\n***** End of theory *****")
 }
