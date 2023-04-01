@@ -42,6 +42,9 @@ fun theory() {
     println("\t. 'x' >= 'z' ==> ${'x' >= 'z'}")
     println("\t. 'D' == 'D' ==> ${'D' == 'D'}")
     println("\t. 'a' < 'A' ==> ${'a' < 'A'}")
+    val someChar8 = 'A'
+    val isDigit1 = someChar8 >= '\u0030' && someChar8 <= '\u0039'
+    println("$someChar8 is a digit? $isDigit1")
 
 
     println("\n\n***** End of theory *****")
