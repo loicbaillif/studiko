@@ -8,7 +8,7 @@ fun exercise1() {
     val userInput2 = readln().first()
     val userInput3 = readln().first()
     val userInput4 = readln().first()
-
+    println(userInput1 + 1)
 
     println("\n*** End of Exercise ***")
 }
