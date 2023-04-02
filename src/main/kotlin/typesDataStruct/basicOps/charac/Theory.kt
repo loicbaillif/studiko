@@ -48,7 +48,9 @@ fun theory() {
 
     println("\n6) Processing Characters")
     println("\t. isDigit()")
-    println("\t\t'c'.isDigit()? ${'c'.isDigit()} - '5'.isDigit()? ${'5'.isDigit()}")
+    println("\t\t'c'.isDigit()? ${'c'.isDigit()}\n\t\t'5'.isDigit()? ${'5'.isDigit()}")
+    println("\n\t. isLetter()")
+    println("\t\t'3'.isLetter()? ${'3'.isLetter()}\n\t\t'A'.isLetter()? ${'A'.isLetter()}")
 
 
     println("\n\n***** End of theory *****")
