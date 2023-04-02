@@ -67,9 +67,14 @@ fun theory() {
     println("\t\t'5'.isLowerCase()? ${'5'.isLowerCase()}")
     println("\t\t'P'.isLowerCase()? ${'P'.isLowerCase()}")
     println("\t\t'z'.isLowerCase()? ${'z'.isLowerCase()}")
+    /*
     println("\n\t. toUpperCase() ... Deprecated now")
     println("\t\t'é'.toUpperCase()? ${'é'.toUpperCase()}")
     println("\t\t'z'.toUpperCase()? ${'z'.toUpperCase()}")
+     */
+    println("\n\t. uppercaseChar()")
+    println("\t\t'é'.uppercaseChar()? ${'é'.uppercaseChar()}")
+    println("\t\t'z'.uppercaseChar()? ${'z'.uppercaseChar()}")
 
 
 
