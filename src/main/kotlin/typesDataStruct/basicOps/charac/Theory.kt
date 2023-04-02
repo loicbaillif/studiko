@@ -86,6 +86,9 @@ fun theory() {
     println("\n\t. lowercaseChar()")
     println("\t\t'Ö'.lowercaseChar()? ${'Ö'.lowercaseChar()} - type = Char")
     println("\t\t'H'.lowercaseChar()? ${'H'.lowercaseChar()} - type = Char")
+    println("\n\t. lowercase()")
+    println("\t\t'Ö'.lowercase()? ${'Ö'.lowercase()} - type = String")
+    println("\t\t'H'.lowercase()? ${'H'.lowercase()} - type = String")
 
 
 
