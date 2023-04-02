@@ -4,6 +4,10 @@ fun exercise1() {
     // https://hyperskill.org/learn/step/12308
     // Previous character
     println("\n*** Exercise: Previous Character ***")
+    val userInput1 = readln().first()
+    val userInput2 = readln().first()
+    val userInput3 = readln().first()
+    val userInput4 = readln().first()
 
 
     println("\n*** End of Exercise ***")
