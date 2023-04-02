@@ -54,7 +54,13 @@ fun theory() {
     println("\n\t. isLetterOrDigit()")
     println("\t\t'@'.isLetterOrDigit()? ${'@'.isLetterOrDigit()}")
     println("\t\t'é'.isLetterOrDigit()? ${'é'.isLetterOrDigit()}")
-    
+    println("\n\t. isWhitespace()")
+    println("\t\t'_'.isWhitespace()? ${'_'.isWhitespace()}")
+    println("\t\t' '.isWhitespace()? ${' '.isWhitespace()}")
+    println("\t\t'\\t'.isWhitespace()? ${'\t'.isWhitespace()}")
+    println("\t\t'\\n'.isWhitespace()? ${'\n'.isWhitespace()}")
+
+
 
 
     println("\n\n***** End of theory *****")
