@@ -63,7 +63,10 @@ fun theory() {
     println("\t\t'5'.isUpperCase()? ${'5'.isUpperCase()}")
     println("\t\t'P'.isUpperCase()? ${'P'.isUpperCase()}")
     println("\t\t'z'.isUpperCase()? ${'z'.isUpperCase()}")
-
+    println("\n\t. isLowerCase()")
+    println("\t\t'5'.isLowerCase()? ${'5'.isLowerCase()}")
+    println("\t\t'P'.isLowerCase()? ${'P'.isLowerCase()}")
+    println("\t\t'z'.isLowerCase()? ${'z'.isLowerCase()}")
 
 
 
