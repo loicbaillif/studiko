@@ -59,6 +59,10 @@ fun theory() {
     println("\t\t' '.isWhitespace()? ${' '.isWhitespace()}")
     println("\t\t'\\t'.isWhitespace()? ${'\t'.isWhitespace()}")
     println("\t\t'\\n'.isWhitespace()? ${'\n'.isWhitespace()}")
+    println("\n\t. isUpperCase()")
+    println("\t\t'5'.isUpperCase()? ${'5'.isUpperCase()}")
+    println("\t\t'P'.isUpperCase()? ${'P'.isUpperCase()}")
+    println("\t\t'z'.isUpperCase()? ${'z'.isUpperCase()}")
 
 
 
