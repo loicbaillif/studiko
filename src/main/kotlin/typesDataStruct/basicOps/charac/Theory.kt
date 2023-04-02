@@ -73,9 +73,11 @@ fun theory() {
     println("\t\t'z'.toUpperCase()? ${'z'.toUpperCase()}")
      */
     println("\n\t. uppercaseChar()")
-    println("\t\t'é'.uppercaseChar()? ${'é'.uppercaseChar()}")
-    println("\t\t'z'.uppercaseChar()? ${'z'.uppercaseChar()}")
-
+    println("\t\t'é'.uppercaseChar()? ${'é'.uppercaseChar()} - type = Char")
+    println("\t\t'z'.uppercaseChar()? ${'z'.uppercaseChar()} - type = Char")
+    println("\n\t. uppercase()")
+    println("\t\t'é'.uppercase()? ${'é'.uppercase()} - type = String")
+    println("\t\t'z'.uppercase()? ${'z'.uppercase()} - type = String")
 
 
 
