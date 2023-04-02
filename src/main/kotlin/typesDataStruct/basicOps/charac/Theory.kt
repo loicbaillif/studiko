@@ -78,6 +78,9 @@ fun theory() {
     println("\n\t. uppercase()")
     println("\t\t'é'.uppercase()? ${'é'.uppercase()} - type = String")
     println("\t\t'z'.uppercase()? ${'z'.uppercase()} - type = String")
+    println("\n\t. toLowerCase() ... Deprecated now")
+    println("\t\t'Ö'.toLowerCase()? ${'Ö'.toLowerCase()}")
+    println("\t\t'H'.toLowerCase()? ${'H'.toLowerCase()}")
 
 
 
