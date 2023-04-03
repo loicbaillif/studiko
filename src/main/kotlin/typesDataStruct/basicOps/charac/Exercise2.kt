@@ -7,6 +7,7 @@ fun exercise2() {
 
     val userInput1 = readln().first()
     val userInput2 = readln().first()
+    println(userInput1.lowercaseChar() == userInput2.lowercaseChar())
 
     println("\n*** End of exercise ***")
 }
