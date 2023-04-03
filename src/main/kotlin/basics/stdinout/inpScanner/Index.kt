@@ -2,5 +2,6 @@ package basics.stdinout.inpScanner
 
 fun index() {
     println("********** Standard input with Java Scanner **********\n")
-    theory()
+    // theory()
+    exercise1()
 }
