@@ -5,6 +5,8 @@ fun exercise2() {
     // Compare Latin letters
     println("\n*** Exercise: Compare Latin letters ***")
 
+    val userInput1 = readln().first()
+    val userInput2 = readln().first()
 
     println("\n*** End of exercise ***")
 }
