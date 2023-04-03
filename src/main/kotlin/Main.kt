@@ -20,7 +20,7 @@ fun main(args: Array<String>) {
     // typesDataStruct.dataTypes.index()
     // basics.stdinout.stdOutput.index()
     // ctrlflow.func.invokFunc.index()
-    basics.stdinout.inpScanner.index()
+    // basics.stdinout.inpScanner.index()
     // typesDataStruct.dataTypes.classification.index()
     // typesDataStruct.dataTypes.conver.index()
     // typesDataStruct.strings.basics.index()
@@ -34,5 +34,5 @@ fun main(args: Array<String>) {
     // typesDataStruct.basicOps.relOps.index()
 
     // Current Chapter
-    // typesDataStruct.basicOps.charac.index()
+    typesDataStruct.basicOps.charac.index()
 }
