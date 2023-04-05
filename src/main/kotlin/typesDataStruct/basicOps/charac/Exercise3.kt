@@ -8,5 +8,7 @@ fun exercise3() {
     val inputNumber = readln().toInt()
     val inputChar = readln().first()
 
+    println(inputNumber == inputChar.code)
+
     println("\n*** End of exercise ***")
 }
