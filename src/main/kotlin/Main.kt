@@ -32,7 +32,8 @@ fun main(args: Array<String>) {
     // typesDataStruct.basicOps.incDec.index()
     // typesDataStruct.basicOps.intAction.index()
     // typesDataStruct.basicOps.relOps.index()
+    // typesDataStruct.basicOps.charac.index()
 
     // Current Chapter
-    typesDataStruct.basicOps.charac.index()
+    typesDataStruct.lists.introMut.index()
 }
