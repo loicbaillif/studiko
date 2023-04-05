@@ -5,6 +5,8 @@ fun exercise3() {
     // Exercise: Comparing numbers and characters
     println("\n*** Exercise: Comparing numbers and characters ***")
 
+    val inputNumber = readln().toInt()
+    val inputChar = readln().first()
 
     println("\n*** End of exercise ***")
 }
