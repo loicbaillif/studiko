@@ -20,6 +20,10 @@ fun theory() {
     val mutableList3 = mutableListOf<Boolean>()
     println(mutableList3)
 
+    println("\n3) MutableList size")
+    val mutableList4 = MutableList(5) {42}
+    println(mutableList4)
+
 
     println("\n\n***** End of theory *****")
 }
