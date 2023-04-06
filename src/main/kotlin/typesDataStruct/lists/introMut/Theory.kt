@@ -13,6 +13,12 @@ fun theory() {
     // Declaring a mutable list of integers
     val mutableList1 = mutableListOf<Int>(1, 3, 5, 7, 9)
     println(mutableList1)
+    // Declaring a mutable list of strings
+    val mutableList2 = mutableListOf<String>("Alpha", "Bravo", "Charlie")
+    println(mutableList2)
+    // Declaring an empty mutable list of booleans
+    val mutableList3 = mutableListOf<Boolean>()
+    println(mutableList3)
 
 
     println("\n\n***** End of theory *****")
