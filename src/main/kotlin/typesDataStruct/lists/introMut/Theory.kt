@@ -22,9 +22,10 @@ fun theory() {
 
     println("\n3) MutableList size")
     val mutableList4 = MutableList(5) {42}
-    println(mutableList4)
+    println("\n. $mutableList4")
     val mutableList5 = MutableList(5) {"to"}
-    println(mutableList5)
+    println("\n. $mutableList5")
+    println("\n. ml: $mutableList2 - ml.size : ${mutableList2.size}")
 
 
     println("\n\n***** End of theory *****")
