@@ -6,6 +6,7 @@ fun exercise3() {
     println("\n*** Exercise: Sum of Longs ***")
     val userLong1 = readln().toLong()
     val userLong2 = readln().toLong()
+    println(userLong1 + userLong2)
 
 
     println("\n*** End of exercise ***")
