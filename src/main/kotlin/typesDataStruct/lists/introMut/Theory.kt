@@ -27,6 +27,11 @@ fun theory() {
     println("\n. $mutableList5")
     println("\n. ml: $mutableList2 - ml.size : ${mutableList2.size}")
 
+    println("\n4) Reading list from input")
+    val mutableList6 = MutableList(4) { readln().toInt() }
+    println(mutableList6)
+
+
 
     println("\n\n***** End of theory *****")
 }
