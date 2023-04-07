@@ -30,13 +30,18 @@ fun theory() {
     println("\n4) Reading list from input")
     // val mutableList6 = MutableList(4) { readln().toInt() }
     // println("\n. $mutableList6")
-    val mutableList7 = readln().split(" ").map { it.toInt() }.toMutableList()
-    println("\n. $mutableList7")
+    // val mutableList7 = readln().split(" ").map { it.toInt() }.toMutableList()
+    // println("\n. $mutableList7")
     val regex1 = "\\s+".toRegex()
     val inputString1 = "9\n\n8   7  \t\t6  \n\t5 4"
     val mutableList8 = inputString1.split(regex1).map { it.toInt() }.toMutableList()
     println("\n. Input = $inputString1")
     println("\n. Mapping to MutableList: $mutableList8")
+
+    println("\n5) Accessing elements")
+    println("\t. ml1 = $mutableList1 ...")
+    mutableList1[1] = 6
+    println("\t... ml1[1] = 6 ...\n\t... ml1 = $mutableList1")
 
 
     println("\n\n***** End of theory *****")
