@@ -53,6 +53,8 @@ fun theory() {
     println("\t. ml2.size = ${mutableList10.size}")
     println("\t. ml2[ml2.size - 1] = ${mutableList10[mutableList10.size - 1]}")
     println("\t. ml2.first() = ${mutableList10.first()}")
+    println("\t. ml2.last() = ${mutableList10.last()}")
+    println("\t. ml2.lastIndex = ${mutableList10.lastIndex}")
 
 
 
