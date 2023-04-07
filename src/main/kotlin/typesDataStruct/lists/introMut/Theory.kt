@@ -48,6 +48,12 @@ fun theory() {
     mutableList9[1] = 3
     mutableList9[2] = mutableList9[0] + mutableList9[1]
     println(mutableList9)
+    val mutableList10 = mutableListOf<String>("Alpha", "Bravo", "Charlie", "Delta", "Echo")
+    println("\t. ml2 = $mutableList10")
+    println("\t. ml2.size = ${mutableList10.size}")
+    println("\t. ml2[ml2.size - 1] = ${mutableList10[mutableList10.size - 1]}")
+    println("\t. ml2.first() = ${mutableList10.first()}")
+
 
 
     println("\n\n***** End of theory *****")
