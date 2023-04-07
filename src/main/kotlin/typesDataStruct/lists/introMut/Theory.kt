@@ -42,6 +42,12 @@ fun theory() {
     println("\t. ml1 = $mutableList1 ...")
     mutableList1[1] = 6
     println("\t... ml1[1] = 6 ...\n\t... ml1 = $mutableList1")
+    println("\n\t. ml1[3] = ${mutableList1[3]}")
+    val mutableList9 = mutableListOf<Int>(0, 0, 0)
+    mutableList9[0] = 7
+    mutableList9[1] = 3
+    mutableList9[2] = mutableList9[0] + mutableList9[1]
+    println(mutableList9)
 
 
     println("\n\n***** End of theory *****")
