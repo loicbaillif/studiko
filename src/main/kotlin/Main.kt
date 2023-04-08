@@ -11,7 +11,7 @@ fun main(args: Array<String>) {
     // println("Program arguments: ${args.joinToString()}")
 
     // PROJECT
-    // zookeeper.index()
+    zookeeper.index()
 
     // Old Chapters
     // overview.index()
@@ -35,5 +35,5 @@ fun main(args: Array<String>) {
     // typesDataStruct.basicOps.charac.index()
 
     // Current Chapter
-    typesDataStruct.lists.introMut.index()
+    // typesDataStruct.lists.introMut.index()
 }

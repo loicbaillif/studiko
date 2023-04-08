@@ -4,7 +4,8 @@ fun index() {
     println("********** PROJECT : ZOOKEPER **********")
 
     // stage1()
-    stage2()
+    // stage2()
+    stage3()
 
-    println("********** END OF PROJECT **********")
+    println("\n\n********** END OF PROJECT **********")
 }
