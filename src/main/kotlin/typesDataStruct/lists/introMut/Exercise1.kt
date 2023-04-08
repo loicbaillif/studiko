@@ -6,6 +6,7 @@ fun exercise1() {
     println("*** Exercise: Initializing a mutable list of integers ***")
 
     val numbers = mutableListOf<Int>(12, 17, 8, 101, 33)
+    println(numbers)
 
     println("\n*** End of exercise ***")
 }
