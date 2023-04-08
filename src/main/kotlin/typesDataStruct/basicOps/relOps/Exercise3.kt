@@ -7,6 +7,11 @@ fun exercise3() {
 
     val nbCups = readln().toInt()
     val isWeekend = readln().toBoolean()
+    if (isWeekend) {
+        // TODO
+    } else {
+        // TODO
+    }
 
 
     println("\n*** End of exercise ***")
