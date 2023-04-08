@@ -7,6 +7,7 @@ fun exercise1() {
 
     val (hours, minutes, seconds) = readln().split(' ')
     val (day, month, year) = readln().split(' ')
+    println("$hours:$minutes:$seconds $day/$month/$year")
 
     println("\n*** End of exercise ***")
 }
