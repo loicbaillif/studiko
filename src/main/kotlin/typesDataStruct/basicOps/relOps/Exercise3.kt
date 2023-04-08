@@ -5,6 +5,8 @@ fun exercise3() {
     // Groundhogs at the party
     println("*** Exercise: Groundhogs at the party ***")
 
+    val nbCups = readln().toInt()
+    val isWeekend = readln().toBoolean()
 
 
     println("\n*** End of exercise ***")
