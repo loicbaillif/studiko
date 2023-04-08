@@ -124,7 +124,8 @@ fun stage3() {
     println("\n*** Stage 3: What's inside? ***")
 
     val animalsList = mutableListOf<String>(camel, lion, deer, goose, bat, rabbit)
-
+    println(greeting)
+    val userInput = readln().toInt()
 
     println("\n*** End of stage 3 ***")
 }
