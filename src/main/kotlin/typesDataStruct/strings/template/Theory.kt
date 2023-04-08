@@ -15,5 +15,10 @@ fun theory() {
     val price = "$value $currency"
     println(price)
 
+    println("\n1) Templates for expressions")
+    val language = "Kotlin"
+    println("\t. $language has ${language.length} letters in the name")
+
+
     println("\n\n***** End of theory *****")
 }
