@@ -7,6 +7,9 @@ fun theory() {
     var city = "Paris"
     var temp = 13
     println("The actual temperature in $city is $temp degrees Celcius.")
+    city = "Roma"
+    temp = 19
+    println("The actual temperature in $city is $temp degrees Celcius.")
 
     println("\n\n***** End of theory *****")
 }
