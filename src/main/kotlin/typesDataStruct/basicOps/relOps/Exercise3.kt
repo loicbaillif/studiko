@@ -10,7 +10,7 @@ fun exercise3() {
     if (isWeekend) {
         println(nbCups >= 15 && nbCups <= 25)
     } else {
-        // TODO
+        println(nbCups >= 10 && nbCups <= 20)
     }
 
 
