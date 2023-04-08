@@ -8,7 +8,7 @@ fun exercise3() {
     val nbCups = readln().toInt()
     val isWeekend = readln().toBoolean()
     if (isWeekend) {
-        // TODO
+        println(nbCups >= 15 && nbCups <= 25)
     } else {
         // TODO
     }
