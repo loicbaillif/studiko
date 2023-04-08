@@ -115,8 +115,15 @@ const val rabbit = """Switching on the camera in the rabbit habitat...
 (" ~----( ~   Y.  )
 It looks like we will soon have more rabbits!"""
 
+const val greeting = "Please enter the number of the habitat you would like to view:"
+
+const val exit = """---
+You've reached the end of the program. To check another habitat, please restart the watcher."""
+
 fun stage3() {
     println("\n*** Stage 3: What's inside? ***")
+
+    val animalsList = mutableListOf<String>(camel, lion, deer, goose, bat, rabbit)
 
 
     println("\n*** End of stage 3 ***")
