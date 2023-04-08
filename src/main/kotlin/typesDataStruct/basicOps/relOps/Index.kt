@@ -4,5 +4,6 @@ fun index() {
     println("********** Relational Operators **********\n")
     // theory()
     // exercise1()
-    exercise2()
+    // exercise2()
+    exercise3()
 }

@@ -31,9 +31,9 @@ fun main(args: Array<String>) {
     // typesDataStruct.dataTypes.typeNumEx.index()
     // typesDataStruct.basicOps.incDec.index()
     // typesDataStruct.basicOps.intAction.index()
-    // typesDataStruct.basicOps.relOps.index()
+    typesDataStruct.basicOps.relOps.index()
     // typesDataStruct.basicOps.charac.index()
 
     // Current Chapter
-    typesDataStruct.lists.introMut.index()
+    // typesDataStruct.lists.introMut.index()
 }
