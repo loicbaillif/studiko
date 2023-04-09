@@ -20,5 +20,7 @@ fun exercise4() {
         if (newPart == SMALLER) nbSmaller++
     }
 
+    println("$nbPerfect $nbLarger $nbSmaller")
+
     println("\n*** End of exercise ***")
 }
