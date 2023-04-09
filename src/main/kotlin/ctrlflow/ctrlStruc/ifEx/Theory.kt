@@ -73,6 +73,8 @@ fun theory() {
         sisterAge
     }
     println("The oldest sibling is $oldestSiblingAge")
+    val youngestSiblingAge = if (userAge < sisterAge) userAge else sisterAge
+    println("The youngest sibling is $youngestSiblingAge")
 
 
     println("\n***** End of theory *****")
