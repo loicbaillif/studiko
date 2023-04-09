@@ -10,7 +10,12 @@ fun exercise4() {
     println("*** Exercise: Repeating Blocks ***")
 
     val nbInputs = readln().toInt()
-
+    var nbLarger = 0
+    var nbPerfect = 0
+    val nbSmaller = 0
+    repeat(nbInputs) {
+        val newPart = readln().toInt()
+    }
 
     println("\n*** End of exercise ***")
 }
