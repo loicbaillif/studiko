@@ -51,6 +51,15 @@ fun theory() {
             println("Libertyyyyy")
         }
     }
+    if (userAge % 2 == 0) {
+        if (userAge % 3 == 0) {
+            println("Your age can be divided by 6")
+        } else {
+            println("Your age can be divided by 2")
+        }
+    } else {
+        println("Your age cannot be divided by 2")
+    }
 
 
     println("\n***** End of theory *****")
