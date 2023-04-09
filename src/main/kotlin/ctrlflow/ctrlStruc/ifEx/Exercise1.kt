@@ -5,11 +5,7 @@ fun exercise1() {
     // Odd or even
     println("*** Exercise: Odd or even ***")
     val userInput = readln().toInt()
-    if (userInput % 2 == 0) {
-        println("EVEN")
-    } else {
-        println("ODD")
-    }
+    println(if (userInput % 2 == 0) "EVEN" else "ODD")
 
 
     println("\n*** End of exercise ***")
