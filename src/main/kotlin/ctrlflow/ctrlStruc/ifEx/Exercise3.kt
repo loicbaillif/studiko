@@ -9,9 +9,7 @@ fun exercise3() {
     val inputB = readln().toInt()
 
     var max = inputA
-    if (inputB > inputA) {
-        max = inputB
-    }
+    if (inputB > inputA) max = inputB
 
     println(max)
 
