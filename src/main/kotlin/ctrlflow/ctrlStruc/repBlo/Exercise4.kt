@@ -1,26 +1,17 @@
 package ctrlflow.ctrlStruc.repBlo
 
-const val LARGER = 1
-const val PERFECT = 0
-const val SMALLER = -1
-
 fun exercise4() {
     // https://hyperskill.org/learn/step/4645
     // Repeating Blocks
     println("*** Exercise: Repeating Blocks ***")
 
     val nbInputs = readln().toInt()
-    var nbLarger = 0
-    var nbPerfect = 0
-    var nbSmaller = 0
+    val elements = mutableListOf<Int>(0, 0, 0) // smaller, perfect, larger
     repeat(nbInputs) {
-        val newPart = readln().toInt()
-        if (newPart == LARGER) nbLarger++
-        if (newPart == PERFECT) nbPerfect++
-        if (newPart == SMALLER) nbSmaller++
+        elements[(readln().toInt()) + 1]++
     }
 
-    println("$nbPerfect $nbLarger $nbSmaller")
+    println("${elements[1]} ${elements[2]} ${elements[0]}")
 
     println("\n*** End of exercise ***")
 }
