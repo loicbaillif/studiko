@@ -17,5 +17,13 @@ fun theory() {
         println("Here is a hot chocolate kiddo")
     }
 
+    println("\n2) The if-else-cases")
+    if (userAge % 2 == 0) {
+        println("Your current age is even")
+    } else {
+        println("Your current age is odd")
+    }
+
+
     println("\n***** End of theory *****")
 }
