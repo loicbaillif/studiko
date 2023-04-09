@@ -7,6 +7,10 @@ fun exercise3() {
 
     val nbElts = readln().toInt()
     var max = 0
+    repeat(nbElts) {
+        val input = readln().toInt()
+        if ((input % 4 == 0) && input > max) max = input
+    }
 
     println("\n*** End of exercise ***")
 }
