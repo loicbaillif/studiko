@@ -9,7 +9,7 @@ fun exercise3() {
     var max = 0
     repeat(nbElts) {
         val input = readln().toInt()
-        if ((input % 4 == 0) && input > max) max = input
+        if (input % 4 == 0 && input > max) max = input
     }
 
     println(max)
