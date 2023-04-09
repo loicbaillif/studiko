@@ -5,6 +5,9 @@ fun exercise2() {
     // Triangle
     println("*** Exercise: Triangle ***")
 
+    val aLength = readln().toInt()
+    val bLength = readln().toInt()
+    val cLength = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
