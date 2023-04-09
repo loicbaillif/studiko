@@ -34,8 +34,8 @@ fun main(args: Array<String>) {
     // typesDataStruct.basicOps.relOps.index()
     // typesDataStruct.basicOps.charac.index()
     // typesDataStruct.lists.introMut.index()
+    // typesDataStruct.strings.template.index()
 
     // Current Chapter
-    // typesDataStruct.strings.template.index()
     ctrlflow.ctrlStruc.ifEx.index()
 }
