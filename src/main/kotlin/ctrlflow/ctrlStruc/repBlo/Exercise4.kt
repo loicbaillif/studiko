@@ -12,9 +12,12 @@ fun exercise4() {
     val nbInputs = readln().toInt()
     var nbLarger = 0
     var nbPerfect = 0
-    val nbSmaller = 0
+    var nbSmaller = 0
     repeat(nbInputs) {
         val newPart = readln().toInt()
+        if (newPart == LARGER) nbLarger++
+        if (newPart == PERFECT) nbPerfect++
+        if (newPart == SMALLER) nbSmaller++
     }
 
     println("\n*** End of exercise ***")
