@@ -8,6 +8,12 @@ fun exercise3() {
     val inputA = readln().toInt()
     val inputB = readln().toInt()
 
+    var max = inputA
+    if (inputB > inputA) {
+        max = inputB
+    }
+
+
 
     println("\n*** End of exercise ***")
 }
