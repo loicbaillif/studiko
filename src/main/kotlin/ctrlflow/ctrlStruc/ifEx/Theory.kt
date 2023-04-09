@@ -9,6 +9,13 @@ fun theory() {
     if (userAge > 100) {
         println("Not a rookie")
     }
+    val userIsMajor = userAge >= 18
+    if (userIsMajor) {
+        println("Congratulations, you are old enough to pay taxes")
+    }
+    if (!userIsMajor) {
+        println("Here is a hot chocolate kiddo")
+    }
 
     println("\n***** End of theory *****")
 }
