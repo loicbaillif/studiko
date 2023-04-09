@@ -8,5 +8,13 @@ fun theory() {
         println("\t. Hello and Welcome! (repetition $it)")
     }
 
+    println("\n2) Reading and processing data in a loop")
+    val nbRep = readln().toInt()
+    var sum = 0
+    repeat(nbRep) {
+        sum += readln().toInt()
+    }
+    println("Sum of $nbRep numbers: $sum")
+
     println("\n***** End of theory *****")
 }
