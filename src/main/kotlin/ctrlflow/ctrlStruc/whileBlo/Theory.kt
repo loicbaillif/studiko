@@ -10,6 +10,11 @@ fun theory() {
         println("\t. i = ${someInt++}")
     }
 
+    var someChar = 'A'
+    while (someChar <= 'Z') {
+        println("\t. ${someChar++}")
+    }
+
 
     println("\n***** End of theory *****")
 }
