@@ -24,6 +24,19 @@ fun theory() {
         println("Your current age is odd")
     }
 
+    println("\n3) The if-else-if-cases")
+    if (userAge < 18) {
+        println("You are going to school, aren't you?")
+    } else if (userAge < 25) {
+        println("You are probably currently a student, enjoy.")
+    } else if (userAge < 64) {
+        println("Still that young? Time to work!")
+    } else if (userAge < 90) {
+        println("Enjoy your money and your life, retirement is great")
+    } else {
+        println("You had such an amazing life")
+    }
+
 
     println("\n***** End of theory *****")
 }
