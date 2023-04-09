@@ -13,7 +13,7 @@ fun exercise3() {
         max = inputB
     }
 
-
+    println(max)
 
     println("\n*** End of exercise ***")
 }
