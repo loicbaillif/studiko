@@ -12,5 +12,7 @@ fun exercise3() {
         if ((input % 4 == 0) && input > max) max = input
     }
 
+    println(max)
+
     println("\n*** End of exercise ***")
 }
