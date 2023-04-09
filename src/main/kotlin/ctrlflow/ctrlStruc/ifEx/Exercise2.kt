@@ -9,9 +9,10 @@ fun exercise2() {
     val bLength = readln().toInt()
     val cLength = readln().toInt()
 
-    if (aLength < (bLength + cLength) &&
-        bLength < (aLength + cLength) &&
-        cLength < (aLength + bLength)) {
+    if (aLength < bLength + cLength &&
+        bLength < aLength + cLength &&
+        cLength < aLength + bLength
+        ) {
         println("YES")
     } else {
         println("NO")
