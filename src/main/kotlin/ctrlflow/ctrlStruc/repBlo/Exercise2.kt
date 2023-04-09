@@ -5,5 +5,9 @@ fun exercise2() {
     // Kotlin * 5
     println("*** Exercise: Kotlin * 5 ***")
 
+    repeat(5) {
+        println("Kotlin")
+    }
+
     println("\n*** End of exercise ***")
 }
