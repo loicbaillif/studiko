@@ -37,6 +37,21 @@ fun theory() {
         println("You had such an amazing life")
     }
 
+    println("\n4) Nested if")
+    if (userAge < 25) {
+        if (userAge < 18) {
+            println("Still living with your parents, right?")
+        } else {
+            println("You might live in your own place, but paid by parents")
+        }
+    } else {
+        if (userAge < 60) {
+            println("Your kids live with you?")
+        } else {
+            println("Libertyyyyy")
+        }
+    }
+
 
     println("\n***** End of theory *****")
 }
