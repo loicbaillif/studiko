@@ -6,6 +6,7 @@ fun exercise3() {
     println("*** Exercise: Maximum element divisible by 4 ***")
 
     val nbElts = readln().toInt()
+    var max = 0
 
     println("\n*** End of exercise ***")
 }
