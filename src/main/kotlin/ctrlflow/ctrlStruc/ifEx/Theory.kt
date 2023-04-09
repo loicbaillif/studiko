@@ -5,6 +5,7 @@ fun theory() {
     println("***** Theory *****")
 
     println("\n1) The single if-case")
+    println("Please provide your age")
     val userAge = readln().toInt()
     if (userAge > 100) {
         println("Not a rookie")
@@ -60,6 +61,18 @@ fun theory() {
     } else {
         println("Your age cannot be divided by 2")
     }
+
+    println("\n5) Condition as an expression")
+    println("Please provide your sister's age")
+    val sisterAge = readln().toInt()
+    val oldestSiblingAge = if (userAge > sisterAge) {
+        println("You are the oldest")
+        userAge
+    } else {
+        println("Your sister is the oldest")
+        sisterAge
+    }
+    println("The oldest sibling is $oldestSiblingAge")
 
 
     println("\n***** End of theory *****")
