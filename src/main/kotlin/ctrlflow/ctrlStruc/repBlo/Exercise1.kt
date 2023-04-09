@@ -6,6 +6,9 @@ fun exercise1() {
     println("*** Exercise: Repeat by value ***")
 
     val userInput = readln().toInt()
+    repeat(userInput) {
+        print(userInput)
+    }
 
 
     println("\n*** End of exercise ***")
