@@ -5,6 +5,8 @@ fun exercise1() {
     // Balance Checker
     println("*** Exercise: Balance Checker ***")
 
+    var balance = readln().toInt()
+    var enoughMoney = true
 
 
     println("\n*** End of exercise ***")
