@@ -2,5 +2,6 @@ package ctrlflow.ctrlStruc.whileBlo
 
 fun index() {
     println("********** While loops **********\n")
-    theory()
+    // theory()
+    exercise1()
 }
