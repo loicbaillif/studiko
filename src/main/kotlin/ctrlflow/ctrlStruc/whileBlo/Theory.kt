@@ -1,5 +1,7 @@
 package ctrlflow.ctrlStruc.whileBlo
 
+import java.util.Scanner
+
 fun theory() {
     // https://hyperskill.org/learn/step/4659
     println("***** Theory *****")
@@ -13,6 +15,12 @@ fun theory() {
     var someChar = 'A'
     while (someChar <= 'Z') {
         println("\t. ${someChar++}")
+    }
+
+    val scanner = Scanner(System.`in`)
+    while (scanner.hasNext()) {
+        val next = scanner.next()
+        println(next)
     }
 
 
