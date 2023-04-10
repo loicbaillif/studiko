@@ -9,12 +9,21 @@ fun exercise1() {
 
     var balance = readln().toInt()
     var enoughMoney = true
+    var purchase = 0
     val scanner = Scanner(System.`in`)
 
     while (balance >= 0 && scanner.hasNextInt()) {
-        val purchase = readln().toInt()
+        purchase = readln().toInt()
         balance -= purchase
+        if (balance < 0) enoughMoney = false
     }
+
+    if (enoughMoney) {
+        println("Thank you for choosing us to manage your account! Your balance is $balance.")
+    } else {
+        println("Error, insufficient funds for the purchase. Your balance is $balance, but you need $purchase.")
+    }
+
 
     println("\n*** End of exercise ***")
 }
