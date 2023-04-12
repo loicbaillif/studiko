@@ -5,7 +5,7 @@ fun exercise2() {
     // Initializing a list
     println("*** Exercise: Initializing a list ***")
 
-    val result = MutableList(100) {0}
+    val result = MutableList(100) { 0 }
     result[0] = 1
     result[9] = 10
     result[99] = 100
