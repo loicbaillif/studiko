@@ -7,6 +7,7 @@ fun exercise2() {
 
     val result = MutableList(100) {0}
     result[0] = 1
+    result[9] = 10
     println(result)
 
     println("\n*** End of exercise ***")
