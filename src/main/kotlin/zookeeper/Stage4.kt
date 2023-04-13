@@ -6,8 +6,12 @@ fun stage4() {
     println("\n*** Stage 4: Sustainable Care <3 ***")
 
     val animalsList = mutableListOf<String>(camel, lion, deer, goose, bat, rabbit)
-    println(greeting)
-    println(animalsList[readln().toInt()])
+    do {
+        println(greeting)
+        val userChoice = readln()
+    } while (userChoice != "exit")
+
+    // println(animalsList[readln().toInt()])
     println(exit)
 
     println("\n*** End of stage 4 ***")
