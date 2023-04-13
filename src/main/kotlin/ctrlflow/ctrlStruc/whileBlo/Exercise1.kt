@@ -6,12 +6,18 @@ fun exercise1() {
     println("*** Exercise: Balance Checker ***")
 
     var balance = readln().toInt()
-    var purchases = readln().split(' ').map { it.toInt()}.toMutableList()
+    val purchases = readln().split(' ').map { it.toInt()}.toMutableList()
     var enoughMoney = true
     var nbPurchase = 0
 
     while (enoughMoney && nbPurchase < purchases.size) {
+        if (purchases[nbPurchase] > balance) {
+            enoughMoney = false
+            println("Error, insufficient funds for the purchase. " +
+                    "Your balance is $balance, but you need ${purchases[nbPurchase]}")
+        }
 
+        nbPurchase++
     }
 
     repeat(purchases.size) {
