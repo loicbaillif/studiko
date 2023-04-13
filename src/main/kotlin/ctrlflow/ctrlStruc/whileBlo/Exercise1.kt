@@ -14,7 +14,9 @@ fun exercise1() {
         if (purchases[nbPurchase] > balance) {
             enoughMoney = false
             println("Error, insufficient funds for the purchase. " +
-                    "Your balance is $balance, but you need ${purchases[nbPurchase]}")
+                    "Your balance is $balance, but you need ${purchases[nbPurchase]}.")
+        } else {
+            balance -= purchases[nbPurchase]
         }
 
         nbPurchase++
