@@ -11,7 +11,7 @@ fun main(args: Array<String>) {
     // println("Program arguments: ${args.joinToString()}")
 
     // PROJECT
-    // zookeeper.index()
+    zookeeper.index()
 
     // Old Chapters
     // overview.index()
@@ -39,5 +39,5 @@ fun main(args: Array<String>) {
     // ctrlflow.ctrlStruc.repBlo.index()
 
     // Current Chapter
-    ctrlflow.ctrlStruc.whileBlo.index()
+    // ctrlflow.ctrlStruc.whileBlo.index()
 }
