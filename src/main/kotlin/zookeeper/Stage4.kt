@@ -1,5 +1,6 @@
 package zookeeper
 
+const val endOfVisit = "See you later!"
 fun stage4() {
     // https://hyperskill.org/projects/196/stages/978/implement
     // Stage 4: Sustainable care
@@ -9,10 +10,11 @@ fun stage4() {
     do {
         println(greeting)
         val userChoice = readln()
+        if (userChoice != "exit") println(animalsList[userChoice.toInt()])
     } while (userChoice != "exit")
 
-    // println(animalsList[readln().toInt()])
-    println(exit)
+
+    println(endOfVisit)
 
     println("\n*** End of stage 4 ***")
 }
