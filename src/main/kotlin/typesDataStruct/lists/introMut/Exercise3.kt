@@ -6,6 +6,7 @@ fun exercise3() {
     println("*** Exercise: Initializing a mutable list of longs ***")
 
     val longs = mutableListOf(100_000_000_001L, 100_000_000_002L, 100_000_000_003L)
+    println(longs.joinToString())
 
     println("\n*** End of Exercise ***")
 }
