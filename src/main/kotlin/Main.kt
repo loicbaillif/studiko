@@ -33,11 +33,11 @@ fun main(args: Array<String>) {
     // typesDataStruct.basicOps.intAction.index()
     // typesDataStruct.basicOps.relOps.index()
     // typesDataStruct.basicOps.charac.index()
-    typesDataStruct.lists.introMut.index()
+    // typesDataStruct.lists.introMut.index()
     // typesDataStruct.strings.template.index()
     // ctrlflow.ctrlStruc.ifEx.index()
     // ctrlflow.ctrlStruc.repBlo.index()
 
     // Current Chapter
-    // ctrlflow.ctrlStruc.whileBlo.index()
+    ctrlflow.ctrlStruc.whileBlo.index()
 }

@@ -8,6 +8,11 @@ fun exercise1() {
     var balance = readln().toInt()
     var purchases = readln().split(' ').map { it.toInt()}.toMutableList()
     var enoughMoney = true
+    var nbPurchase = 0
+
+    while (enoughMoney && nbPurchase < purchases.size) {
+
+    }
 
     repeat(purchases.size) {
         println(purchases[it])
