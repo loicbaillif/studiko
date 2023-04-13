@@ -22,11 +22,10 @@ fun exercise1() {
         nbPurchase++
     }
 
-    repeat(purchases.size) {
-        println(purchases[it])
+    if (enoughMoney) {
+        println("Thank you for choosing us to manage your account! " +
+                "Your balance is $balance.")
     }
-    println(purchases.size)
-
 
     println("\n*** End of exercise ***")
 }
