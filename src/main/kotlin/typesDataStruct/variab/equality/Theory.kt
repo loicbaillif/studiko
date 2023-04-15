@@ -24,6 +24,10 @@ fun theory() {
     println("\t. list2 = list1")
     println("\t. list1 = $someList1")
     println("\t. list2 = $someList2")
+    someList2.add(2)
+    println("\t. list1 = $someList1")
+    println("\t. list2 = $someList2")
+
 
 
     println("\n***** End of theory *****")
