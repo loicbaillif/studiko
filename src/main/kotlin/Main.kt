@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
 
     // Old Chapters
     // overview.index()
-    typesDataStruct.variab.valuesVariables.index()
+    // typesDataStruct.variab.valuesVariables.index()
     // valKeyword.index()
     // typesDataStruct.dataTypes.index()
     // basics.stdinout.stdOutput.index()
@@ -40,5 +40,5 @@ fun main(args: Array<String>) {
     // ctrlflow.ctrlStruc.whileBlo.index()
 
     // Current Chapter
-    // typesDataStruct.variab.equality.index()
+    typesDataStruct.variab.equality.index()
 }
