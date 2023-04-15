@@ -6,8 +6,7 @@ fun exercise4() {
     println("*** Exercise: val or var? ***")
 
     // Do not touch the line above
-    var number = 2
-    number = 5
+    val number = 5
     // Do not touch the lines below
     print(number)
 
