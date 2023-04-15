@@ -1,4 +1,4 @@
-package valuesVariables
+package typesDataStruct.variab.valuesVariables
 
 fun theory() {
     // https://hyperskill.org/learn/step/4371

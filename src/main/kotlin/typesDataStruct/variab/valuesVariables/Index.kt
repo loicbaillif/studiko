@@ -1,4 +1,4 @@
-package valuesVariables
+package typesDataStruct.variab.valuesVariables
 
 // Values and Variables
 fun index() {
@@ -6,5 +6,6 @@ fun index() {
     // theory()
     // exercise1()
     // exercise2()
-    exercise3()
+    // exercise3()
+    exercise4()
 }

@@ -1,4 +1,4 @@
-package valuesVariables
+package typesDataStruct.variab.valuesVariables
 
 fun exercise1() {
     /*
