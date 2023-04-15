@@ -12,7 +12,8 @@ fun theory() {
     println("\n*** 2) Base types and equality")
     var someInt1: Int = 100
     val someInt2: Int = someInt1
-    println("someInt1 = someInt2 ==> ${someInt1 == someInt2}")
+    println("someInt1 == someInt2 ==> ${someInt1 == someInt2}")
+    println("someInt1 === someInt2 ==> ${someInt1 === someInt2}")
 
 
     println("\n***** End of theory *****")
