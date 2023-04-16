@@ -2,5 +2,6 @@ package typesDataStruct.variab.equality
 
 fun index() {
     println("********** Equality **********\n")
-    theory()
+    // theory()
+    exercise1()
 }
