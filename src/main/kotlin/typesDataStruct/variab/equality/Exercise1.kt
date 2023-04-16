@@ -8,7 +8,7 @@ fun exercise1() {
     val kingCharlesTheEleventh = Human()
     val kingCarolusRex = Human()
 
-    val king = kingCharlesTheEleventh
+    var king = kingCharlesTheEleventh
     king = kingCarolusRex
 
     println("\n*** End of exercise ***")
