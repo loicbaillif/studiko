@@ -32,7 +32,7 @@ fun main(args: Array<String>) {
     // typesDataStruct.basicOps.incDec.index()
     // typesDataStruct.basicOps.intAction.index()
     // typesDataStruct.basicOps.relOps.index()
-    // typesDataStruct.basicOps.charac.index()
+    typesDataStruct.basicOps.charac.index()
     // typesDataStruct.lists.introMut.index()
     // typesDataStruct.strings.template.index()
     // ctrlflow.ctrlStruc.ifEx.index()
@@ -40,5 +40,5 @@ fun main(args: Array<String>) {
     // ctrlflow.ctrlStruc.whileBlo.index()
 
     // Current Chapter
-    typesDataStruct.variab.equality.index()
+    // typesDataStruct.variab.equality.index()
 }
