@@ -5,9 +5,11 @@ fun exercise2() {
     // https://hyperskill.org/learn/step/11243
     println("*** Exercise: Referential equality ***")
 
+    /*
     val pirateJackSparrow = Sailor("None")
     val captainJackSparrow = Sailor("None")
     println(pirateJackSparrow === captainJackSparrow)
+    */
 
     println("\n*** End of exercise ***")
 }
