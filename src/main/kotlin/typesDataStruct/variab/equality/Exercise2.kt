@@ -7,6 +7,7 @@ fun exercise2() {
 
     val pirateJackSparrow = Sailor("None")
     val captainJackSparrow = Sailor("None")
+    println(pirateJackSparrow === captainJackSparrow)
 
     println("\n*** End of exercise ***")
 }
