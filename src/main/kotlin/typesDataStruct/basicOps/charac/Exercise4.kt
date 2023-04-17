@@ -8,6 +8,7 @@ fun exercise4() {
     val userChar1 = readln().first()
     val userChar2 = readln().first()
     val userChar3 = readln().first()
+    println( (userChar1 + 1 == userChar2) && (userChar2 + 1) == userChar3 )
 
     println("\n*** End of exercise ***")
 }
