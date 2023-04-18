@@ -7,6 +7,7 @@ fun exercise2() {
 
     val hasInvitation = readln().toBoolean()
     val hasGift = readln().toBoolean()
+    println(hasInvitation && hasGift)
 
     println("\n*** End of exercise ***")
 }
