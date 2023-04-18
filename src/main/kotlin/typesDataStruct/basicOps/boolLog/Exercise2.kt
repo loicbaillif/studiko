@@ -5,7 +5,8 @@ fun exercise2() {
     // Invitations and gifts
     println("*** Exercise: Invitations and gifts ***")
 
-
+    val hasInvitation = readln().toBoolean()
+    val hasGift = readln().toBoolean()
 
     println("\n*** End of exercise ***")
 }
