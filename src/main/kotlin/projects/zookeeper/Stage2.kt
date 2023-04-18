@@ -1,4 +1,4 @@
-package zookeeper
+package projects.zookeeper
 
 fun stage2() {
     println("\n*** Stage 2 : Show me an animal! ***")

@@ -1,4 +1,4 @@
-package zookeeper
+package projects.zookeeper
 
 const val endOfVisit = "See you later!"
 fun stage4() {

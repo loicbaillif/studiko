@@ -1,4 +1,4 @@
-package zookeeper
+package projects.zookeeper
 
 fun index() {
     println("********** PROJECT : ZOOKEPER **********")

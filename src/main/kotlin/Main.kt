@@ -11,7 +11,8 @@ fun main(args: Array<String>) {
     // println("Program arguments: ${args.joinToString()}")
 
     // PROJECT
-    // zookeeper.index()
+    // projects.zookeeper.index()
+    projects.chattybot.index()
 
     // Old Chapters
     // overview.index()
@@ -24,7 +25,7 @@ fun main(args: Array<String>) {
     // typesDataStruct.dataTypes.classification.index()
     // typesDataStruct.dataTypes.conver.index()
     // typesDataStruct.strings.basics.index()
-    typesDataStruct.basicOps.boolLog.index()
+    // typesDataStruct.basicOps.boolLog.index()
     // typesDataStruct.variab.objects.index()
     // basics.stdinout.readlnFun.index()
     // typesDataStruct.basicOps.arith.index()

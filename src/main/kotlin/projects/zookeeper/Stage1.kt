@@ -1,4 +1,4 @@
-package zookeeper
+package projects.zookeeper
 
 fun stage1() {
     println("Stage 1: Rush into print")

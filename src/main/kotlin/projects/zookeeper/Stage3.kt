@@ -1,4 +1,4 @@
-package zookeeper
+package projects.zookeeper
 
 const val camel = """Switching on the camera in the camel habitat...
  ___.-''''-.
