@@ -8,6 +8,8 @@ fun exercise2() {
     val breadFromFrodo = readln()
     val breadFromSam = readln()
 
+    totalLembas(breadFromFrodo, breadFromSam)
+
     println("\n*** End of exercise ***")
 }
 
