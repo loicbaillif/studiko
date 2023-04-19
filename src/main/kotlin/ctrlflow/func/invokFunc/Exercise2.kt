@@ -5,7 +5,8 @@ fun exercise2() {
     // Lembas
     println("*** Exercise: Lembas ***")
 
-
+    val breadFromFrodo = readln()
+    val breadFromSam = readln()
 
     println("\n*** End of exercise ***")
 }
