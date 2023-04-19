@@ -3,5 +3,6 @@ package ctrlflow.func.invokFunc
 fun index() {
     println("********** Invoking functions **********\n")
     // theory()
-    exercise1()
+    // exercise1()
+    exercise2()
 }

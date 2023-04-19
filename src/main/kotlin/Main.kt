@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
 
     // PROJECT
     // projects.zookeeper.index()
-    projects.chattybot.index()
+    // projects.chattybot.index()
 
     // Old Chapters
     // overview.index()
@@ -20,7 +20,7 @@ fun main(args: Array<String>) {
     // valKeyword.index()
     // typesDataStruct.dataTypes.index()
     // basics.stdinout.stdOutput.index()
-    // ctrlflow.func.invokFunc.index()
+    ctrlflow.func.invokFunc.index()
     // basics.stdinout.inpScanner.index()
     // typesDataStruct.dataTypes.classification.index()
     // typesDataStruct.dataTypes.conver.index()
