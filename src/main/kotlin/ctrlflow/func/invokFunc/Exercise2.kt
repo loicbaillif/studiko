@@ -10,3 +10,8 @@ fun exercise2() {
 
     println("\n*** End of exercise ***")
 }
+
+
+fun totalLembas(first: String, second: String) {
+    print(first.toInt() + second.toInt())
+}
