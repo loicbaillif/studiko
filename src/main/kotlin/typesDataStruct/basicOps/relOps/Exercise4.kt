@@ -8,6 +8,7 @@ fun exercise4() {
     val a = readln().toInt()
     val b = readln().toInt()
     val c = readln().toInt()
+    val target = 20
 
     println("\n*** End of exercise ***")
 }
