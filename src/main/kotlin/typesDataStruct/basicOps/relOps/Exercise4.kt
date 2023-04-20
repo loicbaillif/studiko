@@ -10,5 +10,7 @@ fun exercise4() {
     val c = readln().toInt()
     val target = 20
 
+    println(a + b == target || a + c == target || b + c == target)
+
     println("\n*** End of exercise ***")
 }
