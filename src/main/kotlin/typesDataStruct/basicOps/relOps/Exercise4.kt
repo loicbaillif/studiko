@@ -1,5 +1,6 @@
 package typesDataStruct.basicOps.relOps
 
+const val TARGET = 20
 fun exercise4() {
     // https://hyperskill.org/learn/daily/4533
     // Check the sum
@@ -8,9 +9,8 @@ fun exercise4() {
     val a = readln().toInt()
     val b = readln().toInt()
     val c = readln().toInt()
-    val target = 20
 
-    println(a + b == target || a + c == target || b + c == target)
+    println(a + b == TARGET || a + c == TARGET || b + c == TARGET)
 
     println("\n*** End of exercise ***")
 }
