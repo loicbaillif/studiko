@@ -5,7 +5,9 @@ fun exercise4() {
     // Check the sum
     println("*** Exercise: Check the sum ***")
 
-
+    val a = readln().toInt()
+    val b = readln().toInt()
+    val c = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
