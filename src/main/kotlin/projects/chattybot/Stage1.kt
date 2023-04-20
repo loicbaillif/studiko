@@ -5,8 +5,11 @@ fun stage1() {
     // Stage 1/5: Chatty Bot welcomes you
     println("*** Stage 1/5: Chatty Bot welcomes you ***")
 
-    println("Hello! My name is Andrew")
-    println("I was created in 1955")
+    val botName = "Andrew"
+    val birthYear = 1955
+
+    println("Hello! My name is $botName")
+    println("I was created in $birthYear")
 
     println("\n*** End of Stage 1 ***")
 }
