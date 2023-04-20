@@ -5,7 +5,7 @@ fun stage1() {
     // Stage 1/5: Chatty Bot welcomes you
     println("*** Stage 1/5: Chatty Bot welcomes you ***")
 
-
+    println("Hello! My name is Andrew")
 
     println("\n*** End of Stage 1 ***")
 }
