@@ -8,8 +8,8 @@ fun stage1() {
     val botName = "Andrew"
     val birthYear = 1955
 
-    println("Hello! My name is $botName")
-    println("I was created in $birthYear")
+    println("Hello! My name is $botName.")
+    println("I was created in $birthYear.")
 
     println("\n*** End of Stage 1 ***")
 }
