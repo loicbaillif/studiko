@@ -14,5 +14,9 @@ fun theory() {
     println("\t. A name cannot start with a digit.")
     println("\t. A name cannot be a keyword")
 
+    println("\nGood variable names:")
+    println("\tscore, level, fruitType, i, abc, _cost, number32")
+    println("\t`name with space`")
+
     println("\n***** End of theory *****")
 }
