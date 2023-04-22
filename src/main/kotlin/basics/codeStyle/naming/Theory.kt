@@ -17,6 +17,9 @@ fun theory() {
     println("\nGood variable names:")
     println("\tscore, level, fruitType, i, abc, _cost, number32")
     println("\t`name with space`")
+    println("\nInvalid variable names:")
+    println("\t@pple, \$dollar, 3pi, !abc, val, var, _, name with space")
+
 
     println("\n***** End of theory *****")
 }
