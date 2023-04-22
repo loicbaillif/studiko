@@ -8,10 +8,11 @@ package basics.codeStyle.comms
 fun exercise1() {
     println("*** Exercise: Comment some lines ***")
 
-    // println(1)
-    // println(2)
-    // println(3)
-    // println(4)
+    /* println(1)
+     * println(2)
+     * println(3)
+     * println(4)
+     */
     println(5)
     println(6)
     println(7)
