@@ -20,6 +20,12 @@ fun theory() {
     println("\nInvalid variable names:")
     println("\t@pple, \$dollar, 3pi, !abc, val, var, _, name with space")
 
+    println("\n2) Conventions for naming variables")
+    println("\t. If variable name is a single word, lowercase")
+    println("\t. If variable name has multiple words, camelCase")
+    println("\t. Do not start a variable name with an _")
+    println("\t. Choose meaningful name: userAge instead of a")
+
 
     println("\n***** End of theory *****")
 }
