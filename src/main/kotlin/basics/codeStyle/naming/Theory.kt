@@ -5,6 +5,9 @@ package basics.codeStyle.naming
  * @author JetBrains Academy
  */
 
+const val DAYS_PER_WEEK = 7
+const val ALTITUDE = 36_000_000
+
 fun theory() {
     println("***** Theory *****")
 
@@ -29,6 +32,9 @@ fun theory() {
     println("\n3) Magic Numbers")
     println("\t. Should be declared as constants")
     println("\t. Should be named using SCREAMING_SNAKE_CASE")
+    println("How many days per week? $DAYS_PER_WEEK")
+    println("How high are GEO satellites? $ALTITUDE meters")
+
 
     println("\n***** End of theory *****")
 }
