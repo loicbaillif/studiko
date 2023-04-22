@@ -26,6 +26,9 @@ fun theory() {
     println("\t. Do not start a variable name with an _")
     println("\t. Choose meaningful name: userAge instead of a")
 
+    println("\n3) Magic Numbers")
+    println("\t. Should be declared as constants")
+    println("\t. Should be named using SCREAMING_SNAKE_CASE")
 
     println("\n***** End of theory *****")
 }
