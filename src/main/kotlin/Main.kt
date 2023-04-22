@@ -41,7 +41,8 @@ fun main() {
     // ctrlflow.ctrlStruc.whileBlo.index()
     // typesDataStruct.variab.equality.index()
     // basics.codeStyle.comms.index()
+    // basics.codeStyle.convent.index()
 
     // Current Chapter
-    basics.codeStyle.convent.index()
+    basics.codeStyle.naming.index()
 }
