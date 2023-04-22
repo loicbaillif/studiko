@@ -6,4 +6,5 @@ package basics.codeStyle.naming
 
 fun index() {
     println("********** Naming Variables **********\n")
+    theory()
 }
