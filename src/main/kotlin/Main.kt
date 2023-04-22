@@ -1,5 +1,5 @@
 
-fun main(args: Array<String>) {
+fun main() {
     println()
     println("**************************************************")
     println("*** JetBrains Academy: First Glance at Android ***")
@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
 
     // PROJECT
     // projects.zookeeper.index()
-    projects.chattybot.index()
+    // projects.chattybot.index()
 
     // Old Chapters
     // overview.index()
@@ -39,7 +39,8 @@ fun main(args: Array<String>) {
     // ctrlflow.ctrlStruc.ifEx.index()
     // ctrlflow.ctrlStruc.repBlo.index()
     // ctrlflow.ctrlStruc.whileBlo.index()
+    // typesDataStruct.variab.equality.index()
 
     // Current Chapter
-    // typesDataStruct.variab.equality.index()
+    basics.codeStyle.comms.index()
 }
