@@ -8,5 +8,9 @@ package basics.codeStyle.convent
 fun theory() {
     println("***** Theory *****")
 
+    println("\n1) Conventions")
+    println("Online resource")
+    // https://kotlinlang.org/docs/coding-conventions.html#configure-style-in-ide
+
     println("\n***** End of theory *****")
 }
