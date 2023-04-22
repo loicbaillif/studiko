@@ -8,7 +8,7 @@ package basics.codeStyle.comms
 fun exercise2() {
     println("*** Exercise: The forgotten comments ***")
 
-    println("It works!") This statement prints a text
+    println("It works!") // This statement prints a text
 
     println("\n*** End of exercise ***")
 }
