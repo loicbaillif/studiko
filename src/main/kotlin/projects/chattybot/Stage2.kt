@@ -14,4 +14,6 @@ fun stage2() {
 
     val userName = readln()
 
+    println("What a great name you have, $userName!")
+
 }
