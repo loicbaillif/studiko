@@ -10,5 +10,10 @@ fun theory() {
     println("\n2) Multi-line comment")
     println("Anything placed between /* and */, even if separated by lines")
 
+    println("\n3) Documentation comments")
+    println("Usually placed above the declarations")
+    println("Placed between /** and */")
+    println("May use special labels, such as @param or @return")
+
     println("\n***** End of theory *****")
 }
