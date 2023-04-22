@@ -12,7 +12,7 @@ fun main() {
 
     // PROJECT
     // projects.zookeeper.index()
-    // projects.chattybot.index()
+    projects.chattybot.index()
 
     // Old Chapters
     // overview.index()
@@ -44,5 +44,5 @@ fun main() {
     // basics.codeStyle.convent.index()
 
     // Current Chapter
-    basics.codeStyle.naming.index()
+    // basics.codeStyle.naming.index()
 }
