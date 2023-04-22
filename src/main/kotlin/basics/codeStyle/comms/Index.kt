@@ -2,5 +2,6 @@ package basics.codeStyle.comms
 
 fun index() {
     println("********** Comments **********\n")
-    theory()
+    // theory()
+    exercise1()
 }
