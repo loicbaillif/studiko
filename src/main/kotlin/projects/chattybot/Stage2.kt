@@ -12,4 +12,6 @@ fun stage2() {
     println("I was created in 2020.")
     println("Please, remind me your name.")
 
+    val userName = readln()
+
 }
