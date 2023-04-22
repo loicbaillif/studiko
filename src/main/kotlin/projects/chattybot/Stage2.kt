@@ -8,4 +8,8 @@ package projects.chattybot
 
 fun stage2() {
 
+    println("Hello! My name is Aid.")
+    println("I was created in 2020.")
+    println("Please, remind me your name.")
+
 }
