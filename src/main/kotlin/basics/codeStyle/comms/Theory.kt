@@ -1,5 +1,12 @@
 package basics.codeStyle.comms
 
+/**
+ * The `theory` function is based on course from Hyperskill
+ * @author hyperskill / JetBrains Academy
+ * @return Nothing
+ *
+ */
+
 fun theory() {
     // https://hyperskill.org/learn/step/4406
     println("***** Theory *****")
