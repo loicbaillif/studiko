@@ -22,6 +22,13 @@ fun theory() {
     println("\t. string1.last() = ${someString1.last()}")
     println("\t. string1.lastIndex = ${someString1.lastIndex}")
 
+    println("\n2) Empty String")
+    val someString2 = ""
+    println("\t. string1 = $someString1")
+    println("\t. string2 = $someString2")
+    println("\t. string1.isEmpty() = ${someString1.isEmpty()}")
+    println("\t. string2.isEmpty() = ${someString2.isEmpty()}")
+
 
     println("\n***** End of theory *****")
 }
