@@ -19,7 +19,7 @@ fun main() {
     // typesDataStruct.variab.valuesVariables.index()
     // valKeyword.index()
     // typesDataStruct.dataTypes.index()
-    basics.stdinout.stdOutput.index()
+    // basics.stdinout.stdOutput.index()
     // ctrlflow.func.invokFunc.index()
     // basics.stdinout.inpScanner.index()
     // typesDataStruct.dataTypes.classification.index()
@@ -42,7 +42,8 @@ fun main() {
     // typesDataStruct.variab.equality.index()
     // basics.codeStyle.comms.index()
     // basics.codeStyle.convent.index()
+    // basics.codeStyle.naming.index()
 
     // Current Chapter
-    // basics.codeStyle.naming.index()
+    typesDataStruct.strings.workWith.index()
 }
