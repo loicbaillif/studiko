@@ -29,6 +29,13 @@ fun theory() {
     println("\t. string1.isEmpty() = ${someString1.isEmpty()}")
     println("\t. string2.isEmpty() = ${someString2.isEmpty()}")
 
+    println("\n3) Immutability")
+    var someString3 = "King"
+    println("\t. string3 = $someString3")
+    println("\t. someString3[1] = 'o' ==> error")
+    println("\t. string3 = \"Castle\" ==> OK")
+    someString3 = "Castle"
+    println("\t. string3 = $someString3")
 
     println("\n***** End of theory *****")
 }
