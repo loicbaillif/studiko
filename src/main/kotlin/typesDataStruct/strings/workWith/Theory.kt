@@ -9,6 +9,13 @@ package typesDataStruct.strings.workWith
 fun theory() {
     println("***** Theory *****")
 
+    println("\n1) Accessing characters")
+    val someString1 = "Welcome to Kotlin"
+    println("string1 = $someString1")
+    println("string1[0] = ${someString1[0]}")
+    println("string1[1] = ${someString1[1]}")
+    println("string1[3] = ${someString1[3]}")
+    println("string1[10] = ${someString1[10]}")
 
 
     println("\n***** End of theory *****")
