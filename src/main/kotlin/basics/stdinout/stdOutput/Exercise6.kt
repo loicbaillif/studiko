@@ -9,9 +9,13 @@ package basics.stdinout.stdOutput
 fun exercise6() {
     println("*** Exercise: We need to learn Kotlin ***")
 
-    println("WE NEED\n")
-    println("TO LEARN KOTLIN\n")
-    println("AS QUICKLY AS POSSIBLE")
+    println("""
+        WE NEED
+        
+        TO LEARN KOTLIN
+        
+        AS QUICKLY AS POSSIBLE
+    """.trimIndent())
 
     println("\n*** End of exercise ***")
 }
