@@ -37,5 +37,17 @@ fun theory() {
     someString3 = "Castle"
     println("\t. string3 = $someString3")
 
+    println("\n4) Comparing Strings")
+    val someString4 = "first"
+    val someString5 = "second"
+    val someString6 = "first"
+    println("\t. string4 = $someString4")
+    println("\t. string5 = $someString5")
+    println("\t. string6 = $someString6")
+    println("\t. string4 == string5 ==> ${someString4 == someString5}")
+    println("\t. string4 == string6 ==> ${someString4 == someString6}")
+    println("\t. string4 != string6 ==> ${someString4 != someString6}")
+
+
     println("\n***** End of theory *****")
 }
