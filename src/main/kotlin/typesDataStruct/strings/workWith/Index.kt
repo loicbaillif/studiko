@@ -7,5 +7,5 @@ package typesDataStruct.strings.workWith
 
 fun index() {
     println("********** Working with Strings **********\n")
-
+    theory()
 }
