@@ -16,6 +16,8 @@ fun theory() {
     println("string1[1] = ${someString1[1]}")
     println("string1[3] = ${someString1[3]}")
     println("string1[10] = ${someString1[10]}")
+    println("string1.length = ${someString1.length}")
+    println("string1[string1.length - 1] = ${someString1[someString1.length - 1]}")
 
 
     println("\n***** End of theory *****")
