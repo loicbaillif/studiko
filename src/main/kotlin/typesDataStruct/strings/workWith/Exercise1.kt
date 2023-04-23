@@ -9,6 +9,7 @@ package typesDataStruct.strings.workWith
 fun exercise1() {
     println("*** Exercise: The number of tens ***")
 
+    val userInput = readln()
 
 
     println("\n*** End of exercise ***")
