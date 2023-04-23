@@ -10,7 +10,7 @@ fun exercise1() {
     println("*** Exercise: The number of tens ***")
 
     val userInput = readln()
-
+    println(userInput[userInput.lastIndex - 1])
 
     println("\n*** End of exercise ***")
 }
