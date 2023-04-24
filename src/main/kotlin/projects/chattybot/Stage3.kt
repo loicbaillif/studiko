@@ -7,5 +7,11 @@ package projects.chattybot
  */
 
 fun stage3() {
+    println("Hello! My name is Aid.")
+    println("I was created in 2020.")
+    println("Please, remind me your name.")
 
+    val userName = readln()
+
+    println("What a great name you have, $userName!")
 }
