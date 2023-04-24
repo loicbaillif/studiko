@@ -23,5 +23,5 @@ fun stage3() {
     val remainderBy5 = readln().toInt()
     val remainderBy7 = readln().toInt()
     val userAge = (remainderBy3 * 70 + remainderBy5 * 21 + remainderBy7 * 15) % 105
-
+    println("Your age is $userAge; that's a good time to start programming!")
 }

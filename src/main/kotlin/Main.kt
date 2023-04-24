@@ -12,7 +12,7 @@ fun main() {
 
     // PROJECT
     // projects.zookeeper.index()
-    // projects.chattybot.index()
+    projects.chattybot.index()
 
     // Old Chapters
     // overview.index()
@@ -45,5 +45,5 @@ fun main() {
     // basics.codeStyle.naming.index()
 
     // Current Chapter
-    typesDataStruct.strings.workWith.index()
+    // typesDataStruct.strings.workWith.index()
 }
