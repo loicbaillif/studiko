@@ -19,4 +19,7 @@ fun stage3() {
     // Stage 3
     println("Let me guess your age.")
     println("Enter remainders of dividing your age by 3, 5 and 7.")
+    val remainderBy3 = readln().toInt()
+    val remainderBy5 = readln().toInt()
+    val remainderBy7 = readln().toInt()
 }
