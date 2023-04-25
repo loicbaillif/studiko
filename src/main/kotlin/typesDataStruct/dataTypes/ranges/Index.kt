@@ -6,4 +6,5 @@ package typesDataStruct.dataTypes.ranges
 
 fun index() {
     println("********** Ranges **********\n")
+    theory()
 }
