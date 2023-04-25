@@ -10,11 +10,10 @@ fun theory() {
 
     val lowLimit = 3
     val highLimit = 10
-    println("Please enter a number:")
-    val userInput = readln().toInt()
-    print("$userInput in $lowLimit..$highLimit ==> ")
-    println(userInput in lowLimit..highLimit)
-
+    println("\t. 3 in 3..10 ==> ${3 in lowLimit..highLimit}")
+    println("\t. 8 in 3..10 ==> ${3 in lowLimit..highLimit}")
+    println("\t. 10 in 3..10 ==> ${3 in lowLimit..highLimit}")
+    println("\t. 11 in 3..10 ==> ${3 in lowLimit..highLimit}")
 
     println("\n***** End of Theory *****")
 }
