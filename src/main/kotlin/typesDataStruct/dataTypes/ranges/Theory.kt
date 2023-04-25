@@ -26,8 +26,15 @@ fun theory() {
     println("\n3) Assign range to variable")
     val range = 18..64
     println("Please enter your age")
-    val userAge = readln().toInt()
+    // val userAge = readln().toInt()
+    val userAge = 33
     if (userAge in range) println("You should have a job.")
+
+    println("\n4) ranges of characters and strings")
+    println("'b' in 'a'..'c' ==> ${'b' in 'a'..'c'}")
+    println("'k' in 'a'..'e' ==> ${'k' in 'a'..'e'}")
+    println("\"hello\" in \"he\"..\"hi\" ==> ${"hello" in "he".."hi"}")
+    println("\"abc\" in \"aab\"..\"aac\" ==> ${"abc" in "aab".."aac"}")
 
 
     println("\n***** End of Theory *****")
