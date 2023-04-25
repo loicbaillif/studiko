@@ -23,5 +23,12 @@ fun theory() {
     println("\t. 10 !in 3..10 ==> ${10 !in lowLimit..highLimit}")
     println("\t. 11 !in 3..10 ==> ${11 !in lowLimit..highLimit}")
 
+    println("\n3) Assign range to variable")
+    val range = 18..64
+    println("Please enter your age")
+    val userAge = readln().toInt()
+    if (userAge in range) println("You should have a job.")
+
+
     println("\n***** End of Theory *****")
 }
