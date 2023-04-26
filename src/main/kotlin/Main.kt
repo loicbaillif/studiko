@@ -36,7 +36,7 @@ fun main() {
     // typesDataStruct.basicOps.charac.index()
     // typesDataStruct.lists.introMut.index()
     // typesDataStruct.strings.template.index()
-    ctrlflow.ctrlStruc.ifEx.index()
+    // ctrlflow.ctrlStruc.ifEx.index()
     // ctrlflow.ctrlStruc.repBlo.index()
     // ctrlflow.ctrlStruc.whileBlo.index()
     // typesDataStruct.variab.equality.index()
@@ -46,5 +46,5 @@ fun main() {
     // typesDataStruct.strings.workWith.index()
 
     // Current Chapter
-    // typesDataStruct.dataTypes.ranges.index()
+    typesDataStruct.dataTypes.ranges.index()
 }
