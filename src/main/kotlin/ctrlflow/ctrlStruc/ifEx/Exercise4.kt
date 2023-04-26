@@ -14,7 +14,7 @@ fun exercise4() {
     val c = readln().toInt()
 
     println(if (a > c) {
-        // TODO
+        if (a > b) a else b
     } else {
         // TODO
     })
