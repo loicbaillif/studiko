@@ -9,7 +9,9 @@ package ctrlflow.ctrlStruc.ifEx
 fun exercise4() {
     println("*** Exercise: The max of three numbers ***")
 
-
+    val a = readln().toInt()
+    val b = readln().toInt()
+    val c = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
