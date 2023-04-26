@@ -12,7 +12,8 @@ const val MAX_AGE = 59
 fun exercise2() {
     println("*** Exercise: Job ***")
 
-    val range = MIN_AGE..MAX_AGE
+    val ageRange = MIN_AGE..MAX_AGE
+    println(readln().toInt() in ageRange)
 
     println("\n*** End of exercise ***")
 }
