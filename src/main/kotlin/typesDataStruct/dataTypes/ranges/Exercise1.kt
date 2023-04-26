@@ -6,14 +6,12 @@ package typesDataStruct.dataTypes.ranges
  * @author JetBrains Academy
  */
 
-const val LOW_LIMIT = 1
-const val HIGH_LIMIT = 10
-
 fun exercise1() {
     println("*** Exercise: Not in range ***")
 
     val userInput = readln().toInt()
-    println(userInput !in LOW_LIMIT..HIGH_LIMIT)
+    val range = 1..10
+    println(userInput !in range)
 
     println("\n*** End of exercise ***")
 }
