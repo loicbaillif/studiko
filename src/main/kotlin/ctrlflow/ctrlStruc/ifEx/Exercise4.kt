@@ -2,7 +2,7 @@ package ctrlflow.ctrlStruc.ifEx
 
 /**
  * Exercise: The max of three numbers
- * https://hyperskill.org/learn/daily/4627
+ * https://hyperskill.org/learn/step/4627
  * @author JetBrains Academy
  */
 
