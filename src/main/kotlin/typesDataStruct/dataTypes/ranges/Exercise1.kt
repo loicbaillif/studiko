@@ -13,6 +13,7 @@ fun exercise1() {
     println("*** Exercise: Not in range ***")
 
     val userInput = readln().toInt()
+    println(userInput !in LOW_LIMIT..HIGH_LIMIT)
 
     println("\n*** End of exercise ***")
 }
