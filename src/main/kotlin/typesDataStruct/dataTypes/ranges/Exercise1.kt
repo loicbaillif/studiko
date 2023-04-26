@@ -12,7 +12,7 @@ const val HIGH_LIMIT = 10
 fun exercise1() {
     println("*** Exercise: Not in range ***")
 
-
+    val userInput = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
