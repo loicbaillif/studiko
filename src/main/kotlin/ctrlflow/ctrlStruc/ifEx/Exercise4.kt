@@ -13,5 +13,11 @@ fun exercise4() {
     val b = readln().toInt()
     val c = readln().toInt()
 
+    println(if (a > c) {
+        // TODO
+    } else {
+        // TODO
+    })
+
     println("\n*** End of exercise ***")
 }
