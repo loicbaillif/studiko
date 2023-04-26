@@ -16,7 +16,7 @@ fun exercise4() {
     println(if (a > c) {
         if (a > b) a else b
     } else {
-        // TODO
+        if (b > c) b else c
     })
 
     println("\n*** End of exercise ***")
