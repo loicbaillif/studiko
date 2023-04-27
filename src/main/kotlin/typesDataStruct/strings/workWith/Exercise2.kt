@@ -9,7 +9,8 @@ package typesDataStruct.strings.workWith
 fun exercise2() {
     println("*** Exercise: N-th symbol ***")
 
-
+    val inputString = readln()
+    val inputNumber = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
