@@ -11,6 +11,7 @@ fun exercise2() {
 
     val inputString = readln()
     val inputNumber = readln().toInt()
+    println("Symbol # $inputNumber of the string \"$inputString\" is ''")
 
     println("\n*** End of exercise ***")
 }
