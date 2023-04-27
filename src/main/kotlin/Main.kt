@@ -43,8 +43,8 @@ fun main() {
     // basics.codeStyle.comms.index()
     // basics.codeStyle.convent.index()
     // basics.codeStyle.naming.index()
-    // typesDataStruct.strings.workWith.index()
+    typesDataStruct.strings.workWith.index()
 
     // Current Chapter
-    typesDataStruct.dataTypes.ranges.index()
+    // typesDataStruct.dataTypes.ranges.index()
 }

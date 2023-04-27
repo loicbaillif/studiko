@@ -8,5 +8,6 @@ package typesDataStruct.strings.workWith
 fun index() {
     println("********** Working with Strings **********\n")
     // theory()
-    exercise1()
+    // exercise1()
+    exercise2()
 }
