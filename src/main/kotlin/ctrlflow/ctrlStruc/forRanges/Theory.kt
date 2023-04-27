@@ -8,6 +8,10 @@ package ctrlflow.ctrlStruc.forRanges
 fun theory() {
     println("***** Theory *****")
 
+    println("\n1) For loop")
+    for (i in 1..4) {
+        println("\t. $i")
+    }
 
 
     println("\n***** End of Theory *****")
