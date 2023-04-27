@@ -12,6 +12,9 @@ fun theory() {
     for (i in 1..4) {
         println("\t. $i")
     }
+    println()
+
+    for (ch in 'a'..'d') println("\t. $ch")
 
 
     println("\n***** End of Theory *****")
