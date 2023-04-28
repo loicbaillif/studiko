@@ -16,5 +16,7 @@ fun exercise1() {
         result += i
     }
 
+    println(result)
+
     println("\n*** End of exercise ***")
 }
