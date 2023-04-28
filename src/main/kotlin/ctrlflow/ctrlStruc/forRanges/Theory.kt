@@ -24,6 +24,10 @@ fun theory() {
     println("\n*** 3) Iterating in the backward order")
     for (i in 7 downTo 2) println("\t. $i")
 
+    println("\n*** 4) Excluding the upper limit")
+    println("Use 1 until 4 instead of 1..4 will loop from 1 to 3 (included)")
+    for (i in 1 until 4) println("\t. $i")
+
 
     println("\n***** End of Theory *****")
 }
