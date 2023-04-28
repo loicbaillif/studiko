@@ -31,6 +31,9 @@ fun theory() {
     println("\n*** 5) Specifying a step")
     println("for (i in 3..10 step 2) { ... }")
     for (i in 3..10 step 2) println("\t. $i")
+    print("works as well in reverse order: ")
+    println("for (i in 10 downTo 3 step 3 { ... }")
+    for (i in 10 downTo 3 step 3) println("\t. $i")
 
 
     println("\n***** End of Theory *****")
