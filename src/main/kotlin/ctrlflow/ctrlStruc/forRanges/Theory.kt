@@ -35,6 +35,17 @@ fun theory() {
     println("for (i in 10 downTo 3 step 3 { ... }")
     for (i in 10 downTo 3 step 3) println("\t. $i")
 
+    println("\n*** 6) Example: factorial of a number")
+    println("Please enter a number between 1 and 15")
+    var userInput = readln().toInt()
+    if (userInput !in 1..15) {
+        userInput = 0
+        println("Input out of bounds, replaced by 0")
+    }
+    var result = 1
+    for (i in 2..userInput) result *= i
+    println("$userInput! = $result")
+
 
     println("\n***** End of Theory *****")
 }
