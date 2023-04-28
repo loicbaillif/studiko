@@ -21,6 +21,9 @@ fun theory() {
     val someString = "Serendipity"
     for (ch in someString) println("\t. $ch")
 
+    println("\n*** 3) Iterating in the backward order")
+    for (i in 7 downTo 2) println("\t. $i")
+
 
     println("\n***** End of Theory *****")
 }
