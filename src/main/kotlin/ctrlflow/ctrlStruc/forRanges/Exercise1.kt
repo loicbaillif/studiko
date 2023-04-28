@@ -11,6 +11,10 @@ fun exercise1() {
 
     val a = readln().toInt()
     val b = readln().toInt()
+    var result = 0
+    for (i in a..b) {
+        result += i
+    }
 
     println("\n*** End of exercise ***")
 }
