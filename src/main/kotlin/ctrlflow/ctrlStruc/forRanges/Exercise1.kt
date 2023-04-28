@@ -9,7 +9,8 @@ package ctrlflow.ctrlStruc.forRanges
 fun exercise1() {
     println("*** Exercise: The sum of integers from a to b ***")
 
-
+    val a = readln().toInt()
+    val b = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
