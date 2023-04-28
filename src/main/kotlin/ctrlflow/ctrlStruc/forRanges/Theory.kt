@@ -46,6 +46,14 @@ fun theory() {
     for (i in 2..userInput) result *= i
     println("$userInput! = $result")
 
+    println("\n*** 7) Example: Multiplicaiton table of odd numbers")
+    for (i in 1..10 step 2) {
+        for (j in 1..10 step 2) {
+            print("${i * j}\t")
+        }
+        println()
+    }
+
 
     println("\n***** End of Theory *****")
 }
