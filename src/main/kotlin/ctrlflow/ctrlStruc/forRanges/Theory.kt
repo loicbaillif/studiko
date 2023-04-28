@@ -28,6 +28,10 @@ fun theory() {
     println("Use 1 until 4 instead of 1..4 will loop from 1 to 3 (included)")
     for (i in 1 until 4) println("\t. $i")
 
+    println("\n*** 5) Specifying a step")
+    println("for (i in 3..10 step 2) { ... }")
+    for (i in 3..10 step 2) println("\t. $i")
+
 
     println("\n***** End of Theory *****")
 }
