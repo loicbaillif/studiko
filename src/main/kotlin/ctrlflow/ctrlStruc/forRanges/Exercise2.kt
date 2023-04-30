@@ -18,6 +18,7 @@ fun exercise2() {
 
     for (x in 0L..1000L) {
         result = a * x * x * x + b * x * x + c * x + d
+        if (result == 0L) println(x)
     }
 
     println("\n*** End of exercise ***")
