@@ -19,6 +19,8 @@ fun exercise3() {
     for (elt in 1..nbElts) {
         previousElt = currentElt
         currentElt = readln().toInt()
+        if (currentElt > previousElt) currentSequence++
+        println(currentSequence) // DEBUG
     }
 
     println("\n*** End of exercise ***")
