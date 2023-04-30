@@ -30,5 +30,6 @@ fun stage4() {
     println("Now I will prove to you that I can count to any number you want.")
     val userRequest = readln().toInt()
     for (i in 0..userRequest) println("$i!")
+    println("Completed, have a nice day!")
 
 }
