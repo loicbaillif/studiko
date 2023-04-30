@@ -8,8 +8,12 @@ package ctrlflow.ctrlStruc.forRanges
 
 fun exercise2() {
     println("*** Exercise: The roots of equation ***")
+    // Equation = a*x^3 + b*x^2 + c*x + d
 
-
+    val a = readln().toInt()
+    val b = readln().toInt()
+    val c = readln().toInt()
+    val d = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
