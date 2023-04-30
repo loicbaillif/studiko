@@ -28,9 +28,7 @@ fun exercise3() {
         }
     }
 
-    if (currentSequence > longestSequence) longestSequence = currentSequence
-
-    println(longestSequence)
+    println(if (currentSequence > longestSequence) currentSequence else longestSequence)
 
     println("\n*** End of exercise ***")
 }
