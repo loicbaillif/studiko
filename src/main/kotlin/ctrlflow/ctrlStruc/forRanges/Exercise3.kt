@@ -12,9 +12,14 @@ fun exercise3() {
 
     val nbElts = readln().toInt()
     var previousElt: Int
-    var currentElt: Int
+    var currentElt = 0
     var currentSequence = 0
     var longestSequence = 0
+
+    for (elt in 1..nbElts) {
+        previousElt = currentElt
+        currentElt = readln().toInt()
+    }
 
     println("\n*** End of exercise ***")
 }
