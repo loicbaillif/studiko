@@ -10,6 +10,7 @@ package ctrlflow.ctrlStruc.forRanges
 fun exercise3() {
     println("*** Exercise: The longest sequence ***")
 
+    val nbElts = readln().toInt()
 
 
     println("\n*** End of exercise ***")
