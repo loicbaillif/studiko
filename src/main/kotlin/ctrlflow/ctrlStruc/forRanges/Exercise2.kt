@@ -16,8 +16,8 @@ fun exercise2() {
     val d = readln().toInt()
     var result: Long = 0L
 
-    for (x in 0..1000) {
-
+    for (x in 0L..1000L) {
+        result = a * x * x * x + b * x * x + c * x + d
     }
 
     println("\n*** End of exercise ***")
