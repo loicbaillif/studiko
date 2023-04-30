@@ -11,7 +11,10 @@ fun exercise3() {
     println("*** Exercise: The longest sequence ***")
 
     val nbElts = readln().toInt()
-
+    var previousElt: Int
+    var currentElt: Int
+    var currentSequence = 0
+    var longestSequence = 0
 
     println("\n*** End of exercise ***")
 }
