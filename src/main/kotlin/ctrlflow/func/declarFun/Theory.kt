@@ -18,7 +18,9 @@ fun theory() {
     """.trimIndent())
 
     println("\n2) First example")
-
+    val someInt1 = 33
+    val someInt2 = 17
+    println("sumOfTwo($someInt1, $someInt2) = ${sumOfTwo(someInt1, someInt2)}")
 
 
     println("\n***** End of theory *****")
