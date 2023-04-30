@@ -17,5 +17,13 @@ fun theory() {
         }
     """.trimIndent())
 
+    println("\n2) First example")
+
+
+
     println("\n***** End of theory *****")
+}
+
+fun sumOfTwo(a: Int, b: Int): Int {
+    return a + b
 }
