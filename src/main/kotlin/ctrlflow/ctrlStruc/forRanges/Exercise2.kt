@@ -14,6 +14,11 @@ fun exercise2() {
     val b = readln().toInt()
     val c = readln().toInt()
     val d = readln().toInt()
+    var result: Long = 0L
+
+    for (x in 0..1000) {
+
+    }
 
     println("\n*** End of exercise ***")
 }
