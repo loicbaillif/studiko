@@ -10,6 +10,8 @@ package typesDataStruct.basicOps.intAction
 fun exercise2() {
     println("*** Exercise: How many nuts will be left after division ***")
 
+    val nbSquirrels = readln().toInt()
+    val nbNuts = readln().toInt()
 
 
     println("\n*** End of exercise ***")
