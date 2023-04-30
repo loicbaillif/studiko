@@ -19,7 +19,13 @@ fun exercise3() {
     for (elt in 1..nbElts) {
         previousElt = currentElt
         currentElt = readln().toInt()
-        if (currentElt > previousElt) currentSequence++
+        if (currentElt > previousElt) {
+            currentSequence++
+        } else {
+            // Sequence is broken
+            if (currentSequence > longestSequence) longestSequence = currentSequence
+            currentSequence = 0
+        }
         println(currentSequence) // DEBUG
     }
 
