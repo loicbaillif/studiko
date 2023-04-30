@@ -6,6 +6,9 @@ package ctrlflow.ctrlStruc.forRanges
  * @author JetBrains Academy - implementation by Loïc Baillif
  */
 
+const val lowLimit = 0L
+const val highLimit = 1000L
+
 fun exercise2() {
     println("*** Exercise: The roots of equation ***")
     // Equation = a*x^3 + b*x^2 + c*x + d
@@ -15,7 +18,7 @@ fun exercise2() {
     val c = readln().toInt()
     val d = readln().toInt()
 
-    for (x in 0L..1000L) {
+    for (x in lowLimit..highLimit) {
         val result = ((a * x + b) * x + c) * x + d
         if (result == 0L) println(x)
     }
