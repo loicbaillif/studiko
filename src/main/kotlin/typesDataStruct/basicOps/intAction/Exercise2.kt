@@ -12,7 +12,7 @@ fun exercise2() {
 
     val nbSquirrels = readln().toInt()
     val nbNuts = readln().toInt()
-
+    println(nbNuts % nbSquirrels)
 
     println("\n*** End of exercise ***")
 }
