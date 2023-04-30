@@ -7,5 +7,6 @@ package ctrlflow.ctrlStruc.forRanges
 fun index() {
     println("********** For loop and ranges **********\n")
     // theory()
-    exercise1()
+    // exercise1()
+    exercise2()
 }
