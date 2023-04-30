@@ -31,7 +31,7 @@ fun main() {
     // typesDataStruct.basicOps.arith.index()
     // typesDataStruct.dataTypes.typeNumEx.index()
     // typesDataStruct.basicOps.incDec.index()
-    // typesDataStruct.basicOps.intAction.index()
+    typesDataStruct.basicOps.intAction.index()
     // typesDataStruct.basicOps.relOps.index()
     // typesDataStruct.basicOps.charac.index()
     // typesDataStruct.lists.introMut.index()
@@ -47,5 +47,5 @@ fun main() {
     // typesDataStruct.dataTypes.ranges.index()
 
     // Current Chapter
-    ctrlflow.ctrlStruc.forRanges.index()
+    // ctrlflow.ctrlStruc.forRanges.index()
 }
