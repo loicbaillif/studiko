@@ -14,10 +14,9 @@ fun exercise2() {
     val b = readln().toInt()
     val c = readln().toInt()
     val d = readln().toInt()
-    var result: Long = 0L
 
     for (x in 0L..1000L) {
-        result = a * x * x * x + b * x * x + c * x + d
+        val result = ((a * x + b) * x + c) * x + d
         if (result == 0L) println(x)
     }
 
