@@ -22,6 +22,11 @@ fun theory() {
     val someInt2 = 17
     println("sumOfTwo($someInt1, $someInt2) = ${sumOfTwo(someInt1, someInt2)}")
 
+    println("\n3) Return type")
+    println("If a function returns nothing, 2 possibilities to declare it:")
+    println("\t. Omit the return declaration in its body")
+    println("\t. Specify the special 'Unit' type as the return type")
+
 
     println("\n***** End of theory *****")
 }
