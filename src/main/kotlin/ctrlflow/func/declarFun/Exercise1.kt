@@ -10,6 +10,8 @@ package ctrlflow.func.declarFun
 fun exercise1() {
     println("*** Exercise: Comparing sums ***")
 
+    val inputList = MutableList(4) { readln().toInt() }
+    println(inputList)
     val userInput1 = readln().toInt()
     val userInput2 = readln().toInt()
     val userInput3 = readln().toInt()
