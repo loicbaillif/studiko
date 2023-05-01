@@ -23,7 +23,7 @@ fun stage5() {
     // Stage 5
     st5()
 
-    println("Completed, have a nice day!")
+    println("Congratulations, have a nice day!")
 }
 
 
@@ -64,4 +64,11 @@ fun st4() {
 
 fun st5() {
     println("Let's test your programming knowledge.")
+    println("""
+        Why do we use methods?
+        1. To repeat a statement multiple times.
+        2. To decompose a program into several small subroutines.
+        3. To determine the execution time of a program.
+        4. To interrupt the execution of a program.
+    """.trimIndent())
 }
