@@ -14,3 +14,7 @@ fun exercise1() {
 
     println("\n*** End of exercise ***")
 }
+
+fun isGreater(number1: Int, number2: Int, number3: Int, number4: Int): Boolean {
+    // TODO
+}
