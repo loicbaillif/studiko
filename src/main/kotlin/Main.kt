@@ -12,7 +12,7 @@ fun main() {
 
     // PROJECT
     // projects.zookeeper.index()
-    // projects.chattybot.index()
+    projects.chattybot.index()
 
     // Old Chapters
     // overview.index()
@@ -48,5 +48,5 @@ fun main() {
     // ctrlflow.ctrlStruc.forRanges.index()
 
     // Current Chapter
-    ctrlflow.func.declarFun.index()
+    // ctrlflow.func.declarFun.index()
 }
