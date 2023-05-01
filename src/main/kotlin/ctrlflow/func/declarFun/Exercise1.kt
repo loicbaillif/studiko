@@ -16,8 +16,4 @@ fun exercise1() {
     println("\n*** End of exercise ***")
 }
 
-fun isGreater(inputList: MutableList<Int>): Boolean {
-    val sumFirst = inputList[0] + inputList[1]
-    val sumLast = inputList[2] + inputList[3]
-    return sumFirst > sumLast
-}
+fun isGreater(intList: MutableList<Int>) = intList[0] + intList[1] > intList[2] + intList[3]
