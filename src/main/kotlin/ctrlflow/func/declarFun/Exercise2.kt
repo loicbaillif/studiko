@@ -10,12 +10,14 @@ package ctrlflow.func.declarFun
 fun exercise2() {
     println("*** Exercise: Get last digit")
 
-
+    val userInput = readln().toInt()
+    println(getLastDigit(userInput))
 
     println("\n*** End of exercise ***")
 }
 
 fun getLastDigit(someInt: Int): Int {
     val lastDigit = someInt % 10
-    return lastDigit
+    if (lastDigit > 0) return lastDigit
+    return -1 * lastDigit
 }
