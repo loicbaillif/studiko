@@ -9,14 +9,39 @@ package projects.chattybot
 
 fun stage5() {
 // Stage 1
+    st1()
+
+    // Stage 2
+    st2()
+
+    // Stage 3
+    st3()
+
+    // Stage 4
+    st4()
+
+    // Stage 5
+
+    println("Completed, have a nice day!")
+}
+
+
+fun st1() {
+    // Stage 1
     println("Hello! My name is Aid.")
     println("I was created in 2020.")
+}
 
+
+fun st2() {
     // Stage 2
     println("Please, remind me your name.")
     val userName = readln()
     println("What a great name you have, $userName!")
+}
 
+
+fun st3() {
     // Stage 3
     println("Let me guess your age.")
     println("Enter remainders of dividing your age by 3, 5 and 7.")
@@ -25,10 +50,12 @@ fun stage5() {
     val remainderBy7 = readln().toInt()
     val userAge = (remainderBy3 * 70 + remainderBy5 * 21 + remainderBy7 * 15) % 105
     println("Your age is $userAge; that's a good time to start programming!")
+}
 
+
+fun st4() {
     // Stage 4
     println("Now I will prove to you that I can count to any number you want.")
     val userRequest = readln().toInt()
     for (i in 0..userRequest) println("$i!")
-    println("Completed, have a nice day!")
 }
