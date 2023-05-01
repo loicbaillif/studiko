@@ -7,5 +7,6 @@ package ctrlflow.func.declarFun
 fun index() {
     println("********** Declaring Functions **********\n")
     // theory()
-    exercise1()
+    // exercise1()
+    exercise2()
 }
