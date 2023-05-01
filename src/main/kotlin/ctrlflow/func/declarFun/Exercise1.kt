@@ -16,5 +16,6 @@ fun exercise1() {
 }
 
 fun isGreater(number1: Int, number2: Int, number3: Int, number4: Int): Boolean {
-    // TODO
+    val sumFirst = number1 + number2
+    val sumLast = number3 + number4
 }
