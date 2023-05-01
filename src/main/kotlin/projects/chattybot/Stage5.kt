@@ -7,6 +7,8 @@ package projects.chattybot
  * Solution by Loïc Baillif
  */
 
+const val GOOD_ANSWER = 2
+
 fun stage5() {
 // Stage 1
     st1()
@@ -72,7 +74,8 @@ fun st5() {
         4. To interrupt the execution of a program.
     """.trimIndent())
     var userAnswer = readln().toInt()
-    while (userAnswer != 2) {
+    while (userAnswer != GOOD_ANSWER) {
+        println("Please, try again.")
         userAnswer = readln().toInt()
     }
 }
