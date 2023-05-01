@@ -71,4 +71,8 @@ fun st5() {
         3. To determine the execution time of a program.
         4. To interrupt the execution of a program.
     """.trimIndent())
+    var userAnswer = readln().toInt()
+    while (userAnswer != 2) {
+        userAnswer = readln().toInt()
+    }
 }
