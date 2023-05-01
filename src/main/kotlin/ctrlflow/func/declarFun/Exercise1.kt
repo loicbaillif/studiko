@@ -14,6 +14,7 @@ fun exercise1() {
     val userInput2 = readln().toInt()
     val userInput3 = readln().toInt()
     val userInput4 = readln().toInt()
+    println(isGreater(userInput1, userInput2, userInput3, userInput4))
 
     println("\n*** End of exercise ***")
 }
