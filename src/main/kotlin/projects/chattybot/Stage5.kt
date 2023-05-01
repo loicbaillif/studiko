@@ -21,6 +21,7 @@ fun stage5() {
     st4()
 
     // Stage 5
+    st5()
 
     println("Completed, have a nice day!")
 }
@@ -58,4 +59,9 @@ fun st4() {
     println("Now I will prove to you that I can count to any number you want.")
     val userRequest = readln().toInt()
     for (i in 0..userRequest) println("$i!")
+}
+
+
+fun st5() {
+    println("Let's test your programming knowledge.")
 }
