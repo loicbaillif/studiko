@@ -32,6 +32,11 @@ fun theory() {
     printGreetings()
     println("$someInt1 is negative? ${isNegative(someInt1)}")
 
+    println("\n5) Idiom")
+    println("When applicable, stick to single-expression function")
+    println(answer1())
+    println(answer2())
+
 
     println("\n***** End of theory *****")
 }
@@ -45,3 +50,9 @@ fun maxOfTwo(a: Int, b: Int): Int = if (a > b) a else b
 fun printGreetings(): Unit = println("Keep up the good work")
 
 fun isNegative(a: Int): Boolean = a < 0
+
+fun answer1(): Int {
+    return 42
+}
+
+fun answer2() = 42
