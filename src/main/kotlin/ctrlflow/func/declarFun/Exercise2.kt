@@ -16,5 +16,6 @@ fun exercise2() {
 }
 
 fun getLastDigit(someInt: Int): Int {
-
+    val lastDigit = someInt % 10
+    return lastDigit
 }
