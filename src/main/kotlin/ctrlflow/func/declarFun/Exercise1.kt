@@ -11,18 +11,13 @@ fun exercise1() {
     println("*** Exercise: Comparing sums ***")
 
     val inputList = MutableList(4) { readln().toInt() }
-    println(inputList)
-    val userInput1 = readln().toInt()
-    val userInput2 = readln().toInt()
-    val userInput3 = readln().toInt()
-    val userInput4 = readln().toInt()
-    println(isGreater(userInput1, userInput2, userInput3, userInput4))
+    println(isGreater(inputList))
 
     println("\n*** End of exercise ***")
 }
 
-fun isGreater(number1: Int, number2: Int, number3: Int, number4: Int): Boolean {
-    val sumFirst = number1 + number2
-    val sumLast = number3 + number4
+fun isGreater(inputList: MutableList<Int>): Boolean {
+    val sumFirst = inputList[0] + inputList[1]
+    val sumLast = inputList[2] + inputList[3]
     return sumFirst > sumLast
 }
