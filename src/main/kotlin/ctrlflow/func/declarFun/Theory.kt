@@ -29,6 +29,8 @@ fun theory() {
 
     println("\n4) Single-expression functions")
     println(maxOfTwo(someInt1, someInt2))
+    printGreetings()
+
 
     println("\n***** End of theory *****")
 }
@@ -38,3 +40,5 @@ fun sumOfTwo(a: Int, b: Int): Int {
 }
 
 fun maxOfTwo(a: Int, b: Int): Int = if (a > b) a else b
+
+fun printGreetings() = println("Keep up the good work")
