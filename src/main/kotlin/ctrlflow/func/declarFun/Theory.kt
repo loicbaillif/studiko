@@ -27,6 +27,8 @@ fun theory() {
     println("\t. Omit the return declaration in its body")
     println("\t. Specify the special 'Unit' type as the return type")
 
+    println("\n4) Single-expression functions")
+    println(maxOfTwo(someInt1, someInt2))
 
     println("\n***** End of theory *****")
 }
@@ -34,3 +36,5 @@ fun theory() {
 fun sumOfTwo(a: Int, b: Int): Int {
     return a + b
 }
+
+fun maxOfTwo(a: Int, b: Int): Int = if (a > b) a else b
