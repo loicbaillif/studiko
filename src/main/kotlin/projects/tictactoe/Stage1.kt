@@ -8,5 +8,9 @@ package projects.tictactoe
  */
 
 fun stage1() {
-
+    println("""
+        X O X
+        O X O
+        X X O
+    """.trimIndent())
 }
