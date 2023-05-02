@@ -12,7 +12,8 @@ fun main() {
 
     // PROJECT
     // projects.zookeeper.index()
-    projects.chattybot.index()
+    // projects.chattybot.index()
+    projects.tictactoe.index()
 
     // Old Chapters
     // overview.index()
