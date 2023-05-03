@@ -8,10 +8,18 @@ package projects.tictactoe
  */
 
 fun stage2() {
-
+    displayGrid("XOXOXOXOX")
 }
 
 
 fun displayGrid(userInput: String): Unit {
-    // TODO
+    println("---------") // Print table upper border
+
+    for (i in 1..3) {
+        for (j in 1..3) {
+            // TODO
+        }
+    }
+
+    println("---------") // Print table lower border
 }
