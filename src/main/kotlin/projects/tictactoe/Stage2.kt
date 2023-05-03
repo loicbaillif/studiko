@@ -8,7 +8,8 @@ package projects.tictactoe
  */
 
 fun stage2() {
-    displayGrid("XOXOXOXOX")
+    val userInput = readln()
+    displayGrid(userInput)
 }
 
 
