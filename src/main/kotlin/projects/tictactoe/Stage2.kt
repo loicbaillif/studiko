@@ -15,9 +15,10 @@ fun stage2() {
 fun displayGrid(userInput: String): Unit {
     println("---------") // Print table upper border
 
-    for (i in 1..3) {
+    for (i in 0..2) {
         print("|")
-        for (j in 1..3) {
+        for (j in 0..2) {
+            print(userInput[i * 3 + j])
         }
         println("|")
     }
