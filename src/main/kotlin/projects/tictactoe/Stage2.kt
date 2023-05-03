@@ -10,3 +10,8 @@ package projects.tictactoe
 fun stage2() {
 
 }
+
+
+fun displayGrid(userInput: String): Unit {
+    // TODO
+}
