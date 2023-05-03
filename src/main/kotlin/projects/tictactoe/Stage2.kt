@@ -16,9 +16,9 @@ fun displayGrid(userInput: String): Unit {
     println("---------") // Print table upper border
 
     for (i in 0..2) {
-        print("|")
+        print("| ")
         for (j in 0..2) {
-            print(userInput[i * 3 + j])
+            print("${userInput[i * 3 + j]} ")
         }
         println("|")
     }
