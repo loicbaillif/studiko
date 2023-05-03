@@ -14,15 +14,15 @@ fun stage2() {
 
 
 fun displayGrid(userInput: String): Unit {
-    println("---------") // Print table upper border
+    println("---------")    // Print grid upper border
 
     for (i in 0..2) {
-        print("| ")
+        print("| ")         // Print grid left border
         for (j in 0..2) {
             print("${userInput[i * 3 + j]} ")
         }
-        println("|")
+        println("|")        // Print grid right border
     }
 
-    println("---------") // Print table lower border
+    println("---------")    // Print grid lower border
 }
