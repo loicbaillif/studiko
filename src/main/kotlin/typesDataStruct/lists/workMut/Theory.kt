@@ -64,6 +64,8 @@ fun theory() {
     println("\t. vowels.isNotEmpty() ==> ${vowels.isNotEmpty()}")
     val middleVowels = vowels.subList(1, 5)
     println("\t. middleVowels = vowels.subList(1, 5) ==> $middleVowels")
+    println("\t. vowels.indexOf('o') ==> ${vowels.indexOf('o')}")
+    println("\t. vowels.indexOf('p') ==> ${vowels.indexOf('p')}")
 
 
     println("\n***** End of theory *****")
