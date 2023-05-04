@@ -61,6 +61,7 @@ fun theory() {
     println("\n6) Other useful functions")
     println("\t. vowels = $vowels")
     println("\t. vowels.isEmpty() ==> ${vowels.isEmpty()}")
+    println("\t. vowels.isNotEmpty() ==> ${vowels.isNotEmpty()}")
 
 
     println("\n***** End of theory *****")
