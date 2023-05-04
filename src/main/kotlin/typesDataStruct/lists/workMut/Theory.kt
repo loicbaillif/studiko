@@ -54,8 +54,9 @@ fun theory() {
     println("\n5) Copy list content")
     val vowelsBis = vowels.toMutableList()
     println("\t. vowelsBis = vowels.toMutableList() ==> $vowelsBis")
-
-
+    val vowelsTer = mutableListOf<Char>()
+    vowelsTer.addAll(vowels)
+    println("\t. vowelsTer.addAll(vowels) ==> $vowelsTer")
 
     println("\n***** End of theory *****")
 }
