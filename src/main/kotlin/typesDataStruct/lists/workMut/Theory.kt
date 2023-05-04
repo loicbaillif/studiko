@@ -44,6 +44,8 @@ fun theory() {
     println("\t. list1.add(1, \"Please\") ==> $someList1")
     someList1.removeAt(0)
     println("\t. list1.removeAt(0) ==> $someList1")
+    someList1.clear()
+    println("\t. list1.clear() ==> $someList1")
 
 
     println("\n***** End of theory *****")
