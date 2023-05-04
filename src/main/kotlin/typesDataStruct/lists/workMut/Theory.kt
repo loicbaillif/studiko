@@ -67,11 +67,16 @@ fun theory() {
     println("\t. vowels.indexOf('o') ==> ${vowels.indexOf('o')}")
     println("\t. vowels.indexOf('p') ==> ${vowels.indexOf('p')}")
     val numbers = mutableListOf(1, 3, 5, 7, 9)
-    println("\t. numbers = $numbers")
+
+    println("\n\t. numbers = $numbers")
     println("\t. numbers.minOrNull() ==> ${numbers.minOrNull()}")
     println("\t. numbers.indexOf(numbers.minOrNull()) ==> ${numbers.indexOf(numbers.minOrNull())}")
     println("\t. numbers.maxOrNull() ==> ${numbers.maxOrNull()}")
     println("\t. numbers.sum() ==> ${numbers.sum()}")
+
+    println("\n\t. list2 = $someList2")
+    println("\t. list2.sorted() ==> ${someList2.sorted()}")
+    println("\t. list2.sortedDescending() = ${someList2.sortedDescending()}")
 
 
     println("\n***** End of theory *****")
