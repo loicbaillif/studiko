@@ -46,6 +46,10 @@ fun theory() {
     println("\t. list1.removeAt(0) ==> $someList1")
     someList1.clear()
     println("\t. list1.clear() ==> $someList1")
+    val vowels = mutableListOf('a', 'e', 'i', 'o', 'u')
+    println("\t. vowels = $vowels")
+    vowels += 'y'
+    println("\t. vowels += 'y' ==> $vowels")
 
 
     println("\n***** End of theory *****")
