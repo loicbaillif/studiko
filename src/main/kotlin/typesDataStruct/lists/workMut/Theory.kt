@@ -38,6 +38,10 @@ fun theory() {
     println("\t list1[0] = \"Be\"")
     someList1[0] = "Be"
     println("\t. list1 = $someList1")
+    someList1.add("Knight")
+    println("\t. list1.add(\"Knight\") ==> $someList1")
+    someList1.add(1, "Please")
+    println("\t. list1.add(1, \"Please\") ==> $someList1")
 
 
     println("\n***** End of theory *****")
