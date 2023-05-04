@@ -66,6 +66,11 @@ fun theory() {
     println("\t. middleVowels = vowels.subList(1, 5) ==> $middleVowels")
     println("\t. vowels.indexOf('o') ==> ${vowels.indexOf('o')}")
     println("\t. vowels.indexOf('p') ==> ${vowels.indexOf('p')}")
+    val numbers = mutableListOf(1, 3, 5, 7, 9)
+    println("\t. numbers = $numbers")
+    println("\t. numbers.minOrNull() ==> ${numbers.minOrNull()}")
+    println("\t. numbers.indexOf(numbers.minOrNull()) ==> ${numbers.indexOf(numbers.minOrNull())}")
+
 
 
     println("\n***** End of theory *****")
