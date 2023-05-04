@@ -33,6 +33,12 @@ fun theory() {
     println("\t. list1 == list3 ==> ${someList1 == someList3}")
     println("\t. list2 != list3 ==> ${someList2 != someList3}")
 
+    println("\n4) Changing the list contents")
+    println("\t. list1 = $someList1")
+    println("\t list1[0] = \"Be\"")
+    someList1[0] = "Be"
+    println("\t. list1 = $someList1")
+
 
     println("\n***** End of theory *****")
 }
