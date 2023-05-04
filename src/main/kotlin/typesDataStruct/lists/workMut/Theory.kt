@@ -15,12 +15,23 @@ fun theory() {
     println("\t. starsList.joinToString() = ${southernCross.joinToString()}")
     println("\t. starsList.joinToString(\" then \") = ${southernCross.joinToString("then")}")
 
-    println("\n2) Working with multiple lists")
+    println("\n2) Join mutable lists")
     val starsList1 = mutableListOf("Ginan", "Mu Crucis")
     val tempList1 = southernCross + starsList1
     println("\t. starsList = $southernCross")
     println("\t. starsList2 = $starsList1")
-    println("starsList + starsList2 = $tempList1")
+    println("\t. starsList + starsList2 = $tempList1")
+
+    println("\n3) Compare mutable lists")
+    val someList1 = mutableListOf("May", "The", "Fourth")
+    val someList2 = mutableListOf("May", "The", "Fourth")
+    val someList3 = mutableListOf("May", "The", "Force")
+    println("\t. list1 = $someList1")
+    println("\t. list2 = $someList2")
+    println("\t. list3 = $someList3")
+    println("\t. list1 == list2 ==> ${someList1 == someList2}")
+    println("\t. list1 == list3 ==> ${someList1 == someList3}")
+    println("\t. list2 != list3 ==> ${someList2 != someList3}")
 
 
     println("\n***** End of theory *****")
