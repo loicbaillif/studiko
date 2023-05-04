@@ -70,7 +70,7 @@ fun theory() {
     println("\t. numbers = $numbers")
     println("\t. numbers.minOrNull() ==> ${numbers.minOrNull()}")
     println("\t. numbers.indexOf(numbers.minOrNull()) ==> ${numbers.indexOf(numbers.minOrNull())}")
-
+    println("\t. numbers.maxOrNull() ==> ${numbers.maxOrNull()}")
 
 
     println("\n***** End of theory *****")
