@@ -58,5 +58,10 @@ fun theory() {
     vowelsTer.addAll(vowels)
     println("\t. vowelsTer.addAll(vowels) ==> $vowelsTer")
 
+    println("\n6) Other useful functions")
+    println("\t. vowels = $vowels")
+    println("\t. vowels.isEmpty() ==> ${vowels.isEmpty()}")
+
+
     println("\n***** End of theory *****")
 }
