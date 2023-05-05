@@ -10,5 +10,7 @@ package typesDataStruct.lists.workMut
 fun exercise1() {
     println("*** Exercise: Yet another list ***")
 
+    val capitals = mutableListOf("Tokyo", "Moscow", "Paris", "Washington", "Beijing")
+
     println("\n*** End of exercise ***")
 }
