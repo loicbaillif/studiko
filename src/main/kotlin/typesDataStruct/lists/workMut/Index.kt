@@ -6,5 +6,6 @@ package typesDataStruct.lists.workMut
 
 fun index() {
     println("********** Work with MutableLists **********\n")
-    theory()
+    // theory()
+    exercise1()
 }
