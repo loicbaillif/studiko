@@ -9,7 +9,11 @@ package typesDataStruct.lists.forLoop
 fun theory() {
     println("***** Theory *****")
 
-
+    println("\n*** 1) Iterating through a MutableList")
+    val daysOfWeek = mutableListOf("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
+    for (day in daysOfWeek) {
+        println("\t. $day")
+    }
 
     println("\n***** End of theory *****")
 }
