@@ -14,5 +14,7 @@ fun exercise3() {
     val lowLimit = readln().toInt()
     val highLimit = readln().toInt()
 
+    println(userNumber in lowLimit..highLimit)
+
     println("\n*** End of exercise ***")
 }
