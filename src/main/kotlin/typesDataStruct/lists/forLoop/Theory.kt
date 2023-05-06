@@ -15,8 +15,13 @@ fun theory() {
         println("\t. $day")
     }
 
-    println("\n*** 2) Iterating by Indexes")
+    println("\n*** 2) Iterating by indexes")
     for (index in daysOfWeek.indices) {
+        println("\t. $index: ${daysOfWeek[index]}")
+    }
+
+    println("\n*** 3) Iterating by range indexes")
+    for (index in 0..4) {
         println("\t. $index: ${daysOfWeek[index]}")
     }
 
