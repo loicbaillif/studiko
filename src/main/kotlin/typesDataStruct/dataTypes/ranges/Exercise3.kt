@@ -10,7 +10,9 @@ package typesDataStruct.dataTypes.ranges
 fun exercise3() {
     println("*** Exercise: Between two numbers ***")
 
-
+    val userNumber = readln().toInt()
+    val lowLimit = readln().toInt()
+    val highLimit = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
