@@ -10,7 +10,7 @@ package typesDataStruct.lists.workMut
 fun exercise2() {
     println("*** Exercise: Empty ***")
 
-
+    val myEmptyList = mutableListOf<String>()
 
     println("\n*** End of exercise ***")
 }
