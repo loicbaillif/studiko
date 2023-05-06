@@ -15,5 +15,10 @@ fun theory() {
         println("\t. $day")
     }
 
+    println("\n*** 2) Iterating by Indexes")
+    for (index in daysOfWeek.indices) {
+        println("\t. $index: ${daysOfWeek[index]}")
+    }
+
     println("\n***** End of theory *****")
 }
