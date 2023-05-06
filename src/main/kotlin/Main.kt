@@ -45,10 +45,10 @@ fun main() {
     // basics.codeStyle.convent.index()
     // basics.codeStyle.naming.index()
     // typesDataStruct.strings.workWith.index()
-    // typesDataStruct.dataTypes.ranges.index()
+    typesDataStruct.dataTypes.ranges.index()
     // ctrlflow.ctrlStruc.forRanges.index()
     // ctrlflow.func.declarFun.index()
 
     // Current Chapter
-    typesDataStruct.lists.workMut.index()
+    // typesDataStruct.lists.workMut.index()
 }
