@@ -41,5 +41,15 @@ fun theory() {
     println("\nExample 4:")
     for (index in daysOfWeek.lastIndex downTo 0 step 3) println("\t. $index: ${daysOfWeek[index]}")
 
+
+    println("\n*** 4) Reading MutableList elements")
+    val nbInputs = readln().toInt()
+    val myList1: MutableList<Int> = mutableListOf()
+    for (index in 0 until nbInputs) {
+        myList1.add(readln().toInt())
+    }
+    println(myList1)
+
+
     println("\n***** End of theory *****")
 }
