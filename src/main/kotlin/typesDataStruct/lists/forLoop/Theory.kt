@@ -38,5 +38,8 @@ fun theory() {
         println("\t. $index: ${daysOfWeek[index]}")
     }
 
+    println("\nExample 4:")
+    for (index in daysOfWeek.lastIndex downTo 0 step 3) println("\t. $index: ${daysOfWeek[index]}")
+
     println("\n***** End of theory *****")
 }
