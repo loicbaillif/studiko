@@ -25,7 +25,7 @@ fun exercise1() {
         listTaxes.add(listIncomes[index] * listTaxRates[index])
     }
 
-    println(listTaxes.indexOf(listTaxes.maxOrNull()) + 1)
+    println(listTaxes.indexOf(listTaxes.maxOrNull()) + 1) // +1 to get company nb, not its index
 
     println("\n*** End of exercise ***")
 }
