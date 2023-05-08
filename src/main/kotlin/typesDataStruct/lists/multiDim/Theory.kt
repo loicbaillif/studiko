@@ -16,6 +16,12 @@ fun theory() {
         mutableListOf(0, 0, 0, 0)
     )
     println(mutList2D)
+    val mutList2D_2 = mutableListOf<MutableList<Int>>(
+        mutableListOf(0),
+        mutableListOf(1, 2),
+        mutableListOf(3, 4, 5)
+    )
+    println(mutList2D_2)
 
     println("\n***** End of theory *****")
 }
