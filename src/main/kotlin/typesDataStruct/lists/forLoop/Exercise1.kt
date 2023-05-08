@@ -10,6 +10,7 @@ package typesDataStruct.lists.forLoop
 fun exercise1() {
     println("*** Exercise: Individual Taxes ***")
 
+    val nbCompanies = readln().toInt()
 
 
     println("\n*** End of exercise ***")
