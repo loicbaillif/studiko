@@ -58,6 +58,13 @@ fun theory() {
         mutableListOf<String>("Practice", "makes", "perfect"),
         mutableListOf<Int>(9, 7)
     )
+    println("\t. $mutlist2D_5")
+
+
+    println("\n*** 5) Print 2D lists")
+    println("\t. $mutList2D_4")
+    println("\t. $mutList2D_3")
+    println("\t. $mutList2D_2")
 
 
     println("\n***** End of theory *****")
@@ -65,7 +72,7 @@ fun theory() {
 
 
 
-fun print2dStringList(list1: MutableList<MutableList<String>>): Unit {
+fun print2dStringList(list1: MutableList<MutableList<String>>) {
     val height = list1.size
     val width = list1[0].size
     println("height = $height - width = $width")
