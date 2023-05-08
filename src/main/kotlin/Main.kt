@@ -49,7 +49,8 @@ fun main() {
     // ctrlflow.ctrlStruc.forRanges.index()
     // ctrlflow.func.declarFun.index()
     // typesDataStruct.lists.workMut.index()
+    // typesDataStruct.lists.forLoop.index()
 
     // Current Chapter
-    typesDataStruct.lists.forLoop.index()
+    typesDataStruct.lists.multiDim.index()
 }
