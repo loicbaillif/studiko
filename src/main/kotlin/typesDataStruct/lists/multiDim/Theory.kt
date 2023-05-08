@@ -45,5 +45,13 @@ fun theory() {
     println("list2D[1][1] = ${mutList2D_3[1][1]}")
 
 
+    println("\n*** 3) Creating 2D lists of different types")
+    val mutList2D_4 = mutableListOf(
+        mutableListOf<String>("to", "be", "or"),
+        mutableListOf<String>("not", "to", "be")
+    )
+
+
+
     println("\n***** End of theory *****")
 }
