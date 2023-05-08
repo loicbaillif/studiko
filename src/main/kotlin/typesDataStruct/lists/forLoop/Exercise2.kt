@@ -12,18 +12,10 @@ fun exercise2() {
 
     val nbInputs = readln().toInt()
     val listInputs = mutableListOf<Int>()
-    var max = 0
-    var indexMax = 0
 
-    for (index in 0 until nbInputs) {
-        listInputs.add(readln().toInt())
-        if (listInputs[index] > max) {
-            max = listInputs[index]
-            indexMax = index
-        }
-    }
+    for (index in 0 until nbInputs) listInputs.add(readln().toInt())
 
-    println(indexMax)
+    println(listInputs.indexOf(listInputs.maxOrNull()))
 
     println("\n*** End of exercise ***")
 }
