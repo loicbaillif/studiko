@@ -18,6 +18,7 @@ fun exercise1() {
     }
     // Do not change lines above
     // Write your code here
+    println(inputList[2].joinToString(", "))
 
     println("\n*** End of exercise ***")
 }
