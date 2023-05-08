@@ -53,6 +53,13 @@ fun theory() {
     print2dStringList(mutList2D_4)
 
 
+    println("\n*** 4) Nested lists of different types")
+    val mutlist2D_5 = mutableListOf(
+        mutableListOf<String>("Practice", "makes", "perfect"),
+        mutableListOf<Int>(9, 7)
+    )
+
+
     println("\n***** End of theory *****")
 }
 
