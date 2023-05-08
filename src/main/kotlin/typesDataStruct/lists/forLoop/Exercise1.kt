@@ -11,7 +11,8 @@ fun exercise1() {
     println("*** Exercise: Individual Taxes ***")
 
     val nbCompanies = readln().toInt()
-
+    val listIncomes = mutableListOf<Int>()
+    val listTaxRates = mutableListOf<Int>()
 
     println("\n*** End of exercise ***")
 }
