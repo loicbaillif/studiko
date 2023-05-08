@@ -29,6 +29,16 @@ fun theory() {
         mutableListOf(3, 4, 5),
         mutableListOf(6, 7, 8)
     )
+    println("[")
+    for (i in 0..2) {
+        print("\t[")
+        for (j in 0..2) {
+            print("${mutList2D_3[i][j]}\t")
+            if (j != 2) print(",\t")
+        }
+        println("]")
+    }
+    println("]")
 
     println("\n***** End of theory *****")
 }
