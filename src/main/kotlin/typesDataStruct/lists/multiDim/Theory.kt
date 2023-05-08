@@ -38,7 +38,12 @@ fun theory() {
         }
         println("]")
     }
-    println("]")
+    println("]\n")
+
+    println("list2D[0][2] = ${mutList2D_3[0][2]}")
+    println("list2D[2][0] = ${mutList2D_3[2][0]}")
+    println("list2D[1][1] = ${mutList2D_3[1][1]}")
+
 
     println("\n***** End of theory *****")
 }
