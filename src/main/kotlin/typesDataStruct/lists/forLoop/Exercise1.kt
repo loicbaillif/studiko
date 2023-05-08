@@ -14,6 +14,7 @@ fun exercise1() {
     val nbCompanies = readln().toInt()
     val listIncomes = mutableListOf<Int>()
     val listTaxRates = mutableListOf<Int>()
+    val listTaxes = mutableListOf<Int>()
 
     // Fill lists
     for (index in 1..nbCompanies) {
@@ -21,6 +22,11 @@ fun exercise1() {
     }
     for (index in 1..nbCompanies) {
         listTaxRates.add(readln().toInt())
+    }
+
+    // Get the total taxes
+    for (index in 0 until nbCompanies) {
+        listTaxes.add(listIncomes[index] * listTaxRates[index])
     }
 
     println("\n*** End of exercise ***")
