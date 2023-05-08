@@ -17,6 +17,10 @@ fun exercise2() {
 
     for (index in 0 until nbInputs) {
         listInputs.add(readln().toInt())
+        if (listInputs[index] > max) {
+            max = listInputs[index]
+            indexMax = index
+        }
     }
 
     println("\n*** End of exercise ***")
