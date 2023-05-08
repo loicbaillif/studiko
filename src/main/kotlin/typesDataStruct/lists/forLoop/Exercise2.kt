@@ -10,7 +10,8 @@ package typesDataStruct.lists.forLoop
 fun exercise2() {
     println("*** Exercise: The index of the first max ***")
 
-
+    val nbInputs = readln().toInt()
+    val listInputs = mutableListOf<Int>()
 
     println("\n*** End of exercise ***")
 }
