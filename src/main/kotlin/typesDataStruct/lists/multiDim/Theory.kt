@@ -50,8 +50,27 @@ fun theory() {
         mutableListOf<String>("to", "be", "or"),
         mutableListOf<String>("not", "to", "be")
     )
-
+    print2dStringList(mutList2D_4)
 
 
     println("\n***** End of theory *****")
+}
+
+
+
+fun print2dStringList(list1: MutableList<MutableList<String>>): Unit {
+    val height = list1.size
+    val width = list1[0].size
+    println("height = $height - width = $width")
+
+    println("[")
+    for (i in 0 until height) {
+        print("\t[\t")
+        for (j in 0 until width) {
+            print("${list1[i][j]}\t")
+            if (j != height) print(",\t")
+        }
+        println("]")
+    }
+    println("]\n")
 }
