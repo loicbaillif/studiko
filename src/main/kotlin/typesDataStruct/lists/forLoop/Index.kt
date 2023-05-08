@@ -7,5 +7,6 @@ package typesDataStruct.lists.forLoop
 fun index() {
     println("********** for loop and lists **********\n")
     // theory()
-    exercise1()
+    // exercise1()
+    exercise2()
 }
