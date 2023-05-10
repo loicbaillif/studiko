@@ -18,6 +18,7 @@ fun exercise2() {
     }
 
     println("${userList.first().first()} ${userList.first().last()}")
+    println("${userList.last().first()} ${userList.last().last()}")
 
     println("\n*** End of exercise ***")
 }
