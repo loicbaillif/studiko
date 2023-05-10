@@ -10,19 +10,20 @@ package projects.tictactoe
 fun stage3() {
     // Variables
     val userInput = readln()
-    val grid: MutableList<MutableList<Char>> = mutableListOf()
+    val grid: MutableList<MutableList<Char>> = fillGrid(userInput)
 
     // Display Grid
     displayGrid(userInput)
+    println(grid)
 }
 
 
 fun fillGrid(userInput: String): MutableList<MutableList<Char>> {
     // Create 2D list for grid
     val userGrid: MutableList<MutableList<Char>> = mutableListOf(
-        mutableListOf(),
-        mutableListOf(),
-        mutableListOf()
+        MutableList(3) {'_'},
+        MutableList(3) {'_'},
+        MutableList(3) {'_'}
     )
 
     // Fill grid
