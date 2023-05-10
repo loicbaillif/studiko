@@ -19,6 +19,8 @@ fun stage3() {
 
 fun fillGrid(userInput: String): MutableList<MutableList<Char>> {
     // Create 2D list for grid
-    
+    val userGrid: MutableList<MutableList<Char>> = mutableListOf()
 
+
+    return userGrid
 }
