@@ -11,7 +11,12 @@ fun exercise2() {
     println("*** Exercise: Corners ***")
 
     val gridSize = readln().toInt()
-
+    val userList: MutableList<MutableList<Int>> = mutableListOf()
+    for (i in 0 until gridSize) {
+        for (j in 0 until gridSize) {
+            userList[i][j] = readln().toInt()
+        }
+    }
 
     println("\n*** End of exercise ***")
 }
