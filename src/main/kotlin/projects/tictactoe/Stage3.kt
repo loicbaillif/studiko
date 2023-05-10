@@ -8,6 +8,10 @@ package projects.tictactoe
  */
 
 fun stage3() {
+    // Variables
     val userInput = readln()
+    val grid: MutableList<MutableList<Char>> = mutableListOf()
+
+    // Display Grid
     displayGrid(userInput)
 }
