@@ -7,5 +7,7 @@ package typesDataStruct.lists.multiDim
 fun index() {
     println("********** Multi-dimensional list **********\n")
     // theory()
-    exercise1()
+    // exercise1()
+    exercise2()
+
 }
