@@ -10,6 +10,7 @@ package typesDataStruct.lists.multiDim
 fun exercise2() {
     println("*** Exercise: Corners ***")
 
+    val gridSize = readln().toInt()
 
 
     println("\n*** End of exercise ***")
