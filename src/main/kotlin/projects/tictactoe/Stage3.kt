@@ -15,3 +15,10 @@ fun stage3() {
     // Display Grid
     displayGrid(userInput)
 }
+
+
+fun fillGrid(userInput: String): MutableList<MutableList<Char>> {
+    // Create 2D list for grid
+    
+
+}
