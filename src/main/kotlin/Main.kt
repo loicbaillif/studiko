@@ -13,7 +13,7 @@ fun main() {
     // PROJECT
     // projects.zookeeper.index()
     // projects.chattybot.index()
-    // projects.tictactoe.index()
+    projects.tictactoe.index()
 
     // Old Chapters
     // overview.index()
@@ -52,5 +52,5 @@ fun main() {
     // typesDataStruct.lists.forLoop.index()
 
     // Current Chapter
-    typesDataStruct.lists.multiDim.index()
+    // typesDataStruct.lists.multiDim.index()
 }
