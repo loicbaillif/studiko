@@ -18,6 +18,7 @@ fun stage3() {
 
     // DEBUG
     println(countElts(userInput))
+    println(checkWin(userInput, 'X'))
 }
 
 
@@ -29,15 +30,18 @@ fun checkWin(grid: String, player: Char): Boolean {
     for (i in 0..2) {
         if (grid[3 * i + 0] == grid[3 * i + 1] &&
             grid[3 * i + 1] == grid[3 * i + 2] &&
-            grid[3 * i + 2] == player) return true
+            grid[3 * i + 2] == player.uppercaseChar()) return true
     }
 
     // 2) Check vertical lines
     for (i in 0..2) {
         if (grid[i] == grid[i + 3] &&
             grid[i + 3] == grid[i + 6] &&
-            grid[i + 6] == player) return true
+            grid[i + 6] == player.uppercaseChar()) return true
     }
+
+    // 3) Check diagonals
+    // TODO
 
 
     return false
