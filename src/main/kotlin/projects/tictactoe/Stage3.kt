@@ -22,8 +22,12 @@ fun stage3() {
 
 fun countElts(userInput: String): MutableList<Int> {
     var numO = 0
-    val numX = 0
+    var numX = 0
 
+    for (c in userInput) {
+        if (c.uppercaseChar() == 'O') numO++
+        if (c.uppercaseChar() == 'X') numX++
+    }
 
     return mutableListOf(numO, numX)
 }
