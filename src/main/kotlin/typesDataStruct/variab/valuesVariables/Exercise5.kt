@@ -15,5 +15,7 @@ fun exercise5() {
     val three = 3
     val four = 4
 
+    println("\t .one = $one\n\t. two = $two\n\t. three = $three\n\t. four = $four")
+
     println("\n*** End of exercise ***")
 }
