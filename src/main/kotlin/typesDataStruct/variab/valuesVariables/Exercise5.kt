@@ -10,7 +10,10 @@ package typesDataStruct.variab.valuesVariables
 fun exercise5() {
     println("*** Exercise: Assignments ***")
 
-
+    val one = 1
+    val two = 2
+    val three = 3
+    val four = 4
 
     println("\n*** End of exercise ***")
 }
