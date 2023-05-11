@@ -13,11 +13,11 @@ fun main() {
     // PROJECT
     // projects.zookeeper.index()
     // projects.chattybot.index()
-    projects.tictactoe.index()
+    // projects.tictactoe.index()
 
     // Old Chapters
     // overview.index()
-    // typesDataStruct.variab.valuesVariables.index()
+    typesDataStruct.variab.valuesVariables.index()
     // valKeyword.index()
     // typesDataStruct.dataTypes.index()
     // basics.stdinout.stdOutput.index()
