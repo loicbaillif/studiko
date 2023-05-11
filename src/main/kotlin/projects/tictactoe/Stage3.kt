@@ -23,6 +23,14 @@ fun stage3() {
 
 // FUNCTIONS
 
+fun checkWin(grid: String, player: Char): Boolean {
+
+
+    return false
+}
+
+
+
 fun countElts(userInput: String): MutableList<Int> {
     var numO = 0
     var numX = 0
