@@ -26,23 +26,25 @@ fun stage3() {
 
 fun checkWin(grid: String, player: Char): Boolean {
     val gridUp = grid.uppercase()
+    val playerUp = player.uppercaseChar()
 
     // 1) Check horizontal lines
     for (i in 0..2) {
         if (gridUp[3 * i + 0] == gridUp[3 * i + 1] &&
             gridUp[3 * i + 1] == gridUp[3 * i + 2] &&
-            gridUp[3 * i + 2] == player.uppercaseChar()) return true
+            gridUp[3 * i + 2] == playerUp) return true
     }
 
     // 2) Check vertical lines
     for (i in 0..2) {
         if (gridUp[i] == gridUp[i + 3] &&
             gridUp[i + 3] == gridUp[i + 6] &&
-            gridUp[i + 6] == player.uppercaseChar()) return true
+            gridUp[i + 6] == playerUp) return true
     }
 
     // 3) Check diagonals
-    // TODO
+    if (gridUp[0] == playerUp && gridUp[4] == playerUp && gridUp[8] == playerUp) return true
+    if (gridUp[2] == playerUp && gridUp[4] == playerUp && gridUp[6] == playerUp) return true
 
 
     return false
