@@ -25,19 +25,20 @@ fun stage3() {
 // FUNCTIONS
 
 fun checkWin(grid: String, player: Char): Boolean {
+    val gridUp = grid.uppercase()
 
     // 1) Check horizontal lines
     for (i in 0..2) {
-        if (grid[3 * i + 0] == grid[3 * i + 1] &&
-            grid[3 * i + 1] == grid[3 * i + 2] &&
-            grid[3 * i + 2] == player.uppercaseChar()) return true
+        if (gridUp[3 * i + 0] == gridUp[3 * i + 1] &&
+            gridUp[3 * i + 1] == gridUp[3 * i + 2] &&
+            gridUp[3 * i + 2] == player.uppercaseChar()) return true
     }
 
     // 2) Check vertical lines
     for (i in 0..2) {
-        if (grid[i] == grid[i + 3] &&
-            grid[i + 3] == grid[i + 6] &&
-            grid[i + 6] == player.uppercaseChar()) return true
+        if (gridUp[i] == gridUp[i + 3] &&
+            gridUp[i + 3] == gridUp[i + 6] &&
+            gridUp[i + 6] == player.uppercaseChar()) return true
     }
 
     // 3) Check diagonals
