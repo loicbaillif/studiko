@@ -7,6 +7,10 @@ package projects.tictactoe
  * Solution by Loïc Baillif
  */
 
+
+const val PLAYER_1 = 'O'
+const val PLAYER_2 = 'X'
+
 fun stage3() {
     // Variables
     val userInput = readln()
@@ -14,11 +18,11 @@ fun stage3() {
 
     // Display Grid
     displayGrid(userInput)
-    println(grid)
 
     // DEBUG
+    println(grid)
     println(countElts(userInput))
-    println(checkWin(userInput, 'X'))
+    println(checkWin(userInput, PLAYER_1))
 }
 
 
@@ -57,8 +61,8 @@ fun countElts(userInput: String): MutableList<Int> {
     var numX = 0
 
     for (c in userInput) {
-        if (c.uppercaseChar() == 'O') numO++
-        if (c.uppercaseChar() == 'X') numX++
+        if (c.uppercaseChar() == PLAYER_1) numO++
+        if (c.uppercaseChar() == PLAYER_2) numX++
     }
 
     return mutableListOf(numO, numX)
