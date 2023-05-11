@@ -15,6 +15,9 @@ fun stage3() {
     // Display Grid
     displayGrid(userInput)
     println(grid)
+
+    // DEBUG
+    println(countElts(userInput))
 }
 
 
