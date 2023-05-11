@@ -18,6 +18,17 @@ fun stage3() {
 }
 
 
+// FUNCTIONS
+
+fun countElts(userInput: String): MutableList<Int> {
+    var numO = 0
+    val numX = 0
+
+
+    return mutableListOf(numO, numX)
+}
+
+
 fun fillGrid(userInput: String): MutableList<MutableList<Char>> {
     // Create 2D list for grid
     val userGrid: MutableList<MutableList<Char>> = mutableListOf(
