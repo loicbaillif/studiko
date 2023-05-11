@@ -32,6 +32,13 @@ fun checkWin(grid: String, player: Char): Boolean {
             grid[3 * i + 2] == player) return true
     }
 
+    // 2) Check vertical lines
+    for (i in 0..2) {
+        if (grid[i] == grid[i + 3] &&
+            grid[i + 3] == grid[i + 6] &&
+            grid[i + 6] == player) return true
+    }
+
 
     return false
 }
