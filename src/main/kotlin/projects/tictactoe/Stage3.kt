@@ -25,6 +25,13 @@ fun stage3() {
 
 fun checkWin(grid: String, player: Char): Boolean {
 
+    // 1) Check horizontal lines
+    for (i in 0..2) {
+        if (grid[3 * i + 0] == grid[3 * i + 1] &&
+            grid[3 * i + 1] == grid[3 * i + 2] &&
+            grid[3 * i + 2] == player) return true
+    }
+
 
     return false
 }
