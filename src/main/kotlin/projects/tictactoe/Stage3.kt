@@ -13,16 +13,14 @@ const val PLAYER_2 = 'X'
 
 fun stage3() {
     // Variables
-    /*
     val userInput = readln()
-    val grid: MutableList<MutableList<Char>> = fillGrid(userInput)
 
     // Display Grid
     displayGrid(userInput)
+    println("${displayResult(userInput)}")
 
-     */
 
-    // DEBUG
+    /* DEBUG
     val TEST_INPUTS = mutableListOf<String>(
         "_________", "x________", "xo_______", "x___x____", "xxo____x_",
         "xoxoxoxox", "x_______o", "xo_ox___x", "xxx___ooo", "_xoox__x_",
@@ -34,8 +32,11 @@ fun stage3() {
         // println(countElts(input)) // Validated
         // println(checkWin(input, PLAYER_1)) // Validated
         // println(checkWin(input, PLAYER_2)) // Validated
-        println("\t${displayResult(input)}\n")
+        println("${displayResult(input)}\n")
     }
+
+    END OF DEBUG
+     */
 }
 
 
@@ -100,23 +101,4 @@ fun displayResult(userInput: String): String {
     if (totalElts == 9) return "Draw"
 
     return "Game not finished"
-}
-
-
-fun fillGrid(userInput: String): MutableList<MutableList<Char>> {
-    // Create 2D list for grid
-    val userGrid: MutableList<MutableList<Char>> = mutableListOf(
-        MutableList(3) {'_'},
-        MutableList(3) {'_'},
-        MutableList(3) {'_'}
-    )
-
-    // Fill grid
-    for (i in 0 until 3) {
-        for (j in 0 until 3) {
-            userGrid[i][j] = userInput[i * 3 + j]
-        }
-    }
-
-    return userGrid
 }
