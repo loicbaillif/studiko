@@ -29,11 +29,12 @@ fun stage3() {
         "xxxoo__o_", "xoxoxoxxo", "xoooxoxxo", "xoxooxxxo", "xo_oox_x_"
     )
     for (input in TEST_INPUTS) {
+        println(input)
         // displayGrid(input) // Validated
         // println(countElts(input)) // Validated
         // println(checkWin(input, PLAYER_1)) // Validated
         // println(checkWin(input, PLAYER_2)) // Validated
-        displayResult(input)
+        println("\t${displayResult(input)}\n")
     }
 }
 
@@ -81,10 +82,14 @@ fun countElts(userInput: String): MutableList<Int> {
 }
 
 
-fun displayResult(userInput: String): Unit {
+fun displayResult(userInput: String): String {
+    if (checkWin(userInput, PLAYER_1)) {
+        if (checkWin(userInput, PLAYER_2)) return "Impossible"
+
+    }
 
 
-    println("Game over")
+    return "Game Over"
 }
 
 
