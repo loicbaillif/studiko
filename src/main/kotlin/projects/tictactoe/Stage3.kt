@@ -13,16 +13,27 @@ const val PLAYER_2 = 'X'
 
 fun stage3() {
     // Variables
+    /*
     val userInput = readln()
     val grid: MutableList<MutableList<Char>> = fillGrid(userInput)
 
     // Display Grid
     displayGrid(userInput)
 
+     */
+
     // DEBUG
-    println(grid)
-    println(countElts(userInput))
-    println(checkWin(userInput, PLAYER_1))
+    val TEST_INPUTS = mutableListOf<String>(
+        "_________", "x________", "xo_______", "x___x____", "xxoo_____",
+        "xoxoxoxox", "x_______o", "xo_ox___x", "xxx___ooo", "_xoox__x_",
+        "xxxoo__o_", "xoxoxoxxo", "xoooxoxxo", "xoxooxxxo", "xo_oox_x_"
+    )
+    for (input in TEST_INPUTS) {
+        displayGrid(input)
+        println(countElts(input))
+        println(checkWin(input, PLAYER_1))
+        println(checkWin(input, PLAYER_2))
+    }
 }
 
 
