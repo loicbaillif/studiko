@@ -83,9 +83,10 @@ fun countElts(userInput: String): MutableList<Int> {
 
 
 fun displayResult(userInput: String): String {
-    val nbElts = countElts(userInput)
+    val nbElts = countElts(userInput) // mutableListOf(nb_o, nb_x)
+    val totalElts = nbElts[0] + nbElts[1] // sum of o and x
     val validDeltaElts = (nbElts[0] - nbElts[1] in -1..1)
-    println("\t. deltaElts = $validDeltaElts")
+    // println("\t. deltaElts = $validDeltaElts") // DEBUG
 
     if (!validDeltaElts) return "Impossible"
 
@@ -96,6 +97,7 @@ fun displayResult(userInput: String): String {
 
     if (checkWin(userInput, PLAYER_2)) return "X wins"
 
+    if (totalElts == 9) return "Draw"
 
     return "Game Over"
 }
