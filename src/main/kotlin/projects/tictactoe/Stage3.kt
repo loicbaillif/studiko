@@ -17,26 +17,8 @@ fun stage3() {
 
     // Display Grid
     displayGrid(userInput)
-    println("${displayResult(userInput)}")
+    println(displayResult(userInput))
 
-
-    /* DEBUG
-    val TEST_INPUTS = mutableListOf<String>(
-        "_________", "x________", "xo_______", "x___x____", "xxo____x_",
-        "xoxoxoxox", "x_______o", "xo_ox___x", "xxx___ooo", "_xoox__x_",
-        "xxxoo__o_", "xoxoxoxxo", "xoooxoxxo", "xoxooxxxo", "xo_oox_x_"
-    )
-    for (input in TEST_INPUTS) {
-        println(input)
-        displayGrid(input) // Validated
-        // println(countElts(input)) // Validated
-        // println(checkWin(input, PLAYER_1)) // Validated
-        // println(checkWin(input, PLAYER_2)) // Validated
-        println("${displayResult(input)}\n")
-    }
-
-    END OF DEBUG
-     */
 }
 
 
@@ -87,7 +69,6 @@ fun displayResult(userInput: String): String {
     val nbElts = countElts(userInput) // mutableListOf(nb_o, nb_x)
     val totalElts = nbElts[0] + nbElts[1] // sum of o and x
     val validDeltaElts = (nbElts[0] - nbElts[1] in -1..1)
-    // println("\t. deltaElts = $validDeltaElts") // DEBUG
 
     if (!validDeltaElts) return "Impossible"
 
