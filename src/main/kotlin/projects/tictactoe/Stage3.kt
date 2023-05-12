@@ -99,7 +99,7 @@ fun displayResult(userInput: String): String {
 
     if (totalElts == 9) return "Draw"
 
-    return "Game Over"
+    return "Game not finished"
 }
 
 
