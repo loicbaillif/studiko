@@ -30,7 +30,7 @@ fun stage3() {
     )
     for (input in TEST_INPUTS) {
         println(input)
-        // displayGrid(input) // Validated
+        displayGrid(input) // Validated
         // println(countElts(input)) // Validated
         // println(checkWin(input, PLAYER_1)) // Validated
         // println(checkWin(input, PLAYER_2)) // Validated
@@ -91,7 +91,10 @@ fun displayResult(userInput: String): String {
 
     if (checkWin(userInput, PLAYER_1)) {
         if (checkWin(userInput, PLAYER_2)) return "Impossible"
+        return "O wins"
     }
+
+    if (checkWin(userInput, PLAYER_2)) return "X wins"
 
 
     return "Game Over"
