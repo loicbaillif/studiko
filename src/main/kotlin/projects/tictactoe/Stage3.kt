@@ -24,7 +24,7 @@ fun stage3() {
 
     // DEBUG
     val TEST_INPUTS = mutableListOf<String>(
-        "_________", "x________", "xo_______", "x___x____", "xxoo_____",
+        "_________", "x________", "xo_______", "x___x____", "xxo____x_",
         "xoxoxoxox", "x_______o", "xo_ox___x", "xxx___ooo", "_xoox__x_",
         "xxxoo__o_", "xoxoxoxxo", "xoooxoxxo", "xoxooxxxo", "xo_oox_x_"
     )
@@ -83,9 +83,14 @@ fun countElts(userInput: String): MutableList<Int> {
 
 
 fun displayResult(userInput: String): String {
+    val nbElts = countElts(userInput)
+    val validDeltaElts = (nbElts[0] - nbElts[1] in -1..1)
+    println("\t. deltaElts = $validDeltaElts")
+
+    if (!validDeltaElts) return "Impossible"
+
     if (checkWin(userInput, PLAYER_1)) {
         if (checkWin(userInput, PLAYER_2)) return "Impossible"
-
     }
 
 
