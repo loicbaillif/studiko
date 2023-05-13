@@ -15,7 +15,7 @@ fun stage3() {
     // Variables
     val userInput = readln()
 
-    // Display Grid
+    // Display Grid & result
     displayGrid(userInput)
     println(displayResult(userInput))
 
