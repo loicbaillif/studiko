@@ -34,6 +34,17 @@ fun theory() {
     val someString2 = "Good morning..."
     println(someString2.replace("morning", "bye"))
     println(someString2.replace("...", "!"))
+    val someString3 = "one one one two three"
+    println(someString3.replace("one", "zero"))
+    println(someString3.replaceFirst("one", "zero"))
+
+
+    println("\n*** 3) Changing the case")
+    val someString4 = "UPPERCASE lowercase String"
+    println("\t. $someString4")
+    println("\t. ${someString4.lowercase()}")
+    println("\t. ${someString4.uppercase()}")
+
 
 
     println("\n***** End of theory *****")
