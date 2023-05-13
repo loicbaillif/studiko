@@ -24,6 +24,10 @@ fun theory() {
 
     println("\t. ${someString1.substringAfter('z', "Cannot find it")}")
 
+    print("\n\t. String1.substringAfterLast('l') ==> ")
+    println(someString1.substringAfterLast('l'))
+    print("\t. String1.substringBeforeLast('l') ==> ")
+    println(someString1.substringBeforeLast('l'))
 
 
     println("\n***** End of theory *****")
