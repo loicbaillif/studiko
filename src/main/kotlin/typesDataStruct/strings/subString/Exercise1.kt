@@ -10,6 +10,8 @@ package typesDataStruct.strings.subString
 fun exercise1() {
     println("*** Exercise: Case insensitive ***")
 
+    val input1 = readln()
+    val input2 = readln()
 
     println("\n*** End of exercise ***")
 }
