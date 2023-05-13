@@ -30,5 +30,11 @@ fun theory() {
     println(someString1.substringBeforeLast('l'))
 
 
+    println("\n*** 2) Replacing parts of a string")
+    val someString2 = "Good morning..."
+    println(someString2.replace("morning", "bye"))
+    println(someString2.replace("...", "!"))
+
+
     println("\n***** End of theory *****")
 }
