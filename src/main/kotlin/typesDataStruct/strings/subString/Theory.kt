@@ -22,6 +22,7 @@ fun theory() {
     println("\t. String1.substringBefore('o') ==> ${someString1.substringAfter('o')}")
     println("\t. String1.substringBefore('z') ==> ${someString1.substringAfter('z')}")
 
+    println("\t. ${someString1.substringAfter('z', "Cannot find it")}")
 
 
 
