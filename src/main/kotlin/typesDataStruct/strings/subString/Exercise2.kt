@@ -11,6 +11,7 @@ fun exercise2() {
     println("*** Exercise: Exchange ***")
 
     val userInput = readln()
+    print(userInput.last())
 
     println("\n*** End of exercise ***")
 }
