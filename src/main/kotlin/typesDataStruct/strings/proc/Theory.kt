@@ -16,6 +16,9 @@ fun theory() {
     val someString2 = "+1-555-345-6789"
     val someList2 = someString2.split("-")
     println("\t. $someList2")
+    val someString3 = "That's one small step for a man, one giant leap for mankind."
+    val someList3 = someString3.split(", ")
+    println("\t. $someList3")
 
 
     println("\n***** End of theory ***")
