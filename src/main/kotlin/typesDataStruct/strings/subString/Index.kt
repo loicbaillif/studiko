@@ -7,5 +7,6 @@ package typesDataStruct.strings.subString
 fun index() {
     println("********** Getting substrings **********\n")
     // theory()
-    exercise1()
+    // exercise1()
+    exercise2()
 }
