@@ -5,4 +5,5 @@ package typesDataStruct.strings.proc
  */
 fun index() {
     println("********** Processing strings **********\n")
+    theory()
 }
