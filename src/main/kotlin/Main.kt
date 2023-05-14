@@ -51,7 +51,8 @@ fun main() {
     // typesDataStruct.lists.workMut.index()
     // typesDataStruct.lists.forLoop.index()
     // typesDataStruct.lists.multiDim.index()
+    // typesDataStruct.strings.subString.index()
 
     // Current Chapter
-    typesDataStruct.strings.subString.index()
+    typesDataStruct.strings.proc.index()
 }
