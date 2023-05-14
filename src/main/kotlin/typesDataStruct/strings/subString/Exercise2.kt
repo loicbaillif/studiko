@@ -10,7 +10,7 @@ package typesDataStruct.strings.subString
 fun exercise2() {
     println("*** Exercise: Exchange ***")
 
-
+    val userInput = readln()
 
     println("\n*** End of exercise ***")
 }
