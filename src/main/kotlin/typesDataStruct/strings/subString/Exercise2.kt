@@ -13,6 +13,7 @@ fun exercise2() {
     val userInput = readln()
     print(userInput.last())
     print(userInput.substringBeforeLast(userInput.last()).substring(1))
+    println(userInput.first())
 
     println("\n*** End of exercise ***")
 }
