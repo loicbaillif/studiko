@@ -13,6 +13,9 @@ fun exercise1() {
     val userInput = readln()
     var firstThreeSum = 0
     var lastThreeSum = 0
+    for (index in userInput.indices) {
+
+    }
 
     println("\n*** End of exercise ***")
 }
