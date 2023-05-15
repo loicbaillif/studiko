@@ -14,7 +14,11 @@ fun exercise1() {
     var firstThreeSum = 0
     var lastThreeSum = 0
     for (index in userInput.indices) {
-
+        if (index < 3) {
+            firstThreeSum += userInput[index].digitToInt()
+        } else {
+            lastThreeSum += userInput[index].digitToInt()
+        }
     }
 
     println("\n*** End of exercise ***")
