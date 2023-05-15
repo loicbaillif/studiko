@@ -11,8 +11,7 @@ fun exercise3() {
     println("*** Exercise: Reversed output ***")
 
     val userInput1 = readln()
-    val userInput2 = readln()
-    println(userInput2)
+    println(readln())
     println(userInput1)
 
     println("\n*** End of exercise ***")
