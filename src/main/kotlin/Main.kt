@@ -28,7 +28,7 @@ fun main() {
     // typesDataStruct.strings.basics.index()
     // typesDataStruct.basicOps.boolLog.index()
     // typesDataStruct.variab.objects.index()
-    // basics.stdinout.readlnFun.index()
+    basics.stdinout.readlnFun.index()
     // typesDataStruct.basicOps.arith.index()
     // typesDataStruct.dataTypes.typeNumEx.index()
     // typesDataStruct.basicOps.incDec.index()
@@ -54,5 +54,5 @@ fun main() {
     // typesDataStruct.strings.subString.index()
 
     // Current Chapter
-    typesDataStruct.strings.proc.index()
+    // typesDataStruct.strings.proc.index()
 }
