@@ -12,15 +12,12 @@ fun exercise1() {
 
     val userInput = readln()
     var firstThreeSum = 0
-    var lastThreeSum = 0
     for (index in userInput.indices) {
-        if (index < 3) {
-            firstThreeSum += userInput[index].digitToInt()
-        } else {
-            lastThreeSum += userInput[index].digitToInt()
-        }
+        if (index < 3) firstThreeSum += userInput[index].digitToInt()
+        if (index >= 3) firstThreeSum -= userInput[index].digitToInt()
     }
-    println(if (firstThreeSum == lastThreeSum) "Lucky" else "Regular")
+
+    println(if (firstThreeSum == 0) "Lucky" else "Regular")
 
     println("\n*** End of exercise ***")
 }
