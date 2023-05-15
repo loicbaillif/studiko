@@ -10,7 +10,8 @@ package basics.stdinout.readlnFun
 fun exercise3() {
     println("*** Exercise: Reversed output ***")
 
-
+    val userInput1 = readln()
+    val userInput2 = readln()
 
     println("\n*** End of exercise ***")
 }
