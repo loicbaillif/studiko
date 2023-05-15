@@ -29,6 +29,12 @@ fun theory() {
     for (i in 0 until someString5.length) {
         print("${someString5[i]} ")
     }
+    var nbSpaces = 0
+    for (ch in someString4) {
+        if (Character.isWhitespace(ch)) nbSpaces++
+    }
+    println("\n\t. \"$someString4\" has $nbSpaces spaces.")
+
 
 
     println("\n***** End of theory ***")
