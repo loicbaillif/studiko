@@ -17,8 +17,11 @@ fun theory() {
     val someList2 = someString2.split("-")
     println("\t. $someList2")
     val someString3 = "That's one small step for a man, one giant leap for mankind."
-    val someList3 = someString3.split(", ")
+    val someList3 = someString3.split(",")
     println("\t. $someList3")
+    val someString4 = "I'm gonna be a programmer"
+    val someList4 = someString4.split(" gonna be ")
+    println("\t. $someList4")
 
 
     println("\n***** End of theory ***")
