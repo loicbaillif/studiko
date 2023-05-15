@@ -11,6 +11,8 @@ fun exercise1() {
     println("*** Exercise: The lucky ticket ***")
 
     val userInput = readln()
+    var firstThreeSum = 0
+    var lastThreeSum = 0
 
     println("\n*** End of exercise ***")
 }
