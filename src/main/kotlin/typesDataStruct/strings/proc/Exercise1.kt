@@ -20,6 +20,7 @@ fun exercise1() {
             lastThreeSum += userInput[index].digitToInt()
         }
     }
+    println(if (firstThreeSum == lastThreeSum) "Lucky" else "Regular")
 
     println("\n*** End of exercise ***")
 }
