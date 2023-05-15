@@ -24,5 +24,12 @@ fun theory() {
     println("\t. $someList4")
 
 
+    println("\n*** 2) Iterating over a string")
+    val someString5 = "Ada Lovelace"
+    for (i in 0 until someString5.length) {
+        print("${someString5[i]} ")
+    }
+
+
     println("\n***** End of theory ***")
 }
