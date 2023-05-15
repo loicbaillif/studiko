@@ -34,6 +34,10 @@ fun theory() {
         if (Character.isWhitespace(ch)) nbSpaces++
     }
     println("\n\t. \"$someString4\" has $nbSpaces spaces.")
+    val someString6 = "MVEMJSUN"
+    for (index in someString6.indices) {
+        println("\t${index+1}. ${someString6[index]}")
+    }
 
 
 
