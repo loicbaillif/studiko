@@ -12,6 +12,8 @@ fun exercise3() {
 
     val userInput1 = readln()
     val userInput2 = readln()
+    println(userInput2)
+    println(userInput1)
 
     println("\n*** End of exercise ***")
 }
