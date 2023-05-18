@@ -12,6 +12,9 @@ const val ERROR_NUMBERS = "You should enter numbers!"
 fun stage4() {
     var startGrid = readln()
     displayGrid(startGrid)
+    do {
+        val userInput = readln()
+    } while (!isValidInput(userInput))
 }
 
 
@@ -31,10 +34,10 @@ fun isValidInput(userInput: String): Boolean {
         return false
     }
 
-    if (userInput[0] !in '0'..'9' && userInput[2] !in '0'..'9') {
+    if ((userInput[0] !in '0'..'9') || (userInput[2] !in '0'..'9')) {
         println(ERROR_NUMBERS)
         return false
     }
 
-    return false
+    return true
 }
