@@ -20,7 +20,12 @@ fun exercise2() {
     for (ch in userInput) {
         if (previousIsVowel == ch in VOWELS) {
             // The streak is on
+            consecutiveCount++
+            println("\t. $ch \t Consecutive count = $consecutiveCount")
+        } else {
+            println("\t. $ch \t The streak is over")
         }
+        previousIsVowel = ch in VOWELS
     }
 
     println("\n*** End of exercise ***")
