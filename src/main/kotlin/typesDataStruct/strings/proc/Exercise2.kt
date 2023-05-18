@@ -21,12 +21,18 @@ fun exercise2() {
         if (previousIsVowel == ch in VOWELS) {
             // The streak is on
             consecutiveCount++
-            println("\t. $ch \t Consecutive count = $consecutiveCount")
+            println("\t. $ch \t Consecutive count = $consecutiveCount") // DEBUG
         } else {
-            println("\t. $ch \t The streak is over")
+            // The streak is over
+            println("\t. $ch \t Consecutive count = $consecutiveCount \t The streak is over") // DEBUG
+            result += (consecutiveCount + 1) / 3
+            consecutiveCount = 1
         }
         previousIsVowel = ch in VOWELS
     }
+    result += (consecutiveCount + 1) / 3
+
+    println(result)
 
     println("\n*** End of exercise ***")
 }
