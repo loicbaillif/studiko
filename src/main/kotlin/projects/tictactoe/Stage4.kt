@@ -19,3 +19,12 @@ fun isCellEmpty(grid: String, userInput: String): Boolean {
 
     return false
 }
+
+
+
+fun isValidInput(userInput: String): Boolean {
+    // TODO
+
+
+    return false
+}
