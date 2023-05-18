@@ -31,7 +31,7 @@ fun isValidInput(userInput: String): Boolean {
         return false
     }
 
-    if (userInput[0] !in '0'..'9') {
+    if (userInput[0] !in '0'..'9' && userInput[2] !in '0'..'9') {
         println(ERROR_NUMBERS)
         return false
     }
