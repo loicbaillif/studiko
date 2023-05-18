@@ -7,6 +7,8 @@ package projects.tictactoe
  * Solution by Loïc Baillif
  */
 
+const val ERROR_NUMBERS = "You should enter numbers!"
+
 fun stage4() {
     var startGrid = readln()
     displayGrid(startGrid)
@@ -26,6 +28,12 @@ fun isValidInput(userInput: String): Boolean {
     // TODO
     if (userInput.length != 3) {
         println("You should use \"X Y\" format!")
+        return false
+    }
+
+    if (userInput[0] !in '0'..'9') {
+        println(ERROR_NUMBERS)
+        return false
     }
 
     return false
