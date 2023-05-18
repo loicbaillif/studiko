@@ -13,7 +13,7 @@ fun main() {
     // PROJECT
     // projects.zookeeper.index()
     // projects.chattybot.index()
-    // projects.tictactoe.index()
+    projects.tictactoe.index()
 
     // Old Chapters
     // overview.index()
@@ -54,5 +54,5 @@ fun main() {
     // typesDataStruct.strings.subString.index()
 
     // Current Chapter
-    typesDataStruct.strings.proc.index()
+    // typesDataStruct.strings.proc.index()
 }
