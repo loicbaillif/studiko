@@ -8,6 +8,14 @@ package projects.tictactoe
  */
 
 fun stage4() {
-    val userInput = readln()
+    var userInput = readln()
     displayGrid(userInput)
+}
+
+
+fun isCellEmpty(grid: String, userInput: String): Boolean {
+    // TODO
+
+
+    return false
 }
