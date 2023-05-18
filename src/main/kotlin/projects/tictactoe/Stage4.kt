@@ -8,8 +8,8 @@ package projects.tictactoe
  */
 
 fun stage4() {
-    var userInput = readln()
-    displayGrid(userInput)
+    var startGrid = readln()
+    displayGrid(startGrid)
 }
 
 
@@ -24,7 +24,9 @@ fun isCellEmpty(grid: String, userInput: String): Boolean {
 
 fun isValidInput(userInput: String): Boolean {
     // TODO
-
+    if (userInput.length != 3) {
+        println("You should use \"X Y\" format!")
+    }
 
     return false
 }
