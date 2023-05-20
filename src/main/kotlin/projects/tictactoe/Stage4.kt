@@ -44,9 +44,11 @@ fun displayGrid2(grid: MutableList<MutableList<Char>>): Unit {
     // Gets the grid as 2d mutable list and prints it
     println("---------")
     for (i in 0..2) {
+        print("| ")
         for (j in 0..2) {
-
+            print("${grid[i][j]} ")
         }
+        print("|")
     }
     println("---------")
 }
