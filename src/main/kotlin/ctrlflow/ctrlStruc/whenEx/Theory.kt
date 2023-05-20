@@ -10,9 +10,9 @@ fun theory() {
     val b = var2.toInt()
 
     when (op) {
-        "+" -> println(a + b)
-        "-" -> println(a - b)
-        "*" -> println(a * b)
+        "+", "plus" -> println(a + b)
+        "-", "minus" -> println(a - b)
+        "*", "times" -> println(a * b)
         else -> println("Unknown operator")
     }
 
