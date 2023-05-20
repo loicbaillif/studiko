@@ -6,4 +6,5 @@ package ctrlflow.ctrlStruc.whenEx
 
 fun index() {
     println("********** When expression **********\n")
+    theory()
 }
