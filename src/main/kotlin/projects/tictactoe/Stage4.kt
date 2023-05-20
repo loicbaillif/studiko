@@ -40,6 +40,11 @@ fun createGrid(startGrid: String): MutableList<MutableList<Char>> {
 }
 
 
+fun displayGrid2(grid: MutableList<MutableList<Char>>): Unit {
+    // Gets the grid as 2d mutable list and prints it
+}
+
+
 fun isCellEmpty(grid: String, userInput: String): Boolean {
     // TODO
     val inputPosition = (userInput[0].digitToInt() - 1) * 3 + userInput[2].digitToInt() - 1
@@ -52,7 +57,6 @@ fun isCellEmpty(grid: String, userInput: String): Boolean {
 
     return true
 }
-
 
 
 fun isValidInput(userInput: String): Boolean {
