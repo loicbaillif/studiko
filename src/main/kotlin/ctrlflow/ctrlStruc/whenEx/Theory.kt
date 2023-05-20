@@ -10,11 +10,29 @@ fun theory() {
     val b = var2.toInt()
 
     when (op) {
-        "+", "plus" -> println(a + b)
-        "-", "minus" -> println(a - b)
-        "*", "times" -> println(a * b)
+        "+", "plus" -> {
+            println("Sum requested")
+            println(a + b)
+        }
+        "-", "minus" -> {
+            println("Subtraction requested")
+            println(a - b)
+        }
+        "*", "times" -> {
+            println("Multiplication detected")
+            println(a * b)
+        }
         else -> println("Unknown operator")
     }
+
+    println("\n*** 2) When as an expression")
+    val result = when (op) {
+        "+", "plus" -> a + b
+        "-", "minus" -> a - b
+        "*", "times" -> a * b
+        else -> 0
+    }
+    println(result)
 
 
     println("\n***** End of theory *****")
