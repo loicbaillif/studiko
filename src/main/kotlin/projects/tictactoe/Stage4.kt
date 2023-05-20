@@ -23,6 +23,12 @@ fun stage4() {
 
 
 fun createGrid(startGrid: String): MutableList<Char> {
+    // Variable
+    val grid = mutableListOf(
+        MutableList(3) {'_'},
+        MutableList(3) {'_'},
+        MutableList(3) {'_'}
+    )
 
 
 }
