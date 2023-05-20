@@ -11,16 +11,20 @@ const val ERROR_NUMBERS = "You should enter numbers!"
 const val ERROR_RANGE = "Coordinates should be from 1 to 3!"
 
 fun stage4() {
+
     var startGrid = readln()
     displayGrid(startGrid)
     do {
         val userInput = readln()
     } while (!isValidInput(userInput))
+
 }
 
 
 fun isCellEmpty(grid: String, userInput: String): Boolean {
     // TODO
+    val inputPosition = (userInput[0].digitToInt() - 1) * 3 + userInput[1].digitToInt() - 1
+
 
 
     return false
@@ -29,7 +33,8 @@ fun isCellEmpty(grid: String, userInput: String): Boolean {
 
 
 fun isValidInput(userInput: String): Boolean {
-    // TODO
+    // Returns true if and only if the input is valid
+    // Elsewhere prints the reason for error, and returns false
     if ((userInput.length != 3) || (userInput[1] != ' ')) {
         println(ERROR_NUMBERS)
         return false
