@@ -92,8 +92,14 @@ fun isValidInput(userInput: String): Boolean {
 }
 
 
-fun updateGrid(grid: String, userInput: String, player:Char) {
-    // Variables
-    val inputPos = (userInput[0].digitToInt() - 1) * 2 + userInput[2].digitToInt() - 1
+fun updateGrid(
+    grid: MutableList<MutableList<Char>>,
+    userInput: String,
+    player:Char
+) : MutableList<MutableList<Char>> {
+    val x = userInput[0].digitToInt()
+    val y = userInput[2].digitToInt()
+    grid[x][y] = player
 
+    return grid
 }
