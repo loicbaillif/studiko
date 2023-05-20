@@ -12,15 +12,19 @@ const val ERROR_NUMBERS = "You should enter numbers!"
 const val ERROR_RANGE = "Coordinates should be from 1 to 3!"
 
 fun stage4() {
-
+    // Variables
     val startGrid = readln()
     var grid = createGrid(startGrid)
+    var userInput = ""
     displayGrid2(grid)
 
+    // Processing
     do {
-        val userInput = readln()
+        userInput = readln()
     } while (!isValidInput(userInput) || !isCellEmpty(startGrid, userInput))
 
+    updateGrid(grid, userInput, 'X')
+    displayGrid2(grid)
 }
 
 
@@ -97,8 +101,8 @@ fun updateGrid(
     userInput: String,
     player:Char
 ) : MutableList<MutableList<Char>> {
-    val x = userInput[0].digitToInt()
-    val y = userInput[2].digitToInt()
+    val x = userInput[0].digitToInt() - 1
+    val y = userInput[2].digitToInt() - 1
     grid[x][y] = player
 
     return grid
