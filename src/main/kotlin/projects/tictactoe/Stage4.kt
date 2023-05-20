@@ -22,6 +22,12 @@ fun stage4() {
 }
 
 
+fun createGrid(startGrid: String): MutableList<Char> {
+
+
+}
+
+
 fun isCellEmpty(grid: String, userInput: String): Boolean {
     // TODO
     val inputPosition = (userInput[0].digitToInt() - 1) * 3 + userInput[2].digitToInt() - 1
