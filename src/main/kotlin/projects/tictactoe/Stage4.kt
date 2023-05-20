@@ -7,6 +7,7 @@ package projects.tictactoe
  * Solution by Loïc Baillif
  */
 
+const val ERROR_NOT_EMPTY = "This cell is occupied! Choose another one!"
 const val ERROR_NUMBERS = "You should enter numbers!"
 const val ERROR_RANGE = "Coordinates should be from 1 to 3!"
 
@@ -16,18 +17,22 @@ fun stage4() {
     displayGrid(startGrid)
     do {
         val userInput = readln()
-    } while (!isValidInput(userInput))
+    } while (!isValidInput(userInput) || !isCellEmpty(startGrid, userInput))
 
 }
 
 
 fun isCellEmpty(grid: String, userInput: String): Boolean {
     // TODO
-    val inputPosition = (userInput[0].digitToInt() - 1) * 3 + userInput[1].digitToInt() - 1
+    val inputPosition = (userInput[0].digitToInt() - 1) * 3 + userInput[2].digitToInt() - 1
+
+    if (grid[inputPosition] != '_') {
+        println(ERROR_NOT_EMPTY)
+        return false
+    }
 
 
-
-    return false
+    return true
 }
 
 
