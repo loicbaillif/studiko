@@ -8,6 +8,7 @@ package projects.tictactoe
  */
 
 const val ERROR_NUMBERS = "You should enter numbers!"
+const val ERROR_RANGE = "Coordinates should be from 1 to 3!"
 
 fun stage4() {
     var startGrid = readln()
@@ -29,13 +30,18 @@ fun isCellEmpty(grid: String, userInput: String): Boolean {
 
 fun isValidInput(userInput: String): Boolean {
     // TODO
-    if (userInput.length != 3) {
-        println("You should use \"X Y\" format!")
+    if ((userInput.length != 3) || (userInput[1] != ' ')) {
+        println(ERROR_NUMBERS)
         return false
     }
 
     if ((userInput[0] !in '0'..'9') || (userInput[2] !in '0'..'9')) {
         println(ERROR_NUMBERS)
+        return false
+    }
+
+    if ((userInput[0] !in '1'..'3') || (userInput[2] !in '1'..'3')) {
+        println(ERROR_RANGE)
         return false
     }
 
