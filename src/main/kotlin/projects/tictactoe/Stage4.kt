@@ -60,4 +60,7 @@ fun isValidInput(userInput: String): Boolean {
 
 
 fun updateGrid(grid: String, userInput: String, player:Char) {
+    // Variables
+    val inputPos = (userInput[0].digitToInt() - 1) * 2 + userInput[2].digitToInt() - 1
+
 }
