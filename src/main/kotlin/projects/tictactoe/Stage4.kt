@@ -13,7 +13,6 @@ const val ERROR_RANGE = "Coordinates should be from 1 to 3!"
 
 fun stage4() {
     // Variables
-    val startGrid = readln()
     val grid = createGrid(readln())
     var userInput: String
     displayGrid2(grid)
@@ -21,7 +20,7 @@ fun stage4() {
     // Processing
     do {
         userInput = readln()
-    } while (!isValidInput(userInput) || !isCellEmpty(startGrid, userInput))
+    } while (!isValidInput(userInput) || !isCellEmpty(grid, userInput))
 
     updateGrid(grid, userInput, 'X')
     displayGrid2(grid)
