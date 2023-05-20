@@ -42,6 +42,13 @@ fun createGrid(startGrid: String): MutableList<MutableList<Char>> {
 
 fun displayGrid2(grid: MutableList<MutableList<Char>>): Unit {
     // Gets the grid as 2d mutable list and prints it
+    println("---------")
+    for (i in 0..2) {
+        for (j in 0..2) {
+
+        }
+    }
+    println("---------")
 }
 
 
