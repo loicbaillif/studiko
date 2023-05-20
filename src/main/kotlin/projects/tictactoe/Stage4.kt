@@ -13,7 +13,7 @@ const val ERROR_RANGE = "Coordinates should be from 1 to 3!"
 
 fun stage4() {
 
-    var startGrid = readln()
+    val startGrid = readln()
     displayGrid(startGrid)
     do {
         val userInput = readln()
@@ -22,7 +22,7 @@ fun stage4() {
 }
 
 
-fun createGrid(startGrid: String): MutableList<Char> {
+fun createGrid(startGrid: String): MutableList<MutableList<Char>> {
     // Variable
     val grid = mutableListOf(
         MutableList(3) {'_'},
@@ -30,7 +30,13 @@ fun createGrid(startGrid: String): MutableList<Char> {
         MutableList(3) {'_'}
     )
 
+    for (i in 0..2) {
+        for (j in 0..2) {
+            grid[i][j] = startGrid[i * 3 + j]
+        }
+    }
 
+    return grid
 }
 
 
