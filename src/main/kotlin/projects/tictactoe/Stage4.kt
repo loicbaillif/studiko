@@ -14,8 +14,8 @@ const val ERROR_RANGE = "Coordinates should be from 1 to 3!"
 fun stage4() {
     // Variables
     val startGrid = readln()
-    var grid = createGrid(startGrid)
-    var userInput = ""
+    val grid = createGrid(readln())
+    var userInput: String
     displayGrid2(grid)
 
     // Processing
@@ -46,7 +46,7 @@ fun createGrid(startGrid: String): MutableList<MutableList<Char>> {
 }
 
 
-fun displayGrid2(grid: MutableList<MutableList<Char>>): Unit {
+fun displayGrid2(grid: MutableList<MutableList<Char>>) {
     // Gets the grid as 2d mutable list and prints it
     println("---------")
     for (i in 0..2) {
@@ -60,15 +60,15 @@ fun displayGrid2(grid: MutableList<MutableList<Char>>): Unit {
 }
 
 
-fun isCellEmpty(grid: String, userInput: String): Boolean {
-    // TODO
-    val inputPosition = (userInput[0].digitToInt() - 1) * 3 + userInput[2].digitToInt() - 1
+fun isCellEmpty(grid: MutableList<MutableList<Char>>, userInput: String): Boolean {
+    // Variables
+    val x = userInput[0].digitToInt() - 1
+    val y = userInput[2].digitToInt() - 1
 
-    if (grid[inputPosition] != '_') {
+    if (grid[x][y] != '_') {
         println(ERROR_NOT_EMPTY)
         return false
     }
-
 
     return true
 }
