@@ -57,3 +57,7 @@ fun isValidInput(userInput: String): Boolean {
 
     return true
 }
+
+
+fun updateGrid(grid: String, userInput: String, player:Char) {
+}
