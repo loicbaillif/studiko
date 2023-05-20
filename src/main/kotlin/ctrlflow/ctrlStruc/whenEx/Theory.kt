@@ -26,13 +26,12 @@ fun theory() {
     }
 
     println("\n*** 2) When as an expression")
-    val result = when (op) {
+    println(when (op) {
         "+", "plus" -> a + b
         "-", "minus" -> a - b
         "*", "times" -> a * b
         else -> 0
-    }
-    println(result)
+    })
 
 
     println("\n***** End of theory *****")
