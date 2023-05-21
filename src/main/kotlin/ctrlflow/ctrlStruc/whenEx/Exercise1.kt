@@ -12,6 +12,7 @@ fun exercise1() {
 
     val userInput = readln()
     println(when (userInput) {
+        "1" -> "move up"
         else -> "error!"
     })
 
