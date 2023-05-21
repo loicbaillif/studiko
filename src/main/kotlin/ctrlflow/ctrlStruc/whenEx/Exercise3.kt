@@ -10,7 +10,7 @@ package ctrlflow.ctrlStruc.whenEx
 fun exercise3() {
     println("*** Exercise: The army of units ***")
 
-
+    val nbUnits = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
