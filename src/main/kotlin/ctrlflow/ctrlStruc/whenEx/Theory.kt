@@ -48,6 +48,16 @@ fun theory() {
         else -> "We do not know how to calculate $e"
     })
 
+    print("Enter your age:\n\t")
+    val userAge = readln().toInt()
+    when (userAge) {
+        0 -> println("You were just born?")
+        in 1..12 -> println("Heya kiddo")
+        in 13..19 -> println("Super, teenager!")
+        in 20..60 -> println("Adulthood is fantastic")
+        else -> println("You live your happy life")
+    }
+
 
     println("\n***** End of theory *****")
 }
