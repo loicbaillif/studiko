@@ -1,7 +1,5 @@
 package ctrlflow.ctrlStruc.whenEx
 
-import com.sun.org.apache.bcel.internal.classfile.Unknown
-
 /**
  * Exercise: Just checking
  * https://hyperskill.org/learn/step/4602
@@ -9,10 +7,10 @@ import com.sun.org.apache.bcel.internal.classfile.Unknown
  * Solution by Loïc Baillif
  */
 
-const val JAVA = 1
-const val KOTLIN = 2
-const val SCALA = 3
-const val PYTHON = 4
+const val JAVA = "1"
+const val KOTLIN = "2"
+const val SCALA = "3"
+const val PYTHON = "4"
 
 fun exercise4() {
     println("*** Exercise: Just checking ***")
@@ -20,7 +18,9 @@ fun exercise4() {
     val userInput = readln()
     println(
         when (userInput) {
-        else -> "Unknown number"
+            KOTLIN -> "Yes!"
+            JAVA, PYTHON, SCALA -> "No!"
+            else -> "Unknown number"
         }
     )
 
