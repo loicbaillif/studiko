@@ -11,6 +11,11 @@ fun exercise2() {
     println("*** Exercise: Harry Potter ***")
 
     val userInput = readln()
+    println(
+        when (userInput) {
+            else -> "not a valid house"
+        }
+    )
 
     println("\n*** End of exercise ***")
 }
