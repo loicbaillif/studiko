@@ -10,9 +10,8 @@ package ctrlflow.ctrlStruc.whenEx
 fun exercise3() {
     println("*** Exercise: The army of units ***")
 
-    val nbUnits = readln().toInt()
     println(
-        when(nbUnits) {
+        when(readln().toInt()) {
             in Int.MIN_VALUE..0 -> "no army"
             in 1..4 -> "few"
             in 5..9 -> "several"
