@@ -1,5 +1,11 @@
 package ctrlflow.ctrlStruc.whenEx
 
+/**
+ * Theory: When expression
+ * https://hyperskill.org/learn/step/4631
+ * @author JetBrains Academy
+ */
+
 fun theory() {
     println("***** Theory *****")
 
