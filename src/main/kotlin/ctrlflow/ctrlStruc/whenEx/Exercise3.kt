@@ -21,6 +21,7 @@ fun exercise3() {
             in 50..99 -> "horde"
             in 100..249 -> "throng"
             in 250..499 -> "swarm"
+            in 500..999 -> "zounds"
             else -> "legion"
         }
     )
