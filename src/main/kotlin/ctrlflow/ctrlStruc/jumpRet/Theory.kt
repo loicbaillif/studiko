@@ -9,7 +9,16 @@ package ctrlflow.ctrlStruc.jumpRet
 fun theory() {
     println("***** Theory *****")
 
+    println("\n*** 1) The break statement")
 
+    for (i in 1..10) {
+        print("\t. loop $i ... ")
+        if (i != 4) println("continue.")
+        else {
+            println("break!")
+            break
+        }
+    }
 
     println("\n***** End of theory *****")
 }
