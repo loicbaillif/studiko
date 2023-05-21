@@ -11,7 +11,9 @@ fun exercise1() {
     println("*** Exercise: Direction ***")
 
     val userInput = readln()
-
+    println(when (userInput) {
+        else -> "error!"
+    })
 
     println("\n*** End of exercise ***")
 }
