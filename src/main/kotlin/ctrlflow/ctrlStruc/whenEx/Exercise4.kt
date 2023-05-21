@@ -1,5 +1,7 @@
 package ctrlflow.ctrlStruc.whenEx
 
+import com.sun.org.apache.bcel.internal.classfile.Unknown
+
 /**
  * Exercise: Just checking
  * https://hyperskill.org/learn/step/4602
@@ -16,6 +18,11 @@ fun exercise4() {
     println("*** Exercise: Just checking ***")
 
     val userInput = readln()
+    println(
+        when (userInput) {
+        else -> "Unknown number"
+        }
+    )
 
     println("\n*** End of exercise ***")
 }
