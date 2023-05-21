@@ -7,6 +7,11 @@ package ctrlflow.ctrlStruc.whenEx
  * Solution by Loïc Baillif
  */
 
+const val JAVA = 1
+const val KOTLIN = 2
+const val SCALA = 3
+const val PYTHON = 4
+
 fun exercise4() {
     println("*** Exercise: Just checking ***")
 
