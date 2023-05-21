@@ -15,6 +15,7 @@ fun exercise3() {
         when(nbUnits) {
             in Int.MIN_VALUE..0 -> "no army"
             in 1..4 -> "few"
+            in 5..9 -> "several"
             else -> "legion"
         }
     )
