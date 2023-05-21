@@ -18,6 +18,7 @@ fun exercise3() {
             in 5..9 -> "several"
             in 10..19 -> "pack"
             in 20..49 -> "lots"
+            in 50..99 -> "horde"
             else -> "legion"
         }
     )
