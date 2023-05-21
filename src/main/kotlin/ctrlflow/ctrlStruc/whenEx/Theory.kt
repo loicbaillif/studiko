@@ -58,6 +58,11 @@ fun theory() {
         else -> println("You live your happy life")
     }
 
+    when (userAge) {
+        in 0..18, in 64..120 -> println("No job at this age")
+        else -> println("Hope you enjoy your job!")
+    }
+
 
     println("\n***** End of theory *****")
 }
