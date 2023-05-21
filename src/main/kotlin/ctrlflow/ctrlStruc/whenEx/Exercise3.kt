@@ -13,6 +13,7 @@ fun exercise3() {
     val nbUnits = readln().toInt()
     println(
         when(nbUnits) {
+            in Int.MIN_VALUE..0 -> "no army"
             else -> "legion"
         }
     )
