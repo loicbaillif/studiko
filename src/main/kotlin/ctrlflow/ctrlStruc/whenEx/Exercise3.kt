@@ -16,6 +16,7 @@ fun exercise3() {
             in Int.MIN_VALUE..0 -> "no army"
             in 1..4 -> "few"
             in 5..9 -> "several"
+            in 10..19 -> "pack"
             else -> "legion"
         }
     )
