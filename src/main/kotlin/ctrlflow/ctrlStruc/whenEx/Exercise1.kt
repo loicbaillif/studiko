@@ -11,7 +11,7 @@ fun exercise1() {
     println("*** Exercise: Direction ***")
 
     println(when (readln()) {
-        "0" -> "stay"
+        "0" -> "do not move"
         "1" -> "move up"
         "2" -> "move down"
         "3" -> "move left"
