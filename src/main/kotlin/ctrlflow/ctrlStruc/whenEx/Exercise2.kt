@@ -10,9 +10,8 @@ package ctrlflow.ctrlStruc.whenEx
 fun exercise2() {
     println("*** Exercise: Harry Potter ***")
 
-    val userInput = readln()
     println(
-        when (userInput) {
+        when (readln()) {
             "gryffindor" -> "bravery"
             "hufflepuff" -> "loyalty"
             "ravenclaw" -> "intellect"
