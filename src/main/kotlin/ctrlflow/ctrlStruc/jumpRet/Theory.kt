@@ -28,5 +28,15 @@ fun theory() {
         println("\t. $i")
     }
 
+    println("\n*** 3) Inner loops and structural jump expressions")
+    for (i in 1..4) {
+        print("\t")
+        for (j in 1..4) {
+            print("$i$j\t")
+        }
+        println()
+    }
+
+
     println("\n***** End of theory *****")
 }
