@@ -34,5 +34,20 @@ fun theory() {
     })
 
 
+    println("\n*** 3) Branch conditions and ranges")
+    val (var3, var4, var5) = readln().split(" ")
+
+    val c = var3.toInt()
+    val d = var4.toInt()
+    val e = var5.toInt()
+
+    println(when (e) {
+        c + d -> "$e equals $c plus $d"
+        c - d -> "$e equals $c minus $d"
+        c * d -> "$e equals $c times $d"
+        else -> "We do not know how to calculate $e"
+    })
+
+
     println("\n***** End of theory *****")
 }
