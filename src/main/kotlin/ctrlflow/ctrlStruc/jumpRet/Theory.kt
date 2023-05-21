@@ -33,6 +33,7 @@ fun theory() {
         print("\t")
         for (j in 1..4) {
             if (j == 2) continue
+            if (j > i) break
             print("$i$j\t")
         }
         println()
