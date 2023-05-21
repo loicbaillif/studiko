@@ -20,5 +20,13 @@ fun theory() {
         }
     }
 
+    println("\n*** 2) The continue statement")
+
+    println("Printing \"Hello, world!\" without the 'o':")
+    for (i in "Hello, world!") {
+        if (i == 'o') continue
+        println("\t. $i")
+    }
+
     println("\n***** End of theory *****")
 }
