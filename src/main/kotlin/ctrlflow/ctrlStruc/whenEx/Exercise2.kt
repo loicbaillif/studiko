@@ -13,6 +13,7 @@ fun exercise2() {
     val userInput = readln()
     println(
         when (userInput) {
+            "gryffindor" -> "bravery"
             else -> "not a valid house"
         }
     )
