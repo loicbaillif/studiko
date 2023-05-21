@@ -10,8 +10,7 @@ package ctrlflow.ctrlStruc.whenEx
 fun exercise1() {
     println("*** Exercise: Direction ***")
 
-    val userInput = readln()
-    println(when (userInput) {
+    println(when (readln()) {
         "0" -> "stay"
         "1" -> "move up"
         "2" -> "move down"
