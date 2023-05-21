@@ -14,6 +14,7 @@ fun exercise2() {
     println(
         when (userInput) {
             "gryffindor" -> "bravery"
+            "hufflepuff" -> "loyalty"
             else -> "not a valid house"
         }
     )
