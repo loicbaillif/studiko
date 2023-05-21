@@ -15,7 +15,7 @@ const val PYTHON = 4
 fun exercise4() {
     println("*** Exercise: Just checking ***")
 
-
+    val userInput = readln()
 
     println("\n*** End of exercise ***")
 }
