@@ -12,6 +12,7 @@ fun exercise1() {
 
     val userInput = readln()
     println(when (userInput) {
+        "0" -> "stay"
         "1" -> "move up"
         "2" -> "move down"
         "3" -> "move left"
