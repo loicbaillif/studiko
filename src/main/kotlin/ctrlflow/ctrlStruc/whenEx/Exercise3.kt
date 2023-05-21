@@ -11,6 +11,11 @@ fun exercise3() {
     println("*** Exercise: The army of units ***")
 
     val nbUnits = readln().toInt()
+    println(
+        when(nbUnits) {
+            else -> "legion"
+        }
+    )
 
     println("\n*** End of exercise ***")
 }
