@@ -15,6 +15,7 @@ fun exercise2() {
         when (userInput) {
             "gryffindor" -> "bravery"
             "hufflepuff" -> "loyalty"
+            "ravenclaw" -> "intellect"
             "slytherin" -> "cunning"
             else -> "not a valid house"
         }
