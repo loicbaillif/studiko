@@ -64,5 +64,13 @@ fun theory() {
     }
 
 
+    println("\n*** 4) When without arguments")
+    when {
+        userAge == 18 -> println("You are an adult now")
+        e == 42 -> println("Yes this is the absolut answer")
+        op == "*" -> println("You asked for a multiplication?")
+    }
+
+
     println("\n***** End of theory *****")
 }
