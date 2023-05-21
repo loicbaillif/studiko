@@ -13,7 +13,7 @@ fun theory() {
 
     for (i in 1..10) {
         print("\t. loop $i ... ")
-        if (i != 4) println("continue.")
+        if (i != 4) println("carry on.")
         else {
             println("break!")
             break
