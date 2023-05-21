@@ -40,5 +40,14 @@ fun theory() {
     }
 
 
+    println("\n*** 4) Labels")
+    loop1@ for (i in 1..3) {
+        for (j in 1..3) {
+            println("i = $i - j = $j")
+            if (j == 3) break@loop1
+        }
+    }
+
+
     println("\n***** End of theory *****")
 }
