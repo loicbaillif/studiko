@@ -14,6 +14,7 @@ fun exercise1() {
     println(when (userInput) {
         "1" -> "move up"
         "2" -> "move down"
+        "3" -> "move left"
         else -> "error!"
     })
 
