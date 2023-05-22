@@ -75,7 +75,9 @@ fun theory() {
     for (i in 1..10) {
         for (j in 1..10) {
             println("\t. i = $i\t j = $j")
+            if (j == 3) return
         }
+        println("This is unreachable code")
     }
 
 
@@ -89,5 +91,5 @@ fun someFunction1() {
         if (it == 3) return
         println("\t. $it")
     }
-    println("This is invisible code")
+    println("This is unreachable code")
 }
