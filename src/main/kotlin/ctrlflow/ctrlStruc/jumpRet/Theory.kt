@@ -69,6 +69,10 @@ fun theory() {
     }
 
 
+    println("\n*** 6) The return statement")
+    someFunction1()
+
+
     println("\n***** End of theory *****")
 }
 
@@ -79,4 +83,5 @@ fun someFunction1() {
         if (it == 3) return
         println("\t. $it")
     }
+    println("This is invisible code")
 }
