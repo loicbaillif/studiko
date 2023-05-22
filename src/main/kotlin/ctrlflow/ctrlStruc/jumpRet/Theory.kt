@@ -72,6 +72,12 @@ fun theory() {
     println("\n*** 6) The return statement")
     someFunction1()
 
+    for (i in 1..10) {
+        for (j in 1..10) {
+            println("\t. i = $i\t j = $j")
+        }
+    }
+
 
     println("\n***** End of theory *****")
 }
