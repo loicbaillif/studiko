@@ -59,5 +59,15 @@ fun theory() {
     }
 
 
+    println("\n*** 5) When and structural jump expressions")
+    for (i in 1..10) {
+        when (i) {
+            3 -> continue
+            6 -> break
+            else -> println("\t. $i")
+        }
+    }
+
+
     println("\n***** End of theory *****")
 }
