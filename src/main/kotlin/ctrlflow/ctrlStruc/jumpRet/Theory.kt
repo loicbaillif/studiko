@@ -48,6 +48,16 @@ fun theory() {
         }
     }
 
+    println()
+    loop2@ for (i in 1..3) {
+        for (j in 1..3) {
+            for (k in 1..3) {
+                if (k == 2) continue@loop2
+                println("i = $i\tj = $j\tk = $k")
+            }
+        }
+    }
+
 
     println("\n***** End of theory *****")
 }
