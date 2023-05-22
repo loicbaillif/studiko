@@ -79,6 +79,7 @@ fun theory() {
         }
         println("This is unreachable code")
     }
+    println("This is unreachable code") // Because return went to caller of theory()
 
 
     println("\n***** End of theory *****")
