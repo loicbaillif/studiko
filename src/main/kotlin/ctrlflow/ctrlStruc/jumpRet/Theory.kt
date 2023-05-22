@@ -71,3 +71,12 @@ fun theory() {
 
     println("\n***** End of theory *****")
 }
+
+
+fun someFunction1() {
+    val someNumber = intArrayOf(1, 2, 3, 4, 5)
+    for (it in someNumber) {
+        if (it == 3) return
+        println("\t. $it")
+    }
+}
