@@ -13,7 +13,8 @@ fun exercise1() {
     val userInput = readln()
     for (ch in userInput) {
         if (ch in '0'..'9') {
-
+            println(ch)
+            return
         }
     }
 
