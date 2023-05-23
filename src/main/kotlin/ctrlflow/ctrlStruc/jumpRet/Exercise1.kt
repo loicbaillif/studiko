@@ -11,7 +11,9 @@ fun exercise1() {
     println("*** Exercise: First digit ***")
 
     val userInput = readln()
+    for (ch in userInput) {
 
+    }
 
     println("\n*** End of exercise ***")
 }
