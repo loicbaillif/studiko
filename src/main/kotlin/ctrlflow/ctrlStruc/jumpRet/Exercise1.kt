@@ -14,7 +14,7 @@ fun exercise1() {
     for (ch in userInput) {
         if (ch in '0'..'9') {
             println(ch)
-            return
+            break // return would work as well
         }
     }
 
