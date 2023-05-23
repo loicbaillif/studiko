@@ -10,8 +10,7 @@ package ctrlflow.ctrlStruc.jumpRet
 fun exercise1() {
     println("*** Exercise: First digit ***")
 
-    val userInput = readln()
-    for (ch in userInput) {
+    for (ch in readln()) {
         if (ch in '0'..'9') {
             println(ch)
             break // return would work as well
