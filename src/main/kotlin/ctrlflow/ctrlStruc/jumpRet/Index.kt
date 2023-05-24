@@ -7,5 +7,6 @@ package ctrlflow.ctrlStruc.jumpRet
 fun index() {
     println("********** Jumps and returns **********\n")
     // theory()
-    exercise1()
+    // exercise1()
+    exercise2()
 }
