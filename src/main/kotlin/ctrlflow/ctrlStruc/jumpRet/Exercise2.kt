@@ -10,7 +10,7 @@ package ctrlflow.ctrlStruc.jumpRet
 fun exercise2() {
     println("*** Exercise: Beyond the word ***")
 
-
+    val userWord = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
