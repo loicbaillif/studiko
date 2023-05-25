@@ -13,7 +13,8 @@ fun exercise3() {
     val totalSeconds = System.currentTimeMillis() / 1000
     val secondsPerDay = 3600 * 24
     val todaySeconds = totalSeconds % secondsPerDay
-    println(todaySeconds)
+    val hours = todaySeconds / 3600
+    println(hours)
 
 
     println("\n*** End of exercise ***")
