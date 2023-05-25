@@ -10,7 +10,7 @@ package typesDataStruct.basicOps.intAction
 fun exercise3() {
     println("*** Exercise: Time format ***")
 
-
+    val totalSeconds = System.currentTimeMillis() / 1000
 
     println("\n*** End of exercise ***")
 }
