@@ -15,7 +15,8 @@ fun exercise3() {
     val todaySeconds = totalSeconds % secondsPerDay
     val hours = todaySeconds / 3600
     val minutes = (todaySeconds / 60) % 60
-    println(minutes)
+    val seconds = todaySeconds % 60
+    println(seconds)
 
 
     println("\n*** End of exercise ***")
