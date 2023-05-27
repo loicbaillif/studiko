@@ -40,3 +40,10 @@ fun stage5() {
     }
 
 }
+
+
+fun isWinner(grid: MutableList<MutableList<Char>>): Boolean {
+
+
+    return false
+}
