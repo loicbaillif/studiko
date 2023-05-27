@@ -18,3 +18,12 @@ fun stage2() {
     println(ASK_NB_SEATS)
     val nbSeats = readln().toInt()
 }
+
+
+fun checkInputInt(prompt: String, default: Int = 1): Int {
+    // This function print the prompt, then return user input as an Integer
+    // If user input is not an integer, returns default value
+
+
+    return 1
+}
