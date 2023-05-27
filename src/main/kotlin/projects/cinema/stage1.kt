@@ -11,6 +11,12 @@ fun stage1() {
     val nbRows = 7
     val nbSeats = 8
 
+    print("  ")
+    for (i in 1..nbSeats) {
+        print("$i ")
+    }
+    println()
+
     for (i in 0..nbRows) {
 
         for (j in 0..nbSeats) {
