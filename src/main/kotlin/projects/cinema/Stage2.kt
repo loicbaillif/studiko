@@ -13,10 +13,6 @@ const val PRINT_INCOME = "Total income:\n"
 
 fun stage2() {
     // Variables
-    println(ASK_NB_ROWS)
-    val nbRows = readln().toInt()
-    println(ASK_NB_SEATS)
-    val nbSeats = readln().toInt()
 }
 
 
@@ -30,5 +26,5 @@ fun checkInputInt(prompt: String, default: Int = 1): Int {
         if (ch !in '0'..'9') return default
     }
 
-    return 1
+    return userInputString.toInt()
 }
