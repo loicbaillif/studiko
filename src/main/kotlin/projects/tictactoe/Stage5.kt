@@ -27,8 +27,16 @@ fun stage5() {
 
         // Update grid and display it
         updateGrid(grid, userInput, playersList[nbTurns % 2])
-        nbTurns++
         displayGrid2(grid)
+
+        // Verify if winner
+        if (nbTurns > 4) {
+            // No possible winner before the 5th turn
+
+        }
+
+        // Finally increment counter
+        nbTurns++
     }
 
 }
