@@ -13,7 +13,8 @@ fun main() {
     // PROJECT
     // projects.zookeeper.index()
     // projects.chattybot.index()
-    projects.tictactoe.index()
+    // projects.tictactoe.index()
+    projects.cinema.index()
 
     // Old Chapters
     // overview.index()
