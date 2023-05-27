@@ -29,7 +29,9 @@ fun checkInputInt(prompt: String, default: Int = 1): Int {
 
 
 fun createCinema(nbRows: Int, nbSeats: Int): MutableList<MutableList<Char>> {
+    val rowList = MutableList(nbSeats) { 'S' }
 
+    return MutableList(nbRows) { rowList }
 }
 
 
