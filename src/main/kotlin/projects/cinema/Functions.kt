@@ -52,7 +52,7 @@ fun displayCinema(nbRows: Int, nbSeats: Int) {
 }
 
 
-fun displayCinemaList(cinema: MutableList<MutableList<Char>>): Unit {
+fun displayCinemaList(cinema: MutableList<MutableList<Char>>) {
     // Will create the cinema room as a 2D mutable list
     // First dimension: number of rows - second dimension: seats per row
 
@@ -60,7 +60,7 @@ fun displayCinemaList(cinema: MutableList<MutableList<Char>>): Unit {
     val nbRows = cinema.size
     val nbSeats = cinema[0].size
 
-    println("Cinema has $nbRows rows of $nbSeats seats each") // DEBUG
+    displayCinema(nbRows, nbSeats)
 }
 
 

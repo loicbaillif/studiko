@@ -14,7 +14,7 @@ fun stage3() {
     val cinemaList = createCinema(nbRows, nbSeats)
 
     // Body
-    displayCinema(nbRows, nbSeats)
+    displayCinemaList(cinemaList)
     val ticketRow = checkInputInt(ASK_TICKET_ROW)
     val ticketSeat = checkInputInt(ASK_TICKET_SEAT)
 }
