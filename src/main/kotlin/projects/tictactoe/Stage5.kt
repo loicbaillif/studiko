@@ -19,14 +19,16 @@ fun stage5() {
     val playersList = mutableListOf<Char>(PLAYER1, PLAYER2)
     var userInput: String
 
-    while (nbTurns < 8) {
+    while (nbTurns < 9) {
         // Get and treat user input
         do {
             userInput = readln()
         } while (!isValidInput(userInput) || !isCellEmpty(grid, userInput))
 
+        // Update grid and display it
         updateGrid(grid, userInput, playersList[nbTurns % 2])
         nbTurns++
+        displayGrid2(grid)
     }
 
 }
