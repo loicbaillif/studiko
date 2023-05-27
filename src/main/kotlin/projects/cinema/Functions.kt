@@ -52,6 +52,11 @@ fun displayCinema(nbRows: Int, nbSeats: Int) {
 }
 
 
+fun displayCinemaList(cinema: MutableList<MutableList<Char>>): Unit {
+
+}
+
+
 fun giveTicketPrice (
     rowNumber: Int,
     totalRow: Int,
