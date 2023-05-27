@@ -16,12 +16,13 @@ fun stage5() {
     val grid = createGrid("_________")
     var nbTurns = 0
 
+    // Process turns
     while (nbTurns < 9) {
         nbTurns = executeTurn(grid, nbTurns)
     }
 
+    // In case no winner ...
     if (nbTurns == 9) println("draw")
-
 }
 
 
