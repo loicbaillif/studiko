@@ -13,7 +13,7 @@ fun main() {
     // PROJECT
     // projects.zookeeper.index()
     // projects.chattybot.index()
-    // projects.tictactoe.index()
+    projects.tictactoe.index()
 
     // Old Chapters
     // overview.index()
@@ -32,7 +32,7 @@ fun main() {
     // typesDataStruct.basicOps.arith.index()
     // typesDataStruct.dataTypes.typeNumEx.index()
     // typesDataStruct.basicOps.incDec.index()
-    typesDataStruct.basicOps.intAction.index()
+    // typesDataStruct.basicOps.intAction.index()
     // typesDataStruct.basicOps.relOps.index()
     // typesDataStruct.basicOps.charac.index()
     // typesDataStruct.lists.introMut.index()
