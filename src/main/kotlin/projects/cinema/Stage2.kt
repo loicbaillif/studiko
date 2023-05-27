@@ -9,13 +9,16 @@ package projects.cinema
 
 const val ASK_NB_ROWS = "Enter the number of rows:"
 const val ASK_NB_SEATS = "Enter the number of seats in each row:"
+const val LIM_NB_SEATs = 60
 const val PRINT_INCOME = "Total income:\n"
 
 fun stage2() {
     // Variables
     val nbRows = checkInputInt(ASK_NB_ROWS)
     val nbSeats = checkInputInt(ASK_NB_SEATS)
-    println("$nbRows rows and $nbSeats seats per row")
+    println("$nbRows rows and $nbSeats seats per row") // DEBUG
+
+    val totalSeats = nbRows * nbSeats
 }
 
 
