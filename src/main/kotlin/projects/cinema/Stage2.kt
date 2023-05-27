@@ -9,7 +9,9 @@ package projects.cinema
 
 const val ASK_NB_ROWS = "Enter the number of rows:"
 const val ASK_NB_SEATS = "Enter the number of seats in each row:"
-const val LIM_NB_SEATs = 60
+const val LIM_NB_SEATS = 60
+const val PRICE_HIGH = 10
+const val PRICE_LOW = 8
 const val PRINT_INCOME = "Total income:\n"
 
 fun stage2() {
@@ -18,13 +20,17 @@ fun stage2() {
     val nbSeats = checkInputInt(ASK_NB_SEATS)
     println("$nbRows rows and $nbSeats seats per row") // DEBUG
 
-
+    println("$PRINT_INCOME\$${calculateIncome(nbRows, nbSeats)}")
 }
 
 
 fun calculateIncome(nbRows: Int, nbSeats: Int): Int {
     // Variables
     val totalSeats = nbRows * nbSeats
+
+    if (totalSeats <= LIM_NB_SEATS) {
+        return totalSeats * PRICE_HIGH
+    }
 
     return 1 // DEBUG
 }
