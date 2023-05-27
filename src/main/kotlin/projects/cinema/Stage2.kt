@@ -23,7 +23,12 @@ fun stage2() {
 fun checkInputInt(prompt: String, default: Int = 1): Int {
     // This function print the prompt, then return user input as an Integer
     // If user input is not an integer, returns default value
+    println(prompt)
+    val userInputString = readln()
 
+    for (ch in userInputString) {
+        if (ch !in '0'..'9') return default
+    }
 
     return 1
 }
