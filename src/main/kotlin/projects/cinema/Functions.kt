@@ -45,8 +45,14 @@ fun displayCinema(nbRows: Int, nbSeats: Int) {
 }
 
 
-fun giveTicketPrice(rowNumber: Int, seatNumber: Int): Int {
+fun giveTicketPrice (
+    rowNumber: Int,
+    seatNumber: Int,
+    totalRow: Int,
+    seatsPerRow: Int): Int
+{
+    if (totalRow * seatsPerRow <= LIM_NB_SEATS) return PRICE_HIGH // Small Room
 
+    return (if (rowNumber <= totalRow / 2)  PRICE_HIGH else PRICE_LOW) // Big Room
 
-    return 0
 }
