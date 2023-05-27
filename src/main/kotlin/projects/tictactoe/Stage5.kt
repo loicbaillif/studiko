@@ -15,6 +15,10 @@ fun stage5() {
     // Variables
     val grid = createGrid("_________")
     val endGame = false
+    val userInput: String
 
+    while (!endGame) {
+
+    }
 
 }
