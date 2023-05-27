@@ -14,7 +14,7 @@ fun stage1() {
     for (i in 0..nbRows) {
 
         for (j in 0..nbSeats) {
-
+            print(if (j == 0) "$i " else "S ")
         }
 
     }
