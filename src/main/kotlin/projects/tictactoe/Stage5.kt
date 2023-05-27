@@ -15,9 +15,11 @@ fun stage5() {
     // Variables
     val grid = createGrid("_________")
     val endGame = false
+    var nbTurns = 0
+    val playersList = mutableListOf<Char>(PLAYER1, PLAYER2)
     val userInput: String
 
-    while (!endGame) {
+    while (nbTurns < 8) {
 
     }
 
