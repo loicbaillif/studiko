@@ -22,7 +22,7 @@ fun stage5() {
     }
 
     // In case no winner ...
-    if (nbTurns == 9) println("draw")
+    if (nbTurns == 9) println("Draw")
 }
 
 
