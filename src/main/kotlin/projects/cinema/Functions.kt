@@ -28,6 +28,11 @@ fun checkInputInt(prompt: String, default: Int = 1): Int {
 }
 
 
+fun createCinema(nbRows: Int, nbSeats: Int): MutableList<MutableList<Char>> {
+
+}
+
+
 fun displayCinema(nbRows: Int, nbSeats: Int) {
     print("Cinema:\n  ")
     for (i in 1..nbSeats) {
