@@ -18,7 +18,15 @@ fun stage2() {
     val nbSeats = checkInputInt(ASK_NB_SEATS)
     println("$nbRows rows and $nbSeats seats per row") // DEBUG
 
+
+}
+
+
+fun calculateIncome(nbRows: Int, nbSeats: Int): Int {
+    // Variables
     val totalSeats = nbRows * nbSeats
+
+    return 1 // DEBUG
 }
 
 
