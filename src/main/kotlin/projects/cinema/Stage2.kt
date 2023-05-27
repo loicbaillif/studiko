@@ -30,9 +30,11 @@ fun calculateIncome(nbRows: Int, nbSeats: Int): Int {
 
     if (totalSeats <= LIM_NB_SEATS) {
         return totalSeats * PRICE_HIGH
+    } else {
+        val priceHigh = nbRows / 2 * PRICE_HIGH
+        val priceLow = (nbRows / 2 + nbRows % 2) * PRICE_LOW
+        return (priceHigh + priceLow ) * nbSeats
     }
-
-    return 1 // DEBUG
 }
 
 
