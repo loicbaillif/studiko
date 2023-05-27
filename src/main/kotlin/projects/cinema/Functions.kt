@@ -47,7 +47,6 @@ fun displayCinema(nbRows: Int, nbSeats: Int) {
 
 fun giveTicketPrice (
     rowNumber: Int,
-    seatNumber: Int,
     totalRow: Int,
     seatsPerRow: Int): Int
 {
