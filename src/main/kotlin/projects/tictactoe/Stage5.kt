@@ -30,9 +30,9 @@ fun stage5() {
         displayGrid2(grid)
 
         // Verify if winner
-        if (nbTurns > 4) {
+        if (nbTurns > 3) {
             // No possible winner before the 5th turn
-
+            if (isWinner(grid, nbTurns)) break
         }
 
         // Finally increment counter
@@ -46,9 +46,17 @@ fun isWinner(grid: MutableList<MutableList<Char>>, nbTurn: Int): Boolean {
     // Variables
     val currPl: Char = if (nbTurn % 2 == 0) PLAYER1 else PLAYER2
 
-    // Verify lines
+    // Verify lines & columns
     for (i in 0..2) {
-        if (grid[i] == mutableListOf(currPl, currPl, currPl)) return true
+        val column = mutableListOf(grid[0][i], grid[1][i], grid[2][i])
+
+        if (
+            grid[i] == mutableListOf(currPl, currPl, currPl)
+            || column == mutableListOf(currPl, currPl, currPl)
+        ) {
+            println("$currPl wins")
+            return true
+        }
     }
 
     return false
