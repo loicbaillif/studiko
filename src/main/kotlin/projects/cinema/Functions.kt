@@ -26,3 +26,20 @@ fun checkInputInt(prompt: String, default: Int = 1): Int {
 
     return userInputString.toInt()
 }
+
+
+fun displayCinema(nbRows: Int, nbSeats: Int) {
+    print("Cinema:\n  ")
+    for (i in 1..nbSeats) {
+        print("$i ")
+    }
+    println()
+
+    for (i in 1..nbRows) {
+
+        for (j in 0..nbSeats) {
+            print(if (j == 0) "$i " else "S ")
+        }
+        println()
+    }
+}
