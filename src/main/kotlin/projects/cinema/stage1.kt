@@ -8,5 +8,6 @@ package projects.cinema
  */
 
 fun stage1() {
-
+    val nbRows = 7
+    val nbSeats = 8
 }
