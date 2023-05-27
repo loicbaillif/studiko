@@ -17,10 +17,13 @@ fun stage5() {
     val endGame = false
     var nbTurns = 0
     val playersList = mutableListOf<Char>(PLAYER1, PLAYER2)
-    val userInput: String
+    var userInput: String
 
     while (nbTurns < 8) {
-
+        // Get and treat user input
+        do {
+            userInput = readln()
+        } while (!isValidInput(userInput) || !isCellEmpty(grid, userInput))
     }
 
 }
