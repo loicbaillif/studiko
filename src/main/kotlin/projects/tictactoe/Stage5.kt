@@ -24,6 +24,9 @@ fun stage5() {
         do {
             userInput = readln()
         } while (!isValidInput(userInput) || !isCellEmpty(grid, userInput))
+
+        updateGrid(grid, userInput, playersList[nbTurns % 2])
+        nbTurns++
     }
 
 }
