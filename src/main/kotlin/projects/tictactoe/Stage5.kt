@@ -7,6 +7,10 @@ package projects.tictactoe
  * Solution by Loïc Baillif
  */
 
+// Constants
+const val PLAYER1 = 'X'
+const val PLAYER2 = 'O'
+
 fun stage5() {
     // Variables
     val grid = createGrid("_________")
