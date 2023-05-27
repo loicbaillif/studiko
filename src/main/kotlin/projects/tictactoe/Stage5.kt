@@ -15,33 +15,39 @@ fun stage5() {
     // Variables
     val grid = createGrid("_________")
     var nbTurns = 0
-    val playersList = mutableListOf<Char>(PLAYER1, PLAYER2)
-    var userInput: String
 
     while (nbTurns < 9) {
-        // Get and treat user input
-        do {
-            userInput = readln()
-        } while (!isValidInput(userInput) || !isCellEmpty(grid, userInput))
-
-        // Update grid and display it
-        updateGrid(grid, userInput, playersList[nbTurns % 2])
-        displayGrid2(grid)
-
-        // Verify if winner
-        if (nbTurns > 3) {
-            // No possible winner before the 5th turn
-            if (isWinner(grid, nbTurns)) break
-        }
-
-        // Finally increment counter
-        nbTurns++
+        nbTurns = executeTurn(grid, nbTurns)
     }
 
     if (nbTurns == 9) println("draw")
 
 }
 
+
+fun executeTurn(grid: MutableList<MutableList<Char>>, nbTurns: Int): Int {
+    // Variables
+    var userInput: String
+    val currentPlayer = if (nbTurns % 2 == 0) PLAYER1 else PLAYER2
+
+    // Get and treat user input
+    do {
+        userInput = readln()
+    } while (!isValidInput(userInput) || !isCellEmpty(grid, userInput))
+
+    // Update grid and display it
+    updateGrid(grid, userInput, currentPlayer)
+    displayGrid2(grid)
+
+    // Verify if winner
+    if (nbTurns > 3) {
+        // No possible winner before the 5th turn
+        if (isWinner(grid, nbTurns)) return 10
+    }
+
+    // Finally increment counter
+    return nbTurns + 1
+}
 
 fun isWinner(grid: MutableList<MutableList<Char>>, nbTurn: Int): Boolean {
     // Variables
