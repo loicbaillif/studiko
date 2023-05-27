@@ -43,3 +43,10 @@ fun displayCinema(nbRows: Int, nbSeats: Int) {
         println()
     }
 }
+
+
+fun giveTicketPrice(rowNumber: Int, seatNumber: Int): Int {
+
+
+    return 0
+}
