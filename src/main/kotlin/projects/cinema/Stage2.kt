@@ -18,7 +18,6 @@ fun stage2() {
     // Variables
     val nbRows = checkInputInt(ASK_NB_ROWS)
     val nbSeats = checkInputInt(ASK_NB_SEATS)
-    println("$nbRows rows and $nbSeats seats per row") // DEBUG
 
     println("$PRINT_INCOME\$${calculateIncome(nbRows, nbSeats)}")
 }
