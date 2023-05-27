@@ -42,8 +42,14 @@ fun stage5() {
 }
 
 
-fun isWinner(grid: MutableList<MutableList<Char>>): Boolean {
+fun isWinner(grid: MutableList<MutableList<Char>>, nbTurn: Int): Boolean {
+    // Variables
+    val currPl: Char = if (nbTurn % 2 == 0) PLAYER1 else PLAYER2
 
+    // Verify lines
+    for (i in 0..2) {
+        if (grid[i] == mutableListOf(currPl, currPl, currPl)) return true
+    }
 
     return false
 }
