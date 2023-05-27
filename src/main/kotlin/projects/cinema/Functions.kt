@@ -53,7 +53,14 @@ fun displayCinema(nbRows: Int, nbSeats: Int) {
 
 
 fun displayCinemaList(cinema: MutableList<MutableList<Char>>): Unit {
+    // Will create the cinema room as a 2D mutable list
+    // First dimension: number of rows - second dimension: seats per row
 
+    // Variables
+    val nbRows = cinema.size
+    val nbSeats = cinema[0].size
+
+    println("Cinema has $nbRows rows of $nbSeats seats each") // DEBUG
 }
 
 
