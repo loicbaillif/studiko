@@ -48,8 +48,6 @@ fun createCinema(
     for (i in 1..nbRows) {
         cinemaRoom += MutableList(nbSeatsPerRow + 1) { S_AS_INT }
         cinemaRoom[i][0] = i
-        println(cinemaRoom)
-        println("turn $i")
     }
 
     return cinemaRoom
@@ -68,7 +66,12 @@ fun displayCinemaList(cinema: MutableList<MutableList<Int>>) {
     print("Cinema:\n  ")
     for (i in 1..nbSeatsPerRow) print("$i ") // Header
     println()
-    for (i in 1..nbRows) println(cinema[i].joinToString(" "))
+    for (i in 1..nbRows) {
+        // println(cinema[i].map {it.toChar() }.joinToString(" "))
+        for (j in 1..nbSeatsPerRow) {
+            print(if (j == 1) j else j.toChar())
+        }
+    }
 }
 
 
