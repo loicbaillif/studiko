@@ -1,5 +1,9 @@
 package projects.cinema
 
+
+const val S_AS_INT = 'S'.code
+const val B_AS_INT = 'B'.code
+
 fun calculateIncome(nbRows: Int, nbSeats: Int): Int {
     // Variables
     val totalSeats = nbRows * nbSeats
@@ -29,7 +33,7 @@ fun checkInputInt(prompt: String, default: Int = 1): Int {
 
 
 fun createCinema(
-    nbRows: Int, nbSeatsPerRow: Int): MutableList<MutableList<out Any>> {
+    nbRows: Int, nbSeatsPerRow: Int): MutableList<MutableList<Int>> {
     // Create the cinema room as a 2D list, with following characteristics:
     // List of (nbRows + 1) lists
     // . First list made of [nbRows, nbSeats, totalSeats]
@@ -37,14 +41,20 @@ fun createCinema(
 
     // Variables
     val headerList = mutableListOf<Int>(nbRows, nbSeatsPerRow, nbRows * nbSeatsPerRow)
-    val cinemaRoom: MutableList<MutableList<out Any>> = mutableListOf(headerList)
-    for (i in 1..nbRows) cinemaRoom.add(MutableList(nbSeatsPerRow) { 'S' })
+    val cinemaRoom: MutableList<MutableList<Int>> = mutableListOf(headerList)
+    val seatRow = MutableList(nbSeatsPerRow + 1) { S_AS_INT }
+    // for (i in 1..nbSeatsPerRow) seatRow.add('S')
+
+    for (i in 1..nbRows) {
+        cinemaRoom += seatRow
+        cinemaRoom[i][0] = i
+    }
 
     return cinemaRoom
 }
 
 
-fun displayCinemaList(cinema: MutableList<MutableList<out Any>>) {
+fun displayCinemaList(cinema: MutableList<MutableList<Int>>) {
     // Will create the cinema room as a 2D mutable list
     // First dimension: number of rows - second dimension: seats per row
 
@@ -64,12 +74,14 @@ fun displayCinemaList(cinema: MutableList<MutableList<out Any>>) {
 
 
 fun giveTicketPrice (
-    cinema: MutableList<MutableList<out Any>>,
+    cinema: MutableList<MutableList<Int>>,
     rowNumber: Int,
     seatNumber: Int): Int {
     // Variables
     val nbRows = cinema[0][0].toString().toInt()
     val totalSeats = cinema[0][2].toString().toInt()
+
+    updateCinema(cinema, rowNumber, seatNumber)
 
     if (totalSeats <= LIM_NB_SEATS) return PRICE_HIGH // Small Room
 
@@ -77,9 +89,10 @@ fun giveTicketPrice (
 }
 
 
-fun updateCinema (cinema: MutableList<MutableList<out Any>>, rowNumber: Int, seatNumber: Int): Boolean {
-    if (cinema[rowNumber][seatNumber - 1] == 'S') {
-        cinema[rowNumber][seatNumber - 1] = 'B' as Nothing
+fun updateCinema (cinema: MutableList<MutableList<Int>>, rowNumber: Int, seatNumber: Int): Boolean {
+    if (cinema[rowNumber + 1][seatNumber] == S_AS_INT) {
+        cinema[rowNumber + 1][seatNumber] = B_AS_INT
+        println("Place bought")
         return true
     }
 
