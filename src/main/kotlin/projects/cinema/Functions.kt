@@ -83,8 +83,14 @@ fun giveTicketPrice (
 
 
 fun sellTicket (cinema: MutableList<MutableList<Int>>) {
-    val ticketRow = checkInputInt(ASK_TICKET_ROW)
-    val ticketSeat = checkInputInt(ASK_TICKET_SEAT)
+    // Variables
+    val validSeat = false
+
+    // Loop
+    while (!validSeat) {
+        val ticketRow = checkInputInt(ASK_TICKET_ROW)
+        val ticketSeat = checkInputInt(ASK_TICKET_SEAT)
+    }
 }
 
 
