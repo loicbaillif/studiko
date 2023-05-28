@@ -13,4 +13,9 @@ fun stage4() {
         checkInputInt(ASK_NB_ROWS),
         checkInputInt(ASK_NB_SEATS)
     )
+    val exitCondition = false
+
+    while (!exitCondition) {
+
+    }
 }
