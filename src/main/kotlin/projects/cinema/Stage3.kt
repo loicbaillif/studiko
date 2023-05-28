@@ -15,8 +15,9 @@ fun stage3() {
 
     // Body
     displayCinemaList(cinemaList)
-    println(cinemaList)
+    println(cinemaList) // DEBUG
     val ticketRow = checkInputInt(ASK_TICKET_ROW)
     val ticketSeat = checkInputInt(ASK_TICKET_SEAT)
     println(giveTicketPrice(cinemaList, ticketRow, ticketSeat))
+    println(cinemaList) // DEBUG
 }
