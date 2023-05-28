@@ -84,7 +84,7 @@ fun giveTicketPrice (
 
 fun updateCinema (cinema: MutableList<MutableList<Int>>, rowNumber: Int, seatNumber: Int): Boolean {
     if (cinema[rowNumber][seatNumber] == SEAT_EMPTY) {
-        cinema[rowNumber][seatNumber] = SEAT_EMPTY
+        cinema[rowNumber][seatNumber] = SEAT_BOOKED
         return true
     }
 
