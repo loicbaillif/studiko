@@ -21,7 +21,8 @@ fun stage4() {
 
         // Treat user choice
         when (userChoice) {
-
+            1 -> displayCinemaList(cinemaList)
+            2 -> sellTicket(cinemaList)
         }
 
         // Exit condition
