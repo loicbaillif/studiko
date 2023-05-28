@@ -84,8 +84,8 @@ fun giveTicketPrice (
 
 fun sellTicket (cinema: MutableList<MutableList<Int>>) {
     // Variables
-    var price: Int = 0
-    var ticketRow: Int = 1
+    val price: Int
+    var ticketRow = 1 // Init value
     var ticketSeat: Int
     var validSeat = false
     val nbRows = cinema[0][0]
@@ -104,6 +104,7 @@ fun sellTicket (cinema: MutableList<MutableList<Int>>) {
     } else {
         PRICE_LOW
     }
+    println("$TICKET_PRICE$price")
 }
 
 
