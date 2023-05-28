@@ -40,7 +40,7 @@ fun createCinema(
     val cinemaRoom: MutableList<MutableList<Int>> = mutableListOf(headerList)
 
     for (i in 1..nbRows) {
-        cinemaRoom += MutableList(nbSeatsPerRow + 1) { S_AS_INT }
+        cinemaRoom += MutableList(nbSeatsPerRow + 1) { SEAT_EMPTY }
         cinemaRoom[i][0] = i
     }
 
@@ -83,8 +83,8 @@ fun giveTicketPrice (
 
 
 fun updateCinema (cinema: MutableList<MutableList<Int>>, rowNumber: Int, seatNumber: Int): Boolean {
-    if (cinema[rowNumber][seatNumber] == S_AS_INT) {
-        cinema[rowNumber][seatNumber] = B_AS_INT
+    if (cinema[rowNumber][seatNumber] == SEAT_EMPTY) {
+        cinema[rowNumber][seatNumber] = SEAT_EMPTY
         return true
     }
 

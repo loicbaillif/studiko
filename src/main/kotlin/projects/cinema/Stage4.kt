@@ -14,10 +14,9 @@ fun stage4() {
         checkInputInt(ASK_NB_SEATS)
     )
     var exitCondition = false
-    var userChoice = 1
 
     while (!exitCondition) {
-        userChoice = checkInputInt(MAIN_MENU, 1)
+        val userChoice = checkInputInt(MAIN_MENU, 1)
         if (userChoice == 0) exitCondition = true
     }
 }
