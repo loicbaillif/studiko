@@ -82,6 +82,12 @@ fun giveTicketPrice (
 }
 
 
+fun sellTicket (cinema: MutableList<MutableList<Int>>) {
+    val ticketRow = checkInputInt(ASK_TICKET_ROW)
+    val ticketSeat = checkInputInt(ASK_TICKET_SEAT)
+}
+
+
 fun updateCinema (cinema: MutableList<MutableList<Int>>, rowNumber: Int, seatNumber: Int): Boolean {
     if (cinema[rowNumber][seatNumber] == SEAT_EMPTY) {
         cinema[rowNumber][seatNumber] = SEAT_BOOKED
