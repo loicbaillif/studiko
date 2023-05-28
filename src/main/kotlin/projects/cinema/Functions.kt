@@ -84,3 +84,10 @@ fun giveTicketPrice (
 
     return (if (rowNumber <= nbRows / 2)  PRICE_HIGH else PRICE_LOW) // Big Room
 }
+
+
+fun updateCinema (cinema: MutableList<MutableList<out Any>>, rowNumber: Int, seatNumber: Int): Boolean {
+
+
+    return true
+}
