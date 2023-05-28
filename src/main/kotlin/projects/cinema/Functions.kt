@@ -1,9 +1,5 @@
 package projects.cinema
 
-
-const val S_AS_INT = 'S'.code
-const val B_AS_INT = 'B'.code
-
 fun calculateIncome(nbRows: Int, nbSeats: Int): Int {
     // Variables
     val totalSeats = nbRows * nbSeats
@@ -65,19 +61,15 @@ fun displayCinemaList(cinema: MutableList<MutableList<Int>>) {
     for (i in 1..nbSeatsPerRow) print("$i ") // Header
     println()
     for (i in 1..nbRows) {
-        // println(cinema[i].map {it.toChar() }.joinToString(" "))
-        for (j in 0..nbSeatsPerRow) {
-            print(if (j == 0) "${cinema[i][j]} " else "${cinema[i][j].toChar()} ")
-        }
-        println()
+        println("$i ${cinema[i].map {it.toChar() }.joinToString(" ").substring(2)}")
     }
+    println()
 }
 
 
 fun giveTicketPrice (
-    cinema: MutableList<MutableList<Int>>,
-    rowNumber: Int,
-    seatNumber: Int): Int {
+    cinema: MutableList<MutableList<Int>>, rowNumber: Int, seatNumber: Int
+): Int {
     // Variables
     val nbRows = cinema[0][0].toString().toInt()
     val totalSeats = cinema[0][2].toString().toInt()
@@ -93,7 +85,6 @@ fun giveTicketPrice (
 fun updateCinema (cinema: MutableList<MutableList<Int>>, rowNumber: Int, seatNumber: Int): Boolean {
     if (cinema[rowNumber][seatNumber] == S_AS_INT) {
         cinema[rowNumber][seatNumber] = B_AS_INT
-        println("Place bought") // DEBUG
         return true
     }
 
