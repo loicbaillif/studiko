@@ -42,8 +42,6 @@ fun createCinema(
     // Variables
     val headerList = mutableListOf<Int>(nbRows, nbSeatsPerRow, nbRows * nbSeatsPerRow)
     val cinemaRoom: MutableList<MutableList<Int>> = mutableListOf(headerList)
-    // val seatRow = MutableList(nbSeatsPerRow + 1) { S_AS_INT }
-    // for (i in 1..nbSeatsPerRow) seatRow.add('S')
 
     for (i in 1..nbRows) {
         cinemaRoom += MutableList(nbSeatsPerRow + 1) { S_AS_INT }
@@ -68,9 +66,10 @@ fun displayCinemaList(cinema: MutableList<MutableList<Int>>) {
     println()
     for (i in 1..nbRows) {
         // println(cinema[i].map {it.toChar() }.joinToString(" "))
-        for (j in 1..nbSeatsPerRow) {
-            print(if (j == 1) j else j.toChar())
+        for (j in 0..nbSeatsPerRow) {
+            print(if (j == 0) "${cinema[i][j]} " else "${cinema[i][j].toChar()} ")
         }
+        println()
     }
 }
 
