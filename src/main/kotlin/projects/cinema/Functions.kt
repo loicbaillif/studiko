@@ -28,10 +28,21 @@ fun checkInputInt(prompt: String, default: Int = 1): Int {
 }
 
 
-fun createCinema(nbRows: Int, nbSeats: Int): MutableList<MutableList<Char>> {
-    val rowList = MutableList(nbSeats) { 'S' }
+fun createCinema(nbRows: Int, nbSeats: Int): MutableList<MutableList<out Any>> {
+    // Create the cinema room as a 2D list, with following characteristics:
+    // List of (nbRows + 1) lists
+    // . First list made of [nbRows, nbSeats, totalSeats]
+    // . Other lists represent the seats
 
-    return MutableList(nbRows) { rowList }
+    // Variables
+    val rowList = MutableList(nbSeats) { 'S' }
+    val roomList = MutableList(nbRows) { rowList }
+    val headerList = mutableListOf<Int>(nbRows, nbSeats, nbRows * nbSeats)
+
+    return mutableListOf(
+        headerList,
+        roomList
+    )
 }
 
 
@@ -64,11 +75,9 @@ fun displayCinemaList(cinema: MutableList<MutableList<Char>>) {
 }
 
 
-fun giveTicketPrice (
-    rowNumber: Int,
-    totalRow: Int,
-    seatsPerRow: Int): Int
-{
+fun giveTicketPrice (rowNumber: Int, cinema: MutableList<MutableList<Char>>): Int {
+
+
     if (totalRow * seatsPerRow <= LIM_NB_SEATS) return PRICE_HIGH // Small Room
 
     return (if (rowNumber <= totalRow / 2)  PRICE_HIGH else PRICE_LOW) // Big Room
