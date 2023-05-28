@@ -44,22 +44,6 @@ fun createCinema(
 }
 
 
-fun displayCinema(nbRows: Int, nbSeats: Int) {
-    print("Cinema:\n  ")
-    for (i in 1..nbSeats) {
-        print("$i ")
-    }
-    println()
-
-    for (i in 1..nbRows) {
-        for (j in 0..nbSeats) {
-            print(if (j == 0) "$i " else "S ")
-        }
-        println()
-    }
-}
-
-
 fun displayCinemaList(cinema: MutableList<MutableList<out Any>>) {
     // Will create the cinema room as a 2D mutable list
     // First dimension: number of rows - second dimension: seats per row
@@ -68,7 +52,14 @@ fun displayCinemaList(cinema: MutableList<MutableList<out Any>>) {
     val nbRows = cinema[0][0].toString().toInt()
     val nbSeatsPerRow = cinema[0][1].toString().toInt()
 
-    displayCinema(nbRows, nbSeatsPerRow)
+    // Display
+    print("Cinema:\n  ")
+    for (i in 1..nbSeatsPerRow) print("$i ") // Header
+    println()
+    for (i in 1..nbRows) {
+        print("$i ")
+        println(cinema[i].joinToString(" "))
+    }
 }
 
 
