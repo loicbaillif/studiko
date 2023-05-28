@@ -42,12 +42,14 @@ fun createCinema(
     // Variables
     val headerList = mutableListOf<Int>(nbRows, nbSeatsPerRow, nbRows * nbSeatsPerRow)
     val cinemaRoom: MutableList<MutableList<Int>> = mutableListOf(headerList)
-    val seatRow = MutableList(nbSeatsPerRow + 1) { S_AS_INT }
+    // val seatRow = MutableList(nbSeatsPerRow + 1) { S_AS_INT }
     // for (i in 1..nbSeatsPerRow) seatRow.add('S')
 
     for (i in 1..nbRows) {
-        cinemaRoom += seatRow
+        cinemaRoom += MutableList(nbSeatsPerRow + 1) { S_AS_INT }
         cinemaRoom[i][0] = i
+        println(cinemaRoom)
+        println("turn $i")
     }
 
     return cinemaRoom
@@ -66,10 +68,7 @@ fun displayCinemaList(cinema: MutableList<MutableList<Int>>) {
     print("Cinema:\n  ")
     for (i in 1..nbSeatsPerRow) print("$i ") // Header
     println()
-    for (i in 1..nbRows) {
-        print("$i ")
-        println(cinema[i].joinToString(" "))
-    }
+    for (i in 1..nbRows) println(cinema[i].joinToString(" "))
 }
 
 
@@ -90,9 +89,9 @@ fun giveTicketPrice (
 
 
 fun updateCinema (cinema: MutableList<MutableList<Int>>, rowNumber: Int, seatNumber: Int): Boolean {
-    if (cinema[rowNumber + 1][seatNumber] == S_AS_INT) {
-        cinema[rowNumber + 1][seatNumber] = B_AS_INT
-        println("Place bought")
+    if (cinema[rowNumber][seatNumber] == S_AS_INT) {
+        cinema[rowNumber][seatNumber] = B_AS_INT
+        println("Place bought") // DEBUG
         return true
     }
 
