@@ -16,7 +16,15 @@ fun stage4() {
     var exitCondition = false
 
     while (!exitCondition) {
+        // Variables
         val userChoice = checkInputInt(MAIN_MENU, 1)
+
+        // Treat user choice
+        when (userChoice) {
+
+        }
+
+        // Exit condition
         if (userChoice == 0) exitCondition = true
     }
 }
