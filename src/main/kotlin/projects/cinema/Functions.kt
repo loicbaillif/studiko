@@ -84,7 +84,8 @@ fun giveTicketPrice (
 
 fun sellTicket (cinema: MutableList<MutableList<Int>>) {
     // Variables
-    var ticketRow: Int
+    var price: Int = 0
+    var ticketRow: Int = 1
     var ticketSeat: Int
     var validSeat = false
     val nbRows = cinema[0][0]
@@ -95,6 +96,13 @@ fun sellTicket (cinema: MutableList<MutableList<Int>>) {
         ticketRow = checkInputInt(ASK_TICKET_ROW)
         ticketSeat = checkInputInt(ASK_TICKET_SEAT)
         validSeat = updateCinema(cinema, ticketRow, ticketSeat)
+    }
+
+    // Output
+    price = if (totalSeats <= LIM_NB_SEATS || (ticketRow <= nbRows / 2)) {
+        PRICE_HIGH
+    } else {
+        PRICE_LOW
     }
 }
 
