@@ -8,7 +8,5 @@ const val LIM_NB_SEATS = 60
 const val PRICE_HIGH = 10
 const val PRICE_LOW = 8
 const val PRINT_INCOME = "Total income:\n"
+const val TICKET_PRICE = "Ticket price: $"
 
-fun constants() {
-
-}

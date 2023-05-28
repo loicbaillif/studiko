@@ -17,5 +17,6 @@ fun stage3() {
     displayCinemaList(cinemaList)
     val ticketRow = checkInputInt(ASK_TICKET_ROW)
     val ticketSeat = checkInputInt(ASK_TICKET_SEAT)
-    println(giveTicketPrice(cinemaList, ticketRow, ticketSeat))
+    println("$TICKET_PRICE${giveTicketPrice(cinemaList, ticketRow, ticketSeat)}")
+    displayCinemaList(cinemaList)
 }

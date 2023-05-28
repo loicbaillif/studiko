@@ -61,7 +61,7 @@ fun displayCinemaList(cinema: MutableList<MutableList<Int>>) {
     val nbSeatsPerRow = cinema[0][1].toString().toInt()
 
     // Display
-    print("Cinema:\n  ")
+    print("\nCinema:\n  ")
     for (i in 1..nbSeatsPerRow) print("$i ") // Header
     println()
     for (i in 1..nbRows) {
