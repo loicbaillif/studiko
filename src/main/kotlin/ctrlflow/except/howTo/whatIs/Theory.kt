@@ -10,6 +10,7 @@ fun theory() {
     println("***** Theory *****")
 
     println("\n*** 1) Causing an exception")
+    runIncrementer()
 
 
     println("\n***** End of theory *****")
@@ -19,7 +20,7 @@ fun theory() {
 fun readNextInt(): Int { return readln().toInt() }
 
 
-fun runIncrementer(): Unit {
+fun runIncrementer() {
     val increment = 1 + readNextInt()
     println(increment)
 }
