@@ -6,6 +6,6 @@ package ctrlflow.except.types.hierar
 
 fun index() {
     println("********** Hierarchy of exceptions **********")
-
+    exercise1()
 
 }
