@@ -10,7 +10,7 @@ package ctrlflow.except.types.hierar
 fun exercise1() {
     println("*** Exercise: ArithmeticException ***")
 
-
+    println(0 / 0)
 
     println("\n*** End of exercise ***")
 }
