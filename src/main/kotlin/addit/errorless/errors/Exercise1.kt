@@ -16,5 +16,5 @@ fun exercise1() {
     println(line2)
     println(line1)
 
-    println("\t*** End of exercise ***")
+    println("\n*** End of exercise ***")
 }
