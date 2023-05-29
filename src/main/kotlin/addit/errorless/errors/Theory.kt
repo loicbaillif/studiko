@@ -9,6 +9,9 @@ package addit.errorless.errors
 fun theory() {
     println("***** Theory *****")
 
+    println("\n*** 1) Compile-time errors")
+    printn("Hello there!")
+
 
 
     println("\n***** End of theory *****")
