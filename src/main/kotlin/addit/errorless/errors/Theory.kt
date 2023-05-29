@@ -12,6 +12,13 @@ fun theory() {
     println("\n*** 1) Compile-time errors")
     println("Hello there!")
 
+    println("\n*** 2) Run-time errors")
+    var userInput = 1
+    while (userInput != 0) {
+        println("Menu:\n\t. 1 -> print hello\n\t. 2 -> end program")
+        userInput = readln().toInt()
+        if (userInput == 1) break
+    }
 
 
     println("\n***** End of theory *****")
