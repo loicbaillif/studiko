@@ -57,7 +57,8 @@ fun main() {
     // ctrlflow.ctrlStruc.whenEx.index()
     // ctrlflow.ctrlStruc.jumpRet.index()
     // addit.errorless.errors.index()
+    // ctrlflow.except.howTo.whatIs.index()
 
     // Current Chapter
-    ctrlflow.except.howTo.whatIs.index()
+    ctrlflow.except.types.hierar.index()
 }
