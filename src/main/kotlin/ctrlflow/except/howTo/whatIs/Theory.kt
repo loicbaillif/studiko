@@ -9,7 +9,11 @@ package ctrlflow.except.howTo.whatIs
 fun theory() {
     println("***** Theory *****")
 
+    println("\n*** 1) Causing an exception")
 
 
     println("\n***** End of theory *****")
 }
+
+
+fun readNextInt(): Int { return readln().toInt() }
