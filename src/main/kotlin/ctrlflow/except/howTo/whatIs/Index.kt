@@ -5,5 +5,5 @@ package ctrlflow.except.howTo.whatIs
  */
 
 fun index() {
-
+    theory()
 }
