@@ -10,6 +10,7 @@ package ctrlflow.except.howTo.whatIs
 fun exercise1() {
     println("*** Exercise: Cause an exception ***")
 
+    val userAge = "e".toInt()
 
     println("\n*** End of exercise ***")
 }
