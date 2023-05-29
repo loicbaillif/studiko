@@ -10,7 +10,7 @@ package ctrlflow.except.types.hierar
 fun exercise2() {
     println("*** Exercise: IndexOutOfBoundsException ***")
 
-
+    println("top"[3])
 
     println("\n*** End of exercise ***")
 }
