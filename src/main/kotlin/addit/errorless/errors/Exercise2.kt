@@ -14,7 +14,7 @@ fun exercise2() {
     val b = readLine()!!.nextInt()
     val c = readLine()!!.nextInt()
 
-    val sum = a - b - c
+    val sum = a + b + c
 
     println(sum)
 
