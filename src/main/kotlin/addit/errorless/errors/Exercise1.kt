@@ -13,8 +13,8 @@ fun exercise1() {
     val line1 = readln()
     val line2 = readln()
 
-    println(line1)
     println(line2)
+    println(line1)
 
     println("\t*** End of exercise ***")
 }
