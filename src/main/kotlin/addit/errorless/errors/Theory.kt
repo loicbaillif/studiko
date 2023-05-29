@@ -10,7 +10,7 @@ fun theory() {
     println("***** Theory *****")
 
     println("\n*** 1) Compile-time errors")
-    printn("Hello there!")
+    println("Hello there!")
 
 
 
