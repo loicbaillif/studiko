@@ -17,7 +17,7 @@ fun theory() {
     while (userInput != 0) {
         println("Menu:\n\t. 1 -> print hello\n\t. 2 -> end program")
         userInput = readln().toInt()
-        if (userInput == 1) break
+        if (userInput == 2) break
     }
 
 
