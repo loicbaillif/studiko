@@ -6,5 +6,5 @@ package addit.errorless.errors
 
 fun index() {
     println("********** Errors in programs **********\n")
-
+    theory()
 }
