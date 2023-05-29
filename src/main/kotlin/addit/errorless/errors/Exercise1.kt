@@ -10,8 +10,8 @@ package addit.errorless.errors
 fun exercise1() {
     println("*** Exercise: Fix compile-time errors ***")
 
-    val line1 = nextLine()
-    val line2 = nextLine()
+    val line1 = readln()
+    val line2 = readln()
 
     println(line1)
     println(line2)
