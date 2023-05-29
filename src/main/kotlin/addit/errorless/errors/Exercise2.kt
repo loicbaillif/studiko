@@ -10,9 +10,9 @@ package addit.errorless.errors
 fun exercise2() {
     println("*** Exercise: Fix the program ***")
 
-    val a = readLine()!!.nextInt()
-    val b = readLine()!!.nextInt()
-    val c = readLine()!!.nextInt()
+    val a = readln().nextInt()
+    val b = readln().nextInt()
+    val c = readln().nextInt()
 
     val sum = a + b + c
 
