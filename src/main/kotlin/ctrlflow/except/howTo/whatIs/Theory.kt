@@ -17,3 +17,9 @@ fun theory() {
 
 
 fun readNextInt(): Int { return readln().toInt() }
+
+
+fun runIncrementer(): Unit {
+    val increment = 1 + readNextInt()
+    println(increment)
+}
