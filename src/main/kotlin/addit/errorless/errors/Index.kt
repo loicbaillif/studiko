@@ -8,4 +8,5 @@ fun index() {
     println("********** Errors in programs **********\n")
     // theory()
     exercise1()
+    exercise2()
 }
