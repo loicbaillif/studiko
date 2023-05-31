@@ -10,7 +10,9 @@ package ctrlflow.except.howTo.tame
 fun exercise1() {
     println("*** Exercise: Handle string exception ***")
 
-
+    // Variables
+    val index = readln().toInt()
+    val word = readln()
 
     println("\n*** End of exercise ***")
 }
