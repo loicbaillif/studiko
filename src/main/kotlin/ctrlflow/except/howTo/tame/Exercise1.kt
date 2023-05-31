@@ -13,6 +13,7 @@ fun exercise1() {
     // Variables
     val index = readln().toInt()
     val word = readln()
+    val errorMessage = "There isn't such an element in the given string, please fix the index!"
 
     println("\n*** End of exercise ***")
 }
