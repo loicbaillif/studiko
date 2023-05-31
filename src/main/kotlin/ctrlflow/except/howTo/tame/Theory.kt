@@ -9,7 +9,9 @@ package ctrlflow.except.howTo.tame
 fun theory() {
     println("***** Theory *****")
 
-
+    println("\n*** 1) Another type of exceptions ***")
+    println("\t. Item to buy = hamburger - Price = 2 € - Budget = 17 €:")
+    println("\t. Money to spend = ${calculateSpentMoney(17, 2)} €")
 
     println("\n***** End of theory *****")
 }
