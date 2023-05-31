@@ -1,6 +1,5 @@
 package ctrlflow.except.howTo.tame
 
-import java.lang.Exception
 
 /**
  * Theory: Taming exceptions
@@ -19,7 +18,13 @@ fun theory() {
 
     println("\n*** 2) Throwing exceptions ***")
     println("\t. Item to buy = hamburger - Price = 2 € - Budget = -7 €:")
-    println("\t. Money to spend = ${calculateSpentMoney(-7, 2)} €")
+    var result: String
+    result = try {
+        (calculateSpentMoney(-7, 2)).toString()
+    } catch (e: Exception) {
+        "Not applicable ... Disregard"
+    }
+    println("\t. Money to spend = $result €")
 
     println("\n***** End of theory *****")
 }
@@ -28,6 +33,9 @@ fun theory() {
 fun calculateSpentMoney(total: Int, itemPrice: Int): Int {
     // Catch a negative total (nonsense)
     if (total < 0) throw Exception("Total cannot be negative")
+
+    // Catch a negative itemPrice (another nonsense)
+    if (itemPrice < 0) throw Exception("Item price cannot be negative")
 
     // Catch exception to avoid 0 division
     if (itemPrice == 0) return 0
