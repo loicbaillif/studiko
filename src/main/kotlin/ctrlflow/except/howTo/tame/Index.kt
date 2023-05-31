@@ -6,4 +6,5 @@ package ctrlflow.except.howTo.tame
 
 fun index() {
     println("********** Taming exceptions **********\n")
+    theory()
 }
