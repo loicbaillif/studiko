@@ -13,3 +13,9 @@ fun theory() {
 
     println("\n***** End of theory *****")
 }
+
+
+fun calculateSpentMoney(total: Int, itemPrice: Int): Int {
+    val qtyToBuy = total / itemPrice
+    return qtyToBuy * itemPrice
+}
