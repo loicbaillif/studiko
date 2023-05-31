@@ -20,6 +20,9 @@ fun theory() {
 
 
 fun calculateSpentMoney(total: Int, itemPrice: Int): Int {
+    // Catch exception to avoid 0 division
+    if (itemPrice == 0) return 0
+
     val qtyToBuy = total / itemPrice
     return qtyToBuy * itemPrice
 }
