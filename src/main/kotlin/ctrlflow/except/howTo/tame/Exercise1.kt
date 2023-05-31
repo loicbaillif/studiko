@@ -18,7 +18,7 @@ fun exercise1() {
     if (index > word.lastIndex) {
         println(errorMessage)
     } else {
-
+        println(word[index])
     }
 
     println("\n*** End of exercise ***")
