@@ -15,5 +15,11 @@ fun exercise1() {
     val word = readln()
     val errorMessage = "There isn't such an element in the given string, please fix the index!"
 
+    if (index > word.lastIndex) {
+
+    } else {
+
+    }
+
     println("\n*** End of exercise ***")
 }
