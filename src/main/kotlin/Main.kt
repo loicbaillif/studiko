@@ -59,7 +59,8 @@ fun main() {
     // addit.errorless.errors.index()
     // ctrlflow.except.howTo.whatIs.index()
     // ctrlflow.except.types.hierar.index()
+    // ctrlflow.except.howTo.tame.index()
 
     // Current Chapter
-    ctrlflow.except.howTo.tame.index()
+    ctrlflow.except.howTo.tryCatch.index()
 }
