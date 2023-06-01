@@ -6,5 +6,5 @@ package ctrlflow.except.howTo.tryCatch
 
 fun index() {
     println("********** The try-catch statement **********\n")
-
+    theory()
 }
