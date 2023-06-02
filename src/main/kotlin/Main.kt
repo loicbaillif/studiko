@@ -62,5 +62,6 @@ fun main() {
     // ctrlflow.except.howTo.tame.index()
 
     // Current Chapter
-    ctrlflow.except.howTo.tryCatch.index()
+    // ctrlflow.except.howTo.tryCatch.index()
+    ctrlflow.except.howTo.tryCatFin.index()
 }
