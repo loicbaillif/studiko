@@ -1,5 +1,7 @@
 package ctrlflow.except.howTo.tryCatch
 
+import java.lang.NumberFormatException
+
 /**
  * Theory: The try-catch statement
  * https://hyperskill.org/learn/step/10622
@@ -9,7 +11,7 @@ package ctrlflow.except.howTo.tryCatch
 fun theory() {
     println("***** Theory *****")
 
-    println("\n1) *** The try-catch statement ***")
+    println("\n*** 1) The try-catch statement ***")
     val userInput = readln().toInt()
 
     println("Before the try-catch block")
@@ -22,7 +24,7 @@ fun theory() {
         println("Exception: Division by zero!")
     }
 
-    println("\n2) Getting info about exceptions")
+    println("\n*** 2) Getting info about exceptions")
     println("\t. Use : \"e.message\"")
     try {
         println("20 divided by $userInput ==> ${20/userInput}")
@@ -31,4 +33,16 @@ fun theory() {
     }
 
     println("After the try-catch block")
+
+
+    println("\n*** 3) Catching multiple exceptions")
+    try {
+        val someInt = readln().toInt()
+        println(10/someInt)
+    } catch (e: NumberFormatException) {
+        println("Number format exception!")
+    } catch (e: ArithmeticException) {
+        println("Arithmetic exception")
+    }
+
 }
