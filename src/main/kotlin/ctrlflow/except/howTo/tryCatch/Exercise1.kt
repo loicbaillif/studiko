@@ -10,11 +10,15 @@ package ctrlflow.except.howTo.tryCatch
 fun exercise1() {
     println("*** Exercise: Exception Message ***")
 
+    /*
     try {
         problemFunction()
     } catch (e: Exception) {
         println(e.message)
     }
+
+    End of exercise, solution validated
+     */
 
     println("\n*** End of exercise ***")
 }
