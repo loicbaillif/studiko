@@ -13,7 +13,7 @@ fun exercise1() {
     try {
         problemFunction()
     } catch (e: Exception) {
-        println()
+        println(e.message)
     }
 
     println("\n*** End of exercise ***")
