@@ -7,5 +7,6 @@ package ctrlflow.except.howTo.tryCatFin
 fun index() {
     println("********** The try-catch-finally statement **********\n")
 
-    theory()
+    // theory()
+    ctrlflow.except.howTo.tryCatch.exercise1()
 }
