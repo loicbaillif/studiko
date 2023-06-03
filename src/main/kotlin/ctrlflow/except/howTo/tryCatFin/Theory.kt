@@ -38,11 +38,6 @@ fun theory() {
      */
 
     println("\n*** 4) Try is an expression")
-    val someInt: Int =
-        try {
-            readln().toInt()
-        } catch (e: NumberFormatException) {
-            -1
-        }
+    val someInt: Int = try { readln().toInt() } catch (e: NumberFormatException) { -1 }
     println("int from user input = $someInt")
 }
