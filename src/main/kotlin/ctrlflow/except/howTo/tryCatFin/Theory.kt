@@ -11,11 +11,17 @@ fun theory() {
 
     println("\n*** 1) The finally block ***")
 
+    println("\n*** 2) First example")
+
     try {
         // Code which might throw an exception
+        println("We try to do a division by 0")
+        println(2 / 0)
     } catch (e: Exception) {
         // Exception handler
+        println("We have an exception")
     } finally {
         // This code is always executed
+        println("We execute this block, no matter what.")
     }
 }
