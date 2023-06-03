@@ -14,6 +14,8 @@ fun exercise1() {
         throwException(data)
     } catch (e: Exception) {
         handleException(data)
+    } finally {
+        println("Will be executed in any case")
     }
 
     println("\n*** End of exercise ***")
