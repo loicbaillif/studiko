@@ -24,4 +24,12 @@ fun theory() {
         // This code is always executed
         println("We execute this block, no matter what.")
     }
+
+    println("\n*** 3) try-finally")
+    try {
+        println(3 / 0)
+    } finally {
+        println("Instruction from the finally block")
+    }
+    println("Instruction outside the \"try-finally\" block.") // Never executed
 }
