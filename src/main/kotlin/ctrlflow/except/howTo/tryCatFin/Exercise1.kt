@@ -10,7 +10,11 @@ package ctrlflow.except.howTo.tryCatFin
 fun exercise1() {
     println("*** Exercise: Finalizing ***")
 
-
+    try {
+        throwException(data)
+    } catch (e: Exception) {
+        handleException(data)
+    }
 
     println("\n*** End of exercise ***")
 }
