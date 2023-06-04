@@ -1,5 +1,7 @@
 package typesDataStruct.basicOps.floats
 
+import java.util.Locale
+
 /**
  * Theory: Floating-point types
  * https://hyperskill.org/learn/step/4502
@@ -45,6 +47,10 @@ fun theory() {
     println("\t. value = $someDouble3 - type = ${someDouble3::class.simpleName}")
     println("\t. value = $someFloat3 - type = ${someFloat3::class.simpleName}")
 
+
+    println("\n*** 4) Decimal Separator")
+    val someFloat4 = readln().format(Locale.US).toFloat() // To adapt to US decimal
+    println("\t. value = $someFloat4 - type = ${someFloat4::class.simpleName}")
 
 
     println("\n***** End of Theory *****")
