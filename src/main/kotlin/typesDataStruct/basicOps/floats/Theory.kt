@@ -18,5 +18,12 @@ fun theory() {
     println("\t. value = $someDouble2 - type = ${someDouble2::class.simpleName}")
     println("\t. value = $pi - type = ${pi::class.simpleName}")
 
+    println("Floats:")
+    val someFloat1: Float = 1f
+    val someFloat2 = 7.89f
+    println("\t. value = $someFloat1 - type = ${someFloat1::class.simpleName}")
+    println("\t. value = $someFloat2 - type = ${someFloat2::class.simpleName}")
+
+
     println("\n***** End of Theory *****")
 }
