@@ -6,4 +6,5 @@ package typesDataStruct.basicOps.floats
 
 fun index() {
     println("********** Floating-point types **********\n")
+    theory()
 }
