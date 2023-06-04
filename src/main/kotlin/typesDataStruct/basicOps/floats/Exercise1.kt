@@ -15,5 +15,7 @@ fun exercise1() {
     val travelTime = readln().toDouble()
     val averageSpeed = distance / travelTime
 
+    println(averageSpeed)
+
     println("\n*** End of exercise ***")
 }
