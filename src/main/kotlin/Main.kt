@@ -60,8 +60,9 @@ fun main() {
     // ctrlflow.except.howTo.whatIs.index()
     // ctrlflow.except.types.hierar.index()
     // ctrlflow.except.howTo.tame.index()
+    // ctrlflow.except.howTo.tryCatch.index()
+    // ctrlflow.except.howTo.tryCatFin.index()
 
     // Current Chapter
-    // ctrlflow.except.howTo.tryCatch.index()
-    ctrlflow.except.howTo.tryCatFin.index()
+    typesDataStruct.basicOps.floats.index()
 }
