@@ -34,7 +34,9 @@ fun theory() {
 
 
     println("\n*** 2) Errors during computation")
-    println("3.3 / 3 = ${3.3 / 3}")
+    println("\t. 3.3 / 3 = ${3.3 / 3}")
+    print("\t. 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 = ")
+    println(0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1)
 
 
     println("\n***** End of Theory *****")
