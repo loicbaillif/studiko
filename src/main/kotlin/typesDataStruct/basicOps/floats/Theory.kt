@@ -29,6 +29,8 @@ fun theory() {
     println(" type = ${(someDouble1 + someDouble2)::class.simpleName}")
     print("\t. $someDouble1 * $someDouble2 = ${someDouble1 * someDouble2} - ")
     println(" type = ${(someDouble1 * someDouble2)::class.simpleName}")
+    print("\t. $someDouble2 / 2 = ${someDouble2 / 2} - ")
+    println(" type = ${(someDouble1 / 2)::class.simpleName}")
 
 
 
