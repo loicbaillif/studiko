@@ -39,5 +39,13 @@ fun theory() {
     println(0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1)
 
 
+    println("\n*** 3) Reading numbers")
+    val someDouble3 = readln().toDouble()
+    val someFloat3 = readln().toFloat()
+    println("\t. value = $someDouble3 - type = ${someDouble3::class.simpleName}")
+    println("\t. value = $someFloat3 - type = ${someFloat3::class.simpleName}")
+
+
+
     println("\n***** End of Theory *****")
 }
