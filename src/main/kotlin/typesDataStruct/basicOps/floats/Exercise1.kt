@@ -10,7 +10,9 @@ package typesDataStruct.basicOps.floats
 fun exercise1() {
     println("*** Exercise: Distance ***")
 
-
+    // Variables
+    val distance = readln().toDouble()
+    val travelTime = readln().toDouble()
 
     println("\n*** End of exercise ***")
 }
