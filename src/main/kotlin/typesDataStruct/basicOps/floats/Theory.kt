@@ -33,6 +33,9 @@ fun theory() {
     println(" type = ${(someDouble1 / 2)::class.simpleName}")
 
 
+    println("\n*** 2) Errors during computation")
+    println("3.3 / 3 = ${3.3 / 3}")
+
 
     println("\n***** End of Theory *****")
 }
