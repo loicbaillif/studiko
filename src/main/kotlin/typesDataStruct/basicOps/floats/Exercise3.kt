@@ -10,7 +10,6 @@ package typesDataStruct.basicOps.floats
 // Constants
 const val OPERAND_1 = 10.5
 const val OPERAND_2 = 4.4
-const val OPERAND_3 = 2.2
 
 fun exercise3() {
     println("*** Exercise: Evaluate an expression ***")
@@ -21,7 +20,7 @@ fun exercise3() {
     val c = readln().toDouble()
     val d = readln().toDouble()
 
-    val result = a * OPERAND_1 + b * OPERAND_2 + (c + d) / OPERAND_3
+    val result = a * OPERAND_1 + b * OPERAND_2 + (c + d) / (OPERAND_2 / 2)
 
     println(result)
 
