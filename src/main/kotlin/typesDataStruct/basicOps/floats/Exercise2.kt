@@ -16,7 +16,7 @@ fun exercise2() {
     // Variables
     val rho = readln().toDouble()
     val height = readln().toDouble()
-
+    val pressure = rho * height * GRAVITY_CONSTANT
 
     println("\n*** End of exercise ***")
 }
