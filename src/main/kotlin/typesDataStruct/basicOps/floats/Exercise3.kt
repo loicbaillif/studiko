@@ -21,5 +21,7 @@ fun exercise3() {
     val c = readln().toDouble()
     val d = readln().toDouble()
 
+    val result = a * OPERAND_1 + b * OPERAND_2 + (c + d) / OPERAND_3
+
     println("\n*** End of exercise ***")
 }
