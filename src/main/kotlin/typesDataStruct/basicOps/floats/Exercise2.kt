@@ -7,10 +7,13 @@ package typesDataStruct.basicOps.floats
  * Solution by Loïc Baillif
  */
 
+// Constants
+const val GRAVITY_CONSTANT = 9.8 // m.s^(-2)
+
 fun exercise2() {
     println("*** Exercise: Liquid pressure ***")
 
-
+    // Variables
 
     println("\n*** End of exercise ***")
 }
