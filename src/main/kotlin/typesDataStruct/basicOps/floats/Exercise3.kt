@@ -7,6 +7,10 @@ package typesDataStruct.basicOps.floats
  * Solution by Loïc Baillif
  */
 
+// Constants
+const val OPERAND_1 = 10.5
+const val OPERAND_2 = 4.4
+
 fun exercise3() {
     println("*** Exercise: Evaluate an expression ***")
 
