@@ -10,7 +10,11 @@ package typesDataStruct.basicOps.floats
 fun exercise3() {
     println("*** Exercise: Evaluate an expression ***")
 
-
+    // Variables
+    val a = readln().toDouble()
+    val b = readln().toDouble()
+    val c = readln().toDouble()
+    val d = readln().toDouble()
 
     println("\n*** End of exercise ***")
 }
