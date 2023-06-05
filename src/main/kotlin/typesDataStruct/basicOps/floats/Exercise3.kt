@@ -23,5 +23,7 @@ fun exercise3() {
 
     val result = a * OPERAND_1 + b * OPERAND_2 + (c + d) / OPERAND_3
 
+    println(result)
+
     println("\n*** End of exercise ***")
 }
