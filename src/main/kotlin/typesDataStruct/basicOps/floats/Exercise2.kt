@@ -14,6 +14,9 @@ fun exercise2() {
     println("*** Exercise: Liquid pressure ***")
 
     // Variables
+    val rho = readln().toDouble()
+    val height = readln().toDouble()
+
 
     println("\n*** End of exercise ***")
 }
