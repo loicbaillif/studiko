@@ -10,7 +10,8 @@ package typesDataStruct.basicOps.floats
 fun exercise5() {
     println("*** Exercise: Uses the Double in the calculations ***")
 
-
+    // Variables
+    val userInput = readln().toDouble()
 
     println("\n*** End of exercise ***")
 }
