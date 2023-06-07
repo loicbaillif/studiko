@@ -13,6 +13,7 @@ fun exercise5() {
     // Variables
     val userInput = readln().toDouble()
     val result = ((userInput + 1) * userInput + 1) * userInput + 1  // Hörner
+    println(result)
 
     println("\n*** End of exercise ***")
 }
