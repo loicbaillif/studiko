@@ -7,10 +7,13 @@ package typesDataStruct.basicOps.floats
  * Solution by Loïc Baillif
  */
 
+const val A_COEF = 1.8
+const val B_OFFSET = 32
+
 fun exercise4() {
     println("*** Exercise: Celsius to Fahrenheit ***")
 
-
+    
 
     println("\n*** End of exercise ***")
 }
