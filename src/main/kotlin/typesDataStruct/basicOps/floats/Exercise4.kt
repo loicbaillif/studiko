@@ -13,7 +13,9 @@ const val B_OFFSET = 32
 fun exercise4() {
     println("*** Exercise: Celsius to Fahrenheit ***")
 
-    
+    // Variables
+    val tempC = readln().toDouble()
+
 
     println("\n*** End of exercise ***")
 }
