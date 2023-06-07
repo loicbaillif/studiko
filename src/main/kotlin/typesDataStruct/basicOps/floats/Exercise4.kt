@@ -15,6 +15,7 @@ fun exercise4() {
 
     // Variables
     val tempC = readln().toDouble()
+    val tempF = tempC * A_COEF + B_OFFSET
 
 
     println("\n*** End of exercise ***")
