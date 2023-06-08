@@ -72,7 +72,7 @@ fun displayCinemaList(cinema: MutableList<MutableList<Int>>) {
 }
 
 
-fun displayStatistics(): Unit {
+fun displayStatistics() {
     println(String.format(STATISTICS,
         nbTicketsSold,
         percentage,
@@ -82,8 +82,12 @@ fun displayStatistics(): Unit {
 }
 
 
-fun getMainMenu(): Unit {
-
+fun getMainMenu() {
+    do {
+        userChoice = checkInputInt(MAIN_MENU, -1)
+        val validChoice = userChoice in 0..3
+        if (!validChoice) println(WRONG_INPUT)
+    } while (!validChoice)
 }
 
 
