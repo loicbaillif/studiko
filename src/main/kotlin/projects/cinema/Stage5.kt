@@ -14,6 +14,9 @@ fun stage5() {
 
     while (!exitCondition) {
         getMainMenu()
+        when (userChoice) {
+            1 -> displayCinemaList(cinemaList)
+        }
 
         // Exit condition
         if (userChoice == 0) exitCondition = true
