@@ -13,6 +13,7 @@ const val ASK_TICKET_SEAT = "Enter a seat number in that row:"
 const val MAIN_MENU = """
 1. Show the seats
 2. Buy a ticket
+3. Statistics
 0. Exit"""
 const val PRINT_INCOME = "Total income:\n"
 const val TICKET_PRICE = "\nTicket price: $"

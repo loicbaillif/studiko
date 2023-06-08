@@ -9,4 +9,5 @@ package projects.cinema
 
 fun stage5() {
     val cinemaList = createCinema()
+    displayCinemaList(cinemaList) // DEBUG
 }
