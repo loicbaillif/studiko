@@ -9,10 +9,7 @@ package projects.cinema
 
 fun stage4() {
     // Variables
-    val cinemaList = createCinema(
-        checkInputInt(ASK_NB_ROWS),
-        checkInputInt(ASK_NB_SEATS)
-    )
+    val cinemaList = createCinema()
     var exitCondition = false
 
     while (!exitCondition) {
