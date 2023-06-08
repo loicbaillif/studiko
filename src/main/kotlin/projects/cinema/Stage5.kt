@@ -13,11 +13,10 @@ fun stage5() {
     var exitCondition = false
 
     while (!exitCondition) {
-        // Variable
-
         getMainMenu()
 
-        println("User choice = $userChoice") // DEBUG
+        // Exit condition
+        if (userChoice == 0) exitCondition = true
     }
 
     displayCinemaList(cinemaList) // DEBUG
