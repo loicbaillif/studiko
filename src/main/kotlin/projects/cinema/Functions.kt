@@ -28,14 +28,19 @@ fun checkInputInt(prompt: String, default: Int = 1): Int {
 }
 
 
-fun createCinema(
-    nbRows: Int, nbSeatsPerRow: Int): MutableList<MutableList<Int>> {
+fun createCinema(): MutableList<MutableList<Int>> {
     // Create the cinema room as a 2D list, with following characteristics:
     // List of (nbRows + 1) lists
     // . First list made of [nbRows, nbSeats, totalSeats]
     // . Other lists represent the seats
 
     // Variables
+    var nbRows: Int
+    do nbRows = checkInputInt(ASK_NB_ROWS, -1) while (nbRows == -1)
+
+    var nbSeatsPerRow: Int
+    do nbSeatsPerRow = checkInputInt(ASK_NB_SEATS, -1) while (nbSeatsPerRow == -1)
+
     val headerList = mutableListOf<Int>(nbRows, nbSeatsPerRow, nbRows * nbSeatsPerRow)
     val cinemaRoom: MutableList<MutableList<Int>> = mutableListOf(headerList)
 
