@@ -15,6 +15,7 @@ const val MAIN_MENU = """
 2. Buy a ticket
 3. Statistics
 0. Exit"""
+const val OCCUPIED_SEAT = "That ticket has already been purchased!\n"
 const val PRINT_INCOME = "Total income:\n"
 const val STATISTICS = "Number of purchased tickets: %d\nPercentage: %.2f%%\nCurrent income: $%d\nTotal income: $%d"
 const val TICKET_PRICE = "\nTicket price: $"

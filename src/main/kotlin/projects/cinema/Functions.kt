@@ -122,12 +122,15 @@ fun sellTicket (cinema: MutableList<MutableList<Int>>) {
         validSeat = updateCinema(cinema, ticketRow, ticketSeat)
     }
 
-    // Output
+    // Determine price
     price = if (totalSeats <= LIM_NB_SEATS || (ticketRow <= nbRows / 2)) {
         PRICE_HIGH
     } else {
         PRICE_LOW
     }
+    currentIncome += price
+
+    // Output
     println("$TICKET_PRICE$price")
 }
 
@@ -135,8 +138,11 @@ fun sellTicket (cinema: MutableList<MutableList<Int>>) {
 fun updateCinema (cinema: MutableList<MutableList<Int>>, rowNumber: Int, seatNumber: Int): Boolean {
     if (cinema[rowNumber][seatNumber] == SEAT_EMPTY) {
         cinema[rowNumber][seatNumber] = SEAT_BOOKED
+        nbTicketsSold++
+        percentage = nbTicketsSold * 100.0 / cinema[0][2].toString().toInt()
         return true
     }
 
+    println(OCCUPIED_SEAT)
     return false
 }
