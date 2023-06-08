@@ -49,6 +49,9 @@ fun createCinema(): MutableList<MutableList<Int>> {
         cinemaRoom[i][0] = i
     }
 
+    // Statistics
+    totalIncome = calculateIncome(nbRows, nbSeatsPerRow)
+
     return cinemaRoom
 }
 
