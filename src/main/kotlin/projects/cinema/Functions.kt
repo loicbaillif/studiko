@@ -82,6 +82,11 @@ fun displayStatistics(): Unit {
 }
 
 
+fun getMainMenu(): Unit {
+
+}
+
+
 fun giveTicketPrice (
     cinema: MutableList<MutableList<Int>>, rowNumber: Int, seatNumber: Int
 ): Int {

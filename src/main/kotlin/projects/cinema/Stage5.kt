@@ -11,14 +11,13 @@ fun stage5() {
     // Variables
     val cinemaList = createCinema()
     var exitCondition = false
-    var userChoice = -1
 
     while (!exitCondition) {
         // Variable
-        do {
-            userChoice = checkInputInt(MAIN_MENU, -1)
-        } while (userChoice !in 0..3)
-        println("User choice = $userChoice")
+
+        getMainMenu()
+
+        println("User choice = $userChoice") // DEBUG
     }
 
     displayCinemaList(cinemaList) // DEBUG
