@@ -18,4 +18,5 @@ const val MAIN_MENU = """
 const val PRINT_INCOME = "Total income:\n"
 const val STATISTICS = "Number of purchased tickets: %d\nPercentage: %.2f%%\nCurrent income: $%d\nTotal income: $%d"
 const val TICKET_PRICE = "\nTicket price: $"
+const val WRONG_INPUT = "Wrong input!"
 

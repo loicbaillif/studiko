@@ -10,7 +10,17 @@ package projects.cinema
 fun stage5() {
     // Variables
     val cinemaList = createCinema()
+    var exitCondition = false
+    var userChoice = -1
+
+    while (!exitCondition) {
+        // Variable
+        do {
+            userChoice = checkInputInt(MAIN_MENU, -1)
+        } while (userChoice !in 0..3)
+        println("User choice = $userChoice")
+    }
 
     displayCinemaList(cinemaList) // DEBUG
-    println(String.format(STATISTICS, nbTicketsSold, percentage, currentIncome, totalIncome)) // DEBUG
+    displayStatistics() // DEBUG
 }

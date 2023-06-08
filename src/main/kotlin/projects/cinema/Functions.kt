@@ -72,6 +72,16 @@ fun displayCinemaList(cinema: MutableList<MutableList<Int>>) {
 }
 
 
+fun displayStatistics(): Unit {
+    println(String.format(STATISTICS,
+        nbTicketsSold,
+        percentage,
+        currentIncome,
+        totalIncome)
+    )
+}
+
+
 fun giveTicketPrice (
     cinema: MutableList<MutableList<Int>>, rowNumber: Int, seatNumber: Int
 ): Int {
