@@ -17,12 +17,11 @@ fun stage5() {
         when (userChoice) {
             1 -> displayCinemaList(cinemaList)
             2 -> sellTicket(cinemaList)
+            3 -> displayStatistics()
         }
 
         // Exit condition
         if (userChoice == 0) exitCondition = true
     }
 
-    displayCinemaList(cinemaList) // DEBUG
-    displayStatistics() // DEBUG
 }
