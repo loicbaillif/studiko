@@ -16,6 +16,7 @@ fun stage5() {
         getMainMenu()
         when (userChoice) {
             1 -> displayCinemaList(cinemaList)
+            2 -> sellTicket(cinemaList)
         }
 
         // Exit condition
