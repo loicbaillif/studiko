@@ -139,6 +139,12 @@ fun sellTicket (cinema: MutableList<MutableList<Int>>) {
 
 
 fun updateCinema (cinema: MutableList<MutableList<Int>>, rowNumber: Int, seatNumber: Int): Boolean {
+    // Seat position does not exist in cinema
+    if (cinema[0][0] < rowNumber || cinema[0][1] < seatNumber) {
+        println(WRONG_INPUT)
+        return false
+    }
+
     if (cinema[rowNumber][seatNumber] == SEAT_EMPTY) {
         cinema[rowNumber][seatNumber] = SEAT_BOOKED
         nbTicketsSold++
