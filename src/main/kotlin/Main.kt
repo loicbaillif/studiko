@@ -14,7 +14,7 @@ fun main() {
     // projects.zookeeper.index()
     // projects.chattybot.index()
     // projects.tictactoe.index()
-    // projects.cinema.index()
+    projects.cinema.index()
 
     // Old Chapters
     // overview.index()
@@ -64,5 +64,5 @@ fun main() {
     // ctrlflow.except.howTo.tryCatFin.index()
 
     // Current Chapter
-    typesDataStruct.basicOps.floats.index()
+    // typesDataStruct.basicOps.floats.index()
 }
