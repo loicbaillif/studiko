@@ -14,6 +14,8 @@ fun theory() {
     println(someString1)
     val someString2 = "%s %s".format("Goodbye", "Moon!")
     println(someString2)
+    val someString3 = "%s %S".format("Morning", "Vietnam")
+    println(someString3)
 
 
     println("\n***** End of Theory *****")
