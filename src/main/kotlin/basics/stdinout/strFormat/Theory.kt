@@ -37,6 +37,8 @@ fun theory() {
     println("\t. %-8d %s".format(someInt2, "eggs"))
     println("\t. %+d".format(someInt1))
     println("\t. %+d".format(someInt2))
+    println("\t. %09d".format(someInt1))
+    println("\t. %09d".format(someInt2))
 
 
 
