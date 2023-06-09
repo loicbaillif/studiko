@@ -26,6 +26,12 @@ fun theory() {
     for (n in 1..15) println("%${n}s".format("Ping?"))
     println("%-8s %8s".format("hi", "there"))
 
+    println("\n*** 4) Formatting integers")
+    val someInt1 = 12345
+    val someInt2 = -98765
+    println("%d".format(someInt1))
+    println("%d".format(someInt2))
+
 
     println("\n***** End of Theory *****")
 }
