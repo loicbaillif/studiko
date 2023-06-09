@@ -45,6 +45,8 @@ fun theory() {
     println("\t. %+,010d".format(someInt2))
     println("\t. % d".format(someInt1))
     println("\t. % d".format(someInt2))
+    println("\t. %(d".format(someInt1))
+    println("\t. %(d".format(someInt2))
 
 
     println("\n***** End of Theory *****")
