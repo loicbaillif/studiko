@@ -9,6 +9,9 @@ package basics.stdinout.strFormat
 fun theory() {
     println("***** Theory *****")
 
+    println("\n*** 1) Basic syntax and the general string specifier")
+    val someString1 = String.format("%s %s", "Hello", "World!")
+    println(someString1)
 
 
     println("\n***** End of Theory *****")
