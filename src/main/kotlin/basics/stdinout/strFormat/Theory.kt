@@ -29,10 +29,12 @@ fun theory() {
     println("\n*** 4) Formatting integers")
     val someInt1 = 12345
     val someInt2 = -98765
-    println("%d".format(someInt1))
-    println("%d".format(someInt2))
-    println("%8d".format(someInt1))
-    println("%8d".format(someInt2))
+    println("\t. %d".format(someInt1))
+    println("\t. %d".format(someInt2))
+    println("\t. %8d".format(someInt1))
+    println("\t. %8d".format(someInt2))
+    println("\t. %-8d %s".format(someInt1, "eggs"))
+    println("\t. %-8d %s".format(someInt2, "eggs"))
 
 
     println("\n***** End of Theory *****")
