@@ -6,5 +6,5 @@ package basics.stdinout.strFormat
 
 fun index() {
     println("********** String formatting **********\n")
-
+    theory()
 }
