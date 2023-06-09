@@ -48,9 +48,10 @@ fun theory() {
     println("\t. %(d".format(someInt1))
     println("\t. %(d".format(someInt2))
 
-    println("\n*** 5) Formatting octal and hexadecimal numbers")
+    println("\n*** 5) Formatting octal numbers")
     println("\t. \"%%o\".format($someInt1) = %o".format(someInt1))
     println("\t. \"%%o\".format($someInt2) = %o".format(someInt2))
+    println("\t. \"%%#o\".format($someInt1) = %#o".format(someInt1))
 
 
     println("\n***** End of Theory *****")
