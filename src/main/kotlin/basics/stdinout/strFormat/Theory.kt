@@ -31,6 +31,8 @@ fun theory() {
     val someInt2 = -98765
     println("%d".format(someInt1))
     println("%d".format(someInt2))
+    println("%8d".format(someInt1))
+    println("%8d".format(someInt2))
 
 
     println("\n***** End of Theory *****")
