@@ -16,6 +16,8 @@ fun theory() {
     println(someString2)
     val someString3 = "%s %S".format("Morning", "Vietnam")
     println(someString3)
+    val someString4 = "%1\$s is %2\$s %1\$s".format("Kotlin", "the best language")
+    println(someString4)
 
 
     println("\n***** End of Theory *****")
