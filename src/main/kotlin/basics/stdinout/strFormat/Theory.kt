@@ -52,6 +52,8 @@ fun theory() {
     println("\t. \"%%o\".format($someInt1) = %o".format(someInt1))
     println("\t. \"%%o\".format($someInt2) = %o".format(someInt2))
     println("\t. \"%%#o\".format($someInt1) = %#o".format(someInt1))
+    println("\t. \"%%8o\".format($someInt1) = %8o".format(someInt1))
+    println("\t. \"%%-8o (octal)\".format($someInt1) = %-8o (octal)".format(someInt1))
 
 
     println("\n***** End of Theory *****")
