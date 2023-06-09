@@ -19,8 +19,11 @@ fun theory() {
     val someString4 = "%1\$s is %2\$s %1\$s".format("Kotlin", "the best language")
     println(someString4)
 
-    println("\n***2) Special format specifiers")
+    println("\n*** 2) Special format specifiers")
     println(String.format("Percentage?%nUse %%%%!"))
+
+    println("\n*** 3) Width and justification")
+    for (n in 1..15) println("%${n}s".format("Ping?"))
 
 
     println("\n***** End of Theory *****")
