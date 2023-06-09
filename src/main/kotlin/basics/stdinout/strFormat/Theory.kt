@@ -24,6 +24,7 @@ fun theory() {
 
     println("\n*** 3) Width and justification")
     for (n in 1..15) println("%${n}s".format("Ping?"))
+    println("%-8s %8s".format("hi", "there"))
 
 
     println("\n***** End of Theory *****")
