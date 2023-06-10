@@ -65,14 +65,14 @@ fun theory() {
     println("\t. \"%%08x\".format($someInt1) = %08x".format(someInt1)) // 00030071
 
     println("\n*** 7) Formatting floating point numbers")
-    val someDouble1 = 123.4567
-    val someDouble2 = -987.6543
-    println("\t. %f".format(someDouble1)) // |123.456700|
-    println("\t. %f".format(someDouble2)) // |-987.654300|
-    println("\t. % f".format(someDouble1)) // | 123.456700|
-    println("\t. % f".format(someDouble2)) // |-987.654300|
-    println("\t. %(f".format(someDouble1)) // |123.456700|
-    println("\t. %(f".format(someDouble2)) // |(987.654300)|
+    val someDouble1 = 12345.67
+    val someDouble2 = -98765.43
+    println("\t. %f".format(someDouble1)) // |12345.6700|
+    println("\t. %f".format(someDouble2)) // |-98765.4300|
+    println("\t. % f".format(someDouble1)) // | 12345.6700|
+    println("\t. % f".format(someDouble2)) // |-98765.4300|
+    println("\t. %(f".format(someDouble1)) // |12345.6700|
+    println("\t. %(f".format(someDouble2)) // |(98765.4300)|
 
 
 
