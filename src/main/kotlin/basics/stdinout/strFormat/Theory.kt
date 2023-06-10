@@ -29,32 +29,32 @@ fun theory() {
     println("\n*** 4) Formatting integers")
     val someInt1 = 12345
     val someInt2 = -98765
-    println("\t. %d".format(someInt1))
-    println("\t. %d".format(someInt2))
-    println("\t. %8d".format(someInt1))
-    println("\t. %8d".format(someInt2))
-    println("\t. %-8d %s".format(someInt1, "eggs"))
-    println("\t. %-8d %s".format(someInt2, "eggs"))
-    println("\t. %+d".format(someInt1))
-    println("\t. %+d".format(someInt2))
-    println("\t. %09d".format(someInt1))
-    println("\t. %09d".format(someInt2))
-    println("\t. %,10d".format(someInt1))
-    println("\t. %,10d".format(someInt2))
-    println("\t. %+,010d".format(someInt1))
-    println("\t. %+,010d".format(someInt2))
-    println("\t. % d".format(someInt1))
-    println("\t. % d".format(someInt2))
-    println("\t. %(d".format(someInt1))
-    println("\t. %(d".format(someInt2))
+    println("\t. %d".format(someInt1)) // |12345|
+    println("\t. %d".format(someInt2)) // | -98765|
+    println("\t. %8d".format(someInt1)) // |   12345|
+    println("\t. %8d".format(someInt2)) // |  -98765|
+    println("\t. %-8d %s".format(someInt1, "eggs")) // |12345    eggs|
+    println("\t. %-8d %s".format(someInt2, "eggs")) // |-98765   eggs|
+    println("\t. %+d".format(someInt1)) // |+12345|
+    println("\t. %+d".format(someInt2)) // |-98765|
+    println("\t. %09d".format(someInt1)) // |000012345|
+    println("\t. %09d".format(someInt2)) // |-00098765|
+    println("\t. %,10d".format(someInt1)) // |    12,345|
+    println("\t. %,10d".format(someInt2)) // |   -98,765|
+    println("\t. %+,010d".format(someInt1)) // |+00012,345|
+    println("\t. %+,010d".format(someInt2)) // |-00098,765|
+    println("\t. % d".format(someInt1)) // | 12345|
+    println("\t. % d".format(someInt2)) // |-98765|
+    println("\t. %(d".format(someInt1)) // |12345|
+    println("\t. %(d".format(someInt2)) // (98765)|
 
     println("\n*** 5) Formatting octal numbers")
-    println("\t. \"%%o\".format($someInt1) = %o".format(someInt1))
-    println("\t. \"%%o\".format($someInt2) = %o".format(someInt2))
-    println("\t. \"%%#o\".format($someInt1) = %#o".format(someInt1))
-    println("\t. \"%%8o\".format($someInt1) = %8o".format(someInt1))
-    println("\t. \"%%-8o (octal)\".format($someInt1) = %-8o (octal)".format(someInt1))
-    println("\t. \"%%08o\".format($someInt1) = %08o".format(someInt1))
+    println("\t. \"%%o\".format($someInt1) = %o".format(someInt1)) // 30071
+    println("\t. \"%%o\".format($someInt2) = %o".format(someInt2)) // 3777477063
+    println("\t. \"%%#o\".format($someInt1) = %#o".format(someInt1)) // 030071
+    println("\t. \"%%8o\".format($someInt1) = %8o".format(someInt1)) //    30071
+    println("\t. \"%%-8o (octal)\".format($someInt1) = %-8o (octal)".format(someInt1)) // 30071   (octal)
+    println("\t. \"%%08o\".format($someInt1) = %08o".format(someInt1)) // 00030071
 
 
     println("\n***** End of Theory *****")
