@@ -69,6 +69,8 @@ fun theory() {
     val someDouble2 = -987.6543
     println("\t. %f".format(someDouble1))
     println("\t. %f".format(someDouble2))
+    println("\t. % f".format(someDouble1))
+    println("\t. % f".format(someDouble2))
 
 
 
