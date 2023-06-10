@@ -10,8 +10,7 @@ package basics.stdinout.strFormat
 fun exercise1() {
     println("*** Exercise: Format Double with a comma and 2 decimal digits ***")
 
-    val userInput = readln().toDouble()
-    println(String.format("%,.2f", userInput))
+    println(String.format("%,.2f", readln().toDouble()))
 
     println("\n*** End of exercise ***")
 }
