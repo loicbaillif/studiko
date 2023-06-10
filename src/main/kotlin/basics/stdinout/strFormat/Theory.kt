@@ -67,10 +67,12 @@ fun theory() {
     println("\n*** 7) Formatting floating point numbers")
     val someDouble1 = 123.4567
     val someDouble2 = -987.6543
-    println("\t. %f".format(someDouble1))
-    println("\t. %f".format(someDouble2))
-    println("\t. % f".format(someDouble1))
-    println("\t. % f".format(someDouble2))
+    println("\t. %f".format(someDouble1)) // |123.456700|
+    println("\t. %f".format(someDouble2)) // |-987.654300|
+    println("\t. % f".format(someDouble1)) // | 123.456700|
+    println("\t. % f".format(someDouble2)) // |-987.654300|
+    println("\t. %(f".format(someDouble1)) // |123.456700|
+    println("\t. %(f".format(someDouble2)) // |(987.654300)|
 
 
 
