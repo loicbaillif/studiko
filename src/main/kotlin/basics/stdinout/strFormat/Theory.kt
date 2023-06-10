@@ -64,6 +64,12 @@ fun theory() {
     println("\t. \"%%-8x (octal)\".format($someInt1) = %-8x (Hexadecimal)".format(someInt1)) // 30071   (octal)
     println("\t. \"%%08x\".format($someInt1) = %08x".format(someInt1)) // 00030071
 
+    println("\n*** 7) Formatting floating point numbers")
+    val someDouble1 = 123.4567
+    val someDouble2 = -987.6543
+    println("\t. %f".format(someDouble1))
+    println("\t. %f".format(someDouble2))
+
 
 
     println("\n***** End of Theory *****")
