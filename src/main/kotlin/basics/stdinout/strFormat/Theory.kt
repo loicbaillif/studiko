@@ -73,6 +73,8 @@ fun theory() {
     println("\t. % f".format(someDouble2)) // |-98765.4300|
     println("\t. %(f".format(someDouble1)) // |12345.6700|
     println("\t. %(f".format(someDouble2)) // |(98765.4300)|
+    println("\t. %+f".format(someDouble1)) // |+12345.6700|
+    println("\t. %,f".format(someDouble1)) // |12,345.6700|
 
 
 
