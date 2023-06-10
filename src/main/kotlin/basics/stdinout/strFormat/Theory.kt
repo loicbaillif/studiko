@@ -79,6 +79,10 @@ fun theory() {
     println("\t. %015f".format(someDouble1)) // |00012345.670000|
     println("\t. %.1f".format(someDouble1)) // |12345.7|
 
+    println("\n*** 8) Booleans")
+    println("\t. %b".format(true)) // |true|
+    println("\t. %B".format(true)) // |TRUE|
+
 
     println("\n***** End of Theory *****")
 }
