@@ -83,6 +83,10 @@ fun theory() {
     println("\t. %b".format(true)) // |true|
     println("\t. %B".format(true)) // |TRUE|
 
+    println("\n*** 9) Characters")
+    println("\t. %c".format('ï'))
+    println("\t. %C".format('ï'))
+
 
     println("\n***** End of Theory *****")
 }
