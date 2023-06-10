@@ -56,6 +56,15 @@ fun theory() {
     println("\t. \"%%-8o (octal)\".format($someInt1) = %-8o (octal)".format(someInt1)) // 30071   (octal)
     println("\t. \"%%08o\".format($someInt1) = %08o".format(someInt1)) // 00030071
 
+    println("\n*** 6) Formatting hexadecimal numbers")
+    println("\t. \"%%x\".format($someInt1) = %x".format(someInt1)) // |3039|
+    println("\t. \"%%x\".format($someInt2) = %x".format(someInt2)) // |fffe7e33|
+    println("\t. \"%%#x\".format($someInt1) = %#x".format(someInt1)) // |0x3039|
+    println("\t. \"%%8x\".format($someInt1) = %8x".format(someInt1)) // |    3039|
+    println("\t. \"%%-8x (octal)\".format($someInt1) = %-8x (Hexadecimal)".format(someInt1)) // 30071   (octal)
+    println("\t. \"%%08x\".format($someInt1) = %08x".format(someInt1)) // 00030071
+
+
 
     println("\n***** End of Theory *****")
 }
