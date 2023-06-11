@@ -11,4 +11,6 @@ fun stage3() {
     // Intro
     println("Input string:")
     val userInput = readln()
+    var inputToBinary: String
+
 }
