@@ -15,6 +15,6 @@ fun stage2() {
     println("The result:")
     // Main loop
     for (ch in userInput) {
-
+        println(Integer.toBinaryString(ch.code))
     }
 }
