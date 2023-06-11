@@ -11,4 +11,10 @@ fun stage2() {
     // Intro
     println("Input string:")
     val userInput = readln()
+
+    println("The result:")
+    // Main loop
+    for (ch in userInput) {
+
+    }
 }
