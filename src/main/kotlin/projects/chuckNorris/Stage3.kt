@@ -11,12 +11,16 @@ fun stage3() {
     // Intro
     println("Input string:")
     val userInput = readln()
-    var inputToBinary: String = ""
+    var inputToBinary = ""
 
     for (ch in userInput) {
         val temp = Integer.parseInt(Integer.toBinaryString(ch.code))
         inputToBinary = inputToBinary + temp
     }
+
+    var previousDigit = inputToBinary[0]
+    if (previousDigit == '0') print("00") else print(0)
+
 
     println(inputToBinary) // DEBUG
 }
