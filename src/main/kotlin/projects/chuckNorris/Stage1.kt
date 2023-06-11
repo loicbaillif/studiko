@@ -8,5 +8,6 @@ package projects.chuckNorris
  */
 
 fun stage1() {
-
+    // Variables
+    val userInput = readln()
 }
