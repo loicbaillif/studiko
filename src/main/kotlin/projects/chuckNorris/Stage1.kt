@@ -8,7 +8,11 @@ package projects.chuckNorris
  */
 
 fun stage1() {
+    // Init
+    println("Input string:")
+
     // Variables
     val userInput = readln()
+
     for (ch in userInput) print("%c ".format(ch))
 }
