@@ -15,7 +15,7 @@ fun stage2() {
     println("The result:")
     // Main loop
     for (ch in userInput) {
-        val temp = Integer.toBinaryString(ch.code)
-        println(String.format("%07d", Integer.parseInt(temp)))
+        val temp = Integer.parseInt(Integer.toBinaryString(ch.code))
+        println(String.format("%c = %07d", ch, temp))
     }
 }
