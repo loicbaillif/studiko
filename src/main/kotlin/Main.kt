@@ -15,6 +15,7 @@ fun main() {
     // projects.chattybot.index()
     // projects.tictactoe.index()
     // projects.cinema.index()
+    projects.chuckNorris.index()
 
     // Old Chapters
     // overview.index()
@@ -65,5 +66,5 @@ fun main() {
     // typesDataStruct.basicOps.floats.index()
 
     // Current Chapter
-    basics.stdinout.strFormat.index()
+    // basics.stdinout.strFormat.index()
 }
