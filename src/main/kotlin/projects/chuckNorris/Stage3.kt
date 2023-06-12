@@ -19,19 +19,17 @@ fun stage3() {
     }
 
     var previousDigit = inputToBinary[0]
-    var nbConsecutive = 1
-    if (previousDigit == '0') print("00") else print(0)
+    if (previousDigit == '0') print("00 0") else print("0 0")
     for (index in 1..inputToBinary.lastIndex) {
         if (inputToBinary[index] == previousDigit) {
-            nbConsecutive++
+            print(0)
         } else {
+            // println("\tpreviousDigit = $previousDigit \t nbConsecutive = $nbConsecutive") // DEBUG
             print(' ')
-            for (i in 1..nbConsecutive) print(0)
-            nbConsecutive = 1
             previousDigit = inputToBinary[index]
-            if (previousDigit == '0') print("00") else print(0)
+            if (previousDigit == '0') print("00 0") else print("0 0")
         }
     }
 
-    println(inputToBinary) // DEBUG
+    // println(inputToBinary) // DEBUG
 }
