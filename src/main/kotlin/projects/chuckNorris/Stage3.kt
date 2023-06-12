@@ -19,8 +19,11 @@ fun stage3() {
     }
 
     var previousDigit = inputToBinary[0]
+    var nbConsecutive = 1
     if (previousDigit == '0') print("00") else print(0)
+    for (ch in 1..inputToBinary.lastIndex) {
 
+    }
 
     println(inputToBinary) // DEBUG
 }
