@@ -16,8 +16,12 @@ fun stage3() {
     // Conversion to string of binary
     for (ch in userInput) {
         val temp = Integer.parseInt(Integer.toBinaryString(ch.code))
-        inputToBinary += temp
+        inputToBinary += "%07d".format(temp)
     }
+
+    // Output
+    println("\nThe result:")
+    println(inputToBinary) // DEBUG
 
     // Conversion to Chuck Norris unary
     var previousDigit = inputToBinary[0]
@@ -30,4 +34,5 @@ fun stage3() {
             if (previousDigit == '0') print(" 00 0") else print(" 0 0")
         }
     }
+    println()
 }
