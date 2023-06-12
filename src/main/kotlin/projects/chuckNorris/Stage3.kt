@@ -21,18 +21,16 @@ fun stage3() {
 
     // Output
     println("\nThe result:")
-    println(inputToBinary) // DEBUG
 
     // Conversion to Chuck Norris unary
-    var previousDigit = inputToBinary[0]
-    if (previousDigit == '0') print("00 0") else print("0 0")
-    for (index in 1..inputToBinary.lastIndex) {
-        if (inputToBinary[index] == previousDigit) {
-            print(0)
-        } else {
-            previousDigit = inputToBinary[index]
-            if (previousDigit == '0') print(" 00 0") else print(" 0 0")
+    var previousDigit = 'C'
+    var solution = ""
+    for (ch in inputToBinary) {
+        if (ch == previousDigit) solution += '0'
+        else {
+            previousDigit = ch
+            solution += if (previousDigit == '0') " 00 0" else " 0 0"
         }
     }
-    println()
+    println(solution.substring(1))
 }
