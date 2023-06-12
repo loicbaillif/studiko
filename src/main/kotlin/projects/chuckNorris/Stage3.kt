@@ -24,12 +24,8 @@ fun stage3() {
         if (inputToBinary[index] == previousDigit) {
             print(0)
         } else {
-            // println("\tpreviousDigit = $previousDigit \t nbConsecutive = $nbConsecutive") // DEBUG
-            print(' ')
             previousDigit = inputToBinary[index]
-            if (previousDigit == '0') print("00 0") else print("0 0")
+            if (previousDigit == '0') print(" 00 0") else print(" 0 0")
         }
     }
-
-    // println(inputToBinary) // DEBUG
 }
