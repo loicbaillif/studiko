@@ -13,11 +13,13 @@ fun stage3() {
     val userInput = readln()
     var inputToBinary = ""
 
+    // Conversion to string of binary
     for (ch in userInput) {
         val temp = Integer.parseInt(Integer.toBinaryString(ch.code))
-        inputToBinary = inputToBinary + temp
+        inputToBinary += temp
     }
 
+    // Conversion to Chuck Norris unary
     var previousDigit = inputToBinary[0]
     if (previousDigit == '0') print("00 0") else print("0 0")
     for (index in 1..inputToBinary.lastIndex) {
