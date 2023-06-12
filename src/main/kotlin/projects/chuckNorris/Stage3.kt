@@ -24,6 +24,12 @@ fun stage3() {
     for (index in 1..inputToBinary.lastIndex) {
         if (inputToBinary[index] == previousDigit) {
             nbConsecutive++
+        } else {
+            print(' ')
+            for (i in 1..nbConsecutive) print(0)
+            nbConsecutive = 1
+            previousDigit = inputToBinary[index]
+            if (previousDigit == '0') print("00") else print(0)
         }
     }
 
