@@ -19,5 +19,5 @@ fun exercise3() {
 
 
 fun divide(a: Long, b: Long) : Double {
-
+    return (a.toDouble() / b)
 }
