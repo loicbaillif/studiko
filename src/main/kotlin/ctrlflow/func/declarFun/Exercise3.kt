@@ -12,6 +12,7 @@ fun exercise3() {
 
     val n1 = readln().toLong()
     val n2 = readln().toLong()
+    println(n1.toDouble() / n2)
 
     println("\n*** End of exercise ***")
 }
