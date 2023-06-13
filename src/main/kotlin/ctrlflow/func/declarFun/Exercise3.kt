@@ -16,3 +16,8 @@ fun exercise3() {
 
     println("\n*** End of exercise ***")
 }
+
+
+fun divide(a: Long, b: Long) : Double {
+
+}
