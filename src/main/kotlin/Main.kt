@@ -15,7 +15,7 @@ fun main() {
     // projects.chattybot.index()
     // projects.tictactoe.index()
     // projects.cinema.index()
-    projects.chuckNorris.index()
+    // projects.chuckNorris.index()
 
     // Old Chapters
     // overview.index()
@@ -49,7 +49,7 @@ fun main() {
     // typesDataStruct.strings.workWith.index()
     // typesDataStruct.dataTypes.ranges.index()
     // ctrlflow.ctrlStruc.forRanges.index()
-    // ctrlflow.func.declarFun.index()
+    ctrlflow.func.declarFun.index()
     // typesDataStruct.lists.workMut.index()
     // typesDataStruct.lists.forLoop.index()
     // typesDataStruct.lists.multiDim.index()
@@ -64,7 +64,7 @@ fun main() {
     // ctrlflow.except.howTo.tryCatch.index()
     // ctrlflow.except.howTo.tryCatFin.index()
     // typesDataStruct.basicOps.floats.index()
+    // basics.stdinout.strFormat.index()
 
     // Current Chapter
-    // basics.stdinout.strFormat.index()
 }
