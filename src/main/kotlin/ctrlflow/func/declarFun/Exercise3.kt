@@ -10,9 +10,7 @@ package ctrlflow.func.declarFun
 fun exercise3() {
     println("*** Exercise: Division ***")
 
-    val n1 = readln().toLong()
-    val n2 = readln().toLong()
-    println(divide(n1, n2))
+    println(divide(readln().toLong(), readln().toLong()))
 
     println("\n*** End of exercise ***")
 }
