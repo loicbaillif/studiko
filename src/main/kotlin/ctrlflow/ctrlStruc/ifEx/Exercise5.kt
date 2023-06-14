@@ -7,6 +7,9 @@ package ctrlflow.ctrlStruc.ifEx
  * Solution by Loïc Baillif
  */
 
+const val LEAP = "Leap"
+const val REGULAR = "Regular"
+
 fun exercise5() {
     println("*** Exercise: Leap year ***")
 
