@@ -14,14 +14,9 @@ fun exercise5() {
     println("*** Exercise: Leap year ***")
 
     // Variable
-    val userInput = readln().toInt()
+    val year = readln().toInt()
 
-    if (userInput % 4 == 0 && userInput % 100 != 0 || userInput % 400 == 0) {
-        // Leap?
-        println(LEAP)
-    } else {
-        println(REGULAR)
-    }
+    println(if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) LEAP else REGULAR)
 
     println("\n*** End of exercise ***")
 }
