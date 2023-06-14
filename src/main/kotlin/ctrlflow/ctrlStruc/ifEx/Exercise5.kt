@@ -16,5 +16,9 @@ fun exercise5() {
     // Variable
     var userInput = readln().toInt()
 
+    if (userInput % 4 == 0 && userInput % 100 != 0 || userInput % 400 == 0) {
+        // Leap?
+    }
+
     println("\n*** End of exercise ***")
 }
