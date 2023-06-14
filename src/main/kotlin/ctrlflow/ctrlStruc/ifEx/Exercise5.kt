@@ -10,7 +10,8 @@ package ctrlflow.ctrlStruc.ifEx
 fun exercise5() {
     println("*** Exercise: Leap year ***")
 
-
+    // Variable
+    var userInput = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
