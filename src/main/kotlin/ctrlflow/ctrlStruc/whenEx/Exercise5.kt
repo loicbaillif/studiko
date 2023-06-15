@@ -16,6 +16,12 @@ fun exercise5() {
 
     // Variables
     val userInput = getUserInput()
+    val shape = when (userInput) {
+        1 -> "square"
+        2 -> "circle"
+        3 -> "triangle"
+        else -> "rhombus"
+    }
 
     println("\n*** End of exercise ***")
 }
