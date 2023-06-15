@@ -10,6 +10,7 @@ import java.lang.NumberFormatException
  */
 
 const val ANSWER = "You have chosen a %s"
+const val INVALID = "There is no such shape!"
 
 fun exercise5() {
     println("*** Exercise: Shape ***")
@@ -22,6 +23,7 @@ fun exercise5() {
         3 -> "triangle"
         else -> "rhombus"
     }
+    if (userInput == 0) println(INVALID)
 
     println("\n*** End of exercise ***")
 }
