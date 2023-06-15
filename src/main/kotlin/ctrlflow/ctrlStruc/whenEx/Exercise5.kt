@@ -12,9 +12,15 @@ import java.lang.NumberFormatException
 fun exercise5() {
     println("*** Exercise: Shape ***")
 
-
-    var userInput = readln().toInt()
-
+    // Variables
+    var userInput = 0
+    try {
+        userInput = readln().toInt()
+    } catch (e: NumberFormatException) {
+        println("Erroneous input")
+    } finally {
+        println("user input = $userInput") // DEBUG
+    }
 
 
     println("\n*** End of exercise ***")
