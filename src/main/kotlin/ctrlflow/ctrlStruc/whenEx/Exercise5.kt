@@ -38,5 +38,7 @@ fun getUserInput(): Int {
         println("Erroneous input")
     }
 
+    if (userInput !in 0..4) userInput = 0
+
     return userInput
 }
