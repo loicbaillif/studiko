@@ -9,12 +9,13 @@ import java.lang.NumberFormatException
  * Solution by Loïc Baillif
  */
 
+const val ANSWER = "You have chosen a %s"
+
 fun exercise5() {
     println("*** Exercise: Shape ***")
 
     // Variables
     val userInput = getUserInput()
-
 
     println("\n*** End of exercise ***")
 }
@@ -27,7 +28,7 @@ fun getUserInput(): Int {
         userInput = readln().toInt()
     } catch (e: NumberFormatException) {
         println("Erroneous input")
-    } 
+    }
 
     return userInput
 }
