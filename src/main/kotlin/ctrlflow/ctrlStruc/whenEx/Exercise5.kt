@@ -23,7 +23,7 @@ fun exercise5() {
         3 -> "triangle"
         else -> "rhombus"
     }
-    if (userInput == 0) println(INVALID)
+    if (userInput == 0) println(INVALID) else println(ANSWER.format(shape))
 
     println("\n*** End of exercise ***")
 }
