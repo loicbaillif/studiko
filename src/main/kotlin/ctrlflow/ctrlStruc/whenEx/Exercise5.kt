@@ -13,15 +13,21 @@ fun exercise5() {
     println("*** Exercise: Shape ***")
 
     // Variables
+    val userInput = getUserInput()
+
+
+    println("\n*** End of exercise ***")
+}
+
+
+fun getUserInput(): Int {
     var userInput = 0
+
     try {
         userInput = readln().toInt()
     } catch (e: NumberFormatException) {
         println("Erroneous input")
-    } finally {
-        println("user input = $userInput") // DEBUG
-    }
+    } 
 
-
-    println("\n*** End of exercise ***")
+    return userInput
 }
