@@ -1,5 +1,7 @@
 package ctrlflow.ctrlStruc.whenEx
 
+import java.lang.NumberFormatException
+
 /**
  * Exercise: Shape
  * https://hyperskill.org/learn/daily/4599
@@ -9,6 +11,9 @@ package ctrlflow.ctrlStruc.whenEx
 
 fun exercise5() {
     println("*** Exercise: Shape ***")
+
+
+    var userInput = readln().toInt()
 
 
 
