@@ -15,7 +15,7 @@ fun exercise6() {
     val userInput2 = readln()
 
     when (operator) {
-
+        "equals" -> println(userInput1 == userInput2)
     }
 
     println("\n*** End of exercise ***")
