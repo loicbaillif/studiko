@@ -10,7 +10,9 @@ package ctrlflow.ctrlStruc.whenEx
 fun exercise6() {
     println("*** Exercise: String processor ***")
 
-
+    val userInput1 = readln()
+    val operator = readln()
+    val userInput2 = readln()
 
     println("\n*** End of exercise ***")
 }
