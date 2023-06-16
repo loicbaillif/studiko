@@ -14,5 +14,9 @@ fun exercise6() {
     val operator = readln()
     val userInput2 = readln()
 
+    when (operator) {
+
+    }
+
     println("\n*** End of exercise ***")
 }
