@@ -18,6 +18,7 @@ fun exercise6() {
         "endsWith" -> println(userInput1.endsWith(userInput2))
         "equals" -> println(userInput1 == userInput2)
         "plus" -> println(userInput1 + userInput2)
+        else -> println("Unknown operation")
     }
 
     println("\n*** End of exercise ***")
