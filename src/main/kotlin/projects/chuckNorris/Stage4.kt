@@ -8,12 +8,12 @@ package projects.chuckNorris
  */
 
 fun stage4() {
-    val result = decodeNorris("0 0 00 0000 0 000 00 0000 0 00") // DEBUG
+    val result = norrisToBinary("0 0 00 0000 0 000 00 0000 0 00") // DEBUG
     println(result)
 }
 
 
-fun decodeNorris(input: String): String {
+fun norrisToBinary(input: String): String {
     val stringToList = input.split(" ")
     var index = 0
     var result = ""
