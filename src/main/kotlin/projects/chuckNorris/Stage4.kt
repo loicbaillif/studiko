@@ -8,7 +8,9 @@ package projects.chuckNorris
  */
 
 fun stage4() {
-    val result = norrisToBinary("0 0 00 0000 0 000 00 0000 0 00") // DEBUG
+    println("Input encoded string:")
+    val result = norrisToBinary(readln())
+    println("\nThe result:")
     decodeBinary(result)
 }
 
@@ -16,6 +18,7 @@ fun stage4() {
 fun decodeBinary(input: String) {
     val listChars = input.chunked(7)
     for (letter in listChars) print(string7ToBinary(letter).toChar())
+    println()
 }
 
 
