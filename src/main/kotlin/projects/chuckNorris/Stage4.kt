@@ -14,7 +14,14 @@ fun stage4() {
 
 fun decodeNorris(input: String): String {
     val stringToList = input.split(" ")
-    println(stringToList)
+    val indexElt = 0
+    var result = ""
+    println(stringToList) // DEBUG
+
+    for (i in 0..stringToList.lastIndex) {
+        result += if (stringToList[i] == "0") "1" else "0"
+
+    }
 
 
     return "test" // DEBUG
