@@ -17,6 +17,9 @@ fun stage4() {
 fun decodeBinary(input: String) {
     val listChars = input.chunked(7)
     println(listChars) // DEBUG
+    for (letter in listChars) {
+        println(Integer.parseInt(letter)) // DEBUG
+    }
 }
 
 
