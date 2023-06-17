@@ -19,6 +19,7 @@ fun decodeBinary(input: String) {
     println(listChars) // DEBUG
     for (letter in listChars) {
         println(Integer.parseInt(letter)) // DEBUG
+
     }
 }
 
@@ -35,4 +36,9 @@ fun norrisToBinary(input: String): String {
     } while (index <= stringToList.lastIndex)
 
     return result
+}
+
+
+fun string7ToBinary(input: String): Int {
+    // Convert string of 7 bits to an Int
 }
