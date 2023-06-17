@@ -8,10 +8,14 @@ package projects.chuckNorris
  */
 
 fun stage4() {
-
+    decodeNorris("0 0 00 0000 0 000 00 0000 0 00") // DEBUG
 }
 
 
 fun decodeNorris(input: String): String {
+    val stringToList = input.split(" ")
+    println(stringToList)
 
+
+    return "test" // DEBUG
 }
