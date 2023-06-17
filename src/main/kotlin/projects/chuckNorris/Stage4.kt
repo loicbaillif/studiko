@@ -10,3 +10,8 @@ package projects.chuckNorris
 fun stage4() {
 
 }
+
+
+fun decodeNorris(input: String): String {
+
+}
