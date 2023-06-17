@@ -14,15 +14,15 @@ fun stage4() {
 
 fun decodeNorris(input: String): String {
     val stringToList = input.split(" ")
-    val indexElt = 0
+    var index = 0
     var result = ""
     println(stringToList) // DEBUG
 
-    for (i in 0..stringToList.lastIndex) {
-        result += if (stringToList[i] == "0") "1" else "0"
+    do {
+        val bit = if (stringToList[index++] == "0") "1" else "0" // Get digit
+        for (nbBits in 0..stringToList[index].lastIndex) result += bit // Get nb of digits
+    } while (index <= stringToList.lastIndex)
 
-    }
 
-
-    return "test" // DEBUG
+    return result
 }
