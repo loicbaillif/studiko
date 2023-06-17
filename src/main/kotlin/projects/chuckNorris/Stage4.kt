@@ -19,7 +19,8 @@ fun decodeBinary(input: String) {
     println(listChars) // DEBUG
     for (letter in listChars) {
         println(Integer.parseInt(letter)) // DEBUG
-        println(string7ToBinary(letter))
+        println(string7ToBinary(letter).toChar())
+
     }
 }
 
@@ -44,7 +45,7 @@ fun string7ToBinary(input: String): Int {
     var result = 0
     for (i in 0..6) {
         result += input[i].digitToInt()
-        result *= 2
+        if (i != 6) result *= 2
     }
     return result
 }
