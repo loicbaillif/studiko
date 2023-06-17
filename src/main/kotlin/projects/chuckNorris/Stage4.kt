@@ -41,4 +41,8 @@ fun norrisToBinary(input: String): String {
 
 fun string7ToBinary(input: String): Int {
     // Convert string of 7 bits to an Int
+    var result = 0
+    for (i in 0..6) {
+    }
+    return result
 }
