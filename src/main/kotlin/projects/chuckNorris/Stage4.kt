@@ -8,7 +8,8 @@ package projects.chuckNorris
  */
 
 fun stage4() {
-    decodeNorris("0 0 00 0000 0 000 00 0000 0 00") // DEBUG
+    val result = decodeNorris("0 0 00 0000 0 000 00 0000 0 00") // DEBUG
+    println(result)
 }
 
 
@@ -21,6 +22,7 @@ fun decodeNorris(input: String): String {
     do {
         val bit = if (stringToList[index++] == "0") "1" else "0" // Get digit
         for (nbBits in 0..stringToList[index].lastIndex) result += bit // Get nb of digits
+        index++
     } while (index <= stringToList.lastIndex)
 
 
