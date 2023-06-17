@@ -13,18 +13,21 @@ fun stage4() {
 }
 
 
+fun decodeBinary(input: String) {
+
+}
+
+
 fun norrisToBinary(input: String): String {
     val stringToList = input.split(" ")
     var index = 0
     var result = ""
-    println(stringToList) // DEBUG
 
     do {
         val bit = if (stringToList[index++] == "0") "1" else "0" // Get digit
         for (nbBits in 0..stringToList[index].lastIndex) result += bit // Get nb of digits
         index++
     } while (index <= stringToList.lastIndex)
-
 
     return result
 }
