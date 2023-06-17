@@ -15,7 +15,7 @@ fun main() {
     // projects.chattybot.index()
     // projects.tictactoe.index()
     // projects.cinema.index()
-    // projects.chuckNorris.index()
+    projects.chuckNorris.index()
 
     // Old Chapters
     // overview.index()
@@ -55,7 +55,7 @@ fun main() {
     // typesDataStruct.lists.multiDim.index()
     // typesDataStruct.strings.subString.index()
     // typesDataStruct.strings.proc.index()
-    ctrlflow.ctrlStruc.whenEx.index()
+    // ctrlflow.ctrlStruc.whenEx.index()
     // ctrlflow.ctrlStruc.jumpRet.index()
     // addit.errorless.errors.index()
     // ctrlflow.except.howTo.whatIs.index()
