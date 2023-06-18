@@ -13,5 +13,7 @@ fun exercise3() {
     val line1 = readln()
     val line2 = readln()
 
+    println(line1 == line2)
+
     println("\n*** End of exercise ***")
 }
