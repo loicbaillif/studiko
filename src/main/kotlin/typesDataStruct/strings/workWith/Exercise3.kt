@@ -10,7 +10,8 @@ package typesDataStruct.strings.workWith
 fun exercise3() {
     println("*** Exercise: The same line ***")
 
-
+    val line1 = readln()
+    val line2 = readln()
 
     println("\n*** End of exercise ***")
 }
