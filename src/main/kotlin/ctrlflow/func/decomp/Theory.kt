@@ -11,3 +11,8 @@ fun theory() {
 
     println("\n*** 1) Solving complex tasks ***")
 }
+
+
+fun chooseAction() {
+
+}
