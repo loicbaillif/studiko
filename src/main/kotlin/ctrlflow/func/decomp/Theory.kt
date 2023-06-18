@@ -8,6 +8,9 @@ import java.lang.NumberFormatException
  * @author JetBrains Academy
  */
 
+
+var lightStatus = false
+
 fun theory() {
     println("***** Theory *****")
 
@@ -35,6 +38,11 @@ fun chooseAction() {
 
 fun controlLight() {
     println("Light control module.")
-    println("\t1: Switch ON")
-    println("\t2: Switch OFF")
+    println("\t1: Switch OFF")
+    println("\t2: Switch ON")
+    val choiceLight = readln().toInt()
+    if (choiceLight == 1 && lightStatus) println("Switching OFF the light")
+    if (choiceLight == 2 && !lightStatus) println("Switching ON the light")
+
+    println("The light is %s".format(if (lightStatus) "ON" else "OFF"))
 }
