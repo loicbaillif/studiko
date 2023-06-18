@@ -31,3 +31,10 @@ fun chooseAction() {
         else -> println("This feature does not exist ... yet")
     }
 }
+
+
+fun controlLight() {
+    println("Light control module.")
+    println("\t1: Switch ON")
+    println("\t2: Switch OFF")
+}
