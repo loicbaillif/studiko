@@ -46,7 +46,7 @@ fun main() {
     // basics.codeStyle.comms.index()
     // basics.codeStyle.convent.index()
     // basics.codeStyle.naming.index()
-    typesDataStruct.strings.workWith.index()
+    // typesDataStruct.strings.workWith.index()
     // typesDataStruct.dataTypes.ranges.index()
     // ctrlflow.ctrlStruc.forRanges.index()
     // ctrlflow.func.declarFun.index()
@@ -67,4 +67,5 @@ fun main() {
     // basics.stdinout.strFormat.index()
 
     // Current Chapter
+    ctrlflow.func.decomp.index()
 }
