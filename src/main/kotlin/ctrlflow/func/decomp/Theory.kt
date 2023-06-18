@@ -16,6 +16,8 @@ fun theory() {
 
     println("\n*** 1) Solving complex tasks ***")
     chooseAction()
+
+    println("\n*** 2) Idiom ***")
 }
 
 
@@ -59,4 +61,12 @@ fun controlLight() {
     }
 
     println("The light is %s".format(if (lightStatus) "ON" else "OFF"))
+}
+
+
+fun translate(colour: String) = when (colour.lowercase()) {
+    "red" -> 1
+    "green" -> 2
+    "blue" -> 3
+    else -> -1
 }
