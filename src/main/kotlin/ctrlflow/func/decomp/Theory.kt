@@ -29,7 +29,7 @@ fun chooseAction() {
     }
 
     when (userChoice) {
-        1 -> println("Control light selected")
+        1 -> controlLight()
         2 -> println("Control music selected")
         else -> println("This feature does not exist ... yet")
     }
@@ -41,8 +41,22 @@ fun controlLight() {
     println("\t1: Switch OFF")
     println("\t2: Switch ON")
     val choiceLight = readln().toInt()
-    if (choiceLight == 1 && lightStatus) println("Switching OFF the light")
-    if (choiceLight == 2 && !lightStatus) println("Switching ON the light")
+    if (choiceLight == 1) {
+        if (lightStatus) {
+            println("Switching OFF the light")
+            lightStatus = false
+        } else {
+            println("The light is already OFF")
+            return
+        }
+    }
+    if (choiceLight == 2) {
+        println("Switching ON the light")
+        lightStatus = true
+    } else {
+        println("The light is already ON")
+        return
+    }
 
     println("The light is %s".format(if (lightStatus) "ON" else "OFF"))
 }
