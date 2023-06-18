@@ -9,4 +9,5 @@ package ctrlflow.func.decomp
 fun theory() {
     println("***** Theory *****")
 
+    println("\n*** 1) Solving complex tasks ***")
 }
