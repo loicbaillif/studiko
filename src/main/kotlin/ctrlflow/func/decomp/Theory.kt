@@ -24,4 +24,10 @@ fun chooseAction() {
     } catch (wrongInput: NumberFormatException) {
         println("Sorry, wrong input")
     }
+
+    when (userChoice) {
+        1 -> println("Control light selected")
+        2 -> println("Control music selected")
+        else -> println("This feature does not exist ... yet")
+    }
 }
