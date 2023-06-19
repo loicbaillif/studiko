@@ -8,18 +8,24 @@ package projects.chuckNorris
  */
 
 const val invalidChoice = "There is no %s operation"
+const val mainMenu = "Please input operation (encode/decode/exit):"
 
 fun stage5() {
-
+    var userChoice: Int
+    do {
+        userChoice = menu()
+    } while (userChoice != -1)
 }
 
 
-fun menu() {
+fun menu(): Int {
+    println(mainMenu)
     val userChoice = readln()
     when (userChoice) {
         "encode" -> println("Encode selected")
         "decode" -> println("Decode selected")
-        "exit" -> println("Exit selected")
+        "exit" -> return -1
         else -> println(invalidChoice.format(userChoice))
     }
+    return 0
 }
