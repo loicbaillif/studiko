@@ -22,6 +22,10 @@ fun stage5() {
     println("Bye!")
 }
 
+fun checkEncoded(userInput: String): Boolean {
+
+}
+
 
 fun decode() {
     println(decodeMenu)
