@@ -8,6 +8,7 @@ package projects.chuckNorris
  */
 
 const val decodeMenu = "Input encoded string:"
+const val decodeResult = "Decoded string:"
 const val invalidChoice = "There is no %s operation"
 const val mainMenu = "\nPlease input operation (encode/decode/exit):"
 
@@ -23,7 +24,10 @@ fun stage5() {
 
 fun decode() {
     println(decodeMenu)
-    val userInput = readln()
+    // Variables
+    val inputAsBinary = norrisToBinary(readln())
+    println(decodeResult)
+    decodeBinary(inputAsBinary)
 }
 
 
