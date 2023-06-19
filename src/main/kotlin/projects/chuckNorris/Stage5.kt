@@ -54,9 +54,15 @@ fun menu(): Int {
 
 
 fun validEncoded(userInput: String): Boolean {
+    // First check: '0' and ' ' only in encoded message
     for (ch in userInput) {
         if (ch != '0' && ch != ' ') return false
     }
+
+    val splitInput = userInput.split(' ')
+
+    // Second check: first block can only be "0" or "00"
+    if (splitInput[0] != "0" && splitInput[0] != "00") return false
 
     return true
 }
