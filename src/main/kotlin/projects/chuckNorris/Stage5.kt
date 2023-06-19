@@ -7,10 +7,14 @@ package projects.chuckNorris
  * Solution by Loïc Baillif
  */
 
+const val invalidChoice = "There is no %s operation"
+
 fun stage5() {
 
 }
 
 
 fun menu() {
+    val userChoice = readln()
+
 }
