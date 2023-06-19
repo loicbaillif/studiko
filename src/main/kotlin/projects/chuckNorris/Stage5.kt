@@ -10,3 +10,7 @@ package projects.chuckNorris
 fun stage5() {
 
 }
+
+
+fun menu() {
+}
