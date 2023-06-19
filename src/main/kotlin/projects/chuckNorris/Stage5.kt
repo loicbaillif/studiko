@@ -7,8 +7,9 @@ package projects.chuckNorris
  * Solution by Loïc Baillif
  */
 
+const val decodeMenu = "Input encoded string:"
 const val invalidChoice = "There is no %s operation"
-const val mainMenu = "Please input operation (encode/decode/exit):"
+const val mainMenu = "\nPlease input operation (encode/decode/exit):"
 
 fun stage5() {
     var userChoice: Int
@@ -21,15 +22,16 @@ fun stage5() {
 
 
 fun decode() {
-
+    println(decodeMenu)
+    val userInput = readln()
 }
 
 
 fun menu(): Int {
     println(mainMenu)
     when (val userChoice = readln()) {
+        "decode" -> decode()
         "encode" -> println("Encode selected")
-        "decode" -> println("Decode selected")
         "exit" -> return -1
         else -> println(invalidChoice.format(userChoice))
     }
