@@ -26,3 +26,6 @@ fun divideTwoNumbers(a: Long, b: Long) {
 
 
 fun multiplyTwoNumbers(a: Long, b: Long) = println(a * b)
+
+
+fun subtractTwoNumbers(a: Long, b: Long) = println(a - b)
