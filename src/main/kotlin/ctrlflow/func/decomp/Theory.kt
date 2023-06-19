@@ -18,6 +18,8 @@ fun theory() {
     chooseAction()
 
     println("\n*** 2) Idiom ***")
+    val colourChoice = translate(readln())
+    println("Colour choice = $colourChoice")
 }
 
 
