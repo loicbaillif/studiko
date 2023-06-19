@@ -14,3 +14,12 @@ fun exercise1() {
 
     println("\n*** End of exercise ***")
 }
+
+
+fun divideTwoNumbers(a: Long, b: Long) {
+    try {
+        println(a / b)
+    } catch (divZero: ArithmeticException) {
+        println("Division by 0!")
+    }
+}
