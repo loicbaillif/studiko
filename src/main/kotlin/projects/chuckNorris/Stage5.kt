@@ -15,13 +15,14 @@ fun stage5() {
     do {
         userChoice = menu()
     } while (userChoice != -1)
+
+    println("Bye!")
 }
 
 
 fun menu(): Int {
     println(mainMenu)
-    val userChoice = readln()
-    when (userChoice) {
+    when (val userChoice = readln()) {
         "encode" -> println("Encode selected")
         "decode" -> println("Decode selected")
         "exit" -> return -1
