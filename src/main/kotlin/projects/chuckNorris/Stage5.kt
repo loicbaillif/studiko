@@ -20,6 +20,11 @@ fun stage5() {
 }
 
 
+fun decode() {
+
+}
+
+
 fun menu(): Int {
     println(mainMenu)
     when (val userChoice = readln()) {
