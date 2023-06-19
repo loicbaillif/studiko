@@ -22,10 +22,6 @@ fun stage5() {
     println("Bye!")
 }
 
-fun checkEncoded(userInput: String): Boolean {
-
-}
-
 
 fun decode() {
     println(decodeMenu)
@@ -33,7 +29,10 @@ fun decode() {
     val userInput = readln()
 
     // Exit if not valid
-
+    if (!validEncoded(userInput)) {
+        println(decodeError)
+        return
+    }
 
     // Decode if valid
     val inputAsBinary = norrisToBinary(userInput)
@@ -51,4 +50,13 @@ fun menu(): Int {
         else -> println(invalidChoice.format(userChoice))
     }
     return 0
+}
+
+
+fun validEncoded(userInput: String): Boolean {
+    for (ch in userInput) {
+        if (ch != '0' && ch != ' ') return false
+    }
+
+    return true
 }
