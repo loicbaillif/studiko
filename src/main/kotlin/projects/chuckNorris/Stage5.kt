@@ -16,5 +16,10 @@ fun stage5() {
 
 fun menu() {
     val userChoice = readln()
-
+    when (userChoice) {
+        "encode" -> println("Encode selected")
+        "decode" -> println("Decode selected")
+        "exit" -> println("Exit selected")
+        else -> println(invalidChoice.format(userChoice))
+    }
 }
