@@ -20,6 +20,12 @@ fun theory() {
     println("\n*** 2) Idiom ***")
     val colourChoice = translate(readln())
     println("Colour choice = $colourChoice")
+
+    println("\n*** 3) Second idiom")
+    println(getMax(33, 17))
+
+
+    println("\n***** End of theory *****")
 }
 
 
@@ -64,6 +70,9 @@ fun controlLight() {
 
     println("The light is %s".format(if (lightStatus) "ON" else "OFF"))
 }
+
+
+fun getMax(a: Int, b: Int) = if (a > b) a else b
 
 
 fun translate(colour: String) = when (colour.lowercase()) {
