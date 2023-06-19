@@ -15,7 +15,7 @@ fun main() {
     // projects.chattybot.index()
     // projects.tictactoe.index()
     // projects.cinema.index()
-    // projects.chuckNorris.index()
+    projects.chuckNorris.index()
 
     // Old Chapters
     // overview.index()
@@ -67,5 +67,5 @@ fun main() {
     // basics.stdinout.strFormat.index()
 
     // Current Chapter
-    ctrlflow.func.decomp.index()
+    // ctrlflow.func.decomp.index()
 }
