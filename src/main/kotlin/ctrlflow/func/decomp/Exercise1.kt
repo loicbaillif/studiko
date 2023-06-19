@@ -29,3 +29,6 @@ fun multiplyTwoNumbers(a: Long, b: Long) = println(a * b)
 
 
 fun subtractTwoNumbers(a: Long, b: Long) = println(a - b)
+
+
+fun sumTwoNumbers(a: Long, b: Long) = println(a + b)
