@@ -7,6 +7,7 @@ package projects.chuckNorris
  * Solution by Loïc Baillif
  */
 
+const val decodeError = "Encoded string is not valid."
 const val decodeMenu = "Input encoded string:"
 const val decodeResult = "Decoded string:"
 const val invalidChoice = "There is no %s operation"
@@ -25,7 +26,13 @@ fun stage5() {
 fun decode() {
     println(decodeMenu)
     // Variables
-    val inputAsBinary = norrisToBinary(readln())
+    val userInput = readln()
+
+    // Exit if not valid
+
+
+    // Decode if valid
+    val inputAsBinary = norrisToBinary(userInput)
     println(decodeResult)
     decodeBinary(inputAsBinary)
 }
