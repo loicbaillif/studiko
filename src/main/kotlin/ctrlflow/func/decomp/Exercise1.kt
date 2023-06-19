@@ -23,3 +23,6 @@ fun divideTwoNumbers(a: Long, b: Long) {
         println("Division by 0!")
     }
 }
+
+
+fun multiplyTwoNumbers(a: Long, b: Long) = println(a * b)
