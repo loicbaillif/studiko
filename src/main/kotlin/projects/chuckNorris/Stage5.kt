@@ -48,7 +48,15 @@ fun decode() {
 
 
 fun encode() {
+    // Variables
+    val userInput = readln()
+    var inputToBinary = ""
 
+    // Conversion to string of binaries
+    for (ch in userInput) {
+        val temp = Integer.parseInt(Integer.toBinaryString(ch.code))
+        inputToBinary += "%07d".format(temp)
+    }
 }
 
 
