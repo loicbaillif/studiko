@@ -10,6 +10,7 @@ package projects.chuckNorris
 const val decodeError = "Encoded string is not valid."
 const val decodeMenu = "Input encoded string:"
 const val decodeResult = "Decoded string:"
+const val encodeResult = "Encoded string:\n"
 const val invalidChoice = "There is no %s operation"
 const val mainMenu = "\nPlease input operation (encode/decode/exit):"
 
@@ -57,6 +58,20 @@ fun encode() {
         val temp = Integer.parseInt(Integer.toBinaryString(ch.code))
         inputToBinary += "%07d".format(temp)
     }
+
+    // Conversion to Chuck Norris unary
+    var previousDigit = 'C'  // Random value else than 0 or 1
+    var solution = ""
+    for (ch in inputToBinary) {
+        if (ch == previousDigit) solution += '0'
+        else {
+            previousDigit = ch
+            solution += if (previousDigit == '0') " 00 0" else " 0 0"
+        }
+    }
+
+    // Print result
+    println(encodeResult + solution.substring(1))
 }
 
 
