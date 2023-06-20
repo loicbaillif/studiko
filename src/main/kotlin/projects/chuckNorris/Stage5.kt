@@ -47,6 +47,11 @@ fun decode() {
 }
 
 
+fun encode() {
+
+}
+
+
 fun menu(): Int {
     println(mainMenu)
     when (val userChoice = readln()) {
