@@ -64,5 +64,8 @@ fun validEncoded(userInput: String): Boolean {
     // Second check: first block can only be "0" or "00"
     if (splitInput[0] != "0" && splitInput[0] != "00") return false
 
+    // Third check: Number of blocks is odd
+    if (splitInput.size % 2 != 0) return false
+
     return true
 }
