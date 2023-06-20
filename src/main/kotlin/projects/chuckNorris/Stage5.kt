@@ -7,12 +7,13 @@ package projects.chuckNorris
  * Solution by Loïc Baillif
  */
 
-const val decodeError = "Encoded string is not valid."
-const val decodeMenu = "Input encoded string:"
-const val decodeResult = "Decoded string:"
-const val encodeResult = "Encoded string:\n"
-const val invalidChoice = "There is no %s operation"
-const val mainMenu = "\nPlease input operation (encode/decode/exit):"
+const val DECODE_ERROR = "Encoded string is not valid."
+const val DECODE_MENU = "Input encoded string:"
+const val DECODE_RESULT = "Decoded string:"
+const val ENCODE_MENU = "Input string:"
+const val ENCODE_RESULT = "Encoded string:\n"
+const val INVALID_CHOICE = "There is no %s operation"
+const val MAIN_MENU = "\nPlease input operation (encode/decode/exit):"
 
 fun stage5() {
     var userChoice: Int
@@ -25,13 +26,13 @@ fun stage5() {
 
 
 fun decode() {
-    println(decodeMenu)
+    println(DECODE_MENU)
     // Variables
     val userInput = readln()
 
     // Exit if not valid
     if (!validEncoded(userInput)) {
-        println(decodeError)
+        println(DECODE_ERROR)
         return
     }
 
@@ -40,15 +41,16 @@ fun decode() {
 
     // Last validity check, length of binary string must be multiple of 7
     if (inputAsBinary.length % 7 != 0) {
-        println(decodeError)
+        println(DECODE_ERROR)
         return
     }
-    println(decodeResult)
+    println(DECODE_RESULT)
     decodeBinary(inputAsBinary)
 }
 
 
 fun encode() {
+    println(ENCODE_MENU)
     // Variables
     val userInput = readln()
     var inputToBinary = ""
@@ -71,17 +73,17 @@ fun encode() {
     }
 
     // Print result
-    println(encodeResult + solution.substring(1))
+    println(ENCODE_RESULT + solution.substring(1))
 }
 
 
 fun menu(): Int {
-    println(mainMenu)
+    println(MAIN_MENU)
     when (val userChoice = readln()) {
         "decode" -> decode()
-        "encode" -> println("Encode selected")
+        "encode" -> encode()
         "exit" -> return -1
-        else -> println(invalidChoice.format(userChoice))
+        else -> println(INVALID_CHOICE.format(userChoice))
     }
     return 0
 }
