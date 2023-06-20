@@ -34,8 +34,14 @@ fun decode() {
         return
     }
 
-    // Decode if valid
+    // Translate to binary
     val inputAsBinary = norrisToBinary(userInput)
+
+    // Last validity check, length of binary string must be multiple of 7
+    if (inputAsBinary.length % 7 != 0) {
+        println(decodeError)
+        return
+    }
     println(decodeResult)
     decodeBinary(inputAsBinary)
 }
