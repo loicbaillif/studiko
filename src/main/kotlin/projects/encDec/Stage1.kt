@@ -8,5 +8,6 @@ package projects.encDec
  */
 
 fun stage1() {
-
+    val userInput = "we found a treasure!"
+    cipherStage1(userInput)
 }
