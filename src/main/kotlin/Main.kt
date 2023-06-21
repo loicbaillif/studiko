@@ -15,7 +15,8 @@ fun main() {
     // projects.chattybot.index()
     // projects.tictactoe.index()
     // projects.cinema.index()
-    projects.chuckNorris.index()
+    // projects.chuckNorris.index()
+    projects.encDec.index()
 
     // Old Chapters
     // overview.index()
