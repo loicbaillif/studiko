@@ -12,9 +12,13 @@ const val ALPHABET = "abcdefghijklmnopqrstuvwxyz"
 fun stage2() {
     val userInput = "welcome to hyperskill" // DEBUG
     val userKey = 5
+    encodeWithKey(userInput, userKey)
 }
 
 
 fun encodeWithKey(userInput: String, key: Int) {
-
+    for (ch in userInput) {
+        val posInAlphabet = ch.lowercaseChar()- 'a'
+        println(posInAlphabet)
+    }
 }
