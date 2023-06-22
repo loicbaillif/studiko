@@ -12,3 +12,8 @@ const val ALPHABET = "abcdefghijklmnopqrstuvwxyz"
 fun stage2() {
 
 }
+
+
+fun encodeWithKey(userInput: String, key: Int) {
+
+}
