@@ -18,6 +18,10 @@ fun stage2() {
 
 fun encodeWithKey(userInput: String, key: Int) {
     for (ch in userInput) {
+        if (ch.lowercaseChar() !in ALPHABET) {
+            print(ch)
+            continue
+        }
         val posInAlphabet = ch.lowercaseChar() - 'a'
         // print(posInAlphabet) // DEBUG
         print(ALPHABET[(posInAlphabet + key) % ALPHABET.length])
