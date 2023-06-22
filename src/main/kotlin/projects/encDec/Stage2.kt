@@ -10,7 +10,8 @@ package projects.encDec
 const val ALPHABET = "abcdefghijklmnopqrstuvwxyz"
 
 fun stage2() {
-
+    val userInput = "welcome to hyperskill" // DEBUG
+    val userKey = 5
 }
 
 
