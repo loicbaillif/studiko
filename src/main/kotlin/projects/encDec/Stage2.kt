@@ -1,5 +1,7 @@
 package projects.encDec
 
+import java.lang.NumberFormatException
+
 /**
  * Stage 2/6: Knowledge is key
  * https://hyperskill.org/projects/279/stages/1416/implement
@@ -10,8 +12,10 @@ package projects.encDec
 const val ALPHABET = "abcdefghijklmnopqrstuvwxyz"
 
 fun stage2() {
-    val userInput = "welcome to hyperskill" // DEBUG
-    val userKey = 5
+    // Variables
+    val userInput = readln()
+    val userKey = try { readln().toInt() } catch (nonNumerical: NumberFormatException) { 0 }
+
     encodeWithKey(userInput, userKey)
 }
 
@@ -23,7 +27,6 @@ fun encodeWithKey(userInput: String, key: Int) {
             continue
         }
         val posInAlphabet = ch.lowercaseChar() - 'a'
-        // print(posInAlphabet) // DEBUG
         print(ALPHABET[(posInAlphabet + key) % ALPHABET.length])
     }
 }
