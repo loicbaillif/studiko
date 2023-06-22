@@ -7,6 +7,8 @@ package projects.encDec
  * Solution by Loïc Baillif
  */
 
+const val ALPHABET = "abcdefghijklmnopqrstuvwxyz"
+
 fun stage2() {
 
 }
