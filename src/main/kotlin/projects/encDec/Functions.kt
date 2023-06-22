@@ -11,3 +11,15 @@ fun cipherStage1(input: String) {
     }
     println()
 }
+
+
+fun encodeWithKey(userInput: String, key: Int) {
+    for (ch in userInput) {
+        if (ch.lowercaseChar() !in ALPHABET) {
+            print(ch)
+            continue
+        }
+        val posInAlphabet = ch.lowercaseChar() - 'a'
+        print(ALPHABET[(posInAlphabet + key) % ALPHABET.length])
+    }
+}
