@@ -27,6 +27,12 @@ fun theory() {
     val numberArray2 = intArrayOf(8, 9, 10, )
     println(numberArray2.joinToString("\t-\t"))
 
+    println("\n*** 3) Creating an array of specified size")
+    val numberArray3 = IntArray(4)
+    val charArray2 = CharArray(6)
+    println(numberArray3.joinToString())
+    println(charArray2.joinToString())
+
 
     println("\n***** End of theory *****")
 }
