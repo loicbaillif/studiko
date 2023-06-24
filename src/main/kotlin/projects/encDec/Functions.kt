@@ -17,6 +17,10 @@ fun cipherStage1(input: String) {
 
 fun decode3() {
     // decode function for stage 3
+    // Variables
+    val textToDecrypt = readln()
+    val decryptionKey = try { readln().toInt() } catch (notNumber: NumberFormatException) { 0 }
+
 }
 
 
