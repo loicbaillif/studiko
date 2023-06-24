@@ -21,6 +21,10 @@ fun decode3() {
     val textToDecrypt = readln()
     val decryptionKey = try { readln().toInt() } catch (notNumber: NumberFormatException) { 0 }
 
+    // Output loop
+    for (ch in textToDecrypt) {
+        print(ch - decryptionKey)
+    }
 }
 
 
