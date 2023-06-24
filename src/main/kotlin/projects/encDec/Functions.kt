@@ -44,8 +44,8 @@ fun menu() {
     // Get user choice, check its validity and apply action
     val userChoice = readln()
     when (userChoice) {
-        "enc" -> println("User requests to encode a message")
         "dec" -> println("User requests to decode a message")
+        "enc" -> encode3()
         else -> menu()
     }
 }
