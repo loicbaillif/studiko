@@ -8,5 +8,5 @@ package projects.encDec
  */
 
 fun stage3() {
-
+    menu()
 }

@@ -25,6 +25,12 @@ fun encodeWithKey(userInput: String, key: Int) {
 }
 
 
+fun encode3() {
+    // encode function for stage 3
+
+}
+
+
 fun menu() {
     // Get user choice, check its validity and apply action
     val userChoice = readln()
