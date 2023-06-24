@@ -23,3 +23,8 @@ fun encodeWithKey(userInput: String, key: Int) {
         print(ALPHABET[(posInAlphabet + key) % ALPHABET.length])
     }
 }
+
+
+fun menu() {
+    // Get user choice, check its validity and apply action
+}
