@@ -9,7 +9,7 @@ package typesDataStruct.arrays.arrays
 fun theory() {
     println("***** Theory *****")
 
-
+    println("\n*** 1) Creating an array with specified elements ***")
 
     println("\n***** End of theory *****")
 }
