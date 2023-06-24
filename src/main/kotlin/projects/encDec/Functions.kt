@@ -1,5 +1,7 @@
 package projects.encDec
 
+import java.lang.NumberFormatException
+
 
 fun cipherStage1(input: String) {
     for (ch in input) {
@@ -29,7 +31,7 @@ fun encode3() {
     // encode function for stage 3
     // Variables
     val textToEncrypt = readln()
-    val encryptionKey = readln().toInt()
+    val encryptionKey = try { readln().toInt() } catch (notNumber: NumberFormatException) { 0 }
 }
 
 
