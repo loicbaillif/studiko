@@ -18,5 +18,9 @@ fun theory() {
     val charArray1 = charArrayOf('K', 't', 'l')
     println(charArray1.joinToString("\t-\t"))
 
+    println("\nDouble array example:\n\t. ")
+    val doubleArray1 = doubleArrayOf(3.14, 0.707, 8.314, -5.25)
+    println(doubleArray1.joinToString("\t-\t"))
+
     println("\n***** End of theory *****")
 }
