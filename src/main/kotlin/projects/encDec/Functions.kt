@@ -22,9 +22,7 @@ fun decode3() {
     val decryptionKey = try { readln().toInt() } catch (notNumber: NumberFormatException) { 0 }
 
     // Output loop
-    for (ch in textToDecrypt) {
-        print(ch - decryptionKey)
-    }
+    for (ch in textToDecrypt)  print(ch - decryptionKey)
 }
 
 
@@ -47,9 +45,7 @@ fun encode3() {
     val encryptionKey = try { readln().toInt() } catch (notNumber: NumberFormatException) { 0 }
 
     // output loop
-    for (ch in textToEncrypt) {
-        print(ch + encryptionKey)
-    }
+    for (ch in textToEncrypt) print(ch + encryptionKey)
 }
 
 
@@ -57,7 +53,7 @@ fun menu() {
     // Get user choice, check its validity and apply action
     val userChoice = readln()
     when (userChoice) {
-        "dec" -> println("User requests to decode a message")
+        "dec" -> decode3()
         "enc" -> encode3()
         else -> menu()
     }
