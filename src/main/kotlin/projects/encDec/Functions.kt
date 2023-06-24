@@ -27,7 +27,9 @@ fun encodeWithKey(userInput: String, key: Int) {
 
 fun encode3() {
     // encode function for stage 3
-
+    // Variables
+    val textToEncrypt = readln()
+    val encryptionKey = readln().toInt()
 }
 
 
