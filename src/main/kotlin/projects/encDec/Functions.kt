@@ -15,6 +15,11 @@ fun cipherStage1(input: String) {
 }
 
 
+fun decode3() {
+    // decode function for stage 3
+}
+
+
 fun encodeWithKey(userInput: String, key: Int) {
     for (ch in userInput) {
         if (ch.lowercaseChar() !in ALPHABET) {
