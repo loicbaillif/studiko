@@ -34,6 +34,8 @@ fun theory() {
     println(charArray2.joinToString())
     val numberArray4 = IntArray(10) { i -> (i + 1) * (i + 1) }
     println(numberArray4.joinToString(" - "))
+    val numberArray5 = IntArray(6) { 42 }
+    println(numberArray5.joinToString(" - "))
 
 
     println("\n***** End of theory *****")
