@@ -32,6 +32,11 @@ fun encode3() {
     // Variables
     val textToEncrypt = readln()
     val encryptionKey = try { readln().toInt() } catch (notNumber: NumberFormatException) { 0 }
+
+    // output loop
+    for (ch in textToEncrypt) {
+        print(ch + encryptionKey)
+    }
 }
 
 
