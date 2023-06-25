@@ -45,6 +45,11 @@ fun theory() {
     val userInput1 = "9 5 14 -5 7 741"
     val numberArray8 = userInput1.split(' ').map { it.toInt() * 2 }.toIntArray()
     println("\t. " + numberArray8.joinToString(" ; "))
+    val regex1 = "\\s+".toRegex()
+    val userInput2 = "1\t\t2  3\n\t4 5"
+    println("\t. input = $userInput2")
+    val numberArray9 = userInput2.split(regex1).map { it.toInt() }.toTypedArray()
+    println("\t. " + numberArray9.joinToString(" ; "))
 
 
     println("\n***** End of theory *****")
