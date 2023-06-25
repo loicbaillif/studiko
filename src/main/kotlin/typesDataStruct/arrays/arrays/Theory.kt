@@ -30,14 +30,18 @@ fun theory() {
     println("\n*** 3) Creating an array of specified size")
     val numberArray3 = IntArray(4)
     val charArray2 = CharArray(6)
-    println(numberArray3.joinToString())
-    println(charArray2.joinToString())
+    println("\t. " + numberArray3.joinToString())
+    println("\t. " + charArray2.joinToString())
     val numberArray4 = IntArray(10) { i -> (i + 1) * (i + 1) }
-    println(numberArray4.joinToString(" ; "))
+    println("\t. " + numberArray4.joinToString(" ; "))
     val numberArray5 = IntArray(6) { 42 }
-    println(numberArray5.joinToString(" ; "))
+    println("\t. " + numberArray5.joinToString(" ; "))
     val numberArray6 = IntArray(8).apply { fill(-3, 2, 6) }
-    println(numberArray6.joinToString(" ; "))
+    println("\t. " + numberArray6.joinToString(" ; "))
+
+    println("\n*** 4) Reading array from input")
+    val numberArray7 = IntArray(3) { readln().toInt() }
+    println("\t. " + numberArray7.joinToString(" ; "))
 
 
     println("\n***** End of theory *****")
