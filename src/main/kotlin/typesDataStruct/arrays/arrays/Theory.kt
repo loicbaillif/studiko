@@ -72,6 +72,7 @@ fun theory() {
     println("\t. numbers1.contentEquals(numbers2) ==> ${numberArray11.contentEquals(numberArray12)}")
     println("\t. numbers1.contentEquals(numbers3) ==> ${numberArray11.contentEquals(numberArray13)}")
     println("\t. numbers2.contentEquals(numbers3) ==> ${numberArray12.contentEquals(numberArray13)}")
+    println("\t. numbers1 == numbers 2 ==> ${numberArray11 == numberArray12} (compares reference only)")
 
 
     println("\n***** End of theory *****")
