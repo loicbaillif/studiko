@@ -62,6 +62,15 @@ fun theory() {
     println("\t. numbers.last() = ${numberArray1.last()}")
     println("\t. numbers.lastIndex = ${numberArray1.lastIndex}")
 
+    println("\n*** 7) Comparing arrays")
+    val numberArray11 = intArrayOf(5, 7, 9,)
+    val numberArray12 = intArrayOf(5, 7, 9)
+    val numberArray13 = intArrayOf(5, 7, 9, 11)
+    println("\t. numbers1 = ${numberArray11.joinToString(" ; ")}")
+    println("\t. numbers2 = ${numberArray12.joinToString(" ; ")}")
+    println("\t. numbers3 = ${numberArray13.joinToString(" ; ")}")
+
+
 
     println("\n***** End of theory *****")
 }
