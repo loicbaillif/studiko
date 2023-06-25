@@ -51,11 +51,16 @@ fun theory() {
     val numberArray9 = userInput2.split(regex1).map { it.toInt() }.toTypedArray()
     println("\t. " + numberArray9.joinToString(" ; "))
 
-    println("\t*** 5) Array size")
+    println("\n*** 5) Array size")
     val arrayOfArrays = arrayOf(numberArray1, numberArray2, numberArray3, numberArray4, numberArray5)
     for (i in 0..arrayOfArrays.lastIndex) {
         println("\t. Array ${i + 1} has ${arrayOfArrays[i].size} elements;")
     }
+
+    println("\n*** 6) Accessing elements")
+    println("\t. numbers.first() = ${numberArray1.first()}")
+    println("\t. numbers.last() = ${numberArray1.last()}")
+    println("\t. numbers.lastIndex = ${numberArray1.lastIndex}")
 
 
     println("\n***** End of theory *****")
