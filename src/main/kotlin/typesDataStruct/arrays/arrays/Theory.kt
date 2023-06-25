@@ -69,7 +69,9 @@ fun theory() {
     println("\t. numbers1 = ${numberArray11.joinToString(" ; ")}")
     println("\t. numbers2 = ${numberArray12.joinToString(" ; ")}")
     println("\t. numbers3 = ${numberArray13.joinToString(" ; ")}")
-
+    println("\t. numbers1.contentEquals(numbers2) ==> ${numberArray11.contentEquals(numberArray12)}")
+    println("\t. numbers1.contentEquals(numbers3) ==> ${numberArray11.contentEquals(numberArray13)}")
+    println("\t. numbers2.contentEquals(numbers3) ==> ${numberArray12.contentEquals(numberArray13)}")
 
 
     println("\n***** End of theory *****")
