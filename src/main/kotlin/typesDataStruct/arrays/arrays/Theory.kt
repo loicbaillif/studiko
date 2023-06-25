@@ -42,6 +42,9 @@ fun theory() {
     println("\n*** 4) Reading array from input")
     val numberArray7 = IntArray(3) { readln().toInt() }
     println("\t. " + numberArray7.joinToString(" ; "))
+    val userInput1 = "9 5 14 -5 7 741"
+    val numberArray8 = userInput1.split(' ').map { it.toInt() * 2 }.toIntArray()
+    println("\t. " + numberArray8.joinToString(" ; "))
 
 
     println("\n***** End of theory *****")
