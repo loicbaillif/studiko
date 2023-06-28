@@ -7,6 +7,7 @@ package typesDataStruct.arrays.strArrays
 fun index() {
     println("********** String arrays **********\n")
 
-    theory()
+    // theory()
+    exercise1()
 
 }
