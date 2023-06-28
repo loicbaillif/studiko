@@ -50,7 +50,8 @@ fun main() {
     // ctrlflow.func.invokFunc.index()
 
 
-    typesDataStruct.arrays.arrays.index()
+    // typesDataStruct.arrays.arrays.index()
+    typesDataStruct.arrays.strArrays.index()
     // typesDataStruct.basicOps.arith.index()
     // typesDataStruct.basicOps.boolLog.index()
     // typesDataStruct.basicOps.charac.index()
