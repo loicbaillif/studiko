@@ -14,4 +14,9 @@ fun theory() {
     val stringArray2 = arrayOf<String>("Some", "second", "array")
     val stringArray3 = emptyArray<String>()
 
+    println("\n*** 2) Accessing elements")
+    println("strings1[0] = ${stringArray1[0]}")
+    println("strings2[0] = ${stringArray2[0]}")
+    println("strings3[0] = ${try { stringArray3[0] } catch (error : Exception) { "ERROR $error" } }")
+
 }
