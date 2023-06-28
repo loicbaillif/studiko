@@ -14,6 +14,7 @@ fun theory() {
     val stringArray2 = arrayOf<String>("Some", "second", "array")
     val stringArray3 = emptyArray<String>()
 
+
     println("\n*** 2) Accessing elements")
     println("\t. strings1[0] ==> ${stringArray1[0]}")
     println("\t. strings2[0] ==> ${stringArray2[0]}")
@@ -24,8 +25,14 @@ fun theory() {
     println("\t. strings1[0] ==> ${stringArray1[0]}")
     println("\t. strings2[0] ==> ${stringArray2[0]}")
 
+
     println("\n*** 3) Outputting an array")
     println("\t. strings1.joinToString() ==> ${stringArray1.joinToString()}")
     println("\t. strings2.joinToString() ==> ${stringArray2.joinToString()}")
+
+
+    println("\n*** 4) Working with multiple arrays")
+    val stringArray4 = stringArray1 + stringArray2
+    println("\t. strings1 + strings2 ==> ${stringArray4.joinToString()}")
 
 }
