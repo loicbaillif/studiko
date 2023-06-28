@@ -34,5 +34,12 @@ fun theory() {
     println("\n*** 4) Working with multiple arrays")
     val stringArray4 = stringArray1 + stringArray2
     println("\t. strings1 + strings2 ==> ${stringArray4.joinToString()}")
+    val stringArray5 = arrayOf("Alea", "Jacta", "Est")
+    val stringArray6 = arrayOf("Alea", "Jacta", "Est")
+    println("\n\t. strings1.joinToString() ==> ${stringArray1.joinToString()}")
+    println("\t. strings5.joinToString() ==> ${stringArray5.joinToString()}")
+    println("\t. strings6.joinToString() ==> ${stringArray6.joinToString()}")
+    println("\t. strings1.contentEquals(strings5) ==> ${stringArray1.contentEquals(stringArray5)}")
+    println("\t. strings5.contentEquals(strings6) ==> ${stringArray5.contentEquals(stringArray6)}")
 
 }
