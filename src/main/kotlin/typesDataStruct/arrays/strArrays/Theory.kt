@@ -15,8 +15,13 @@ fun theory() {
     val stringArray3 = emptyArray<String>()
 
     println("\n*** 2) Accessing elements")
-    println("strings1[0] = ${stringArray1[0]}")
-    println("strings2[0] = ${stringArray2[0]}")
-    println("strings3[0] = ${try { stringArray3[0] } catch (error : Exception) { "ERROR $error" } }")
+    println("\t. strings1[0] ==> ${stringArray1[0]}")
+    println("\t. strings2[0] ==> ${stringArray2[0]}")
+    println("\t. strings3[0] ==> ${try { stringArray3[0] } catch (error : Exception) { "ERROR $error" } }")
+
+    stringArray1[0] = "Your"
+    stringArray2[0] = "Random"
+    println("\t. strings1[0] ==> ${stringArray1[0]}")
+    println("\t. strings2[0] ==> ${stringArray2[0]}")
 
 }
