@@ -11,5 +11,6 @@ fun theory() {
 
     println("\n*** 1) Initialization")
     val stringArray1 = arrayOf("my", "first", "array")
+    val stringArray2 = arrayOf<String>("Some", "second", "array")
 
 }
