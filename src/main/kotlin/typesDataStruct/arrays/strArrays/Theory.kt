@@ -8,4 +8,8 @@ package typesDataStruct.arrays.strArrays
 
 fun theory() {
     println("***** Theory *****")
+
+    println("\n*** 1) Initialization")
+    val stringArray1 = arrayOf("my", "first", "array")
+
 }
