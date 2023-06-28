@@ -45,7 +45,7 @@ fun theory() {
 
     println("\n*** 5) Changing the array content")
     var stringArray7 = emptyArray<String>()
-    println("\t. strings7 = emptyArray<String>()")
+    println("\t. var strings7 = emptyArray<String>()")
     println("\t. strings7[0] ==> ${try { stringArray7[0] } catch (error : Exception) { "ERROR $error" } }")
     stringArray7 += "There"
     stringArray7 += "is"
