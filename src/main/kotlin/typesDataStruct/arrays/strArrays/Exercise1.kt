@@ -10,7 +10,7 @@ package typesDataStruct.arrays.strArrays
 fun exercise1() {
     println("*** Exercise: Calculator with four functions ***")
 
-
+    val myEmptyArray = emptyArray<String>()
 
     println("\n*** End of exercise ***")
 }
