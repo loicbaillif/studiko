@@ -24,4 +24,8 @@ fun theory() {
     println("\t. strings1[0] ==> ${stringArray1[0]}")
     println("\t. strings2[0] ==> ${stringArray2[0]}")
 
+    println("\n*** 3) Outputting an array")
+    println("\t. strings1.joinToString() ==> ${stringArray1.joinToString()}")
+    println("\t. strings2.joinToString() ==> ${stringArray2.joinToString()}")
+
 }
