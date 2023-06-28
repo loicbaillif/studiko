@@ -42,4 +42,11 @@ fun theory() {
     println("\t. strings1.contentEquals(strings5) ==> ${stringArray1.contentEquals(stringArray5)}")
     println("\t. strings5.contentEquals(strings6) ==> ${stringArray5.contentEquals(stringArray6)}")
 
+
+    println("\n*** 5) Changing the array content")
+    var stringArray7 = emptyArray<String>()
+    println("\t. strings7 = emptyArray<String>()")
+    println("\t. strings7[0] ==> ${try { stringArray7[0] } catch (error : Exception) { "ERROR $error" } }")
+
+
 }
