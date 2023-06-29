@@ -13,5 +13,8 @@ fun exercise3() {
     var backFromTheWall = readLine()!!.split(',').map { it }.toTypedArray()
     val returnedWatchman = readLine()!!.toString()
 
+    backFromTheWall += returnedWatchman
+
+
     println("\n*** End of exercise ***")
 }
