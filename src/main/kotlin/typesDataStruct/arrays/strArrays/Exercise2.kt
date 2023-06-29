@@ -10,7 +10,7 @@ package typesDataStruct.arrays.strArrays
 fun exercise2() {
     println("*** Exercise: Yet another array ***")
 
-
+    val capitals = arrayOf("Tokyo", "Moscow", "Paris", "Washington", "Beijing")
 
     println("\n*** End of exercise ***")
 }
