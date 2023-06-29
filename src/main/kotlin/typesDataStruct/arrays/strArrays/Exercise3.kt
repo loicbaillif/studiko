@@ -10,7 +10,8 @@ package typesDataStruct.arrays.strArrays
 fun exercise3() {
     println("*** Exercise: Guard on the gate ***")
 
-
+    var backFromTheWall = readLine()!!.split(',').map { it }.toTypedArray()
+    val returnedWatchman = readLine()!!.toString()
 
     println("\n*** End of exercise ***")
 }
