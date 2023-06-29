@@ -14,7 +14,7 @@ fun exercise3() {
     val returnedWatchman = readLine()!!.toString()
 
     backFromTheWall += returnedWatchman
-
+    println(backFromTheWall.joinToString())
 
     println("\n*** End of exercise ***")
 }
