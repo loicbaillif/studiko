@@ -13,6 +13,7 @@ fun exercise4() {
     val beyondTheWall = readLine()!!.split(',').map { it }.toTypedArray()
     val backFromTheWall = readLine()!!.split(',').map { it }.toTypedArray()
 
+    println(beyondTheWall.size == backFromTheWall.size)
 
     println("\n*** End of exercise ***")
 }
