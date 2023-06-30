@@ -7,4 +7,6 @@ package ctrlflow.func.mainFun
 fun index() {
     println("********** The main() function **********\n")
 
+    theory()
+
 }
