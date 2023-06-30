@@ -48,10 +48,11 @@ fun main() {
     // ctrlflow.func.declarFun.index()
     // ctrlflow.func.decomp.index()
     // ctrlflow.func.invokFunc.index()
+    ctrlflow.func.mainFun.index()
 
 
     // typesDataStruct.arrays.arrays.index()
-    typesDataStruct.arrays.strArrays.index()
+    // typesDataStruct.arrays.strArrays.index()
     // typesDataStruct.basicOps.arith.index()
     // typesDataStruct.basicOps.boolLog.index()
     // typesDataStruct.basicOps.charac.index()
