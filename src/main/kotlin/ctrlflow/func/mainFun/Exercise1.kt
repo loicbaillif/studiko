@@ -10,7 +10,7 @@ package ctrlflow.func.mainFun
 fun main(args: Array<String>) {
     println("*** Exercise: Change program arguments ***")
 
-
+    println(args[0])
 
     println("\n*** End of exercise ***")
 }
