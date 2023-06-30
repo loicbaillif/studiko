@@ -9,7 +9,8 @@ fun index() {
 
     // stage1()
     // stage2()
-    stage3()
+    // stage3()
+    stage4(emptyArray<String>())
 
     println("\n\n********** END OF PROJECT **********")
 }
