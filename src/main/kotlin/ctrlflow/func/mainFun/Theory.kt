@@ -9,6 +9,7 @@ package ctrlflow.func.mainFun
 fun theory() {
     println("***** Theory *****")
 
+    println("\n*** 1) The main() function")
 
 
     println("\n\n***** End of theory *****")
