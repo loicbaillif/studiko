@@ -15,7 +15,7 @@ fun exercise1() {
     val b = -2
     val c = 3
 
-    val lambda: (Int) -> Int = { x ->  (a * x + b) * x + c }
+    val lambda: (Int) -> Int = { (a * it + b) * it + c }
 
     println("\n*** End of exercise ***")
 }
