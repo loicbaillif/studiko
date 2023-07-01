@@ -29,6 +29,9 @@ fun decode3() {
 fun decode4(data: String, key: String) {
     // Variable
     val decKey = try { key.toInt() } catch (notNumber: NumberFormatException) { 0 }
+
+    // Output loop
+    for (ch in data) print(ch - decKey)
 }
 
 
