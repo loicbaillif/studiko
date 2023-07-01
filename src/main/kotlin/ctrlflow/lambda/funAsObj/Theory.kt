@@ -9,6 +9,7 @@ package ctrlflow.lambda.funAsObj
 fun theory() {
     println("***** Theory *****")
 
+    println("\n*** 1) Function references as function parameters")
 
 
     println("\n***** End of Theory *****")
