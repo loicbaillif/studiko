@@ -7,5 +7,6 @@ package ctrlflow.lambda.lambdaEx
 fun index() {
     println("********** Lambda expressions **********\n")
 
-    theory()
+    // theory()
+    exercise1()
 }
