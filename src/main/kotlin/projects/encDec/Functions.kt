@@ -71,7 +71,11 @@ fun setLaunchArgs(args: Array<String>): Array<String> {
     // Variables
     val modeIndex = args.indexOf("-mode")
     val mode = if (modeIndex == -1) "enc" else args[modeIndex + 1]
-    println("chosen mode = $mode")
+    println("Chosen mode = $mode")
+
+    val keyIndex = args.indexOf("-key")
+    val key = if (keyIndex == -1) 0 else args[keyIndex + 1].toInt()
+    println("Chosen key = $key")
 
     return arrayOf(mode)
 
