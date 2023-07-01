@@ -63,10 +63,11 @@ fun menu() {
 fun setLaunchArgs(args: Array<String>): Array<String> {
     // Receives the argument provided at program execution, and returns
     // user values if provided, default value elsewhere
-    // Arguemnts and default value:
+    // Arguments and default value:
     //  -mode : enc
     //  -key : 0
     //  -data : "" (empty string)
+    // will return an array [mode, key, data]
 
     // Variables
     val modeIndex = args.indexOf("-mode")
@@ -81,6 +82,5 @@ fun setLaunchArgs(args: Array<String>): Array<String> {
     val data = if (dataIndex == -1) "" else args[dataIndex + 1]
     println("Chosen data = $data")
 
-    return arrayOf(mode)
-
+    return arrayOf(mode, key, data)
 }
