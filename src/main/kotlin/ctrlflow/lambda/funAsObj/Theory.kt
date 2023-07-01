@@ -14,3 +14,8 @@ fun theory() {
 
     println("\n***** End of Theory *****")
 }
+
+
+fun applyAndSum(a: Int, b:Int, transformation: (Int) -> Int) : Int {
+    return transformation(a) + transformation(b)
+}
