@@ -15,7 +15,8 @@ fun theory() {
     println(applyAndSum(2, 3, ::triple))
 
     println("\n*** 2) Real-world usage")
-
+    val someText1 = "I don't know... what to say..."
+    println(someText1.filter(::isNotDot))
 
 
     println("\n***** End of Theory *****")
