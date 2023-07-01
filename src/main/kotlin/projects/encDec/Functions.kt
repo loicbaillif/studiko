@@ -26,6 +26,11 @@ fun decode3() {
 }
 
 
+fun decode4(data: String, key: String) {
+
+}
+
+
 fun encodeWithKey(userInput: String, key: Int) {
     for (ch in userInput) {
         if (ch.lowercaseChar() !in ALPHABET) {
