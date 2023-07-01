@@ -14,6 +14,10 @@ fun theory() {
     println(applyAndSum(2, 3, ::square))
     println(applyAndSum(2, 3, ::triple))
 
+    println("\n*** 2) Real-world usage")
+
+
+
     println("\n***** End of Theory *****")
 }
 
