@@ -10,7 +10,9 @@ fun theory() {
     println("***** Theory *****")
 
     println("\n*** 1) Function references as function parameters")
-
+    println(applyAndSum(2, 3, ::same))
+    println(applyAndSum(2, 3, ::square))
+    println(applyAndSum(2, 3, ::triple))
 
     println("\n***** End of Theory *****")
 }
