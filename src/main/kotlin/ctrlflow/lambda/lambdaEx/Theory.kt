@@ -24,5 +24,10 @@ fun theory() {
     println(someText2)
 
 
+    println("\n*** 3) Implicit name of a single parameter: it")
+    val someText3 = someText1.filter { it != '.' }
+    println(someText3)
+
+
     println("\n***** End of Theory *****")
 }
