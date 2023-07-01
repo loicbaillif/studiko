@@ -19,3 +19,9 @@ fun theory() {
 fun applyAndSum(a: Int, b:Int, transformation: (Int) -> Int) : Int {
     return transformation(a) + transformation(b)
 }
+
+
+fun same(x: Int) = x
+fun square(x: Int) = x * x
+
+fun triple(x: Int) = 3 * x
