@@ -32,6 +32,7 @@ fun decode4(data: String, key: String) {
 
     // Output loop
     for (ch in data) print(ch - decKey)
+    println()
 }
 
 
@@ -58,10 +59,13 @@ fun encode3() {
 }
 
 
-fun encode4(data: String, key: Int) {
+fun encode4(data: String, key: String) {
     // Variable
     val encKey = try { key.toInt() } catch (notNumber: NumberFormatException) { 0 }
 
+    // Output loop
+    for (ch in data) print(ch + encKey)
+    println()
 }
 
 
