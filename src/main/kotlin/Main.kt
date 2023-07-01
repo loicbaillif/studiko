@@ -49,6 +49,7 @@ fun main() {
     // ctrlflow.func.decomp.index()
     // ctrlflow.func.invokFunc.index()
     // ctrlflow.func.mainFun.index()
+    ctrlflow.lambda.funAsObj.index()
 
 
     // typesDataStruct.arrays.arrays.index()
