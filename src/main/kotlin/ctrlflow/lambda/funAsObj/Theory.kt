@@ -27,6 +27,9 @@ fun applyAndSum(a: Int, b:Int, transformation: (Int) -> Int) : Int {
 }
 
 
+fun isNotDot(ch: Char): Boolean = ch != '.'
+
+
 fun same(x: Int) = x
 fun square(x: Int) = x * x
 
