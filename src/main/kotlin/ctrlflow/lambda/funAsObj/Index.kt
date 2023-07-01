@@ -7,4 +7,6 @@ package ctrlflow.lambda.funAsObj
 fun index() {
     println("********** Functions as objects **********\n")
 
+    theory()
+
 }
