@@ -58,3 +58,15 @@ fun menu() {
         else -> menu()
     }
 }
+
+
+fun setLaunchArgs(args: Array<String>): Array<String> {
+    // Receives the argument provided at program execution, and returns
+    // user values if provided, default value elsewhere
+    // Arguemnts and default value:
+    //  -mode : enc
+    //  -key : 0
+    //  -data : "" (empty string)
+
+
+}
