@@ -10,6 +10,10 @@ package ctrlflow.lambda.lambdaEx
 fun exercise1() {
     println("*** Exercise: Polynomial ***")
 
+    // Variables
+    val a = 5
+    val b = -2
+    val c = 3
 
 
     println("\n*** End of exercise ***")
