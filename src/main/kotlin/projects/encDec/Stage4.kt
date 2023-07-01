@@ -8,5 +8,5 @@ package projects.encDec
  */
 
 fun stage4(args: Array<String>) {
-
+    setLaunchArgs(args)
 }

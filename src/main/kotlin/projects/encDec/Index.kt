@@ -10,7 +10,7 @@ fun index() {
     // stage1()
     // stage2()
     // stage3()
-    stage4(emptyArray<String>())
+    stage4(arrayOf("-gain", "42", "-mode", "dec", "mute", "OFF", "-key", "3"))
 
     println("\n\n********** END OF PROJECT **********")
 }

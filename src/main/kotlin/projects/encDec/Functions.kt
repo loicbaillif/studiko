@@ -73,4 +73,6 @@ fun setLaunchArgs(args: Array<String>): Array<String> {
     val mode = if (modeIndex == -1) "enc" else args[modeIndex + 1]
     println("chosen mode = $mode")
 
+    return arrayOf(mode)
+
 }
