@@ -20,7 +20,7 @@ fun theory() {
 
     println("\n*** 2) Lambdas and syntactic sugar")
     val someText1 = "I don't know... What to say..."
-    val someText2 = someText1.filter({ c: Char -> c != '.' })
+    val someText2 = someText1.filter({ ch -> ch != '.' })
     println(someText2)
 
 
