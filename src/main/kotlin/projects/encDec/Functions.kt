@@ -59,6 +59,8 @@ fun encode3() {
 
 
 fun encode4(data: String, key: Int) {
+    // Variable
+    val encKey = try { key.toInt() } catch (notNumber: NumberFormatException) { 0 }
 
 }
 
