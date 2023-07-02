@@ -7,11 +7,13 @@ package ctrlflow.lambda.lambdaEx
  * Solution by Loïc Baillif
  */
 
-fun exercise3() {
+fun exercise3(): (Int) -> Int {
     println("*** Exercise: Function composition ***")
 
     val g = { a: Int -> 3 * a }
     val h = { x: Int -> 3 + x }
+
+    return { g(h(it)) }
 
     println("\n*** End of exercise ***")
 }
