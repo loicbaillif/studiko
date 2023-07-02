@@ -10,7 +10,8 @@ package ctrlflow.lambda.lambdaEx
 fun exercise3() {
     println("*** Exercise: Function composition ***")
 
-
+    val g = { a: Int -> 3 * a }
+    val h = { x: Int -> 3 + x }
 
     println("\n*** End of exercise ***")
 }
