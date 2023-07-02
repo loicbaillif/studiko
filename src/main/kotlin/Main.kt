@@ -25,6 +25,9 @@ fun main() {
     // typesDataStruct.dataTypes.index()
 
 
+    addit.files.readFiles.index()
+
+
     // basics.codeStyle.comms.index()
     // basics.codeStyle.convent.index()
     // basics.codeStyle.naming.index()
@@ -50,7 +53,7 @@ fun main() {
     // ctrlflow.func.invokFunc.index()
     // ctrlflow.func.mainFun.index()
     // ctrlflow.lambda.funAsObj.index()
-    ctrlflow.lambda.lambdaEx.index()
+    // ctrlflow.lambda.lambdaEx.index()
 
 
     // typesDataStruct.arrays.arrays.index()
