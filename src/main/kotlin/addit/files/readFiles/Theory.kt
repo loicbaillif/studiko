@@ -23,8 +23,11 @@ fun theory() {
         val lines2 = file.readText()
         println(lines2)
     } else {
-        print("Thanks for the offer, but I'll have to pass. Your file was not found.")
+        println("Thanks for the offer, but I'll have to pass. Your file was not found.")
     }
+    val file3 = File(fileName)
+    println("\t. File length: ${file3.length()}")
+    println(file3.absolutePath)
 
 
     println("\n***** End of Theory *****")
