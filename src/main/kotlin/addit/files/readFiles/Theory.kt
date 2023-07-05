@@ -16,9 +16,15 @@ fun theory() {
     val lines = File(fileName).readText()
     println(lines)
 
-    val file = File(fileName)
-    val lines2 = file.readText()
-    println(lines2)
+    val fileName2 = "src/main/kotlin/addit/files/readFiles/reading2.txt"
+    val file = File(fileName2)
+    if (file.exists()) {
+        // Checks file existence
+        val lines2 = file.readText()
+        println(lines2)
+    } else {
+        print("Thanks for the offer, but I'll have to pass. Your file was not found.")
+    }
 
 
     println("\n***** End of Theory *****")
