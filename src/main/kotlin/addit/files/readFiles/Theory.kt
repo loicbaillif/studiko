@@ -9,6 +9,8 @@ package addit.files.readFiles
 fun theory() {
     println("***** Theory *****")
 
+    println("\n*** 1) read text")
+
 
 
     println("\n***** End of Theory *****")
