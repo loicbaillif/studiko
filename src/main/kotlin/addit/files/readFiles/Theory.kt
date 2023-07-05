@@ -14,7 +14,11 @@ fun theory() {
     println("\n*** 1) read text")
     val fileName = "src/main/kotlin/addit/files/readFiles/reading.txt"
     val lines = File(fileName).readText()
-    print(lines)
+    println(lines)
+
+    val file = File(fileName)
+    val lines2 = file.readText()
+    println(lines2)
 
 
     println("\n***** End of Theory *****")
