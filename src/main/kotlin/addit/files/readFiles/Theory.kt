@@ -30,5 +30,12 @@ fun theory() {
     println(file3.absolutePath)
 
 
+    println("\n*** 2) readLines")
+    val lines3 = File(fileName).readLines()
+    for (line in lines3) {
+        println("\t. ${line.padEnd(30, '*')}")
+    }
+
+
     println("\n***** End of Theory *****")
 }
