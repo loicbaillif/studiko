@@ -42,5 +42,10 @@ fun theory() {
     for (line in lines4) println("\t. $line")
 
 
+    println("\n*** 4) forEachLine")
+    println("Recommended method for reading large files")
+    File(fileName).forEachLine { println("\t. $it") }
+
+
     println("\n\n***** End of Theory *****")
 }
