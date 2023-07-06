@@ -37,5 +37,10 @@ fun theory() {
     }
 
 
-    println("\n***** End of Theory *****")
+    println("\n*** 3) readBytes")
+    val lines4 = File(fileName).readBytes()
+    for (line in lines4) println("\t. $line")
+
+
+    println("\n\n***** End of Theory *****")
 }
