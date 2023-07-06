@@ -47,5 +47,11 @@ fun theory() {
     File(fileName).forEachLine { println("\t. $it") }
 
 
+    println("\n*** 5) File separator")
+    val sep = File.separator
+    val fileName3 = "src${sep}main${sep}kotlin${sep}addit${sep}files${sep}readFiles${sep}reading.txt"
+    println(fileName3)
+
+
     println("\n\n***** End of Theory *****")
 }
