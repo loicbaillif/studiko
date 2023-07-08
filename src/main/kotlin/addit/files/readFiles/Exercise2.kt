@@ -10,7 +10,7 @@ package addit.files.readFiles
 fun exercise2() {
     println("*** Exercise: The longest word ***")
 
-
+    val fileName = "data/words_sequence.txt"
 
     println("\n*** End of exercise ***")
 }
