@@ -25,5 +25,7 @@ fun exercise1() {
         }
     }
 
+    println(linesWithNum)
+
     println("\n*** End of exercise ***")
 }
