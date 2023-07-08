@@ -14,10 +14,12 @@ fun exercise1() {
 
     val filename = "data/words_with_numbers.txt"
     val fileLines = File(filename).readLines()
+    var linesWithNum = 0
 
     for (line in fileLines) {
         for (ch in line) {
-
+            if (ch.isDigit()) {
+            }
         }
     }
 
