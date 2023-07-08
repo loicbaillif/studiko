@@ -16,7 +16,9 @@ fun exercise1() {
     val fileLines = File(filename).readLines()
 
     for (line in fileLines) {
+        for (ch in line) {
 
+        }
     }
 
     println("\n*** End of exercise ***")
