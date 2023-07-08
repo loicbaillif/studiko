@@ -1,5 +1,7 @@
 package addit.files.readFiles
 
+import java.io.File
+
 /**
  * Count the numbers
  * https://hyperskill.org/learn/step/6358
@@ -11,6 +13,8 @@ fun exercise1() {
     println("*** Exercise: Count the numbers ***")
 
     val filename = "data/words_with_numbers.txt"
+    val fileLines = File(filename).readLines()
+
 
     println("\n*** End of exercise ***")
 }
