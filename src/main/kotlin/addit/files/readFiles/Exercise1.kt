@@ -10,7 +10,7 @@ package addit.files.readFiles
 fun exercise1() {
     println("*** Exercise: Count the numbers ***")
 
-
+    val filename = "data/words_with_numbers.txt"
 
     println("\n*** End of exercise ***")
 }
