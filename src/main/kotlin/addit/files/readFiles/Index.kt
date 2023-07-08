@@ -7,5 +7,6 @@ package addit.files.readFiles
 fun index() {
     println("********** Reading Files **********\n")
 
-    theory()
+    // theory()
+    exercise1()
 }
