@@ -19,6 +19,8 @@ fun exercise1() {
     for (line in fileLines) {
         for (ch in line) {
             if (ch.isDigit()) {
+                linesWithNum++
+                break
             }
         }
     }
