@@ -15,6 +15,9 @@ fun exercise1() {
     val filename = "data/words_with_numbers.txt"
     val fileLines = File(filename).readLines()
 
+    for (line in fileLines) {
+
+    }
 
     println("\n*** End of exercise ***")
 }
