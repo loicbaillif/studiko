@@ -25,7 +25,8 @@ fun main() {
     // typesDataStruct.dataTypes.index()
 
 
-    addit.files.readFiles.index()
+    // addit.files.readFiles.index()
+    addit.files.writeFiles.index()
 
 
     // basics.codeStyle.comms.index()

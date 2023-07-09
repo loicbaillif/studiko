@@ -9,7 +9,10 @@ package addit.files.writeFiles
 fun theory() {
     println("***** Theory *****")
 
+    println("\n*** 1) Writing files with writeText()")
 
 
-    println("\n***** End of theory *****")
+
+
+    println("\n\n***** End of theory *****")
 }
