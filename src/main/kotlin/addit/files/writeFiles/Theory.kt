@@ -12,8 +12,13 @@ fun theory() {
     println("***** Theory *****")
 
     println("\n*** 1) Writing files with writeText()")
-    val textFile1 = File("data/textFile1.txt")
-    textFile1.writeText("I want to break free")
+    /**
+     * First example: create a file
+     * val textFile1 = File("data/textFile1.txt")
+     * textFile1.writeText("I want to break free")
+     */
+    println(System.getProperty("user.dir")) // Get current directory
+    println(File.separator) // Path separator (may change from a system to another)
 
 
 
