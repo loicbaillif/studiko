@@ -27,6 +27,10 @@ fun theory() {
     File("${folderForFiles}${fileName2}").writeText(content1)
 
 
+    println("\n*** 2) Formatting and Processing")
+    val content2 = "This is Ground Control\nto Major Tom\n\t5...\n\t4...\n\t3..."
+    File("${folderForFiles}${fileName2}").writeText(content2)
+
 
     println("\n\n***** End of theory *****")
 }
