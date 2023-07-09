@@ -20,6 +20,12 @@ fun theory() {
     println(System.getProperty("user.dir")) // Get current directory
     println(File.separator) // Path separator (may change from a system to another)
 
+    val fileName2 = "textFile2.txt"
+    val separator = File.separator
+    val folderForFiles = "${System.getProperty("user.dir")}${separator}data${separator}"
+    val content1 = "Deutsches Zentrum für Luft und RaumFahrt"
+    File("${folderForFiles}${fileName2}").writeText(content1)
+
 
 
     println("\n\n***** End of theory *****")
