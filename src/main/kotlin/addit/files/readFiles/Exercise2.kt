@@ -14,9 +14,10 @@ fun exercise2() {
 
     val fileName = "data/words_sequence.txt"
     val lines = File(fileName).readLines()
+    var longestWord = 0
 
     for (line in lines) {
-
+        if (line.length > longestWord) { longestWord = line.length }
     }
 
     println("\n*** End of exercise ***")
