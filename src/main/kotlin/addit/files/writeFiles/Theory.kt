@@ -32,5 +32,11 @@ fun theory() {
     File("${folderForFiles}${fileName2}").writeText(content2)
 
 
+    println("\n*** 3) Appending content")
+    val content3 = "\n\t2...\n\t1...\n\tLift off"
+    File("${folderForFiles}${fileName2}").appendText(content3)
+
+
+
     println("\n\n***** End of theory *****")
 }
