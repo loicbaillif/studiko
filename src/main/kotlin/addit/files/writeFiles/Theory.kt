@@ -37,6 +37,11 @@ fun theory() {
     File("${folderForFiles}${fileName2}").appendText(content3)
 
 
+    println("\n*** 4) Writing byte arrays")
+    val arrayOfBytes = byteArrayOf(36, 10, 59, 97)
+    File("${folderForFiles}${fileName2}").appendBytes(arrayOfBytes)
+
+
 
     println("\n\n***** End of theory *****")
 }
