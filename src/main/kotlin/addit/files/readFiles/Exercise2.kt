@@ -20,5 +20,7 @@ fun exercise2() {
         if (line.length > longestWord) { longestWord = line.length }
     }
 
+    println(longestWord)
+
     println("\n*** End of exercise ***")
 }
