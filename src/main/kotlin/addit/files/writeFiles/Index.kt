@@ -5,5 +5,7 @@ package addit.files.writeFiles
  */
 
 fun index() {
+    println("********** Writing Files **********\n")
 
+    theory()
 }
