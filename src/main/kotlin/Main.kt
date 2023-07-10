@@ -16,7 +16,7 @@ fun main() {
     // projects.tictactoe.index()
     // projects.cinema.index()
     // projects.chuckNorris.index()
-    // projects.encDec.index()
+    projects.encDec.index()
 
     // Old Chapters
     // overview.index()
@@ -26,7 +26,7 @@ fun main() {
 
 
     // addit.files.readFiles.index()
-    addit.files.writeFiles.index()
+    // addit.files.writeFiles.index()
 
 
     // basics.codeStyle.comms.index()
