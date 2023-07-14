@@ -117,6 +117,8 @@ fun setLaunchArgs5(args: Array<String>): Array<String> {
     // Variables
     var resultArray = setLaunchArgs(args)
 
+    val inIndex = args.indexOf("-in")
+    val inData = if (inIndex == -1) "" else args[inIndex + 1]
 
 
 
