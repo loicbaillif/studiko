@@ -120,6 +120,10 @@ fun setLaunchArgs5(args: Array<String>): Array<String> {
     val inIndex = args.indexOf("-in")
     val inData = if (inIndex == -1) "" else args[inIndex + 1]
 
+    val outIndex = args.indexOf("-out")
+    val outData = if (outIndex == -1) "" else args[outIndex + 1]
+
+
 
 
 }
