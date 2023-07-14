@@ -114,6 +114,10 @@ fun setLaunchArgs5(args: Array<String>): Array<String> {
     //  -out : filename or String
     // will return an array [mode, key, data]
 
+    // Variables
+    var resultArray = setLaunchArgs(args)
+
+
 
 
 }
