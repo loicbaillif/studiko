@@ -8,5 +8,8 @@ package projects.encDec
  */
 
 fun stage5(args: Array<String>) {
+    // Variables
+    val userArgs = setLaunchArgs5(args)
+    println(userArgs.joinToString())
 
 }
