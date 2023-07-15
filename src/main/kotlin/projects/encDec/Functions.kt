@@ -1,7 +1,7 @@
 package projects.encDec
 
 
-import java.lang.NumberFormatException
+import kotlin.NumberFormatException
 
 
 const val INVALID_MODE = "Error : %s is not a valid mode; \"enc\" or \"dec\" only"
@@ -20,8 +20,9 @@ fun checkArgsValid(args: Array<String>): Boolean {
     // 2) key
     try {
         args[1].toInt()
-    } finally {
-        println("Not good")
+    } catch (notNum: NumberFormatException) {
+
+        return false
     }
 
 
