@@ -8,6 +8,9 @@ package projects.encDec
  */
 
 fun stage5(args: Array<String>) {
+    // Arguments validity
+    if (!checkArgsValid(args)) return
+
     // Variables
     val userArgs = setLaunchArgs5(args)  // [mode, key, data, in, out]
 

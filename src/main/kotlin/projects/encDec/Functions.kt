@@ -1,6 +1,13 @@
 package projects.encDec
 
+
 import java.lang.NumberFormatException
+
+
+fun checkArgsValid(args: Array<String>): Boolean {
+
+    return false
+}
 
 
 fun cipherStage1(input: String) {
