@@ -5,6 +5,8 @@ import java.lang.NumberFormatException
 
 
 fun checkArgsValid(args: Array<String>): Boolean {
+    // Check arguments validity
+
 
     return false
 }
@@ -138,6 +140,8 @@ fun setLaunchArgs5(args: Array<String>): Array<String> {
     if (resultArray[1] == "") resultArray[1] = "0"
     if (resultArray[2] != "" && resultArray[4] != "") resultArray[4] = "0"
 
+    // Check validity
+    if (!checkArgsValid(resultArray)) return arrayOf("false")
 
     return resultArray
 
