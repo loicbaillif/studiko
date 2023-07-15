@@ -17,8 +17,15 @@ fun checkArgsValid(args: Array<String>): Boolean {
         return false
     }
 
+    // 2) key
+    try {
+        args[1].toInt()
+    } finally {
+        println("Not good")
+    }
 
-    return false
+
+    return true
 }
 
 

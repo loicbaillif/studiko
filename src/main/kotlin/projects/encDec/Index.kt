@@ -11,7 +11,7 @@ fun index() {
     // stage2()
     // stage3()
     // stage4(arrayOf("-data", "I want to break free", "-key", "5"))
-    stage5(arrayOf("-data", "I want to break free", "-key", "5", "-mode", "eenc", "-in", "test.txt"))
+    stage5(arrayOf("-data", "I want to break free", "-key", "5e", "-mode", "enc", "-in", "test.txt"))
 
     println("\n\n********** END OF PROJECT **********")
 }
