@@ -4,13 +4,16 @@ package projects.encDec
 import java.lang.NumberFormatException
 
 
+const val INVALID_MODE = "Error : %s is not a valid mode; \"enc\" or \"dec\" only"
+
+
 fun checkArgsValid(args: Array<String>): Boolean {
     // Check arguments validity
     // args = arrayOf(mode, key, data, in, out)
 
     // 1) mode
     if (args[0] != "enc" && args[0] != "dec") {
-
+        print(INVALID_MODE.format(args[0]))
         return false
     }
 
