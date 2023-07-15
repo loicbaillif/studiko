@@ -6,6 +6,13 @@ import java.lang.NumberFormatException
 
 fun checkArgsValid(args: Array<String>): Boolean {
     // Check arguments validity
+    // args = arrayOf(mode, key, data, in, out)
+
+    // 1) mode
+    if (args[0] != "enc" && args[0] != "dec") {
+
+        return false
+    }
 
 
     return false
