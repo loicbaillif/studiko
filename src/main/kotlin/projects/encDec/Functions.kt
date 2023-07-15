@@ -115,14 +115,28 @@ fun setLaunchArgs5(args: Array<String>): Array<String> {
     // will return an array [mode, key, data]
 
     // Variables
-    val resultArray = setLaunchArgs(args)
+    var resultArray = setLaunchArgs(args)
 
+    // Get user inputs
     val inIndex = args.indexOf("-in")
     val inData = if (inIndex == -1) "" else args[inIndex + 1]
 
     val outIndex = args.indexOf("-out")
     val outData = if (outIndex == -1) "" else args[outIndex + 1]
 
-    return resultArray + arrayOf(inData, outData)
+    resultArray += arrayOf(inData, outData)
+
+    // Fill default values
+    if (resultArray[0] == "") resultArray[0] = "enc"
+    if (resultArray[1] == "") resultArray[1] = "0"
+    if (resultArray[2] != "" && resultArray[4] != "") resultArray[4] = "0"
+
+
+    return resultArray
+
+}
+
+
+fun treatInput(args: Array<String>) {
 
 }

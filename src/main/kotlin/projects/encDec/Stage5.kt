@@ -9,7 +9,6 @@ package projects.encDec
 
 fun stage5(args: Array<String>) {
     // Variables
-    val userArgs = setLaunchArgs5(args)
-    println(userArgs.joinToString())
+    val userArgs = setLaunchArgs5(args)  // [mode, key, data, in, out]
 
 }
