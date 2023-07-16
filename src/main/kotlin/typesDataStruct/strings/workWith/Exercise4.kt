@@ -10,6 +10,8 @@ package typesDataStruct.strings.workWith
 fun exercise4() {
     println("*** Exercise: The information about a person ***")
 
+    // Variables
+    val inputArray = readln().split(" ") // firstName, lastName, age
 
 
     println("\n*** End of exercise ***")
