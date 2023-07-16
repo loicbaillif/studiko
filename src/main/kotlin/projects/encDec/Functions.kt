@@ -4,7 +4,8 @@ package projects.encDec
 import kotlin.NumberFormatException
 
 
-const val INVALID_MODE = "Error : %s is not a valid mode; \"enc\" or \"dec\" only"
+const val INVALID_MODE = "Error: %s is not a valid mode; \"enc\" or \"dec\" only"
+const val INVALID_KEY = "Error: %s is not a valid key; Integer number expected"
 
 
 fun checkArgsValid(args: Array<String>): Boolean {
@@ -21,7 +22,7 @@ fun checkArgsValid(args: Array<String>): Boolean {
     try {
         args[1].toInt()
     } catch (notNum: NumberFormatException) {
-
+        println(INVALID_KEY.format(args[1]))
         return false
     }
 

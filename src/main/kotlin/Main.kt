@@ -16,7 +16,7 @@ fun main() {
     // projects.tictactoe.index()
     // projects.cinema.index()
     // projects.chuckNorris.index()
-    // projects.encDec.index()
+    projects.encDec.index()
 
     // Old Chapters
     // overview.index()
@@ -78,7 +78,7 @@ fun main() {
     // typesDataStruct.strings.proc.index()
     // typesDataStruct.strings.subString.index()
     // typesDataStruct.strings.template.index()
-    typesDataStruct.strings.workWith.index()
+    // typesDataStruct.strings.workWith.index()
     // typesDataStruct.variab.equality.index()
     // typesDataStruct.variab.objects.index()
 
