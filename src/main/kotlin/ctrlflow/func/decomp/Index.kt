@@ -7,5 +7,6 @@ package ctrlflow.func.decomp
 fun index() {
     println("********** Functional decomposition **********\n")
     // theory()
-    exercise1()
+    // exercise1()
+    exercise2()
 }
