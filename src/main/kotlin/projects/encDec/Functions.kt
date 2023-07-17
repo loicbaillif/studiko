@@ -30,7 +30,11 @@ fun checkArgsValid(args: Array<String>): Boolean {
     // 4) in
     val inputFileName = "data/textFile0.txt"
     val inputFile = File(inputFileName)
-    val inputText = inputFile.readText()
+    if (inputFile.exists()) {
+        val inputText = inputFile.readText()
+    } else {
+
+    }
 
 
     return true
