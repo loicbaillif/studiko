@@ -1,6 +1,7 @@
 package projects.encDec
 
 
+import java.io.File
 import kotlin.NumberFormatException
 
 
@@ -25,6 +26,11 @@ fun checkArgsValid(args: Array<String>): Boolean {
         println(INVALID_KEY.format(args[1]))
         return false
     }
+
+    // 4) in
+    val inputFileName = "data/textFile0.txt"
+    val inputFile = File(inputFileName)
+    val inputText = inputFile.readText()
 
 
     return true
