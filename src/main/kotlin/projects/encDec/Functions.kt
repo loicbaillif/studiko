@@ -33,7 +33,8 @@ fun checkArgsValid(args: Array<String>): Boolean {
     if (inputFile.exists()) {
         val inputText = inputFile.readText()
     } else {
-
+        println("ERROR")
+        return false
     }
 
 
