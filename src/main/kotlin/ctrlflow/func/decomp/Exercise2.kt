@@ -10,7 +10,7 @@ package ctrlflow.func.decomp
 fun exercise2() {
     println("*** Exercise: Create a full name ***")
 
-
+    println(createFullName("John", "Lennon"))
 
     println("\n*** End of exercise ***")
 }
