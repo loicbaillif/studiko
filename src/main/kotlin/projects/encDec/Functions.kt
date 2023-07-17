@@ -7,6 +7,7 @@ import kotlin.NumberFormatException
 
 const val INVALID_MODE = "Error: %s is not a valid mode; \"enc\" or \"dec\" only"
 const val INVALID_KEY = "Error: %s is not a valid key; Integer number expected"
+const val INVALID_INPUT_FILE = "Error: The file %s does not exist."
 
 
 fun checkArgsValid(args: Array<String>): Boolean {
@@ -28,12 +29,12 @@ fun checkArgsValid(args: Array<String>): Boolean {
     }
 
     // 4) in
-    val inputFileName = "data/textFile0.txt"
+    val inputFileName = args[3]
     val inputFile = File(inputFileName)
     if (inputFile.exists()) {
         val inputText = inputFile.readText()
     } else {
-        println("ERROR")
+        println(INVALID_INPUT_FILE.format(args[3]))
         return false
     }
 
