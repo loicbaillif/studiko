@@ -18,9 +18,14 @@ fun exercise3() {
     // Variables
     val occupiedRows = arrayOf<Int>(ship1[0].toInt(), ship2[0].toInt(), ship3[0].toInt())
     val occupiedCols = arrayOf<Int>(ship1[1].toInt(), ship2[1].toInt(), ship3[1].toInt())
+    var first = true
 
     for (elt in 1..5) {
-        if (occupiedRows.indexOf(elt) == -1) print("$elt ")
+        if (occupiedRows.indexOf(elt) == -1) {
+            if (!first) print(" ")
+            print(elt)
+            first = false
+        }
     }
     println()
 
