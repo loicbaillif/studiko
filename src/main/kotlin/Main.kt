@@ -16,7 +16,7 @@ fun main() {
     // projects.tictactoe.index()
     // projects.cinema.index()
     // projects.chuckNorris.index()
-    projects.encDec.index()
+    // projects.encDec.index()
 
     // Old Chapters
     // overview.index()
@@ -40,7 +40,7 @@ fun main() {
 
     // ctrlflow.ctrlStruc.forRanges.index()
     // ctrlflow.ctrlStruc.ifEx.index()
-    // ctrlflow.ctrlStruc.jumpRet.index()
+    ctrlflow.ctrlStruc.jumpRet.index()
     // ctrlflow.ctrlStruc.repBlo.index()
     // ctrlflow.ctrlStruc.whenEx.index()
     // ctrlflow.ctrlStruc.whileBlo.index()
