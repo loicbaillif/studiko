@@ -14,13 +14,13 @@ fun checkArgsValid(args: Array<String>): Boolean {
     // Check arguments validity
     // args = arrayOf(mode, key, data, in, out)
 
-    // 1) mode
+    // 0) mode
     if (args[0] != "enc" && args[0] != "dec") {
         print(INVALID_MODE.format(args[0]))
         return false
     }
 
-    // 2) key
+    // 1) key
     try {
         args[1].toInt()
     } catch (notNum: NumberFormatException) {
@@ -28,15 +28,18 @@ fun checkArgsValid(args: Array<String>): Boolean {
         return false
     }
 
-    // 4) in
+    // 3) in ==> BUG
     val inputFileName = args[3]
     val inputFile = File(inputFileName)
-    if (inputFile.exists()) {
-        val inputText = inputFile.readText()
-    } else {
+    if (!inputFile.exists()) {
         println(INVALID_INPUT_FILE.format(args[3]))
         return false
     }
+
+
+    // 4) out ==> TODO
+    val outputFileName = args[4]
+    println(outputFileName)
 
 
     return true
@@ -169,7 +172,7 @@ fun setLaunchArgs5(args: Array<String>): Array<String> {
     // Fill default values
     if (resultArray[0] == "") resultArray[0] = "enc"
     if (resultArray[1] == "") resultArray[1] = "0"
-    if (resultArray[2] != "" && resultArray[3] != "") resultArray[3] = "0"
+    if (resultArray[2] != "" && resultArray[3] != "") resultArray[3] = ""
 
     // Check validity
     if (!checkArgsValid(resultArray)) return arrayOf("false")
