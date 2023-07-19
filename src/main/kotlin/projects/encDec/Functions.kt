@@ -169,7 +169,7 @@ fun setLaunchArgs5(args: Array<String>): Array<String> {
     // Fill default values
     if (resultArray[0] == "") resultArray[0] = "enc"
     if (resultArray[1] == "") resultArray[1] = "0"
-    if (resultArray[2] != "" && resultArray[4] != "") resultArray[4] = "0"
+    if (resultArray[2] != "" && resultArray[3] != "") resultArray[3] = "0"
 
     // Check validity
     if (!checkArgsValid(resultArray)) return arrayOf("false")
