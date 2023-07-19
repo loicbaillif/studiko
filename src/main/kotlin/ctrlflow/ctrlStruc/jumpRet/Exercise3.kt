@@ -32,7 +32,9 @@ fun exercise3() {
 
     for (elt in 1..5) {
         if (occupiedCols.indexOf(elt) == -1) {
-            print("$elt ")
+            if (!first) print(" ")
+            print(elt)
+            first = false
         }
     }
     println()
