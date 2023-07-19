@@ -28,9 +28,12 @@ fun exercise3() {
         }
     }
     println()
+    first = true
 
     for (elt in 1..5) {
-        if (occupiedCols.indexOf(elt) == -1) print("$elt ")
+        if (occupiedCols.indexOf(elt) == -1) {
+            print("$elt ")
+        }
     }
     println()
 
