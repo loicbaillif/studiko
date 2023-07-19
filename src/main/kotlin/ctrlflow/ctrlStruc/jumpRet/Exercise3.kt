@@ -19,6 +19,10 @@ fun exercise3() {
     val occupiedRows = arrayOf<Int>(ship1[0].toInt(), ship2[0].toInt(), ship3[0].toInt())
     val occupiedCols = arrayOf<Int>(ship1[1].toInt(), ship2[1].toInt(), ship3[1].toInt())
 
+    for (elt in 1..5) {
+        if (occupiedRows.indexOf(elt) == -1) print("$elt ")
+    }
+    println()
 
     println("\n*** End of exercise ***")
 }
