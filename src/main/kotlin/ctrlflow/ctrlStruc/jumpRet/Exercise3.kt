@@ -24,5 +24,11 @@ fun exercise3() {
     }
     println()
 
+    for (elt in 1..5) {
+        if (occupiedCols.indexOf(elt) == -1) print("$elt ")
+    }
+    println()
+
+
     println("\n*** End of exercise ***")
 }
