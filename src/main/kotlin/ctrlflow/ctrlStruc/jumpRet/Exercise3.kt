@@ -16,8 +16,8 @@ fun exercise3() {
     val ship3 = readln().split(" ")
 
     // Variables
-    val occupiedRows = arrayOf(ship1[0], ship2[0], ship3[0])
-    val occupiedCols = arrayOf(ship1[1], ship2[1], ship3[1])
+    val occupiedRows = arrayOf<Int>(ship1[0].toInt(), ship2[0].toInt(), ship3[0].toInt())
+    val occupiedCols = arrayOf<Int>(ship1[1].toInt(), ship2[1].toInt(), ship3[1].toInt())
 
 
     println("\n*** End of exercise ***")
