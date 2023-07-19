@@ -10,7 +10,7 @@ package ctrlflow.ctrlStruc.jumpRet
 fun exercise3() {
     println("*** Exercise: Placement of ships ***")
 
-
+    val ship1 = readln().split(" ")
 
     println("\n*** End of exercise ***")
 }
