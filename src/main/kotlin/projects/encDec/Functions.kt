@@ -28,7 +28,7 @@ fun checkArgsValid(args: Array<String>): Boolean {
         return false
     }
 
-    // 3) in ==> BUG
+    // 3) in
     val inputFileName = args[3]
     val inputFile = File(inputFileName)
     if (!inputFile.exists()) {
@@ -39,7 +39,10 @@ fun checkArgsValid(args: Array<String>): Boolean {
 
     // 4) out ==> TODO
     val outputFileName = args[4]
-    println(outputFileName)
+    if (outputFileName.indexOf('.') == -1) {
+        println("ERROR")
+        return false
+    }
 
 
     return true
@@ -172,7 +175,6 @@ fun setLaunchArgs5(args: Array<String>): Array<String> {
     // Fill default values
     if (resultArray[0] == "") resultArray[0] = "enc"
     if (resultArray[1] == "") resultArray[1] = "0"
-    if (resultArray[2] != "" && resultArray[3] != "") resultArray[3] = ""
 
     // Check validity
     if (!checkArgsValid(resultArray)) return arrayOf("false")
