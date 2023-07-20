@@ -69,8 +69,8 @@ fun cleanArgs(args: Array<String>) {
     //   2. If there is no -key, the program should consider that key is 0;
     //   3. If there are both -data and -in arguments, your program should prefer -data over -in.
 
-    print("\t. ")
-    println(args.joinToString("\n\t. "))
+    print("\t. ")                                   // DEBUG
+    println(args.joinToString("\n\t. "))    // DEBUG
 
     // 1: Mode enc by default
     if (args[0] == "") args[0] = "enc"
@@ -81,8 +81,8 @@ fun cleanArgs(args: Array<String>) {
     // 3: data has precedence over in
     if (args[2] != "") args[3] = ""
 
-    print("\t. ")
-    println(args.joinToString("\n\t. "))
+    print("\t. ")                                   // DEBUG
+    println(args.joinToString("\n\t. "))    // DEBUG
 }
 
 
@@ -189,13 +189,22 @@ fun setLaunchArgs5(args: Array<String>): Array<String> {
     var resultArray = setLaunchArgs(args)
 
     // Get user inputs
+    val modeIndex = args.indexOf("-mode")
+    val mode = if (modeIndex == -1) "enc" else args[modeIndex + 1]
+
+    val keyIndex = args.indexOf("-key")
+    val key = if (keyIndex == -1) "0" else args[keyIndex + 1]
+
+    val dataIndex = args.indexOf("-data")
+    val data = if (dataIndex == -1) "" else args[dataIndex + 1]
+
     val inIndex = args.indexOf("-in")
     val inData = if (inIndex == -1) "" else args[inIndex + 1]
 
     val outIndex = args.indexOf("-out")
     val outData = if (outIndex == -1) "" else args[outIndex + 1]
 
-    resultArray += arrayOf(inData, outData)
+    resultArray = arrayOf(mode, key, data, inData, outData)
 
     // Check validity
     if (!checkArgsValid(resultArray)) return arrayOf("false")
