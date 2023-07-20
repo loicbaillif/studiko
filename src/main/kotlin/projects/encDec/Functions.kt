@@ -71,8 +71,14 @@ fun cleanArgs(args: Array<String>) {
     //   4. If there is no -out argument, the program must print data to the standard output;
     //   5. If there are both -data and -in arguments, your program should prefer -data over -in.
 
+    print("\t. ")
+    println(args.joinToString("\n\t. "))
+
     // 1: Mode enc by default
     if (args[0] == "") args[0] = "enc"
+
+    // 2: Key 0 by default
+    if (args[1] == "") args[1] = "0"
 
     print("\t. ")
     println(args.joinToString("\n\t. "))
