@@ -72,7 +72,10 @@ fun cleanArgs(args: Array<String>) {
     //   5. If there are both -data and -in arguments, your program should prefer -data over -in.
 
     // 1: Mode enc by default
-    if (args[0].equals("")) args[0] = "enc"
+    if (args[0] == "") args[0] = "enc"
+
+    print("\t. ")
+    println(args.joinToString("\n\t. "))
 }
 
 
@@ -189,6 +192,9 @@ fun setLaunchArgs5(args: Array<String>): Array<String> {
 
     // Check validity
     if (!checkArgsValid(resultArray)) return arrayOf("false")
+
+    // Clean arguments
+    cleanArgs(resultArray)
 
     return resultArray
 
