@@ -67,9 +67,7 @@ fun cleanArgs(args: Array<String>) {
     // Recall, the args are : mode, key, data, in, out
     //   1. If there is no -mode, the program should work in the enc mode;
     //   2. If there is no -key, the program should consider that key is 0;
-    //   3. If there is no -data and no -in the program should assume that the data is an empty string;
-    //   4. If there is no -out argument, the program must print data to the standard output;
-    //   5. If there are both -data and -in arguments, your program should prefer -data over -in.
+    //   3. If there are both -data and -in arguments, your program should prefer -data over -in.
 
     print("\t. ")
     println(args.joinToString("\n\t. "))
@@ -79,6 +77,9 @@ fun cleanArgs(args: Array<String>) {
 
     // 2: Key 0 by default
     if (args[1] == "") args[1] = "0"
+
+    // 3: data has precedence over in
+    if (args[2] != "") args[3] = ""
 
     print("\t. ")
     println(args.joinToString("\n\t. "))
