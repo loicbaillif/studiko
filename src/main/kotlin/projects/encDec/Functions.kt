@@ -8,6 +8,7 @@ import kotlin.NumberFormatException
 const val INVALID_MODE = "Error: %s is not a valid mode; \"enc\" or \"dec\" only"
 const val INVALID_KEY = "Error: %s is not a valid key; Integer number expected"
 const val INVALID_INPUT_FILE = "Error: The file %s does not exist."
+const val INVALID_OUTPUT_FILE = "Error: The filename %s is not valid, it has no extension"
 
 
 fun checkArgsValid(args: Array<String>): Boolean {
@@ -37,10 +38,10 @@ fun checkArgsValid(args: Array<String>): Boolean {
     }
 
 
-    // 4) out ==> TODO
+    // 4) out
     val outputFileName = args[4]
     if (outputFileName.indexOf('.') == -1) {
-        println("ERROR")
+        println(INVALID_OUTPUT_FILE.format(args[4]))
         return false
     }
 
