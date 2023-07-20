@@ -11,7 +11,7 @@ fun index() {
     // stage2()
     // stage3()
     // stage4(arrayOf("-data", "I want to break free", "-key", "5"))
-    stage5(arrayOf("-data", "Pong!", "-key", "5", "-mode", "enc", "-in", "data/textFile1.txt", "-out", "data/temp.txt"))
+    stage5(arrayOf("-data", "Pong!", "-key", "5", "-in", "data/textFile1.txt", "-out", "data/temp.txt"))
 
     println("\n\n********** END OF PROJECT **********")
 }
