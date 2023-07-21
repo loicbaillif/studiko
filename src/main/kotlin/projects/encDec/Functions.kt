@@ -101,6 +101,11 @@ fun decode4(data: String, key: String) {
 }
 
 
+fun decode5(data: String, key: Int): String {
+
+}
+
+
 fun encodeWithKey(userInput: String, key: Int) {
     for (ch in userInput) {
         if (ch.lowercaseChar() !in ALPHABET) {
@@ -228,14 +233,13 @@ fun treatInput(args: Array<String>) {
     val key = args[1].toInt()
 
     if (args[0] == "enc") {
+        // Encode case
         val resultText = encode5(inputText, key)
-        if (args[4] == "") {
-            println(resultText)
-        } else {
+        if (args[4] == "") println(resultText) else {
             val outputFile = File(args[4])
             outputFile.writeText(resultText)
         }
     } else {
-
+        // Decode case
     }
 }
