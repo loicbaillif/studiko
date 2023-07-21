@@ -179,9 +179,6 @@ fun setLaunchArgs5(args: Array<String>): Array<String> {
     //  -out : filename or String
     // will return an array [mode, key, data]
 
-    // Variables
-    var resultArray = setLaunchArgs(args)
-
     // Get user inputs
     val modeIndex = args.indexOf("-mode")
     val mode = if (modeIndex == -1) "enc" else args[modeIndex + 1]
@@ -198,7 +195,7 @@ fun setLaunchArgs5(args: Array<String>): Array<String> {
     val outIndex = args.indexOf("-out")
     val outData = if (outIndex == -1) "" else args[outIndex + 1]
 
-    resultArray = arrayOf(mode, key, data, inData, outData)
+    val resultArray = arrayOf(mode, key, data, inData, outData)
 
     // Check validity
     if (!checkArgsValid(resultArray)) return arrayOf("false")
