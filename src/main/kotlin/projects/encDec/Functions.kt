@@ -101,12 +101,14 @@ fun decode4(data: String, key: String) {
 }
 
 
-fun decode5(data: String, key: Int) {
+fun decode5(data: String, key: Int): String {
     // Variable
     val sbResult = StringBuilder()
 
     // Loop
     for (ch in data) sbResult.append(ch - key)
+
+    return sbResult.toString()
 }
 
 
