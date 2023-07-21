@@ -140,6 +140,9 @@ fun encode5(data: String, key: Int): String {
 
     // loop
     for (ch in data) sbResult.append(ch + key)
+
+    // Return result
+    return (sbResult.toString())
 }
 
 
