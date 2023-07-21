@@ -138,6 +138,8 @@ fun encode5(data: String, key: Int): String {
     // Variable
     val sbResult = StringBuilder()
 
+    // loop
+    for (ch in data) sbResult.append(ch + key)
 }
 
 
