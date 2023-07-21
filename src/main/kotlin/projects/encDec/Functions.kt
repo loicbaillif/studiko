@@ -212,5 +212,13 @@ fun setLaunchArgs5(args: Array<String>): Array<String> {
 
 
 fun treatInput(args: Array<String>) {
+    // Recall: args = ["mode", "key", "data", "in", "out"]
 
+    // Variables
+    var inputText = args[2]
+    if (args[2] == "") {
+        val fileName = args[3]
+        inputText = File(fileName).readText()
+    }
+    println(inputText)
 }
