@@ -227,5 +227,9 @@ fun treatInput(args: Array<String>) {
     val inputText = if (args[2] != "") args[2] else File(args[3]).readText()
     val key = args[1].toInt()
 
-    println(encode5(inputText, key))
+    if (args[0] == "enc") {
+        val resultText = encode5(inputText, key)
+    } else {
+
+    }
 }
