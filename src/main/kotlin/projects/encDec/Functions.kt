@@ -215,10 +215,8 @@ fun treatInput(args: Array<String>) {
     // Recall: args = ["mode", "key", "data", "in", "out"]
 
     // Variables
-    var inputText = args[2]
-    if (args[2] == "") {
-        val fileName = args[3]
-        inputText = File(fileName).readText()
-    }
-    println(inputText)
+    val inputText = if (args[2] != "") args[2] else File(args[3]).readText()
+    val key = args[1].toInt()
+
+    println(inputText) // DEBUG
 }
