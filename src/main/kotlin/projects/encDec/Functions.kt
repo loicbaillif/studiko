@@ -40,7 +40,7 @@ fun checkArgsValid(args: Array<String>): Boolean {
 
     // 4) out
     val outputFileName = args[4]
-    if (outputFileName.indexOf('.') == -1) {
+    if (outputFileName != "" && outputFileName.indexOf('.') == -1) {
         println(INVALID_OUTPUT_FILE.format(args[4]))
         return false
     }
@@ -229,6 +229,12 @@ fun treatInput(args: Array<String>) {
 
     if (args[0] == "enc") {
         val resultText = encode5(inputText, key)
+        if (args[4] == "") {
+            println(resultText)
+        } else {
+            val outputFile = File(args[4])
+            outputFile.writeText(resultText)
+        }
     } else {
 
     }
