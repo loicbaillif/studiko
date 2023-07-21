@@ -11,6 +11,10 @@ fun stage5(args: Array<String>) {
 
     // Variables
     val userArgs = setLaunchArgs5(args)  // [mode, key, data, in, out]
+
+    // Exit if arguments are not valid
     if (userArgs.size == 1 && userArgs[0] == "false") return
 
+    // Treat arguments
+    treatInput(userArgs)
 }

@@ -69,9 +69,6 @@ fun cleanArgs(args: Array<String>) {
     //   2. If there is no -key, the program should consider that key is 0;
     //   3. If there are both -data and -in arguments, your program should prefer -data over -in.
 
-    print("\t. ")                                   // DEBUG
-    println(args.joinToString("\n\t. "))    // DEBUG
-
     // 1: Mode enc by default
     if (args[0] == "") args[0] = "enc"
 
@@ -80,9 +77,6 @@ fun cleanArgs(args: Array<String>) {
 
     // 3: data has precedence over in
     if (args[2] != "") args[3] = ""
-
-    print("\t. ")                                   // DEBUG
-    println(args.joinToString("\n\t. "))    // DEBUG
 }
 
 
