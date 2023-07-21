@@ -134,6 +134,11 @@ fun encode4(data: String, key: String) {
 }
 
 
+fun encode5(data: String, key: Int): String {
+
+}
+
+
 fun menu() {
     // Get user choice, check its validity and apply action
     val userChoice = readln()
