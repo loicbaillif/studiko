@@ -135,6 +135,8 @@ fun encode4(data: String, key: String) {
 
 
 fun encode5(data: String, key: Int): String {
+    // Variable
+    val sbResult = StringBuilder()
 
 }
 
