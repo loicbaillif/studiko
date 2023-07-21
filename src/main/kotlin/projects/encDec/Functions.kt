@@ -237,15 +237,18 @@ fun treatInput(args: Array<String>) {
     // Variables
     val inputText = if (args[2] != "") args[2] else File(args[3]).readText()
     val key = args[1].toInt()
+    var resultText = ""
 
     if (args[0] == "enc") {
         // Encode case
-        val resultText = encode5(inputText, key)
-        if (args[4] == "") println(resultText) else {
-            val outputFile = File(args[4])
-            outputFile.writeText(resultText)
-        }
+        resultText = encode5(inputText, key)
     } else {
         // Decode case
+        resultText = decode5(inputText, key)
+    }
+
+    if (args[4] == "") println(resultText) else {
+        val outputFile = File(args[4])
+        outputFile.writeText(resultText)
     }
 }
