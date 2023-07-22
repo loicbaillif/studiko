@@ -16,8 +16,9 @@ fun exercise3() {
     var sumLeft = 0
 
     for (ch in 0 until inputHalfIndex) {
-
+        sumLeft += userInput[ch].digitToInt()
     }
+    println(sumLeft) // DEBUG
 
     println("\n*** End of exercise ***")
 }
