@@ -13,7 +13,11 @@ fun exercise3() {
     // Variables
     val userInput = readln()
     val inputHalfIndex = userInput.length / 2
-    println(inputHalfIndex)  // DEBUG
+    var sumLeft = 0
+
+    for (ch in 0 until inputHalfIndex) {
+
+    }
 
     println("\n*** End of exercise ***")
 }
