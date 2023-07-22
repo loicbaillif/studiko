@@ -15,10 +15,8 @@ fun exercise3() {
     val inputHalfIndex = userInput.length / 2
     var sumLeft = 0
 
-    for (ch in 0 until inputHalfIndex) {
-        sumLeft += userInput[ch].digitToInt()
-    }
-    println(sumLeft) // DEBUG
+    // First half
+    for (ch in 0 until inputHalfIndex) sumLeft += userInput[ch].digitToInt()
 
     println("\n*** End of exercise ***")
 }
