@@ -10,6 +10,7 @@ package typesDataStruct.strings.proc
 fun exercise3() {
     println("*** Exercise: Lucky number ***")
 
+    val userInput = readln()
 
 
     println("\n*** End of exercise ***")
