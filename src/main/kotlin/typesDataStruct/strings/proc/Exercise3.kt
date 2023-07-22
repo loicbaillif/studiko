@@ -21,5 +21,7 @@ fun exercise3() {
     // Second half
     for (ch in inputHalfIndex..userInput.lastIndex) sumLeft -= userInput[ch].digitToInt()
 
+    println(if (sumLeft == 0) "YES" else "NO")
+
     println("\n*** End of exercise ***")
 }
