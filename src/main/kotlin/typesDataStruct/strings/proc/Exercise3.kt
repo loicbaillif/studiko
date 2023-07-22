@@ -18,5 +18,8 @@ fun exercise3() {
     // First half
     for (ch in 0 until inputHalfIndex) sumLeft += userInput[ch].digitToInt()
 
+    // Second half
+    for (ch in inputHalfIndex..userInput.lastIndex) sumLeft -= userInput[ch].digitToInt()
+
     println("\n*** End of exercise ***")
 }
