@@ -10,8 +10,10 @@ package typesDataStruct.strings.proc
 fun exercise3() {
     println("*** Exercise: Lucky number ***")
 
+    // Variables
     val userInput = readln()
-
+    val inputHalfIndex = userInput.length / 2
+    println(inputHalfIndex)  // DEBUG
 
     println("\n*** End of exercise ***")
 }
