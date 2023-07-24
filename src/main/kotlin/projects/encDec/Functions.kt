@@ -242,6 +242,9 @@ fun setLaunchArgs6(args: Array<String>): Array<String> {
     //  -out : filename or String
     //  -alg : shift    [shift, unicode]
     // will return an array [mode, key, data]
+
+    // Set first 5 args with other function
+    var resultArray = setLaunchArgs5(args)
 }
 
 
