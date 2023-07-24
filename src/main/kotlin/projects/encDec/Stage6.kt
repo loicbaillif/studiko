@@ -8,5 +8,5 @@ package projects.encDec
  */
 
 fun stage6(args: Array<String>) {
-
+    println(setLaunchArgs6(args).joinToString("\n\t. "))
 }
