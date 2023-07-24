@@ -231,6 +231,20 @@ fun setLaunchArgs5(args: Array<String>): Array<String> {
 }
 
 
+fun setLaunchArgs6(args: Array<String>): Array<String> {
+    // Receives the argument provided at program execution, and returns
+    // user values if provided, default value elsewhere
+    // Arguments and default value:
+    //  -mode : enc   [enc, dec]
+    //  -key : 0      [0...]
+    //  -data : "" (empty string)
+    //  -in : filename or String
+    //  -out : filename or String
+    //  -alg : shift    [shift, unicode]
+    // will return an array [mode, key, data]
+}
+
+
 fun treatInput(args: Array<String>) {
     // Recall: args = ["mode", "key", "data", "in", "out"]
 
