@@ -249,6 +249,10 @@ fun setLaunchArgs6(args: Array<String>): Array<String> {
     // Define alg
     val algIndex = args.indexOf("-alg")
     val algData = if (algIndex == -1) "" else args[algIndex + 1]
+
+    resultArray += algData
+
+    return resultArray
 }
 
 
