@@ -112,8 +112,13 @@ fun decode5(data: String, key: Int): String {
 }
 
 
-fun encodeShift(userInput: String, key: Int): String {
+fun encodeShift(userInput: String, key: Int) {
     // Uses english alphabet, 'a' comes after 'z' and 'A' comes after 'Z' (loop)
+    for (ch in userInput) {
+        if (ch in 'a'..'z') {
+            print(ch + key)
+        }
+    }
 }
 
 
