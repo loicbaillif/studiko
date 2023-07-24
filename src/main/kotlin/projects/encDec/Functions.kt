@@ -245,6 +245,10 @@ fun setLaunchArgs6(args: Array<String>): Array<String> {
 
     // Set first 5 args with other function
     var resultArray = setLaunchArgs5(args)
+
+    // Define alg
+    val algIndex = args.indexOf("-alg")
+    val algData = if (algIndex == -1) "" else args[algIndex + 1]
 }
 
 
