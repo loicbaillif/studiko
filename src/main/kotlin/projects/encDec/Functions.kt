@@ -121,6 +121,9 @@ fun encodeShift(userInput: String, key: Int) {
         if (ch in 'a'..'z') {
             print(if (ch + keyMod > 'z') (ch + keyMod - 26) else (ch + keyMod))
         }
+        if (ch in 'A'..'Z') {
+            print(if (ch + keyMod > 'Z') (ch + keyMod -  26) else (ch + keyMod))
+        }
     }
 }
 
