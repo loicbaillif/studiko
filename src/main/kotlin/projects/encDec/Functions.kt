@@ -114,9 +114,12 @@ fun decode5(data: String, key: Int): String {
 
 fun encodeShift(userInput: String, key: Int) {
     // Uses english alphabet, 'a' comes after 'z' and 'A' comes after 'Z' (loop)
+    // Reduce key value, modulo 26
+    val keyMod = key % 26
+
     for (ch in userInput) {
         if (ch in 'a'..'z') {
-            print(ch + key) // BUG: after 'z' comes 'a', to be implemented
+            print(if (ch + keyMod > 'z') (ch + keyMod - 26) else (ch + keyMod))
         }
     }
 }
