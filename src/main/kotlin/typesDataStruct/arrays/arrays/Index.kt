@@ -7,6 +7,6 @@ package typesDataStruct.arrays.arrays
 fun index() {
     println("********** Arrays **********\n")
 
-    theory()
-
+    // theory()
+    exercise1()
 }
