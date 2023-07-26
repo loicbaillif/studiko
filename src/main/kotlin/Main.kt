@@ -35,7 +35,7 @@ fun main() {
     // basics.stdinout.inpScanner.index()
     // basics.stdinout.readlnFun.index()
     // basics.stdinout.stdOutput.index()
-    // basics.stdinout.strFormat.index()
+    basics.stdinout.strFormat.index()
 
 
     // ctrlflow.ctrlStruc.forRanges.index()
@@ -57,7 +57,7 @@ fun main() {
     // ctrlflow.lambda.lambdaEx.index()
 
 
-    typesDataStruct.arrays.arrays.index()
+    // typesDataStruct.arrays.arrays.index()
     // typesDataStruct.arrays.strArrays.index()
     // typesDataStruct.basicOps.arith.index()
     // typesDataStruct.basicOps.boolLog.index()
