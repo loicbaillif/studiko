@@ -16,8 +16,8 @@ fun exercise2() {
     val c = readln().toDouble()
     val d = readln().toDouble()
 
-    println("%${12}s%${12}s".format(a, b))
-    println("%${12}s%${12}s".format(c, d))
+    println("%,${12}f%,${12}f".format(a, b))
+    println("%,${12}f%,${12}f".format(c, d))
 
     println("\n*** End of exercise ***")
 }
