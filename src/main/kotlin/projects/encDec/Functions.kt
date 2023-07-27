@@ -283,10 +283,14 @@ fun setLaunchArgs6(args: Array<String>): Array<String> {
 
     // Set first 5 args with other function
     var resultArray = setLaunchArgs5(args)
+    if (resultArray.equals(arrayOf("false"))) return resultArray
 
     // Define alg
     val algIndex = args.indexOf("-alg")
     val algData = if (algIndex == -1) "shift" else args[algIndex + 1]
+
+    // Verify alg
+    if (algData != "shift" && algData != "unicode") return arrayOf("false")
 
     resultArray += algData
 
