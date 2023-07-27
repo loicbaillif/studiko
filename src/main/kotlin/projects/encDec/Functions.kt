@@ -325,4 +325,10 @@ fun treatInput6(args: Array<String>) {
         } else {
             if (args[5] == "shift") decodeShift(inputText, key) else decode5(inputText, key)
         }
+
+    // Output
+    if (args[4] == "") println(resultText) else {
+        val outputFile = File(args[4])
+        outputFile.writeText(resultText)
+    }
 }
