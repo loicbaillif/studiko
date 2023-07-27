@@ -8,12 +8,12 @@ package projects.encDec
  */
 
 fun stage6(args: Array<String>) {
-    println(setLaunchArgs6(args).joinToString("\n\t. ")) // DEBUG
-    println(decodeShift("D rvio oj wmzvf amzz!", 21)) // DEBUG
-
     // Variables
     val userArgs = setLaunchArgs6(args)  // [mode, key, data, in, out, alg]
 
     // Exit if erroneous arguments
     if (userArgs.contentEquals(arrayOf("false"))) return
+
+    // Treat arguments if valid
+    treatInput6(userArgs)
 }

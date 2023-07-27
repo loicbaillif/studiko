@@ -5,6 +5,7 @@ import java.io.File
 import kotlin.NumberFormatException
 
 
+const val INVALID_ALG = "Error: %s is not a valid algorithm; \"shift\" or \"unicode\" only"
 const val INVALID_MODE = "Error: %s is not a valid mode; \"enc\" or \"dec\" only"
 const val INVALID_KEY = "Error: %s is not a valid key; Integer number expected"
 const val INVALID_INPUT_FILE = "Error: The file %s does not exist."
@@ -290,7 +291,10 @@ fun setLaunchArgs6(args: Array<String>): Array<String> {
     val algData = if (algIndex == -1) "shift" else args[algIndex + 1]
 
     // Verify alg
-    if (algData != "shift" && algData != "unicode") return arrayOf("false")
+    if (algData != "shift" && algData != "unicode") {
+        println(INVALID_ALG.format(algData))
+        return arrayOf("false")
+    }
 
     resultArray += algData
 
