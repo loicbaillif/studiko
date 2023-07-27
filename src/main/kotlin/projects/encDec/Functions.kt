@@ -316,4 +316,7 @@ fun treatInput(args: Array<String>) {
 fun treatInput6(args: Array<String>) {
     // Recall: args = ["mode", "key", "data", "in", "out", "alg"]
 
+    // Variables
+    val inputText = if (args[2] != "") args[2] else File(args[3]).readText()
+    val key = args[1].toInt()
 }
