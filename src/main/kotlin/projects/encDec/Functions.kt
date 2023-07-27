@@ -311,3 +311,9 @@ fun treatInput(args: Array<String>) {
         outputFile.writeText(resultText)
     }
 }
+
+
+fun treatInput6(args: Array<String>) {
+    // Recall: args = ["mode", "key", "data", "in", "out", "alg"]
+
+}

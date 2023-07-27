@@ -15,5 +15,5 @@ fun stage6(args: Array<String>) {
     val userArgs = setLaunchArgs6(args)  // [mode, key, data, in, out, alg]
 
     // Exit if erroneous arguments
-    if (userArgs.equals(arrayOf("false"))) return
+    if (userArgs.contentEquals(arrayOf("false"))) return
 }
