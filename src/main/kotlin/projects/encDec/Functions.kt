@@ -81,7 +81,11 @@ fun cleanArgs(args: Array<String>) {
 
 
 fun decodeShift(userInput: String, key: Int): String {
+    // Uses english alphabet, 'a' comes after 'z' and 'A' comes after 'Z' (loop)
 
+    // Variables
+    val keyMod = key % 26
+    val sbResult = StringBuilder()
 }
 
 
