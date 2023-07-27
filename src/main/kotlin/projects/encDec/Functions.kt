@@ -80,6 +80,11 @@ fun cleanArgs(args: Array<String>) {
 }
 
 
+fun decodeShift(userInput: String, key: Int): String {
+
+}
+
+
 fun decode3() {
     // decode function for stage 3
     // Variables
