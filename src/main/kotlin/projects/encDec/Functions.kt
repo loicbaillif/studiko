@@ -90,7 +90,8 @@ fun decodeShift(userInput: String, key: Int): String {
     for(ch in userInput) {
         when (ch) {
             in 'a'..'z' -> sb.append(if (ch - keyMod < 'a') (ch - keyMod + 26) else (ch - keyMod))
-
+            in 'A'..'Z' -> sb.append(if (ch - keyMod < 'A') (ch - keyMod + 26) else (ch - keyMod))
+            else -> sb.append(ch)
         }
     }
 

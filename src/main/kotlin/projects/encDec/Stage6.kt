@@ -9,5 +9,5 @@ package projects.encDec
 
 fun stage6(args: Array<String>) {
     println(setLaunchArgs6(args).joinToString("\n\t. ")) // DEBUG
-    println(encodeShift("I want to break free!", 5)) // DEBUG
+    println(decodeShift("D rvio oj wmzvf amzz!", 21)) // DEBUG
 }
