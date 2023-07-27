@@ -112,18 +112,21 @@ fun decode5(data: String, key: Int): String {
 }
 
 
-fun encodeShift(userInput: String, key: Int) {
+fun encodeShift(userInput: String, key: Int): String {
     // Uses english alphabet, 'a' comes after 'z' and 'A' comes after 'Z' (loop)
     // Reduce key value, modulo 26
     val keyMod = key % 26
+    val sbResult = StringBuilder()
 
     for (ch in userInput) {
         when (ch) {
-            in 'a'..'z' -> print(if (ch + keyMod > 'z') (ch + keyMod - 26) else (ch + keyMod))
-            in 'A'..'Z' -> print(if (ch + keyMod > 'Z') (ch + keyMod -  26) else (ch + keyMod))
-            else -> print(ch)
+            in 'a'..'z' -> sbResult.append(if (ch + keyMod > 'z') (ch + keyMod - 26) else (ch + keyMod))
+            in 'A'..'Z' -> sbResult.append(if (ch + keyMod > 'Z') (ch + keyMod -  26) else (ch + keyMod))
+            else -> sbResult.append(ch)
         }
     }
+
+    return (sbResult.toString())
 }
 
 

@@ -16,7 +16,7 @@ fun main() {
     // projects.tictactoe.index()
     // projects.cinema.index()
     // projects.chuckNorris.index()
-    // projects.encDec.index()
+    projects.encDec.index()
 
     // Old Chapters
     // overview.index()
@@ -35,7 +35,7 @@ fun main() {
     // basics.stdinout.inpScanner.index()
     // basics.stdinout.readlnFun.index()
     // basics.stdinout.stdOutput.index()
-    basics.stdinout.strFormat.index()
+    // basics.stdinout.strFormat.index()
 
 
     // ctrlflow.ctrlStruc.forRanges.index()
