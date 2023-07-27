@@ -87,7 +87,11 @@ fun decodeShift(userInput: String, key: Int): String {
     val keyMod = key % 26
     val sbResult = StringBuilder()
 
+    for(ch in userInput) {
+        when (ch) {
 
+        }
+    }
 
     // Result
     return sbResult.toString()
