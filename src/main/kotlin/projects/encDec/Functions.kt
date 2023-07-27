@@ -319,4 +319,10 @@ fun treatInput6(args: Array<String>) {
     // Variables
     val inputText = if (args[2] != "") args[2] else File(args[3]).readText()
     val key = args[1].toInt()
+    val resultText =
+        if (args[0] == "enc") {
+            if (args[5] == "shift") encodeShift(inputText, key) else encode5(inputText, key)
+        } else {
+            if (args[5] == "shift") decodeShift(inputText, key) else decode5(inputText, key)
+        }
 }
