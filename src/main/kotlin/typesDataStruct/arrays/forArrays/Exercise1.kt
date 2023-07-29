@@ -12,7 +12,7 @@ fun exercise1() {
 
     // Variables
     val nbElts = readln().toInt()
-
+    val elts = IntArray(nbElts)
 
 
     println("\n*** End of exercise ***")
