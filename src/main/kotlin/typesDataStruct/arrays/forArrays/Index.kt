@@ -7,5 +7,6 @@ package typesDataStruct.arrays.forArrays
 fun index() {
     println("********** for loop and arrays **********\n")
 
-    theory()
+    // theory()
+    exercise1()
 }
