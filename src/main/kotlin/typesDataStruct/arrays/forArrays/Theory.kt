@@ -43,5 +43,16 @@ fun theory() {
     }
 
 
+    println("\n*** 4) Filing array with user inputs")
+    println("Size of the array?")
+    val arraySize = readln().toInt()
+    val userArray = IntArray(arraySize)
+
+    for (i in 0 until arraySize) {
+        println("Provide element n° ${i + 1}")
+        userArray[i] = readln().toInt()
+    }
+
+
     println("\n***** End of theory *****")
 }
