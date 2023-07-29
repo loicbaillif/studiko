@@ -27,6 +27,11 @@ fun theory() {
         println("\t. $index -> ${daysOfWeek[index]}")
     }
 
+    println("Using lastIndex...")
+    for (index in 4..daysOfWeek.lastIndex) {
+        println("\t. $index -> ${daysOfWeek[index]}")
+    }
+
 
     println("\n***** End of theory *****")
 }
