@@ -14,14 +14,12 @@ fun exercise1() {
     val nbElts = readln().toInt()
     val elts = IntArray(nbElts)
 
-    for (i in 0 until nbElts) {
-        elts[i] = readln().toInt()
-    }
+    for (i in 0 until nbElts) elts[i] = readln().toInt()
 
     val wantedNumber = readln().toInt()
     var nbOccurences = 0
 
-    for (i in 0 until  nbElts) if (elts[i] == wantedNumber) nbOccurences++
+    for (i in 0 until nbElts) if (elts[i] == wantedNumber) nbOccurences++
 
     println(nbOccurences)
 
