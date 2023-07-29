@@ -19,6 +19,11 @@ fun exercise1() {
     }
 
     val wantedNumber = readln().toInt()
+    var nbOccurences = 0
+
+    for (i in 0 until  nbElts) {
+        if (elts[i] == wantedNumber) nbOccurences++
+    }
 
 
     println("\n*** End of exercise ***")
