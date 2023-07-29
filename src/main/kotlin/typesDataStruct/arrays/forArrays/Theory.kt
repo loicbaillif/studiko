@@ -53,6 +53,10 @@ fun theory() {
         userArray[i] = readln().toInt()
     }
 
+    for (index in userArray.indices) {
+        println("\t. $index -> ${userArray[index]}")
+    }
+
 
     println("\n***** End of theory *****")
 }
