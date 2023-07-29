@@ -18,6 +18,8 @@ fun exercise1() {
         elts[i] = readln().toInt()
     }
 
+    val wantedNumber = readln().toInt()
+
 
     println("\n*** End of exercise ***")
 }
