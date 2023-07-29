@@ -22,5 +22,11 @@ fun theory() {
     }
 
 
+    println("\n*** 3) Iterating by range indexes")
+    for (index in 2..4) {
+        println("\t. $index -> ${daysOfWeek[index]}")
+    }
+
+
     println("\n***** End of theory *****")
 }
