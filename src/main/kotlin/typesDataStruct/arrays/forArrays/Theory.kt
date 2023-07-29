@@ -32,6 +32,11 @@ fun theory() {
         println("\t. $index -> ${daysOfWeek[index]}")
     }
 
+    println("In reverse order...")
+    for (index in 3 downTo 0) {
+        println("\t. $index -> ${daysOfWeek[index]}")
+    }
+
 
     println("\n***** End of theory *****")
 }
