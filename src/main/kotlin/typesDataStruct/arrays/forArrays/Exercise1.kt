@@ -14,6 +14,10 @@ fun exercise1() {
     val nbElts = readln().toInt()
     val elts = IntArray(nbElts)
 
+    for (i in 0 until nbElts) {
+        elts[i] = readln().toInt()
+    }
+
 
     println("\n*** End of exercise ***")
 }
