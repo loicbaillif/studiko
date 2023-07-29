@@ -9,11 +9,18 @@ package typesDataStruct.arrays.forArrays
 fun theory() {
     println("***** Theory *****")
 
-    println("\n*** Iterating through an array")
+    println("\n*** 1) Iterating through an array")
     val daysOfWeek = arrayOf("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
     for (day in daysOfWeek) {
         println("\t. $day")
     }
+
+
+    println("\n*** 2) Iterating by indexes")
+    for (index in daysOfWeek.indices) {
+        println("\t. $index -> ${daysOfWeek[index]}")
+    }
+
 
     println("\n***** End of theory *****")
 }
