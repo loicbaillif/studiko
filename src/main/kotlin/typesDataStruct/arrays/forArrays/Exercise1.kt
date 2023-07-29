@@ -10,6 +10,9 @@ package typesDataStruct.arrays.forArrays
 fun exercise1() {
     println("*** Exercise: Counting ***")
 
+    // Variables
+    val nbElts = readln().toInt()
+
 
 
     println("\n*** End of exercise ***")
