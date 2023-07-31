@@ -19,4 +19,9 @@ fun exercise2() {
 fun rotateRight(input: IntArray) {
     // Temp variable
     val lastItem = input.last()
+
+    // Rotation template
+    for (i in input.lastIndex - 1 downTo 0) {
+
+    }
 }
