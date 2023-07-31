@@ -13,7 +13,9 @@ fun exercise2() {
     // Variable
     val arraySize = readln().toInt()
     val userArray = createArray(arraySize)
-    val nbRotations = readln().toInt()
+    var nbRotations = readln().toInt()
+
+    nbRotations %= arraySize
 
     println("\n*** End of exercise ***")
 }
