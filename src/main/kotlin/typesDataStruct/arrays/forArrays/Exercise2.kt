@@ -21,7 +21,7 @@ fun createArray(arraySize: Int): IntArray {
     val resultArray = IntArray(arraySize)
 
     for (i in 0 until arraySize) {
-
+        resultArray[i] = readln().toInt()
     }
 }
 
