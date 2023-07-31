@@ -17,7 +17,8 @@ fun exercise2() {
 
 
 fun createArray(arraySize: Int): IntArray {
-
+    // Variable
+    val resultArray = IntArray(arraySize)
 }
 
 
