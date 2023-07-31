@@ -14,3 +14,8 @@ fun exercise2() {
 
     println("\n*** End of exercise ***")
 }
+
+
+fun rotateRight(input: Array<Int>) {
+
+}
