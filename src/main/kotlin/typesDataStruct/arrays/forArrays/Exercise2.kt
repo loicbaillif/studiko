@@ -20,9 +20,9 @@ fun createArray(arraySize: Int): IntArray {
     // Variable
     val resultArray = IntArray(arraySize)
 
-    for (i in 0 until arraySize) {
-        resultArray[i] = readln().toInt()
-    }
+    for (i in 0 until arraySize) resultArray[i] = readln().toInt()
+
+    return resultArray
 }
 
 
@@ -31,9 +31,7 @@ fun rotateRight(input: IntArray) {
     val lastItem = input.last()
 
     // Rotation template
-    for (i in input.lastIndex - 1 downTo 0) {
-        input[i + 1] = input[i]
-    }
+    for (i in input.lastIndex - 1 downTo 0) input[i + 1] = input[i]
 
     // Insert last at first position
     input[0] = lastItem
