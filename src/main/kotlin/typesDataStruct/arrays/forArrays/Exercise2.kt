@@ -10,7 +10,8 @@ package typesDataStruct.arrays.forArrays
 fun exercise2() {
     println("*** Exercise: Right Rotation ***")
 
-
+    // Variable
+    val arraySize = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
