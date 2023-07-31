@@ -17,6 +17,10 @@ fun exercise2() {
 
     nbRotations %= arraySize
 
+    for (i in 0 .. nbRotations) {
+        rotateRight(userArray)
+    }
+
     println("\n*** End of exercise ***")
 }
 
