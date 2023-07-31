@@ -17,9 +17,11 @@ fun exercise2() {
 
     nbRotations %= arraySize
 
-    for (i in 0 .. nbRotations) {
+    for (i in 1 .. nbRotations) {
         rotateRight(userArray)
     }
+
+    println(userArray.joinToString())
 
     println("\n*** End of exercise ***")
 }
