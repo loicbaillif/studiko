@@ -19,6 +19,10 @@ fun exercise2() {
 fun createArray(arraySize: Int): IntArray {
     // Variable
     val resultArray = IntArray(arraySize)
+
+    for (i in 0 until arraySize) {
+
+    }
 }
 
 
