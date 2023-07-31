@@ -22,6 +22,9 @@ fun rotateRight(input: IntArray) {
 
     // Rotation template
     for (i in input.lastIndex - 1 downTo 0) {
-
+        input[i + 1] = input[i]
     }
+
+    // Insert last at first position
+    input[0] = lastItem
 }
