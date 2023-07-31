@@ -16,6 +16,7 @@ fun exercise2() {
 }
 
 
-fun rotateRight(input: Array<Int>) {
-
+fun rotateRight(input: IntArray) {
+    // Temp variable
+    val lastItem = input.last()
 }
