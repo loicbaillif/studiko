@@ -38,9 +38,7 @@ fun fillArray(size: Int): IntArray {
     val userArray = IntArray(size)
 
     // Filling loop
-    for (i in 0 until size) {
-        userArray[i] = readln().toInt()
-    }
+    for (i in 0 until size) userArray[i] = readln().toInt()
 
     // Return array
     return userArray
