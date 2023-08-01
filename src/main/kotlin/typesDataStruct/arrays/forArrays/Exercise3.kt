@@ -17,5 +17,7 @@ fun exercise3() {
 
 
 fun fillArray(size: Int): IntArray {
+    for (i in 0 until size) {
 
+    }
 }
