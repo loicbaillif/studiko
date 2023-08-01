@@ -21,6 +21,6 @@ fun fillArray(size: Int): IntArray {
     val userArray = IntArray(size)
 
     for (i in 0 until size) {
-
+        userArray[i] = readln().toInt()
     }
 }
