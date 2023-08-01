@@ -14,6 +14,8 @@ fun exercise3() {
     val arraySize = readln().toInt()
     val userArray = fillArray(arraySize)
 
+    println(countTriples(userArray, arraySize))
+
     println("\n*** End of exercise ***")
 }
 
