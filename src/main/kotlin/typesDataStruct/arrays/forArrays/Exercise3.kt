@@ -25,7 +25,7 @@ fun countTriples(userArray: IntArray, arraySize: Int): Int {
     var result = 0
 
     // Counting loop
-    for (i in 2..arraySize) {
+    for (i in 2 until arraySize) {
         if ((userArray[i] - 1 == userArray[i - 1]) && (userArray[i - 1] - 1 == userArray[i - 2])) result++
     }
 
