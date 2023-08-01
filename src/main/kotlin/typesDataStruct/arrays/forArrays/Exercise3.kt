@@ -20,7 +20,11 @@ fun fillArray(size: Int): IntArray {
     // Variable
     val userArray = IntArray(size)
 
+    // Filling loop
     for (i in 0 until size) {
         userArray[i] = readln().toInt()
     }
+
+    // Return array
+    return userArray
 }
