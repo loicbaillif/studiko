@@ -16,6 +16,11 @@ fun exercise3() {
 }
 
 
+fun countTriples(userArray: IntArray, arraySize: Int): Int {
+
+}
+
+
 fun fillArray(size: Int): IntArray {
     // Variable
     val userArray = IntArray(size)
