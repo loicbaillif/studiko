@@ -17,6 +17,9 @@ fun exercise3() {
 
 
 fun fillArray(size: Int): IntArray {
+    // Variable
+    val userArray = IntArray(size)
+
     for (i in 0 until size) {
 
     }
