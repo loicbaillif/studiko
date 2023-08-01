@@ -19,6 +19,11 @@ fun exercise3() {
 fun countTriples(userArray: IntArray, arraySize: Int): Int {
     // Variables
     var result = 0
+
+    // Counting loop
+    for (i in 2..arraySize) {
+
+    }
 }
 
 
