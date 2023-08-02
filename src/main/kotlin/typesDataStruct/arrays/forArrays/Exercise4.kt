@@ -31,5 +31,7 @@ fun initArray(size: Int): IntArray {
 
 
 fun isItThere(userArray: IntArray, elt: Int) {
+    if (userArray.indexOf(elt) == -1) {
 
+    }
 }
