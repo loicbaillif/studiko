@@ -15,6 +15,8 @@ fun exercise4() {
     val userArray = initArray(arraySize)
     val seekedElt = readln().toInt()
 
+    isItThere(userArray, seekedElt)
+
     println("\n*** End of exercise ***")
 }
 
