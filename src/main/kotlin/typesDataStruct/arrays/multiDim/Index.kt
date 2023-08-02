@@ -7,5 +7,5 @@ package typesDataStruct.arrays.multiDim
 fun index() {
     println("********** Multi-dimensional Arrays **********\n")
 
-
+    theory()
 }
