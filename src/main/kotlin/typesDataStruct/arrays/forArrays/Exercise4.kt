@@ -14,3 +14,8 @@ fun exercise4() {
 
     println("\n*** End of exercise ***")
 }
+
+
+fun initArray(size: Int): IntArray {
+
+}
