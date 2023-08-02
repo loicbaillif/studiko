@@ -28,3 +28,8 @@ fun initArray(size: Int): IntArray {
 
     return userArray
 }
+
+
+fun isItThere(userArray: IntArray, elt: Int) {
+
+}
