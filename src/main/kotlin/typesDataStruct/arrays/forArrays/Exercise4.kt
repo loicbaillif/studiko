@@ -24,4 +24,6 @@ fun initArray(size: Int): IntArray {
     for (i in 0 until size) {
         userArray[i] = readln().toInt()
     }
+
+    return userArray
 }
