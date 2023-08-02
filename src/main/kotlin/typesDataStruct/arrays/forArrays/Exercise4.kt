@@ -13,6 +13,7 @@ fun exercise4() {
     // Variables
     val arraySize = readln().toInt()
     val userArray = initArray(arraySize)
+    val seekedElt = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
