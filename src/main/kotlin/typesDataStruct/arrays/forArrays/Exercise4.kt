@@ -17,5 +17,6 @@ fun exercise4() {
 
 
 fun initArray(size: Int): IntArray {
-
+    // Variables
+    val userArray = IntArray(size)
 }
