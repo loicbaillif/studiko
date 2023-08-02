@@ -22,6 +22,6 @@ fun initArray(size: Int): IntArray {
 
     // Filling loop
     for (i in 0 until size) {
-
+        userArray[i] = readln().toInt()
     }
 }
