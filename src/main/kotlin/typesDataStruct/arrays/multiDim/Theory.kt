@@ -19,5 +19,8 @@ fun theory() {
         arrayOf(1, 2),
         arrayOf(3, 4, 5))
 
+    val someArray3 = arrayOf<IntArray>() // Empty 2D-array of Int
+    val someArray4 = arrayOf<Array<Int>>() // Empty 2D-array of Int
+
     println("\n***** End of theory *****")
 }
