@@ -54,7 +54,7 @@ fun theory() {
         arrayOf("Good", "or", "bad", "but"),
         arrayOf("thinking", "makes", "it", "so")
     )
-
+    for (elt in someArray6) println(elt.joinToString(", ", "\t", "..."))
 
 
     println("\n***** End of theory *****")
