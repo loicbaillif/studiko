@@ -56,6 +56,13 @@ fun theory() {
     )
     for (elt in someArray6) println(elt.joinToString(", ", "\t", "..."))
 
+    val someArray7 = arrayOf(
+        arrayOf<String>("to", "be", "or"),
+        arrayOf<String>("not", "to", "be")
+    )
+    println()
+    for (elt in someArray7) println(elt.joinToString(", ", "\t", "..."))
+
 
     println("\n***** End of theory *****")
 }
