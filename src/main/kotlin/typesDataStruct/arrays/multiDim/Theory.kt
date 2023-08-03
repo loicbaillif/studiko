@@ -49,6 +49,12 @@ fun theory() {
 
 
     println("\n*** 3) Creating 2D arrays of different types")
+    val someArray6 = arrayOf(
+        arrayOf("There", "is", "nothing", "either"),
+        arrayOf("Good", "or", "bad", "but"),
+        arrayOf("thinking", "makes", "it", "so")
+    )
+
 
 
     println("\n***** End of theory *****")
