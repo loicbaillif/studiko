@@ -35,6 +35,11 @@ fun theory() {
     println(someArray5[1][0]) // 4
     println(someArray1[0][0]) // 0
     println(someArray2[2][2]) // 5
+    try {
+        println(someArray3[1][1])
+    } catch (outBonds: ArrayIndexOutOfBoundsException) {
+        println("This is out of bounds")
+    }
 
 
     println("\n***** End of theory *****")
