@@ -41,6 +41,12 @@ fun theory() {
         println("This is out of bounds")
     }
 
+    try {
+        println(someArray4[1][1])
+    } catch (outBonds: ArrayIndexOutOfBoundsException) {
+        println("This is out of bounds")
+    }
+
 
     println("\n***** End of theory *****")
 }
