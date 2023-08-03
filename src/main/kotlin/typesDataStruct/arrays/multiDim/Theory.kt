@@ -48,5 +48,8 @@ fun theory() {
     }
 
 
+    println("\n*** 3) Creating 2D arrays of different types")
+
+
     println("\n***** End of theory *****")
 }
