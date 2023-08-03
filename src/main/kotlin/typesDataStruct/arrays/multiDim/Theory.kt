@@ -71,5 +71,9 @@ fun theory() {
     for (elt in someArray8) println(elt.joinToString(", ", "\t", "..."))
 
 
+    println("\n*** 4) print 2D arrays")
+    println(someArray6.contentDeepToString())
+
+
     println("\n***** End of theory *****")
 }
