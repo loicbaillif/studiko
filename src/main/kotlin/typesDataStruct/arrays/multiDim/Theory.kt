@@ -63,6 +63,13 @@ fun theory() {
     println()
     for (elt in someArray7) println(elt.joinToString(", ", "\t", "..."))
 
+    val someArray8 = arrayOf(
+        charArrayOf('K', 'O', 'T'),
+        charArrayOf('L', 'I', 'N')
+    )
+    println()
+    for (elt in someArray8) println(elt.joinToString(", ", "\t", "..."))
+
 
     println("\n***** End of theory *****")
 }
