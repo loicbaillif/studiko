@@ -75,5 +75,13 @@ fun theory() {
     println(someArray6.contentDeepToString())
 
 
+    println("\n*** 5) 3D arrays")
+    val someArray9 = arrayOf(
+        arrayOf(arrayOf(11, 12), arrayOf(21, 23), arrayOf(33, 39)),
+        arrayOf(arrayOf(45, 49), arrayOf(52, 54), arrayOf(66, 67))
+    )
+    println(someArray9.contentDeepToString())
+
+
     println("\n***** End of theory *****")
 }
