@@ -12,19 +12,27 @@ fun theory() {
     val someArray1 = arrayOf(
         arrayOf(0, 0, 0, 0),
         arrayOf(0, 0, 0, 0),
-        arrayOf(0, 0, 0, 0))
+        arrayOf(0, 0, 0, 0)
+    )
 
     val someArray2 = arrayOf(
         arrayOf(0),
         arrayOf(1, 2),
-        arrayOf(3, 4, 5))
+        arrayOf(3, 4, 5)
+    )
 
     val someArray3 = arrayOf<IntArray>() // Empty 2D-array of Int
     val someArray4 = arrayOf<Array<Int>>() // Empty 2D-array of Int
 
 
     println("\n*** 2) Accessing elements")
+    val someArray5 = arrayOf(
+        arrayOf(1, 2, 3),
+        arrayOf(4, 5, 6)
+    )
 
+    println(someArray5[0][2]) // 3
+    println(someArray5[1][0]) // 4
 
 
     println("\n***** End of theory *****")
