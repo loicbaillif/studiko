@@ -19,7 +19,7 @@ fun exercise2() {
     // Filling
     for (i in 0..1) {
         for (j in 0..2) {
-
+            exArray[i][j] = "[$i][$j]"
         }
     }
 
