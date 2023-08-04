@@ -10,7 +10,11 @@ package typesDataStruct.arrays.multiDim
 fun exercise2() {
     println("*** Exercise: Accordance ***")
 
-
+    // Variable
+    val exArray = arrayOf(
+        arrayOf<String>(),
+        arrayOf<String>()
+    )
 
     println("\n*** End of exercise ***")
 }
