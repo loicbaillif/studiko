@@ -18,8 +18,7 @@ fun exercise3() {
         inputArray += strings
     }
 
-    println("${inputArray.first().first()} ${inputArray.first().last()}" +
-            "\n${inputArray.last().first()} ${inputArray.last().last()}")
+    println("${inputArray[0][0]} ${inputArray[0].last()}\n${inputArray.last()[0]} ${inputArray.last().last()}")
 
 
     println("\n*** End of exercise ***")
