@@ -16,5 +16,12 @@ fun exercise2() {
         arrayOf<String>()
     )
 
+    // Filling
+    for (i in 0..1) {
+        for (j in 0..2) {
+
+        }
+    }
+
     println("\n*** End of exercise ***")
 }
