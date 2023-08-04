@@ -11,16 +11,11 @@ fun exercise2() {
     println("*** Exercise: Accordance ***")
 
     // Variable
-    val exArray = arrayOf(
-        arrayOf<String>("", "", ""),
-        arrayOf<String>("", "", "")
-    )
+    val exArray = arrayOf( arrayOf<String>("", "", ""), arrayOf<String>("", "", "") )
 
     // Filling
     for (i in 0..1) {
-        for (j in 0..2) {
-            exArray[i][j] = "[$i][$j]"
-        }
+        for (j in 0..2) exArray[i][j] = "[$i][$j]"
     }
 
     // Printing
