@@ -12,8 +12,8 @@ fun exercise2() {
 
     // Variable
     val exArray = arrayOf(
-        arrayOf<String>(),
-        arrayOf<String>()
+        arrayOf<String>("", "", ""),
+        arrayOf<String>("", "", "")
     )
 
     // Filling
@@ -22,6 +22,9 @@ fun exercise2() {
             exArray[i][j] = "[$i][$j]"
         }
     }
+
+    // Printing
+    println(exArray.contentDeepToString())
 
     println("\n*** End of exercise ***")
 }
