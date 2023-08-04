@@ -11,7 +11,12 @@ fun exercise3() {
     println("*** Exercise: Corners ***")
 
     // Variables
-    val nbRows = readln().toInt()
+    var inputArray: Array<Array<String>> = arrayOf()
+    val n = readln().toInt()
+    for (i in 0 until n) {
+        val strings = readln().split(' ').toTypedArray()
+        inputArray += strings
+    }
 
 
     println("\n*** End of exercise ***")
