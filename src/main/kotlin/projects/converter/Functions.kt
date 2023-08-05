@@ -24,6 +24,8 @@ fun tenToElse(input: Int, radix: Int): String {
     // Loop
     while (tempInput > 0) {
 
+
+        tempInput /= radix
     }
 
 }
