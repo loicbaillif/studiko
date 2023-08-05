@@ -1,19 +1,5 @@
 package projects.converter
 
-fun tenToBin(input: Int): String {
-    // Variables
-    val sbResult = StringBuilder()
-    var tempInput = input
-
-    // Loop
-    while (tempInput > 0) {
-        sbResult.insert(0, (tempInput % 2).toString())
-        tempInput /= 2
-    }
-
-    return sbResult.toString()
-}
-
 
 fun tenToElse(input: Int, radix: Int): String {
     // Variables
@@ -34,13 +20,13 @@ fun tenToElse(input: Int, radix: Int): String {
 
 
 fun giveHexCode(decNum: Int): Char {
-    when (decNum) {
-        10 -> return 'A'
-        11 -> return 'B'
-        12 -> return 'C'
-        13 -> return 'D'
-        14 -> return 'E'
-        15 -> return 'F'
-        else -> return decNum.digitToChar()
+    return when (decNum) {
+        10 -> 'A'
+        11 -> 'B'
+        12 -> 'C'
+        13 -> 'D'
+        14 -> 'E'
+        15 -> 'F'
+        else -> decNum.digitToChar()
     }
 }
