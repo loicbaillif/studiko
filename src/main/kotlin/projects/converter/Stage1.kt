@@ -8,5 +8,8 @@ package projects.converter
  */
 
 fun stage1() {
+    // Variables
+    println(INPUT_DECIMAL)
+    val userInput = readln()
 
 }
