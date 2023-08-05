@@ -7,6 +7,7 @@ fun tenToBin(input: Int): String {
 
     // Loop
     while (tempInput > 0) {
-
+        sbResult.insert(0, (tempInput % 2).toString())
+        tempInput /= 2
     }
 }
