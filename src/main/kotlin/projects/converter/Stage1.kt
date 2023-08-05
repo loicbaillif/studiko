@@ -10,6 +10,8 @@ package projects.converter
 fun stage1() {
     // Variables
     println(INPUT_DECIMAL)
-    val userInput = readln()
+    val userInput = readln().toInt()
+    println(TARGET_BASE)
+    val radix = readln().toInt()
 
 }
