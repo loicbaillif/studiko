@@ -14,4 +14,6 @@ fun stage1() {
     println(TARGET_BASE)
     val radix = readln().toInt()
 
+    // Output
+    println("$CONVERSION_RESULT ${tenToElse(userInput, radix)}")
 }
