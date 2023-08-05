@@ -23,11 +23,13 @@ fun tenToElse(input: Int, radix: Int): String {
 
     // Loop
     while (tempInput > 0) {
-        digit = tempInput / radix
+        digit = tempInput % radix
         sbResult.insert(0, if (digit > 9) giveHexCode(digit) else digit)
         tempInput /= radix
     }
 
+    // Result
+    return sbResult.toString()
 }
 
 
