@@ -1,7 +1,7 @@
 package projects.converter
 
 fun tenToBin(input: Int): String {
-    // Variable
+    // Variables
     val sbResult = StringBuilder()
     var tempInput = input
 
@@ -16,6 +16,10 @@ fun tenToBin(input: Int): String {
 
 
 fun tenToElse(input: Int, radix: Int): String {
+    // Variables
+    val sbResult = StringBuilder()
+    var tempInput = input
+    var digit: Int
 
 }
 
