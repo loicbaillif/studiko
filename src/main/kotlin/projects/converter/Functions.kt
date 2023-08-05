@@ -13,3 +13,8 @@ fun tenToBin(input: Int): String {
 
     return sbResult.toString()
 }
+
+
+fun giveHexCode(decNum: Int): Char {
+
+}
