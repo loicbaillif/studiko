@@ -15,6 +15,11 @@ fun tenToBin(input: Int): String {
 }
 
 
+fun tenToElse(input: Int, radix: Int): String {
+
+}
+
+
 fun giveHexCode(decNum: Int): Char {
     when (decNum) {
         10 -> return 'A'
