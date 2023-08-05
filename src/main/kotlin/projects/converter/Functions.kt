@@ -16,5 +16,12 @@ fun tenToBin(input: Int): String {
 
 
 fun giveHexCode(decNum: Int): Char {
-
+    when (decNum) {
+        10 -> return 'A'
+        11 -> return 'B'
+        12 -> return 'C'
+        13 -> return 'D'
+        14 -> return 'E'
+        15 -> return 'F'
+    }
 }
