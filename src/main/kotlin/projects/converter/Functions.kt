@@ -10,4 +10,6 @@ fun tenToBin(input: Int): String {
         sbResult.insert(0, (tempInput % 2).toString())
         tempInput /= 2
     }
+
+    return sbResult.toString()
 }
