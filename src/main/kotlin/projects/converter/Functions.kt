@@ -21,6 +21,11 @@ fun tenToElse(input: Int, radix: Int): String {
     var tempInput = input
     var digit: Int
 
+    // Loop
+    while (tempInput > 0) {
+
+    }
+
 }
 
 
