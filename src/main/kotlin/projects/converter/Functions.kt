@@ -23,5 +23,6 @@ fun giveHexCode(decNum: Int): Char {
         13 -> return 'D'
         14 -> return 'E'
         15 -> return 'F'
+        else -> return decNum.digitToChar()
     }
 }
