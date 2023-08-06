@@ -13,6 +13,7 @@ fun exercise5() {
     // Variables
     val word1 = readln()
     val word2 = readln()
+    println((word1 + word2) == readln())
 
     println("\n*** End of exercise ***")
 }
