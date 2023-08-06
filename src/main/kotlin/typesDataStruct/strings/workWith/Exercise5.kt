@@ -10,7 +10,9 @@ package typesDataStruct.strings.workWith
 fun exercise5() {
     println("*** Exercise: Operations and truth ***")
 
-
+    // Variables
+    val word1 = readln()
+    val word2 = readln()
 
     println("\n*** End of exercise ***")
 }
