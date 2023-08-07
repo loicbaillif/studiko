@@ -57,6 +57,8 @@ fun main() {
     // ctrlflow.lambda.funAsObj.index()
     // ctrlflow.lambda.lambdaEx.index()
 
+    oop.basics.decClass.index()
+
 
     // typesDataStruct.arrays.arrays.index()
     // typesDataStruct.arrays.forArrays.index()
@@ -81,7 +83,7 @@ fun main() {
     // typesDataStruct.strings.proc.index()
     // typesDataStruct.strings.subString.index()
     // typesDataStruct.strings.template.index()
-    typesDataStruct.strings.workWith.index()
+    // typesDataStruct.strings.workWith.index()
     // typesDataStruct.variab.equality.index()
     // typesDataStruct.variab.objects.index()
 
