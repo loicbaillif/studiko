@@ -7,5 +7,5 @@ package oop.basics.decClass
 fun index() {
     println("********** Declaring classes **********\n")
 
-
+    theory()
 }
