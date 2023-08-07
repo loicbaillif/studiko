@@ -9,7 +9,8 @@ package oop.basics.decClass
 fun theory() {
     println("***** Theory *****")
 
-
+    println("\n*** 1) Object creation")
+    val object1: thClass = thClass()
 
     println("\n***** End of theory *****")
 }
