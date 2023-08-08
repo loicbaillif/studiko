@@ -13,10 +13,17 @@ fun theory() {
     val object1 = thClass()
 
     println("\n*** 2) Accessing properties")
-    var thPatient1 = thPatient()
+    val thPatient1 = thPatient()
     println("patient1.name = ${thPatient1.name}")
     println("patient1.age = ${thPatient1.age}")
     println("patient1.height = ${thPatient1.height}")
+
+    println("\n*** 3) Changing properties")
+    val andyPatient = thPatient()
+    andyPatient.name = "Andy Arendal"
+    andyPatient.age = 31
+    andyPatient.height = 1.84
+    println("${andyPatient.name}: ${andyPatient.age} years old - ${andyPatient.height} m.")
 
 
     println("\n***** End of theory *****")
