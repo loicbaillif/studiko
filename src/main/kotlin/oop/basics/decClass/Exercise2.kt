@@ -10,7 +10,8 @@ package oop.basics.decClass
 fun exercise2() {
     println("*** Exercise: New planet ***")
 
-
+    val planet1 = PlanetEx2()
+    println(planet1.star)
 
     println("\n*** End of exercise ***")
 }
