@@ -8,5 +8,6 @@ fun index() {
     println("********** Declaring classes **********\n")
 
     // theory()
-    exercise1()
+    // exercise1()
+    exercise2()
 }
