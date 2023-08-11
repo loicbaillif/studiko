@@ -10,7 +10,7 @@ package ctrlflow.func.defaultArgs
 fun exercise1() {
     println("*** Exercise: Polynomial ***")
 
-
+    println(polynom(3, 1))
 
     println("\n*** End of exercise ***")
 }
