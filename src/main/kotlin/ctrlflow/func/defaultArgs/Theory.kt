@@ -15,6 +15,10 @@ fun theory() {
     printQuote()
 
 
+    println("\n*** 2) Mixing default and regular arguments")
+
+
+
 
     println("\n***** End of theory *****")
 }
