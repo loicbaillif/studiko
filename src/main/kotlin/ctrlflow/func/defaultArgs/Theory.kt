@@ -19,7 +19,10 @@ fun theory() {
 
     println("\n*** 2) Mixing default and regular arguments")
 
-
+    println(findMax(3, 6))
+    println(findMax(3, 6, true))
+    println(findMax(-2, -4))
+    println(findMax(-2, -4, true))
 
 
     println("\n***** End of theory *****")
