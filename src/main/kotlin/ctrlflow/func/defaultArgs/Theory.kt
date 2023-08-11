@@ -13,3 +13,6 @@ fun theory() {
 
     println("\n***** End of theory *****")
 }
+
+
+fun printQuote(line: String = "\t\"", end: String = "\"\n") = print("$line$end")
