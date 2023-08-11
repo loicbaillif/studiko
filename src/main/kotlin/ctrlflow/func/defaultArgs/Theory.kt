@@ -25,3 +25,8 @@ fun theory() {
 
 
 fun printQuote(line: String = "\t\"", end: String = "\"\n") = print("$line$end")
+
+
+fun findMax(n1: Int, n2: Int, absolute: Boolean = false): Int {
+
+}
