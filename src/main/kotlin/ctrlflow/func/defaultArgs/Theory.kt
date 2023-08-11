@@ -1,5 +1,7 @@
 package ctrlflow.func.defaultArgs
 
+import kotlin.math.abs
+
 /**
  * Theory: Default Arguments
  * https://hyperskill.org/learn/step/4637
@@ -28,5 +30,8 @@ fun printQuote(line: String = "\t\"", end: String = "\"\n") = print("$line$end")
 
 
 fun findMax(n1: Int, n2: Int, absolute: Boolean = false): Int {
+    val v1 = if (absolute) abs(n1) else n1
+    val v2 = if (absolute) abs(n2) else n2
 
+    return if (v1 > v2) n1 else n2
 }
