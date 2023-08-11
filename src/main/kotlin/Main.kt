@@ -52,12 +52,13 @@ fun main() {
     // ctrlflow.except.howTo.tryCatFin.index()
     // ctrlflow.func.declarFun.index()
     // ctrlflow.func.decomp.index()
+    ctrlflow.func.defaultArgs.index()
     // ctrlflow.func.invokFunc.index()
     // ctrlflow.func.mainFun.index()
     // ctrlflow.lambda.funAsObj.index()
     // ctrlflow.lambda.lambdaEx.index()
 
-    oop.basics.decClass.index()
+    // oop.basics.decClass.index()
 
 
     // typesDataStruct.arrays.arrays.index()
