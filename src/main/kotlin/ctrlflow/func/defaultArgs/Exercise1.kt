@@ -14,3 +14,6 @@ fun exercise1() {
 
     println("\n*** End of exercise ***")
 }
+
+
+fun polynom(x: Int, c: Int, b: Int, a: Int)
