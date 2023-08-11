@@ -16,4 +16,4 @@ fun exercise1() {
 }
 
 
-fun polynom(x: Int, c: Int, b: Int, a: Int)
+fun polynom(x: Int, c: Int, b: Int, a: Int) = (a * x + b) * x + c
