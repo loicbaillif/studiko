@@ -7,4 +7,5 @@ package ctrlflow.func.defaultArgs
 fun index() {
     println("********** Default Arguments **********\n")
 
+    theory()
 }
