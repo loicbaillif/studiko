@@ -34,6 +34,9 @@ fun theory() {
     println(calcEndDayAmount(startCash = 1000, 10, 500)) // OK
 
 
+    println("\n*** 4) Default and named arguments")
+
+
 
     println("\n***** End of theory *****")
 }
