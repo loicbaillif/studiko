@@ -10,7 +10,7 @@ fun theory() {
     println("***** Theory *****")
 
     println("\n*** 1) Improving code readability")
-
+    val amount1 = calcEndDayAmount(1000, 10, 500)
 
 
     println("\n***** End of theory *****")
