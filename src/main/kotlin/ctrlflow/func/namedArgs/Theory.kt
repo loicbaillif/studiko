@@ -9,7 +9,12 @@ package ctrlflow.func.namedArgs
 fun theory() {
     println("***** Theory *****")
 
+    println("\n*** 1) Improving code readability")
+
 
 
     println("\n***** End of theory *****")
 }
+
+
+fun calcEndDayAmount(startCash: Int, ticketPrice: Int, nbTickets: Int) = startCash + nbTickets * ticketPrice
