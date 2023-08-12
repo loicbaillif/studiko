@@ -18,6 +18,14 @@ fun theory() {
     )
 
 
+    println("\n*** 2) Reordering arguments")
+    val amount3 = calcEndDayAmount(
+        ticketPrice = 10,
+        nbTickets = 500,
+        startCash = 1000
+    )
+
+
     println("\n***** End of theory *****")
 }
 
