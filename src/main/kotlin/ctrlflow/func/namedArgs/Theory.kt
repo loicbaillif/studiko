@@ -43,3 +43,5 @@ fun theory() {
 
 
 fun calcEndDayAmount(startCash: Int, ticketPrice: Int, nbTickets: Int) = startCash + nbTickets * ticketPrice
+
+fun calcEndDayAmount2(startCash: Int = 0, ticketPrice: Int, nbTickets: Int) = startCash + nbTickets * ticketPrice
