@@ -13,7 +13,7 @@ fun theory() {
     val amount1 = calcEndDayAmount(1000, 10, 500)
     val amount2 = calcEndDayAmount(
         startCash = 1000,
-        ticketPrice =  10,
+        ticketPrice = 10,
         nbTickets = 500
     )
 
@@ -24,6 +24,8 @@ fun theory() {
         nbTickets = 500,
         startCash = 1000
     )
+    println(amount1 == amount2)
+    println(amount1 == amount3)
 
 
     println("\n***** End of theory *****")
