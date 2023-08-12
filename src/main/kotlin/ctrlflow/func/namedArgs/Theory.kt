@@ -28,6 +28,11 @@ fun theory() {
     println(amount1 == amount3)
 
 
+    println("\n*** 3) Named and positional arguments")
+    println(calcEndDayAmount(1000, ticketPrice = 10, nbTickets = 500))
+
+
+
     println("\n***** End of theory *****")
 }
 
