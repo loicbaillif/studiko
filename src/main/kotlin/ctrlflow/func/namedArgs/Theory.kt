@@ -30,6 +30,8 @@ fun theory() {
 
     println("\n*** 3) Named and positional arguments")
     println(calcEndDayAmount(1000, ticketPrice = 10, nbTickets = 500))
+    // println(calcEndDayAmount(ticketPrice = 10, 1000, 500)) // Does not work
+    println(calcEndDayAmount(startCash = 1000, 10, 500)) // OK
 
 
 
