@@ -35,7 +35,7 @@ fun theory() {
 
 
     println("\n*** 4) Default and named arguments")
-
+    println(calcEndDayAmount2(ticketPrice = 8, nbTickets = 432))
 
 
     println("\n***** End of theory *****")
