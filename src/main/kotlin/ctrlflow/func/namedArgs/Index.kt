@@ -7,4 +7,6 @@ package ctrlflow.func.namedArgs
 fun index() {
     println("********** Named Arguments **********\n")
 
+    theory()
+
 }
