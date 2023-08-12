@@ -10,7 +10,8 @@ package ctrlflow.func.defaultArgs
 fun exercise2() {
     println("*** Exercise: Gratuity ***")
 
-
+    println(tip(128))
+    println(tip(128, 8))
 
     println("\n*** End of exercise ***")
 }
