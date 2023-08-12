@@ -16,6 +16,4 @@ fun exercise2() {
 }
 
 
-fun tip(bill: Int, percentage: Int): Int {
-
-}
+fun tip(bill: Int, percentage: Int): Int = bill * percentage / 100
