@@ -38,6 +38,11 @@ fun theory() {
     println(calcEndDayAmount2(ticketPrice = 8, nbTickets = 432))
 
 
+    println("\n*** 5) Named argument and default values")
+    println(sum2(1))        // 2
+    println(sum2(2, 3))  // 5
+
+
     println("\n***** End of theory *****")
 }
 
@@ -45,3 +50,5 @@ fun theory() {
 fun calcEndDayAmount(startCash: Int, ticketPrice: Int, nbTickets: Int) = startCash + nbTickets * ticketPrice
 
 fun calcEndDayAmount2(startCash: Int = 0, ticketPrice: Int, nbTickets: Int) = startCash + nbTickets * ticketPrice
+
+fun sum2(a: Int, b: Int = a) = a + b
