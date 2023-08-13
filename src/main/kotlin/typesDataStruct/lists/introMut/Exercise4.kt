@@ -10,7 +10,7 @@ package typesDataStruct.lists.introMut
 fun exercise4() {
     println("*** Exercise: Initializing a mutable list of characters ***")
 
-    val characters = mutableListOf<Char>('a', 'z', 'e', 'd')
+    val characters = mutableListOf('a', 'z', 'e', 'd')
     println(characters.joinToString())
 
     println("\n*** End of exercise ***")
