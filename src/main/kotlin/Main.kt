@@ -55,7 +55,7 @@ fun main() {
     // ctrlflow.func.defaultArgs.index()
     // ctrlflow.func.invokFunc.index()
     // ctrlflow.func.mainFun.index()
-    ctrlflow.func.namedArgs.index()
+    // ctrlflow.func.namedArgs.index()
     // ctrlflow.lambda.funAsObj.index()
     // ctrlflow.lambda.lambdaEx.index()
 
@@ -78,7 +78,7 @@ fun main() {
     // typesDataStruct.dataTypes.ranges.index()
     // typesDataStruct.dataTypes.typeNumEx.index()
     // typesDataStruct.lists.forLoop.index()
-    // typesDataStruct.lists.introMut.index()
+    typesDataStruct.lists.introMut.index()
     // typesDataStruct.lists.multiDim.index()
     // typesDataStruct.lists.workMut.index()
     // typesDataStruct.strings.basics.index()
