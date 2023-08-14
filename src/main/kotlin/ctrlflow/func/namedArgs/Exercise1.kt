@@ -10,7 +10,8 @@ package ctrlflow.func.namedArgs
 fun exercise1() {
     println("*** Exercise: URL ***")
 
-
+    println(url(port = "8001", host = "someurl"))
+    println(url())
 
     println("\n*** End of exercise ***")
 }
