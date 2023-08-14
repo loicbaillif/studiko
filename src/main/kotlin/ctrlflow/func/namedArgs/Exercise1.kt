@@ -16,6 +16,6 @@ fun exercise1() {
 }
 
 
-fun url(host: String, port: String): String {
+fun url(host: String = "localhost", port: String = "443"): String {
     return "https://$host:$port"
 }
