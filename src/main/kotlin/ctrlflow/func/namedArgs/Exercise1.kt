@@ -17,5 +17,5 @@ fun exercise1() {
 
 
 fun url(host: String, port: String): String {
-
+    return "https://$host:$port"
 }
