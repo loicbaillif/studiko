@@ -12,9 +12,9 @@ fun exercise4() {
 
     //Do not touch code below
     var inputArray: Array<Array<String>> = arrayOf()
-    val n = readLine()!!.toInt()
+    val n = readln().toInt()
     for (i in 0 until n) {
-        val strings = readLine()!!.split(' ').toTypedArray()
+        val strings = readln().split(' ').toTypedArray()
         inputArray += strings
     }
     // write your code here
