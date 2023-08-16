@@ -18,6 +18,7 @@ fun exercise4() {
         inputArray += strings
     }
     // write your code here
+    println(arrayOf(inputArray.last(), inputArray.first()).contentDeepToString())
 
     println("\n*** End of exercise ***")
 }
