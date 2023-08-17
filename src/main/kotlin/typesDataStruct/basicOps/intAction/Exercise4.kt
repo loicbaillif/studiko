@@ -14,8 +14,7 @@ fun exercise4() {
     val userInput = readln().toInt()
 
     // Output
-    val result = userInput / 10
-    println(result)
+    println(userInput / 10)
 
     println("\n*** End of exercise ***")
 }
