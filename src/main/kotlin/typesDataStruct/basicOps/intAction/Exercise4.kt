@@ -11,7 +11,7 @@ fun exercise4() {
     println("*** Exercise: The first digit of a two-digit number ***")
 
     // Output
-    println(readln().toInt() / 10)
+    println(readln().first())
 
     println("\n*** End of exercise ***")
 }
