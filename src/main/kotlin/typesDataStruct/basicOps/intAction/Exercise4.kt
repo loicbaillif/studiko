@@ -15,6 +15,7 @@ fun exercise4() {
 
     // Output
     val result = userInput / 10
+    println(result)
 
     println("\n*** End of exercise ***")
 }
