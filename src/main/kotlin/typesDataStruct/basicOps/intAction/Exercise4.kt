@@ -10,7 +10,8 @@ package typesDataStruct.basicOps.intAction
 fun exercise4() {
     println("*** Exercise: The first digit of a two-digit number ***")
 
-
+    // Variables
+    val userInput = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
