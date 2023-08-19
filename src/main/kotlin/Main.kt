@@ -71,7 +71,7 @@ fun main() {
     // typesDataStruct.basicOps.charac.index()
     // typesDataStruct.basicOps.floats.index()
     // typesDataStruct.basicOps.incDec.index()
-    typesDataStruct.basicOps.intAction.index()
+    // typesDataStruct.basicOps.intAction.index()
     // typesDataStruct.basicOps.relOps.index()
     // typesDataStruct.dataTypes.classification.index()
     // typesDataStruct.dataTypes.conver.index()
@@ -85,7 +85,7 @@ fun main() {
     // typesDataStruct.strings.proc.index()
     // typesDataStruct.strings.subString.index()
     // typesDataStruct.strings.template.index()
-    // typesDataStruct.strings.workWith.index()
+    typesDataStruct.strings.workWith.index()
     // typesDataStruct.variab.equality.index()
     // typesDataStruct.variab.objects.index()
 
