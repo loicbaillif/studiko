@@ -10,12 +10,8 @@ package typesDataStruct.strings.workWith
 fun exercise6() {
     println("*** Exercise: Name Card ***")
 
-    // Variables
-    val firstName = readln()
-    val lastName = readln()
-
     // Output
-    println("${firstName.first()}. $lastName")
+    println("${readln().first()}. ${readln()}")
 
     println("\n*** End of exercise ***")
 }
