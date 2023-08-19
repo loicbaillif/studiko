@@ -16,6 +16,7 @@ fun exercise6() {
 
     // Output
     val result = firstName.first() + ". " + lastName
+    println(result)
 
     println("\n*** End of exercise ***")
 }
