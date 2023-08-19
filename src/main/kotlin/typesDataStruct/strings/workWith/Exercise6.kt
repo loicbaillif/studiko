@@ -12,6 +12,7 @@ fun exercise6() {
 
     // Variables
     val firstName = readln()
+    val lastName = readln()
 
     println("\n*** End of exercise ***")
 }
