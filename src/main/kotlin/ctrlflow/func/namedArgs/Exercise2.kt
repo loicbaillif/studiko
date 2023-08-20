@@ -26,6 +26,8 @@ fun exercise2() {
             vertices[(i * 2 + 3) % (nbVertices * 2)])
     }
 
+    println(result)
+
     println("\n*** End of exercise ***")
 }
 
