@@ -18,7 +18,7 @@ fun exercise2() {
     var result = 0.0
 
     // Calculus loop
-    for (i in 0..nbVertices) {
+    for (i in 0 until nbVertices) {
         result += getLength(
             vertices[i * 2],
             vertices[i * 2 + 1],
