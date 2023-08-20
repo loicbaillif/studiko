@@ -18,6 +18,11 @@ fun exercise2() {
     println(nbVertices)  // Debug
     var result = 0
 
+    // Calculus loop
+    for (i in 0..nbVertices) {
+
+    }
+
     println("\n*** End of exercise ***")
 }
 
