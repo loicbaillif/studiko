@@ -18,3 +18,8 @@ fun exercise2() {
 
     println("\n*** End of exercise ***")
 }
+
+
+fun getLength(x1: Int, y1: Int, x2: Int, y2: Int): Int {
+
+}
