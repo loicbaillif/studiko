@@ -12,6 +12,8 @@ fun exercise2() {
 
     // Variables
     val vertices = readln().split(" ").map { it.toInt() }.toTypedArray()
+    val nbVertices = vertices.size / 2
+    println(nbVertices)
 
     println("\n*** End of exercise ***")
 }

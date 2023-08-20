@@ -9,6 +9,6 @@ fun index() {
 
     // theory()
     // exercise1()
-
+    exercise2()
 
 }
