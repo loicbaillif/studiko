@@ -10,7 +10,8 @@ package ctrlflow.func.namedArgs
 fun exercise2() {
     println("*** Exercise: Perimeter ***")
 
-
+    // Variables
+    val vertices = readln().split(" ").map { it.toInt() }.toTypedArray()
 
     println("\n*** End of exercise ***")
 }
