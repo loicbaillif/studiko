@@ -55,7 +55,7 @@ fun main() {
     // ctrlflow.func.defaultArgs.index()
     // ctrlflow.func.invokFunc.index()
     // ctrlflow.func.mainFun.index()
-    // ctrlflow.func.namedArgs.index()
+    ctrlflow.func.namedArgs.index()
     // ctrlflow.lambda.funAsObj.index()
     // ctrlflow.lambda.lambdaEx.index()
 
@@ -85,7 +85,7 @@ fun main() {
     // typesDataStruct.strings.proc.index()
     // typesDataStruct.strings.subString.index()
     // typesDataStruct.strings.template.index()
-    typesDataStruct.strings.workWith.index()
+    // typesDataStruct.strings.workWith.index()
     // typesDataStruct.variab.equality.index()
     // typesDataStruct.variab.objects.index()
 
