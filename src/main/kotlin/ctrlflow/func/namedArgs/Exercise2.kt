@@ -22,6 +22,4 @@ fun exercise2() {
 }
 
 
-fun getLength(x1: Int, y1: Int, x2: Int, y2: Int): Double {
-    return hypot((x2 - x1).toDouble(), (y2 - y1).toDouble())
-}
+fun getLength(x1: Int, y1: Int, x2: Int, y2: Int) = hypot((x2 - x1).toDouble(), (y2 - y1).toDouble())
