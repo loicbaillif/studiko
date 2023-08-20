@@ -1,5 +1,7 @@
 package ctrlflow.func.namedArgs
 
+import kotlin.math.hypot
+
 /**
  * Exercise: Perimeter
  * https://hyperskill.org/learn/step/7862
@@ -20,6 +22,6 @@ fun exercise2() {
 }
 
 
-fun getLength(x1: Int, y1: Int, x2: Int, y2: Int): Int {
-
+fun getLength(x1: Int, y1: Int, x2: Int, y2: Int): Double {
+    return hypot((x2 - x1).toDouble(), (y2 - y1).toDouble())
 }
