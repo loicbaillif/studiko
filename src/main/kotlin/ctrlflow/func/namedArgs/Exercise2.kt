@@ -15,12 +15,15 @@ fun exercise2() {
     // Variables
     val vertices = readln().split(" ").map { it.toInt() }.toTypedArray()
     val nbVertices = vertices.size / 2
-    println(nbVertices)  // Debug
-    var result = 0
+    var result = 0.0
 
     // Calculus loop
     for (i in 0..nbVertices) {
-
+        result += getLength(
+            vertices[i * 2],
+            vertices[i * 2 + 1],
+            vertices[(i * 2 + 2) % (nbVertices * 2)],
+            vertices[(i * 2 + 3) % (nbVertices * 2)])
     }
 
     println("\n*** End of exercise ***")
