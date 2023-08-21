@@ -7,6 +7,8 @@ package ctrlflow.func.declarFun
  * Solution by Loïc Baillif
  */
 
+const val vowels = "aeiou"
+
 fun exercise4() {
     println("*** Exercise: Vowel or not ***")
 
