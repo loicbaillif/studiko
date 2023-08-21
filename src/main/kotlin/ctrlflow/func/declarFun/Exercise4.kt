@@ -21,6 +21,4 @@ fun exercise4() {
 }
 
 
-fun isVowel(letter: Char): Boolean {
-    return vowels.indexOf(letter.lowercaseChar()) != -1
-}
+fun isVowel(letter: Char) = vowels.indexOf(letter.lowercaseChar()) != -1
