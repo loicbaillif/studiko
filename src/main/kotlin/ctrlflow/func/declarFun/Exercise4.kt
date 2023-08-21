@@ -23,5 +23,5 @@ fun exercise4() {
 
 
 fun isVowel(letter: Char): Boolean {
-    return false
+    return vowels.indexOf(letter.lowercaseChar()) != -1
 }
