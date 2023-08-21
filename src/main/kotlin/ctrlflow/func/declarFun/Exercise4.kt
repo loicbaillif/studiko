@@ -12,11 +12,10 @@ const val vowels = "aeiou"
 fun exercise4() {
     println("*** Exercise: Vowel or not ***")
 
-
-    println(vowels.indexOf('a'.lowercaseChar()))
-    println(vowels.indexOf('b'.lowercaseChar()))
-    println(vowels.indexOf('C'.lowercaseChar()))
-    println(vowels.indexOf('E'.lowercaseChar()))
+    println(isVowel('a'))
+    println(isVowel('b'))
+    println(isVowel('C'))
+    println(isVowel('E'))
 
     println("\n*** End of exercise ***")
 }
