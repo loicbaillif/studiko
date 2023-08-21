@@ -12,10 +12,8 @@ const val vowels = "aeiou"
 fun exercise4() {
     println("*** Exercise: Vowel or not ***")
 
-    println(isVowel('a'))
-    println(isVowel('b'))
-    println(isVowel('C'))
-    println(isVowel('E'))
+    val letter = readln().first()
+    println(isVowel(letter))
 
     println("\n*** End of exercise ***")
 }
