@@ -7,7 +7,7 @@ package ctrlflow.func.declarFun
  * Solution by Loïc Baillif
  */
 
-const val vowels = "aeiou"
+const val VOWELS = "aeiou"
 
 fun exercise4() {
     println("*** Exercise: Vowel or not ***")
@@ -19,4 +19,4 @@ fun exercise4() {
 }
 
 
-fun isVowel(letter: Char) = vowels.indexOf(letter.lowercaseChar()) != -1
+fun isVowel(letter: Char) = VOWELS.indexOf(letter.lowercaseChar()) != -1
