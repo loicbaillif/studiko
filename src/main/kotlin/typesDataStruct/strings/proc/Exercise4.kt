@@ -19,5 +19,7 @@ fun exercise4() {
         print("$ch$ch")
     }
 
+    println()
+
     println("\n*** End of exercise ***")
 }
