@@ -11,7 +11,8 @@ package typesDataStruct.strings.proc
 fun exercise4() {
     println("*** Exercise: Double characters ***")
 
-
+    // Variables
+    val userInput = readln()
 
     println("\n*** End of exercise ***")
 }
