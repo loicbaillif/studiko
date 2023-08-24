@@ -16,7 +16,7 @@ fun exercise4() {
 
     // Loop
     for (ch in userInput) {
-
+        print("$ch$ch")
     }
 
     println("\n*** End of exercise ***")
