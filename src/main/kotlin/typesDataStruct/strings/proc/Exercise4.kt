@@ -14,5 +14,10 @@ fun exercise4() {
     // Variables
     val userInput = readln()
 
+    // Loop
+    for (ch in userInput) {
+
+    }
+
     println("\n*** End of exercise ***")
 }
