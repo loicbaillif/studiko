@@ -11,7 +11,9 @@ fun exercise5() {
     println("*** Exercise: The sum of three ***")
 
     // Sum and output
-    println(readln().toInt() + readln().toInt() + readln().toInt())
+    println(sum(readln().toInt(), readln().toInt(), readln().toInt()))
 
     println("\n*** End of exercise ***")
 }
+
+fun sum(n1: Int, n2: Int, n3: Int) = n1 + n2 + n3
