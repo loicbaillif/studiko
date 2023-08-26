@@ -15,5 +15,8 @@ fun exercise5() {
     val number2 = readln().toInt()
     val number3 = readln().toInt()
 
+    // Sum and output
+    val result = number1 + number2 + number3
+
     println("\n*** End of exercise ***")
 }
