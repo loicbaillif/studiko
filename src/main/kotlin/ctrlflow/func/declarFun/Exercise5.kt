@@ -17,6 +17,7 @@ fun exercise5() {
 
     // Sum and output
     val result = number1 + number2 + number3
+    println(result)
 
     println("\n*** End of exercise ***")
 }
