@@ -10,7 +10,10 @@ package ctrlflow.func.declarFun
 fun exercise5() {
     println("*** Exercise: The sum of three ***")
 
-
+    // Variables
+    val number1 = readln().toInt()
+    val number2 = readln().toInt()
+    val number3 = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
