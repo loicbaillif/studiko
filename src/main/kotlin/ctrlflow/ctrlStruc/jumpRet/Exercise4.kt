@@ -12,19 +12,18 @@ fun exercise4() {
 
     // Variables
     val userLetter = readln().first()
-    val lastLetter = 'z'
-    var firstLetter = 'a'
-
-    while (true) {
-        print(firstLetter)
-        firstLetter += 1
-        if (firstLetter == userLetter || firstLetter > lastLetter) return
-    }
+    printLetters(userLetter)
 
     println("\n*** End of exercise ***")
 }
 
 
 fun printLetters(userLetter: Char, firstLetter: Char = 'a', lastLetter: Char = 'z') {
+    var currentLetter = firstLetter
 
+    while (true) {
+        print(currentLetter)
+        currentLetter += 1
+        if (currentLetter == userLetter || currentLetter > lastLetter) return
+    }
 }
