@@ -16,7 +16,8 @@ fun exercise4() {
     var firstLetter = 'a'
 
     while (true) {
-
+        print(firstLetter)
+        firstLetter += 1
     }
 
     println("\n*** End of exercise ***")
