@@ -12,5 +12,9 @@ fun exercise4() {
 
     val userLetter = readln().first()
 
+    while (true) {
+
+    }
+
     println("\n*** End of exercise ***")
 }
