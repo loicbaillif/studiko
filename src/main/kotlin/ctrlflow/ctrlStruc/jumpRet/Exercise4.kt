@@ -11,8 +11,7 @@ fun exercise4() {
     println("*** Exercise: Getting letters from the Alphabet ***")
 
     // Variables
-    val userLetter = readln().first()
-    printLetters(userLetter)
+    printLetters(readln().first())
 
     println("\n*** End of exercise ***")
 }
