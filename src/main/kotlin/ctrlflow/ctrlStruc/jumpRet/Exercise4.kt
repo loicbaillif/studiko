@@ -23,3 +23,8 @@ fun exercise4() {
 
     println("\n*** End of exercise ***")
 }
+
+
+fun printLetters(userLetter: Char, firstLetter: Char = 'a', lastLetter: Char = 'z') {
+
+}
