@@ -18,6 +18,7 @@ fun exercise4() {
     while (true) {
         print(firstLetter)
         firstLetter += 1
+        if (firstLetter == userLetter || userLetter > lastLetter) return
     }
 
     println("\n*** End of exercise ***")
