@@ -41,7 +41,7 @@ fun main() {
 
     // ctrlflow.ctrlStruc.forRanges.index()
     // ctrlflow.ctrlStruc.ifEx.index()
-    // ctrlflow.ctrlStruc.jumpRet.index()
+    ctrlflow.ctrlStruc.jumpRet.index()
     // ctrlflow.ctrlStruc.repBlo.index()
     // ctrlflow.ctrlStruc.whenEx.index()
     // ctrlflow.ctrlStruc.whileBlo.index()
@@ -50,7 +50,7 @@ fun main() {
     // ctrlflow.except.howTo.tame.index()
     // ctrlflow.except.howTo.tryCatch.index()
     // ctrlflow.except.howTo.tryCatFin.index()
-    ctrlflow.func.declarFun.index()
+    // ctrlflow.func.declarFun.index()
     // ctrlflow.func.decomp.index()
     // ctrlflow.func.defaultArgs.index()
     // ctrlflow.func.invokFunc.index()
