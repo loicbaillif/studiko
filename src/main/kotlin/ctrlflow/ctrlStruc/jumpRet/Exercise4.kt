@@ -10,7 +10,7 @@ package ctrlflow.ctrlStruc.jumpRet
 fun exercise4() {
     println("*** Exercise: Getting letters from the Alphabet ***")
 
-
+    val userLetter = readln().first()
 
     println("\n*** End of exercise ***")
 }
