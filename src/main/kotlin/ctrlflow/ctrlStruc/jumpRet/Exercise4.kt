@@ -12,6 +12,7 @@ fun exercise4() {
 
     // Variables
     val userLetter = readln().first()
+    val lastLetter = 'z'
     var firstLetter = 'a'
 
     while (true) {
