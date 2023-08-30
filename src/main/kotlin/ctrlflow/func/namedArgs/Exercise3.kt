@@ -23,7 +23,7 @@ const val DEFAULT_SPEED = 120
 fun exercise3() {
     println("*** Exercise: Car price ***")
 
-
+    carPrice()
 
     println("\n*** End of exercise ***")
 }
