@@ -15,7 +15,7 @@ const val MILEAGE_SHIFT = 200 // 200$ less per xxx kilometers passed
 const val SPEED_SHIFT = 100 // 100$ less per xxx km/h below yyy, and 100€ more if above
 
 const val DEFAULT_AGE = 5
-const val DEFAULT_GEARBOX = 0
+const val DEFAULT_GEARBOX = false
 const val DEFAULT_MILEAGE = 100000
 const val DEFAULT_SPEED = 120
 
@@ -29,3 +29,11 @@ fun exercise3() {
 }
 
 
+fun carPrice(
+    old: Int = DEFAULT_AGE,
+    kilometers: Int = DEFAULT_MILEAGE,
+    maximumSpeed: Int = DEFAULT_SPEED,
+    automatic: Boolean = DEFAULT_GEARBOX
+): Unit {
+
+}
