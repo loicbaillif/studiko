@@ -39,4 +39,6 @@ fun carPrice(
     result -= old * AGE_SHIFT
     result -= kilometers / 10000 * MILEAGE_SHIFT
     result -= (maximumSpeed - DEFAULT_SPEED) * SPEED_SHIFT
+    result -= if (automatic) GEARBOX_SHIFT else 0
+
 }
