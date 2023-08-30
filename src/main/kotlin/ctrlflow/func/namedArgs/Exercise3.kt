@@ -34,11 +34,12 @@ fun carPrice(
     kilometers: Int = DEFAULT_MILEAGE,
     maximumSpeed: Int = DEFAULT_SPEED,
     automatic: Boolean = DEFAULT_GEARBOX
-): Unit {
+) {
     var result = INIT_PRICE
     result -= old * AGE_SHIFT
     result -= kilometers / 10000 * MILEAGE_SHIFT
     result -= (maximumSpeed - DEFAULT_SPEED) * SPEED_SHIFT
     result -= if (automatic) GEARBOX_SHIFT else 0
 
+    println(result)
 }
