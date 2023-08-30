@@ -10,14 +10,13 @@ package ctrlflow.func.namedArgs
 const val INIT_PRICE = 20000
 
 const val AGE_SHIFT = 2000 // 2000$ less per xxx years
-const val SPEED_SHIFT = 100 // 100$ less per xxx km/h below yyy, and 100€ more if above
-const val MILEAGE_SHIFT = 200 // 200$ less per xxx kilometers passed
 const val GEARBOX_SHIFT = 1500 // 1500$ more if automatic gearbox
+const val MILEAGE_SHIFT = 200 // 200$ less per xxx kilometers passed
+const val SPEED_SHIFT = 100 // 100$ less per xxx km/h below yyy, and 100€ more if above
 
 const val DEFAULT_AGE = 5
 const val DEFAULT_GEARBOX = 0
 const val DEFAULT_MILEAGE = 100000
-const val DEFAULT_PRICE = 20000
 const val DEFAULT_SPEED = 120
 
 
@@ -28,3 +27,5 @@ fun exercise3() {
 
     println("\n*** End of exercise ***")
 }
+
+
