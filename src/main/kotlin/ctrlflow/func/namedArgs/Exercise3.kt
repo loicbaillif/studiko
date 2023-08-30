@@ -35,5 +35,6 @@ fun carPrice(
     maximumSpeed: Int = DEFAULT_SPEED,
     automatic: Boolean = DEFAULT_GEARBOX
 ): Unit {
-
+    var result = INIT_PRICE
+    result -= DEFAULT_AGE * AGE_SHIFT
 }
