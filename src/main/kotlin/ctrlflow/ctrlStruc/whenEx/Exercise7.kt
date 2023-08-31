@@ -10,8 +10,7 @@ package ctrlflow.ctrlStruc.whenEx
 fun exercise7() {
     println("*** Exercise: From String to a number ***")
 
-    val userInput = readln()
-    println(when (userInput) {
+    println(when (readln()) {
         "one" -> 1
         "two" -> 2
         "three" -> 3
