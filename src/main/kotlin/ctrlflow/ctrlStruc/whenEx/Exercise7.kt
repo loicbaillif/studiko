@@ -13,6 +13,10 @@ fun exercise7() {
     val userInput = readln()
     println(when (userInput) {
         "one" -> 1
+        "two" -> 2
+        "three" -> 3
+        "four" -> 4
+        "five" -> 5
         else -> 0
     })
 
