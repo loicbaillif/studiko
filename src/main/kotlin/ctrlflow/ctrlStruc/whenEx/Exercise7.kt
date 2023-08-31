@@ -11,6 +11,9 @@ fun exercise7() {
     println("*** Exercise: From String to a number ***")
 
     val userInput = readln()
+    println(when (userInput) {
+
+    })
 
     println("\n*** End of exercise ***")
 }
