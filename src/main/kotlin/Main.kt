@@ -43,7 +43,7 @@ fun main() {
     // ctrlflow.ctrlStruc.ifEx.index()
     // ctrlflow.ctrlStruc.jumpRet.index()
     // ctrlflow.ctrlStruc.repBlo.index()
-    // ctrlflow.ctrlStruc.whenEx.index()
+    ctrlflow.ctrlStruc.whenEx.index()
     // ctrlflow.ctrlStruc.whileBlo.index()
     // ctrlflow.except.howTo.whatIs.index()
     // ctrlflow.except.types.hierar.index()
@@ -55,7 +55,7 @@ fun main() {
     // ctrlflow.func.defaultArgs.index()
     // ctrlflow.func.invokFunc.index()
     // ctrlflow.func.mainFun.index()
-    ctrlflow.func.namedArgs.index()
+    // ctrlflow.func.namedArgs.index()
     // ctrlflow.lambda.funAsObj.index()
     // ctrlflow.lambda.lambdaEx.index()
 
