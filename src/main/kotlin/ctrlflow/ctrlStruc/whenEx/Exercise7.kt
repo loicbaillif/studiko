@@ -12,7 +12,8 @@ fun exercise7() {
 
     val userInput = readln()
     println(when (userInput) {
-
+        "one" -> 1
+        else -> 0
     })
 
     println("\n*** End of exercise ***")
