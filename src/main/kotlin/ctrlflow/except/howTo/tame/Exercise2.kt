@@ -11,6 +11,9 @@ fun exercise2() {
     println("*** Exercise: Too big for us ***")
 
     val userInput = readln().toInt()
+    val exceptionLimit = 0 // Exception if higher than this value
+
+
 
     println("\n*** End of exercise ***")
 }
