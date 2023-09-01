@@ -47,7 +47,7 @@ fun main() {
     // ctrlflow.ctrlStruc.whileBlo.index()
     // ctrlflow.except.howTo.whatIs.index()
     // ctrlflow.except.types.hierar.index()
-    // ctrlflow.except.howTo.tame.index()
+    ctrlflow.except.howTo.tame.index()
     // ctrlflow.except.howTo.tryCatch.index()
     // ctrlflow.except.howTo.tryCatFin.index()
     // ctrlflow.func.declarFun.index()
@@ -59,7 +59,7 @@ fun main() {
     // ctrlflow.lambda.funAsObj.index()
     // ctrlflow.lambda.lambdaEx.index()
 
-    oop.basics.constructors.index()
+    // oop.basics.constructors.index()
     // oop.basics.decClass.index()
 
 
