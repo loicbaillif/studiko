@@ -10,7 +10,7 @@ package ctrlflow.except.howTo.tame
 fun exercise2() {
     println("*** Exercise: Too big for us ***")
 
-
+    val userInput = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
