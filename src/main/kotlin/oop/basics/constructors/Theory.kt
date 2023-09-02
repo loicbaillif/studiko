@@ -13,14 +13,18 @@ fun theory() {
     val size1 = Size1(1, 2)
     size1.introduce()
 
+    println("\n*** 2) Default and named arguments")
+    val size2 = Size1()
+    size2.introduce()
+
     println("\n***** End of theory *****")
 }
 
 
-class Size1(val height: Int, val width: Int) {
+class Size1(val height: Int = 2, val width: Int = 4) {
     val area: Int = height * width
 
     fun introduce() {
-        println("height = $height\twidth = $width\tarea = $area")
+        println("My properties: \n\t. height = $height\n\t. width = $width\n\t. area = $area\n")
     }
 }
