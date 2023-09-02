@@ -10,7 +10,7 @@ fun theory() {
     println("***** Theory *****")
 
     println("\n*** 1) Default Constructor")
-    val size1 = Size1()
+    val size1 = Size1(1, 2)
 
     println("\n***** End of theory *****")
 }
