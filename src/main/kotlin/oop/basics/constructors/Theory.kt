@@ -17,9 +17,7 @@ fun theory() {
 }
 
 
-class Size1(height: Int, width: Int) {
-    val height: Int = height
-    val width: Int = width
+class Size1(val height: Int, val width: Int) {
     val area: Int = height * width
 
     fun introduce() {
