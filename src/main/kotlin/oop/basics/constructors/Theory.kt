@@ -9,7 +9,8 @@ package oop.basics.constructors
 fun theory() {
     println("***** Theory *****")
 
-
+    println("\n*** 1) Default Constructor")
+    val size1 = Size1()
 
     println("\n***** End of theory *****")
 }
