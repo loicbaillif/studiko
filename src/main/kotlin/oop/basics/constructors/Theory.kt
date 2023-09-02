@@ -46,7 +46,14 @@ class Size2(val height: Int = 3, val width: Int = 1)
 
 class Size3(_width: Int, _height: Int) {
     var width: Int = 0
+
+    init {
+        println("I am initialized with width = $width")
+    }
+
+
     var height: Int = 0
+
 
     init {
         width = if (_width >= 0) _width else {
