@@ -19,6 +19,10 @@ fun theory() {
     val size3 = Size1(width = 8)
     size3.introduce()
 
+    println("\n*** 3) Single line class")
+    val size4 = Size2(5, 5)
+
+
     println("\n***** End of theory *****")
 }
 
@@ -30,3 +34,5 @@ class Size1(val height: Int = 2, val width: Int = 4) {
         println("My properties: \n\t. height = $height\n\t. width = $width\n\t. area = $area\n")
     }
 }
+
+class Size2(val height: Int = 3, val width: Int = 1)
