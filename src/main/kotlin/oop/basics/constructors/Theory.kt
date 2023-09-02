@@ -16,6 +16,8 @@ fun theory() {
     println("\n*** 2) Default and named arguments")
     val size2 = Size1()
     size2.introduce()
+    val size3 = Size1(width = 8)
+    size3.introduce()
 
     println("\n***** End of theory *****")
 }
