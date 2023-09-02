@@ -13,11 +13,13 @@ fun theory() {
     val size1 = Size1(1, 2)
     size1.introduce()
 
+
     println("\n*** 2) Default and named arguments")
     val size2 = Size1()
     size2.introduce()
     val size3 = Size1(width = 8)
     size3.introduce()
+
 
     println("\n*** 3) Single line class")
     val size4 = Size2(5, 5)
@@ -36,3 +38,20 @@ class Size1(val height: Int = 2, val width: Int = 4) {
 }
 
 class Size2(val height: Int = 3, val width: Int = 1)
+
+
+class Size3(_width: Int, _height: Int) {
+    var width: Int = 0
+    var height: Int = 0
+
+    init {
+        width = if (_width >= 0) _width else {
+            println("Error, the width should be a non-negative value")
+            0
+        }
+        height = if (_height >= 0) _height else {
+            println("Error, the height should be a non-negative value")
+            0
+        }
+    }
+}
