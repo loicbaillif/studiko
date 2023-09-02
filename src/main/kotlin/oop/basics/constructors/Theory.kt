@@ -25,6 +25,10 @@ fun theory() {
     val size4 = Size2(5, 5)
 
 
+    println("\n*** 4) Init")
+    val size5 = Size3(5, -2)
+
+
     println("\n***** End of theory *****")
 }
 
