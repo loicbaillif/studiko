@@ -27,6 +27,7 @@ fun theory() {
 
     println("\n*** 4) Init")
     val size5 = Size3(5, -2)
+    println(size5.height)
 
 
     println("\n***** End of theory *****")
@@ -45,14 +46,18 @@ class Size2(val height: Int = 3, val width: Int = 1)
 
 
 class Size3(_width: Int, _height: Int) {
-    var width: Int = 0
+    var width = _width
 
     init {
         println("I am initialized with width = $width")
     }
 
 
-    var height: Int = 0
+    var height = _height
+
+    init {
+        println("I am initialized with height = $height")
+    }
 
 
     init {
