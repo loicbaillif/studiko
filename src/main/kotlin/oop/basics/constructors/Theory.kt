@@ -11,6 +11,7 @@ fun theory() {
 
     println("\n*** 1) Default Constructor")
     val size1 = Size1(1, 2)
+    size1.introduce()
 
     println("\n***** End of theory *****")
 }
@@ -20,4 +21,8 @@ class Size1(height: Int, width: Int) {
     val height: Int = height
     val width: Int = width
     val area: Int = height * width
+
+    fun introduce() {
+        println("height = $height\twidth = $width\tarea = $area")
+    }
 }
