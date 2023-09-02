@@ -14,3 +14,8 @@ fun theory() {
     println("\n***** End of theory *****")
 }
 
+
+class Size1 {
+    var width: Int = 1
+    var height: Int = 1
+}
