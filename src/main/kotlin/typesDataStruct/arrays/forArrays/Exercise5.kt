@@ -12,7 +12,9 @@ fun exercise5() {
 
     val nbElts = readln().toInt()
     val userArray = IntArray(nbElts)
-    var max = readln().toInt() // max initiated by first element's value
+
+    userArray[0] = readln().toInt()
+    var max = userArray[0] // max initiated by first element's value
     var maxIndex = 0
 
     // Fill array
