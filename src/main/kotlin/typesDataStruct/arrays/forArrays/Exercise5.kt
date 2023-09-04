@@ -18,8 +18,12 @@ fun exercise5() {
     var maxIndex = 0
 
     // Fill array
-    for (i in 0 until nbElts) {
-
+    for (i in 1 until nbElts) {
+        userArray[i] = readln().toInt()
+        if (userArray[i] > max) {
+            max = userArray[i]
+            maxIndex = i
+        }
     }
 
     println("\n*** End of exercise ***")
