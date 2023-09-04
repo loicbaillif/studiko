@@ -11,6 +11,7 @@ fun exercise5() {
     println("*** Exercise: Find the max ***")
 
     val nbElts = readln().toInt()
+    val userArray = IntArray(nbElts)
 
     println("\n*** End of exercise ***")
 }
