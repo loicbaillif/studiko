@@ -10,7 +10,7 @@ package typesDataStruct.arrays.forArrays
 fun exercise5() {
     println("*** Exercise: Find the max ***")
 
-
+    val nbElts = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
