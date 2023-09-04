@@ -26,5 +26,8 @@ fun exercise5() {
         }
     }
 
+    // Result
+    println(maxIndex)
+
     println("\n*** End of exercise ***")
 }
