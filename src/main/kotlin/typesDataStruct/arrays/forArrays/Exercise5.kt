@@ -13,5 +13,10 @@ fun exercise5() {
     val nbElts = readln().toInt()
     val userArray = IntArray(nbElts)
 
+    // Fill array
+    for (i in 0 until nbElts) {
+
+    }
+
     println("\n*** End of exercise ***")
 }
