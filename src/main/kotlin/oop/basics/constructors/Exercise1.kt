@@ -15,3 +15,5 @@ fun exercise1() {
     println("\n*** End of exercise ***")
 }
 
+
+class Pets(_name: String, _animal: String, _owner: String)
