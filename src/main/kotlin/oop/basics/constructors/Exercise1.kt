@@ -10,10 +10,10 @@ package oop.basics.constructors
 fun exercise1() {
     println("*** Exercise: Pets ***")
 
-
+    val someCat = Pet("titi", _owner = "Granny")
 
     println("\n*** End of exercise ***")
 }
 
 
-class Pets(_name: String, _animal: String = "cat", _owner: String)
+class Pet(_name: String, _animal: String = "cat", _owner: String)
