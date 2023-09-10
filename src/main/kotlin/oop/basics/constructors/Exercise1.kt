@@ -16,4 +16,6 @@ fun exercise1() {
 }
 
 
-class Pet(_name: String, _animal: String = "cat", _owner: String)
+class Pet(val _name: String, val _animal: String = "cat", val _owner: String) {
+
+}
