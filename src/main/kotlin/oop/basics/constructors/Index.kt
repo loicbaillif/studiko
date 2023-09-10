@@ -6,5 +6,6 @@ package oop.basics.constructors
 
 fun index() {
     println("********** Constructors **********\n")
-    theory()
+    // theory()
+    exercise1()
 }
