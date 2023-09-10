@@ -10,7 +10,8 @@ package oop.basics.constructors
 fun exercise1() {
     println("*** Exercise: Pets ***")
 
-    val someCat = Pet("titi", _owner = "Granny")
+    val someCat = Pet("Titi", _owner = "Granny")
+    someCat.introduce()
 
     println("\n*** End of exercise ***")
 }
