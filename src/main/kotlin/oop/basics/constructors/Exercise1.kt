@@ -18,4 +18,7 @@ fun exercise1() {
 
 class Pet(val _name: String, val _animal: String = "cat", val _owner: String) {
 
+    fun introduce() {
+        println("I am $_name, a $_animal owned by $_owner")
+    }
 }
