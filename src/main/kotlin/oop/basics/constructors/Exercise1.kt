@@ -16,4 +16,4 @@ fun exercise1() {
 }
 
 
-class Pets(_name: String, _animal: String, _owner: String)
+class Pets(_name: String, _animal: String = "cat", _owner: String)
