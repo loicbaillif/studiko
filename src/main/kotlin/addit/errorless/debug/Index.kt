@@ -6,4 +6,6 @@ package addit.errorless.debug
 
 fun index() {
     println("********** Debugging Techniques **********\n")
+
+    theory()
 }
