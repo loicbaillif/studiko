@@ -25,7 +25,7 @@ fun main() {
     // valKeyword.index()
     // typesDataStruct.dataTypes.index()
 
-
+    addit.errorless.debug.index()
     // addit.files.readFiles.index()
     // addit.files.writeFiles.index()
 
@@ -59,7 +59,7 @@ fun main() {
     // ctrlflow.lambda.funAsObj.index()
     // ctrlflow.lambda.lambdaEx.index()
 
-    oop.basics.constructors.index()
+    // oop.basics.constructors.index()
     // oop.basics.decClass.index()
 
 
