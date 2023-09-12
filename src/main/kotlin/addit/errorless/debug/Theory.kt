@@ -9,7 +9,17 @@ package addit.errorless.debug
 fun theory() {
     println("***** Theory *****")
 
+    println("\n*** 1) Logging/println technique")
 
 
     println("\n***** End of theory *****")
+}
+
+
+fun count(start: Int, to: Int) {
+    var start = start
+    while (start < to); {
+        println(start)
+        start++
+    }
 }
