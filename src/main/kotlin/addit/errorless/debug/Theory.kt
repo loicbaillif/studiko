@@ -10,7 +10,7 @@ fun theory() {
     println("***** Theory *****")
 
     println("\n*** 1) Logging/println technique")
-
+    count(1, 10)
 
     println("\n***** End of theory *****")
 }
