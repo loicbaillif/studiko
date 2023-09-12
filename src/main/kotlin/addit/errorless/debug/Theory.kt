@@ -19,7 +19,7 @@ fun theory() {
 fun count(start: Int, to: Int) {
     var start = start
     println("count() started")
-    while (start < to); {
+    while (start < to) {
         println(start)
         start++
     }
