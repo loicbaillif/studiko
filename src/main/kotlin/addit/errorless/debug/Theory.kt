@@ -14,6 +14,7 @@ fun theory() {
 
 
     println("\n*** 2) Assertions")
+    val someCat1 = Cat("", 33)
 
     println("\n***** End of theory *****")
 }
@@ -35,6 +36,6 @@ class Cat(val name: String, val age: Int) {
     init {
         check(!enoughCat) { "You cannot add a new cat" } // IllegalStateException
         require(age >= 0) { "Invalid age: $age" }        // IllegalArgumentException
-        require(name.isNotEmpty()) { "You should pick a name" }
+        require(name.isNotEmpty()) { "Invalid name: $name" }
     }
 }
