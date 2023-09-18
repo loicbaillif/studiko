@@ -25,7 +25,7 @@ fun main() {
     // valKeyword.index()
     // typesDataStruct.dataTypes.index()
 
-    addit.errorless.debug.index()
+    // addit.errorless.debug.index()
     // addit.files.readFiles.index()
     // addit.files.writeFiles.index()
 
@@ -46,7 +46,7 @@ fun main() {
     // ctrlflow.ctrlStruc.whenEx.index()
     // ctrlflow.ctrlStruc.whileBlo.index()
     // ctrlflow.except.howTo.whatIs.index()
-    // ctrlflow.except.types.hierar.index()
+    ctrlflow.except.types.hierar.index()
     // ctrlflow.except.howTo.tame.index()
     // ctrlflow.except.howTo.tryCatch.index()
     // ctrlflow.except.howTo.tryCatFin.index()
