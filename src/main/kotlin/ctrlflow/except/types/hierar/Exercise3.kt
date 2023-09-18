@@ -10,7 +10,7 @@ package ctrlflow.except.types.hierar
 fun exercise3() {
     println("***** Exercise: NumberFormat *****")
 
-
+    println("HyperSkill".toInt())
 
     println("\n***** End of exercise *****")
 }
