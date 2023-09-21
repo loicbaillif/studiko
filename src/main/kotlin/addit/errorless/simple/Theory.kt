@@ -17,5 +17,16 @@ fun theory() {
     }
     println("Shutting down...")
 
+    println("\n*** 2) Loops")
+    val rangeStart = 'A'
+    val rangeEnd = 'Z'
+    val findLetter = 'Q'
+    for (c in rangeStart..rangeEnd) {
+        if (c == findLetter) {
+            println("Character $c is is within range $rangeStart-$rangeEnd")
+            return
+        }
+    }
+
     println("\n***** End of theory *****")
 }
