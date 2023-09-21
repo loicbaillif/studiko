@@ -9,5 +9,13 @@ package addit.errorless.simple
 fun theory() {
     println("***** Theory *****")
 
+    println("\n*** 1) If expressions")
+    var greeting = "Hello, world"
+    if (greeting.contains('e')) {
+        greeting += "!"
+        println(greeting)
+    }
+    println("Shutting down...")
+
     println("\n***** End of theory *****")
 }
