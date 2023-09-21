@@ -10,7 +10,7 @@ fun theory() {
     println("***** Theory *****")
 
     println("\n*** 1) If expressions")
-    var greeting = "Hello, world"
+    var greeting = "Hi, world"
     if (greeting.contains('e')) {
         greeting += "!"
         println(greeting)
