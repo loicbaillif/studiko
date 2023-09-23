@@ -34,7 +34,7 @@ fun exercise6() {
     }
 
     // Last index case
-    if (inputArray.last() == seekedInts[0] && inputArray[arraySize - 1] == seekedInts[1]) {
+    if (inputArray.last() == seekedInts[0] && inputArray[arraySize - 2] == seekedInts[1]) {
         println("NO")
         return
     }
