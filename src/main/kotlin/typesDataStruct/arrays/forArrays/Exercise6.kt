@@ -15,5 +15,7 @@ fun exercise6() {
 
     for (i in 0 until arraySize) inputArray[i] = readln().toInt()
 
+    val seekedInts = readln().split(" ").map { it.toInt() }
+
     println("\n*** End of exercise ***")
 }
