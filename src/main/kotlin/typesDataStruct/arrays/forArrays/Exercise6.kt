@@ -32,5 +32,7 @@ fun exercise6() {
         }
     }
 
+    println("NO")
+
     println("\n*** End of exercise ***")
 }
