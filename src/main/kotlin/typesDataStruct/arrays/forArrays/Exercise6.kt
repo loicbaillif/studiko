@@ -24,7 +24,12 @@ fun exercise6() {
     }
 
     for (i in 1 until arraySize) {
-
+        if (inputArray[i] == seekedInts[i]) {
+            if (inputArray[i - 1] == seekedInts[1] || inputArray[i + 1] == seekedInts[1]) {
+                println("YES")
+                return
+            }
+        }
     }
 
     println("\n*** End of exercise ***")
