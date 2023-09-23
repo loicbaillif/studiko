@@ -65,7 +65,7 @@ fun main() {
 
 
     // typesDataStruct.arrays.arrays.index()
-    // typesDataStruct.arrays.forArrays.index()
+    typesDataStruct.arrays.forArrays.index()
     // typesDataStruct.arrays.multiDim.index()
     // typesDataStruct.arrays.strArrays.index()
     // typesDataStruct.basicOps.arith.index()
@@ -92,5 +92,5 @@ fun main() {
     // typesDataStruct.variab.objects.index()
 
     // Current Chapter
-    addit.errorless.simple.index()
+    // addit.errorless.simple.index()
 }
