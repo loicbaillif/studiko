@@ -23,7 +23,7 @@ fun exercise6() {
         return
     }
 
-    for (i in 1 until arraySize) {
+    for (i in 1 until arraySize - 1) {
         if (inputArray[i] == seekedInts[i]) {
             if (inputArray[i - 1] == seekedInts[1] || inputArray[i + 1] == seekedInts[1]) {
                 println("NO")
