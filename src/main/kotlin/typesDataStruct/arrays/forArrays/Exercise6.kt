@@ -17,6 +17,12 @@ fun exercise6() {
 
     val seekedInts = readln().split(" ").map { it.toInt() }
 
+    // First index case
+    if (inputArray[0] == seekedInts[0] && inputArray[1] == seekedInts[1]) {
+        println("YES")
+        return
+    }
+
     for (i in 1 until arraySize) {
 
     }
