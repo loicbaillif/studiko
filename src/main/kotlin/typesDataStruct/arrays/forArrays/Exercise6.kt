@@ -19,20 +19,20 @@ fun exercise6() {
 
     // First index case
     if (inputArray[0] == seekedInts[0] && inputArray[1] == seekedInts[1]) {
-        println("YES")
+        println("NO")
         return
     }
 
     for (i in 1 until arraySize) {
         if (inputArray[i] == seekedInts[i]) {
             if (inputArray[i - 1] == seekedInts[1] || inputArray[i + 1] == seekedInts[1]) {
-                println("YES")
+                println("NO")
                 return
             }
         }
     }
 
-    println("NO")
+    println("YES")
 
     println("\n*** End of exercise ***")
 }
