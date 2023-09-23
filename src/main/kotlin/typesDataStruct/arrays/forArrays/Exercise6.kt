@@ -11,6 +11,7 @@ fun exercise6() {
     println("*** Exercise: Check the numbers ***")
 
     val arraySize = readln().toInt()
+    val inputArray = IntArray(arraySize)
 
     println("\n*** End of exercise ***")
 }
