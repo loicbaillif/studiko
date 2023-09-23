@@ -23,6 +23,7 @@ fun exercise6() {
         return
     }
 
+    // General index case
     for (i in 1 until arraySize - 1) {
         if (inputArray[i] == seekedInts[0]) {
             if (inputArray[i - 1] == seekedInts[1] || inputArray[i + 1] == seekedInts[1]) {
@@ -30,6 +31,12 @@ fun exercise6() {
                 return
             }
         }
+    }
+
+    // Last index case
+    if (inputArray.last() == seekedInts[0] && inputArray[arraySize - 1] == seekedInts[1]) {
+        println("NO")
+        return
     }
 
     println("YES")
