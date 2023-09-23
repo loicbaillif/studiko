@@ -13,5 +13,7 @@ fun exercise6() {
     val arraySize = readln().toInt()
     val inputArray = IntArray(arraySize)
 
+    for (i in 0 until arraySize) inputArray[i] = readln().toInt()
+
     println("\n*** End of exercise ***")
 }
