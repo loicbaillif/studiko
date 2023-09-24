@@ -14,3 +14,8 @@ fun exercise3() {
 
     println("\n*** End of exercise ***")
 }
+
+
+fun getVolume(length: Int, width: Int, height: Int): Int {
+
+}
