@@ -16,4 +16,4 @@ fun exercise3() {
 }
 
 
-fun getVolume(length: Int, width: Int, height: Int): Int = length * width * height
+fun getVolume(length: Int, width: Int = 1, height: Int = 1): Int = length * width * height
