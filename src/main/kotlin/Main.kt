@@ -53,7 +53,7 @@ fun main() {
     // ctrlflow.except.howTo.tryCatFin.index()
     // ctrlflow.func.declarFun.index()
     // ctrlflow.func.decomp.index()
-    // ctrlflow.func.defaultArgs.index()
+    ctrlflow.func.defaultArgs.index()
     // ctrlflow.func.invokFunc.index()
     // ctrlflow.func.mainFun.index()
     // ctrlflow.func.namedArgs.index()
@@ -65,7 +65,7 @@ fun main() {
 
 
     // typesDataStruct.arrays.arrays.index()
-    typesDataStruct.arrays.forArrays.index()
+    // typesDataStruct.arrays.forArrays.index()
     // typesDataStruct.arrays.multiDim.index()
     // typesDataStruct.arrays.strArrays.index()
     // typesDataStruct.basicOps.arith.index()
