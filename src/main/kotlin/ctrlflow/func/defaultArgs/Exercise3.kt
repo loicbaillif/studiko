@@ -10,7 +10,7 @@ package ctrlflow.func.defaultArgs
 fun exercise3() {
     println("*** Exercise: Calculate volume ***")
 
-
+    println(getVolume(3))
 
     println("\n*** End of exercise ***")
 }
