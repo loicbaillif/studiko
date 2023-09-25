@@ -10,7 +10,7 @@ package typesDataStruct.lists.multiDim
 fun exercise3() {
     println("*** Exercise: Cube of zeros ***")
 
-
+    val mulListZero = mutableListOf<Int>(0, 0, 0)
 
     println("\n*** End of exercise ***")
 }
