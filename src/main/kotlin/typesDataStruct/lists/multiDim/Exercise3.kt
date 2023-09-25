@@ -17,5 +17,7 @@ fun exercise3() {
         mutableListOf(mulListZero, mulListZero, mulListZero)
         )
 
+    println(cubeOfZeros.joinToString())
+
     println("\n*** End of exercise ***")
 }
