@@ -10,14 +10,14 @@ package typesDataStruct.lists.multiDim
 fun exercise3() {
     println("*** Exercise: Cube of zeros ***")
 
-    val mulListZero = mutableListOf<Int>(0, 0, 0)
+    val mutListZero = mutableListOf<Int>(0, 0, 0)
     val cubeOfZeros = mutableListOf(
-        mutableListOf(mulListZero, mulListZero, mulListZero),
-        mutableListOf(mulListZero, mulListZero, mulListZero),
-        mutableListOf(mulListZero, mulListZero, mulListZero)
+        mutableListOf(mutListZero, mutListZero, mutListZero),
+        mutableListOf(mutListZero, mutListZero, mutListZero),
+        mutableListOf(mutListZero, mutListZero, mutListZero)
         )
 
-    println(cubeOfZeros.joinToString())
+    println(cubeOfZeros)
 
     println("\n*** End of exercise ***")
 }
