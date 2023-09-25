@@ -11,6 +11,11 @@ fun exercise3() {
     println("*** Exercise: Cube of zeros ***")
 
     val mulListZero = mutableListOf<Int>(0, 0, 0)
+    val cubeOfZeros = mutableListOf(
+        mutableListOf(mulListZero, mulListZero, mulListZero),
+        mutableListOf(mulListZero, mulListZero, mulListZero),
+        mutableListOf(mulListZero, mulListZero, mulListZero)
+        )
 
     println("\n*** End of exercise ***")
 }
