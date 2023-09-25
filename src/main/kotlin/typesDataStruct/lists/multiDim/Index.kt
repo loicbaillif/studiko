@@ -8,6 +8,6 @@ fun index() {
     println("********** Multi-dimensional list **********\n")
     // theory()
     // exercise1()
-    exercise2()
-
+    // exercise2()
+    exercise3()
 }
