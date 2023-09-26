@@ -14,5 +14,7 @@ fun exercise4() {
     val last: String = "Lovelace"
     val age: Int = 33
 
+    println("My name is $first $last and I’m $age years old")
+
     println("\n*** End of exercise ***")
 }
