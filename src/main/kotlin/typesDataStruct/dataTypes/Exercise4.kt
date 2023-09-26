@@ -10,7 +10,8 @@ package typesDataStruct.dataTypes
 fun exercise4() {
     println("*** Exercise: Think as a compiler ***")
 
-
+    val first: String = "Ada"
+    val last: String = "Lovelace"
 
     println("\n*** End of exercise ***")
 }
