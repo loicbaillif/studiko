@@ -23,7 +23,7 @@ fun main() {
     // overview.index()
     // typesDataStruct.variab.valuesVariables.index()
     // valKeyword.index()
-    // typesDataStruct.dataTypes.index()
+    typesDataStruct.dataTypes.index()
 
     // addit.errorless.debug.index()
     // addit.errorless.errors.index()
@@ -81,7 +81,7 @@ fun main() {
     // typesDataStruct.dataTypes.typeNumEx.index()
     // typesDataStruct.lists.forLoop.index()
     // typesDataStruct.lists.introMut.index()
-    typesDataStruct.lists.multiDim.index()
+    // typesDataStruct.lists.multiDim.index()
     // typesDataStruct.lists.workMut.index()
     // typesDataStruct.strings.basics.index()
     // typesDataStruct.strings.proc.index()
