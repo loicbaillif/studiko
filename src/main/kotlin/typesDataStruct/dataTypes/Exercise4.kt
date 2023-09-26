@@ -12,6 +12,7 @@ fun exercise4() {
 
     val first: String = "Ada"
     val last: String = "Lovelace"
+    val age: Int = 33
 
     println("\n*** End of exercise ***")
 }
