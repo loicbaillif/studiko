@@ -23,7 +23,7 @@ fun main() {
     // overview.index()
     // typesDataStruct.variab.valuesVariables.index()
     // valKeyword.index()
-    typesDataStruct.dataTypes.index()
+    // typesDataStruct.dataTypes.index()
 
     // addit.errorless.debug.index()
     // addit.errorless.errors.index()
@@ -42,7 +42,7 @@ fun main() {
 
     // ctrlflow.ctrlStruc.forRanges.index()
     // ctrlflow.ctrlStruc.ifEx.index()
-    // ctrlflow.ctrlStruc.jumpRet.index()
+    ctrlflow.ctrlStruc.jumpRet.index()
     // ctrlflow.ctrlStruc.repBlo.index()
     // ctrlflow.ctrlStruc.whenEx.index()
     // ctrlflow.ctrlStruc.whileBlo.index()
