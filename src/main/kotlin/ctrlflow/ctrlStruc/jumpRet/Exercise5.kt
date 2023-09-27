@@ -12,7 +12,11 @@ fun exercise5() {
 
     val userInput = readln()
     val sortedInput = userInput.toCharArray().sorted()
-    println(sortedInput)
+    var nbUniques = 0
+
+    for (i in 0..sortedInput.lastIndex) {
+
+    }
 
     println("\n*** End of exercise ***")
 }
