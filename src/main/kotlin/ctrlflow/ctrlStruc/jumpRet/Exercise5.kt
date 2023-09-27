@@ -11,7 +11,8 @@ fun exercise5() {
     println("*** Exercise: Unique characters ***")
 
     val userInput = readln()
-    val sortedInput = userInput.toCharArray().sorted().joinToString()
+    val sortedInput = userInput.toCharArray().sorted()
+    println(sortedInput)
 
     println("\n*** End of exercise ***")
 }
