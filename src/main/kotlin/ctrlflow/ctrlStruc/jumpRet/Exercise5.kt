@@ -23,6 +23,8 @@ fun exercise5() {
         nbUniques++
     }
 
+    if (sortedInput.last() != sortedInput[sortedInput.lastIndex - 1]) nbUniques++ // Last
+
     println(nbUniques)
 
     println("\n*** End of exercise ***")
