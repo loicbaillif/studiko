@@ -10,6 +10,7 @@ package ctrlflow.ctrlStruc.jumpRet
 fun exercise5() {
     println("*** Exercise: Unique characters ***")
 
+    val userInput = readln()
 
 
     println("\n*** End of exercise ***")
