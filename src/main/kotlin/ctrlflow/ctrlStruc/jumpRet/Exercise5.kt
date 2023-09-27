@@ -21,5 +21,7 @@ fun exercise5() {
         nbUniques++
     }
 
+    println(nbUniques)
+
     println("\n*** End of exercise ***")
 }
