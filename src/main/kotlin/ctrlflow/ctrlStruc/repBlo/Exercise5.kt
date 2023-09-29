@@ -10,7 +10,8 @@ package ctrlflow.ctrlStruc.repBlo
 fun exercise5() {
     println("*** Exercise: Counting positive numbers ***")
 
-
+    val nbElts = readln().toInt()
+    val eltsList = IntArray(nbElts) { readln().toInt() }
 
     println("\n*** End of exercise ***")
 }
