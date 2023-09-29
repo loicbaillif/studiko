@@ -42,8 +42,8 @@ fun main() {
 
     // ctrlflow.ctrlStruc.forRanges.index()
     // ctrlflow.ctrlStruc.ifEx.index()
-    ctrlflow.ctrlStruc.jumpRet.index()
-    // ctrlflow.ctrlStruc.repBlo.index()
+    // ctrlflow.ctrlStruc.jumpRet.index()
+    ctrlflow.ctrlStruc.repBlo.index()
     // ctrlflow.ctrlStruc.whenEx.index()
     // ctrlflow.ctrlStruc.whileBlo.index()
     // ctrlflow.except.howTo.whatIs.index()
