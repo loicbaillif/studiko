@@ -12,6 +12,7 @@ fun exercise5() {
 
     val nbElts = readln().toInt()
     val eltsList = IntArray(nbElts) { readln().toInt() }
+    var nbPos = 0
 
     println("\n*** End of exercise ***")
 }
