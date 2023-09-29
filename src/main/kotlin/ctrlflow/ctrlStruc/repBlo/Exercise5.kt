@@ -11,8 +11,10 @@ fun exercise5() {
     println("*** Exercise: Counting positive numbers ***")
 
     val nbElts = readln().toInt()
-    val eltsList = IntArray(nbElts) { readln().toInt() }
     var nbPos = 0
+    for (i in 0 until nbElts) {
+        if (readln().toInt() > 0) nbPos++
+    }
 
     println("\n*** End of exercise ***")
 }
