@@ -16,5 +16,7 @@ fun exercise5() {
         if (readln().toInt() > 0) nbPos++
     }
 
+    println(nbPos)
+
     println("\n*** End of exercise ***")
 }
