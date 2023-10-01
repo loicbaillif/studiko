@@ -37,13 +37,13 @@ fun main() {
     // basics.stdinout.inpScanner.index()
     // basics.stdinout.readlnFun.index()
     // basics.stdinout.stdOutput.index()
-    // basics.stdinout.strFormat.index()
+    basics.stdinout.strFormat.index()
 
 
     // ctrlflow.ctrlStruc.forRanges.index()
     // ctrlflow.ctrlStruc.ifEx.index()
     // ctrlflow.ctrlStruc.jumpRet.index()
-    ctrlflow.ctrlStruc.repBlo.index()
+    // ctrlflow.ctrlStruc.repBlo.index()
     // ctrlflow.ctrlStruc.whenEx.index()
     // ctrlflow.ctrlStruc.whileBlo.index()
     // ctrlflow.except.howTo.whatIs.index()
