@@ -16,6 +16,4 @@ fun exercise3() {
 }
 
 
-fun doubleFormat(value: Double, width: Int, precision: Int): String {
-    return String.format("%${width}.${precision}f", value)
-}
+fun doubleFormat(value: Double, width: Int, precision: Int) = String.format("%${width}.${precision}f", value)
