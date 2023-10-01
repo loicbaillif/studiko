@@ -14,3 +14,8 @@ fun exercise3() {
 
     println("\n*** End of exercise ***")
 }
+
+
+fun doubleFormat(value: Double, width: Int, precision: Int): String {
+
+}
