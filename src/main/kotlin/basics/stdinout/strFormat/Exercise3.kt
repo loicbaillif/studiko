@@ -17,5 +17,5 @@ fun exercise3() {
 
 
 fun doubleFormat(value: Double, width: Int, precision: Int): String {
-    return String.format("%f", value)
+    return String.format("%.${precision}f", value)
 }
