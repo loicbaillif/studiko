@@ -10,7 +10,7 @@ package ctrlflow.except.howTo.tryCatch
 fun exercise2() {
     println("*** Exercise: Handling Strings ***")
 
-
+    print(printFifthCharacter("1234"))
 
     println("\n*** End of exercise ***")
 }
