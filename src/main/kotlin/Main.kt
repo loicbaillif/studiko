@@ -37,7 +37,7 @@ fun main() {
     // basics.stdinout.inpScanner.index()
     // basics.stdinout.readlnFun.index()
     // basics.stdinout.stdOutput.index()
-    basics.stdinout.strFormat.index()
+    // basics.stdinout.strFormat.index()
 
 
     // ctrlflow.ctrlStruc.forRanges.index()
@@ -49,7 +49,7 @@ fun main() {
     // ctrlflow.except.howTo.whatIs.index()
     // ctrlflow.except.types.hierar.index()
     // ctrlflow.except.howTo.tame.index()
-    // ctrlflow.except.howTo.tryCatch.index()
+    ctrlflow.except.howTo.tryCatch.index()
     // ctrlflow.except.howTo.tryCatFin.index()
     // ctrlflow.func.declarFun.index()
     // ctrlflow.func.decomp.index()
