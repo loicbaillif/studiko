@@ -17,5 +17,9 @@ fun exercise2() {
 
 
 fun printFifthCharacter(input: String): String {
-    return "The fifth character of the entered word is ${input[4]}"
+    try {
+        return "The fifth character of the entered word is ${input[4]}"
+    } catch (e: StringIndexOutOfBoundsException) {
+
+    }
 }
