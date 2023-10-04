@@ -8,5 +8,6 @@ fun index() {
     println("********** Debugging simple constructs **********\n")
 
     // theory()
-    exercise1()
+    // exercise1()
+    exercise2()
 }
