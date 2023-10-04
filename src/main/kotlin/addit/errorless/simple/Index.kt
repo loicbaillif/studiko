@@ -7,5 +7,6 @@ package addit.errorless.simple
 fun index() {
     println("********** Debugging simple constructs **********\n")
 
-    theory()
+    // theory()
+    exercise1()
 }

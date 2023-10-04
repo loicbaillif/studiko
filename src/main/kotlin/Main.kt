@@ -49,7 +49,7 @@ fun main() {
     // ctrlflow.except.howTo.whatIs.index()
     // ctrlflow.except.types.hierar.index()
     // ctrlflow.except.howTo.tame.index()
-    ctrlflow.except.howTo.tryCatch.index()
+    // ctrlflow.except.howTo.tryCatch.index()
     // ctrlflow.except.howTo.tryCatFin.index()
     // ctrlflow.func.declarFun.index()
     // ctrlflow.func.decomp.index()
@@ -92,5 +92,5 @@ fun main() {
     // typesDataStruct.variab.objects.index()
 
     // Current Chapter
-    // addit.errorless.simple.index()
+    addit.errorless.simple.index()
 }
