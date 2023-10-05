@@ -8,5 +8,5 @@ package projects.converter
  */
 
 fun stage2() {
-
+    println(PROMPT_STAGE2)
 }
