@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736f692e-e7d7-41c5-aeca-354db6992b49" name="Changes" comment="Kotlin/begin/objects/th/init&#10;Theory: init">
+    <list default="true" id="736f692e-e7d7-41c5-aeca-354db6992b49" name="Changes" comment="Kotlin/begin/simpleDebug/ex5/init&#10;Exercise: Divisors finding">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/addit/errorless/simple/Index.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/addit/errorless/simple/Index.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/projects/converter/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/projects/converter/Constants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/projects/converter/Index.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/projects/converter/Index.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b56c25af-b9eb-42c9-810f-f0db4ccc2932" />
+        <option name="url" value="https://github.com/loicbaillif/studiko.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,6 +65,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Educational&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -106,351 +124,417 @@
       <workItem from="1678774166267" duration="699000" />
       <workItem from="1678818593309" duration="716000" />
       <workItem from="1678903963147" duration="4064000" />
+      <workItem from="1678946768026" duration="400000" />
+      <workItem from="1678997227362" duration="2470000" />
+      <workItem from="1679031692461" duration="616000" />
+      <workItem from="1679034101804" duration="426000" />
+      <workItem from="1679173100347" duration="2870000" />
+      <workItem from="1679336433114" duration="281000" />
+      <workItem from="1680326834424" duration="14191000" />
+      <workItem from="1680423636280" duration="5927000" />
+      <workItem from="1680499631210" duration="1109000" />
+      <workItem from="1680556892039" duration="648000" />
+      <workItem from="1680961123426" duration="11567000" />
+      <workItem from="1681025279272" duration="22021000" />
+      <workItem from="1682260231223" duration="5596000" />
+      <workItem from="1682345024499" duration="2078000" />
+      <workItem from="1682860053008" duration="10025000" />
+      <workItem from="1683361351631" duration="6616000" />
+      <workItem from="1683478125741" duration="2204000" />
+      <workItem from="1683534588211" duration="1891000" />
+      <workItem from="1688484377712" duration="15000" />
+      <workItem from="1690215242904" duration="987000" />
+      <workItem from="1690216706558" duration="2032000" />
+      <workItem from="1690263161247" duration="1630000" />
+      <workItem from="1690304372722" duration="1095000" />
+      <workItem from="1690305496579" duration="203000" />
+      <workItem from="1690370091222" duration="2680000" />
+      <workItem from="1690429346784" duration="4463000" />
+      <workItem from="1690516331774" duration="1089000" />
+      <workItem from="1690601642199" duration="1961000" />
+      <workItem from="1690656182972" duration="1052000" />
+      <workItem from="1690811807177" duration="2055000" />
+      <workItem from="1690864874449" duration="2984000" />
+      <workItem from="1690943915162" duration="968000" />
+      <workItem from="1690990866380" duration="1724000" />
+      <workItem from="1691064875381" duration="2427000" />
+      <workItem from="1691085955209" duration="1186000" />
+      <workItem from="1691165335302" duration="4428000" />
+      <workItem from="1691208580752" duration="9909000" />
+      <workItem from="1691304413683" duration="529000" />
+      <workItem from="1691386096299" duration="6858000" />
+      <workItem from="1691642175997" duration="678000" />
+      <workItem from="1691730438795" duration="700000" />
+      <workItem from="1691750876539" duration="7953000" />
+      <workItem from="1691772947319" duration="57000" />
+      <workItem from="1691815595814" duration="1601000" />
+      <workItem from="1691830286193" duration="4973000" />
+      <workItem from="1691965811113" duration="461000" />
+      <workItem from="1692037453518" duration="4028000" />
+      <workItem from="1692218547845" duration="994000" />
+      <workItem from="1692249775126" duration="651000" />
+      <workItem from="1692460733470" duration="873000" />
+      <workItem from="1692569983899" duration="5064000" />
+      <workItem from="1692902511622" duration="3058000" />
+      <workItem from="1693200701741" duration="1772000" />
+      <workItem from="1693427019634" duration="2799000" />
+      <workItem from="1693457686398" duration="991000" />
+      <workItem from="1693546602895" duration="4343000" />
+      <workItem from="1693810968780" duration="1430000" />
+      <workItem from="1694373321594" duration="5195000" />
+      <workItem from="1694861363512" duration="2050000" />
+      <workItem from="1695239655153" duration="6272000" />
+      <workItem from="1695567145482" duration="4726000" />
+      <workItem from="1695740866020" duration="7514000" />
+      <workItem from="1696074389576" duration="706000" />
+      <workItem from="1696168894492" duration="881000" />
+      <workItem from="1696353959008" duration="2217000" />
+      <workItem from="1696444359187" duration="3558000" />
     </task>
-    <task id="LOCAL-00093" summary="Kotlin/begin/classif/th/v13&#10;Characters: operation on it">
-      <created>1678391804493</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
+    <task id="LOCAL-00697" summary="Kotlin/begin/forArrays/ex6/v11&#10;BUG: index for seeked numbers">
+      <created>1695485305847</created>
+      <option name="number" value="00697" />
+      <option name="presentableId" value="LOCAL-00697" />
       <option name="project" value="LOCAL" />
-      <updated>1678391804493</updated>
+      <updated>1695485305847</updated>
     </task>
-    <task id="LOCAL-00094" summary="Kotlin/begin/classif/th/v14&#10;Booleans: usage">
-      <created>1678392557953</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
+    <task id="LOCAL-00698" summary="Kotlin/begin/forArrays/ex6/v12&#10;BUG: Treat last index case">
+      <created>1695485420360</created>
+      <option name="number" value="00698" />
+      <option name="presentableId" value="LOCAL-00698" />
       <option name="project" value="LOCAL" />
-      <updated>1678392557953</updated>
+      <updated>1695485420360</updated>
     </task>
-    <task id="LOCAL-00095" summary="Kotlin/begin/classif/th/v15&#10;Strings: usage">
-      <created>1678392853663</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
+    <task id="LOCAL-00699" summary="Kotlin/begin/forArrays/ex6/v13&#10;BUG: Index error corrected; Final version">
+      <created>1695485661184</created>
+      <option name="number" value="00699" />
+      <option name="presentableId" value="LOCAL-00699" />
       <option name="project" value="LOCAL" />
-      <updated>1678392853663</updated>
+      <updated>1695485661184</updated>
     </task>
-    <task id="LOCAL-00096" summary="Kotlin/begin/conversion/init&#10;Type conversion : init">
-      <created>1678428688579</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
+    <task id="LOCAL-00700" summary="Kotlin/begin/defaultArgs/ex3/init&#10;Calculate Volume">
+      <created>1695569249742</created>
+      <option name="number" value="00700" />
+      <option name="presentableId" value="LOCAL-00700" />
       <option name="project" value="LOCAL" />
-      <updated>1678428688580</updated>
+      <updated>1695569249742</updated>
     </task>
-    <task id="LOCAL-00097" summary="Kotlin/begin/conversion/th/init&#10;Theory - init">
-      <created>1678428794935</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
+    <task id="LOCAL-00701" summary="Kotlin/begin/defaultArgs/ex3/v1&#10;getVolume signature">
+      <created>1695569306841</created>
+      <option name="number" value="00701" />
+      <option name="presentableId" value="LOCAL-00701" />
       <option name="project" value="LOCAL" />
-      <updated>1678428794935</updated>
+      <updated>1695569306841</updated>
     </task>
-    <task id="LOCAL-00098" summary="Kotlin/begin/conversion/th/v1&#10;First example">
-      <created>1678543065525</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
+    <task id="LOCAL-00702" summary="Kotlin/begin/defaultArgs/ex3/v2&#10;return value">
+      <created>1695569413045</created>
+      <option name="number" value="00702" />
+      <option name="presentableId" value="LOCAL-00702" />
       <option name="project" value="LOCAL" />
-      <updated>1678543065525</updated>
+      <updated>1695569413045</updated>
     </task>
-    <task id="LOCAL-00099" summary="Kotlin/begin/conversion/th/v2&#10;Second example">
-      <created>1678543392492</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
+    <task id="LOCAL-00703" summary="Kotlin/begin/defaultArgs/ex3/v3&#10;Short version for getVolume">
+      <created>1695569444044</created>
+      <option name="number" value="00703" />
+      <option name="presentableId" value="LOCAL-00703" />
       <option name="project" value="LOCAL" />
-      <updated>1678543392492</updated>
+      <updated>1695569444044</updated>
     </task>
-    <task id="LOCAL-00100" summary="Kotlin/begin/conversion/th/v3&#10;Third example: Int =&gt; Char">
-      <created>1678544545422</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
+    <task id="LOCAL-00704" summary="Kotlin/begin/defaultArgs/ex3/v4&#10;Default values for width and height">
+      <created>1695569485486</created>
+      <option name="number" value="00704" />
+      <option name="presentableId" value="LOCAL-00704" />
       <option name="project" value="LOCAL" />
-      <updated>1678544545422</updated>
+      <updated>1695569485486</updated>
     </task>
-    <task id="LOCAL-00101" summary="Kotlin/begin/conversion/th/v4&#10;Fourth example: Double =&gt; Int">
-      <created>1678546203010</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
+    <task id="LOCAL-00705" summary="Kotlin/begin/defaultArgs/ex3/v5&#10;Test &amp; final version">
+      <created>1695569526542</created>
+      <option name="number" value="00705" />
+      <option name="presentableId" value="LOCAL-00705" />
       <option name="project" value="LOCAL" />
-      <updated>1678546203011</updated>
+      <updated>1695569526542</updated>
     </task>
-    <task id="LOCAL-00102" summary="Kotlin/begin/conversion/th/v5&#10;Fifth example: Double =&gt; Int">
-      <created>1678547300759</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
+    <task id="LOCAL-00706" summary="Kotlin/begin/multDimLists/ex3/init&#10;Cube of zeros">
+      <created>1695668924703</created>
+      <option name="number" value="00706" />
+      <option name="presentableId" value="LOCAL-00706" />
       <option name="project" value="LOCAL" />
-      <updated>1678547300759</updated>
+      <updated>1695668924703</updated>
     </task>
-    <task id="LOCAL-00103" summary="Kotlin/begin/conversion/th/v6&#10;Sixth example: Double =&gt; Int">
-      <created>1678547851956</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
+    <task id="LOCAL-00707" summary="Kotlin/begin/multDimLists/ex3/v1&#10;Create array of 3 zeros">
+      <created>1695669162726</created>
+      <option name="number" value="00707" />
+      <option name="presentableId" value="LOCAL-00707" />
       <option name="project" value="LOCAL" />
-      <updated>1678547851956</updated>
+      <updated>1695669162726</updated>
     </task>
-    <task id="LOCAL-00104" summary="Kotlin/begin/conversion/th/v7&#10;Last example: Long =&gt; Int">
-      <created>1678550118070</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
+    <task id="LOCAL-00708" summary="Kotlin/begin/multDimLists/ex3/v2&#10;Create cube of zeros">
+      <created>1695669229436</created>
+      <option name="number" value="00708" />
+      <option name="presentableId" value="LOCAL-00708" />
       <option name="project" value="LOCAL" />
-      <updated>1678550118070</updated>
+      <updated>1695669229436</updated>
     </task>
-    <task id="LOCAL-00105" summary="Kotlin/begin/conversion/th/v8&#10;Double/Float conversion, recommendation">
-      <created>1678612112439</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
+    <task id="LOCAL-00709" summary="Kotlin/begin/multDimLists/ex3/v3&#10;Print the cube">
+      <created>1695669325224</created>
+      <option name="number" value="00709" />
+      <option name="presentableId" value="LOCAL-00709" />
       <option name="project" value="LOCAL" />
-      <updated>1678612112439</updated>
+      <updated>1695669325224</updated>
     </task>
-    <task id="LOCAL-00106" summary="Kotlin/begin/v2&#10;Update gitignore">
-      <created>1678612327225</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
+    <task id="LOCAL-00710" summary="Kotlin/begin/multDimLists/ex3/v4&#10;Correct variable name, final version">
+      <created>1695669584812</created>
+      <option name="number" value="00710" />
+      <option name="presentableId" value="LOCAL-00710" />
       <option name="project" value="LOCAL" />
-      <updated>1678612327226</updated>
+      <updated>1695669584812</updated>
     </task>
-    <task id="LOCAL-00107" summary="Kotlin/begin/conversion/th/v9&#10;Float &gt; Short : example">
-      <created>1678621623308</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
+    <task id="LOCAL-00711" summary="Kotlin/begin/dataTypes/ex4/init&#10;Think as a compiler">
+      <created>1695752755915</created>
+      <option name="number" value="00711" />
+      <option name="presentableId" value="LOCAL-00711" />
       <option name="project" value="LOCAL" />
-      <updated>1678621623308</updated>
+      <updated>1695752755916</updated>
     </task>
-    <task id="LOCAL-00108" summary="Kotlin/begin/conversion/th/v10&#10;Double &gt; Byte : example">
-      <created>1678622099718</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
+    <task id="LOCAL-00712" summary="Kotlin/begin/dataTypes/ex4/v1&#10;Declare first and last">
+      <created>1695752820447</created>
+      <option name="number" value="00712" />
+      <option name="presentableId" value="LOCAL-00712" />
       <option name="project" value="LOCAL" />
-      <updated>1678622099719</updated>
+      <updated>1695752820447</updated>
     </task>
-    <task id="LOCAL-00109" summary="Kotlin/begin/conversion/th/v11&#10;toString() examples">
-      <created>1678626465828</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
+    <task id="LOCAL-00713" summary="Kotlin/begin/dataTypes/ex4/v2&#10;Declare age">
+      <created>1695752848367</created>
+      <option name="number" value="00713" />
+      <option name="presentableId" value="LOCAL-00713" />
       <option name="project" value="LOCAL" />
-      <updated>1678626465828</updated>
+      <updated>1695752848367</updated>
     </task>
-    <task id="LOCAL-00110" summary="Kotlin/begin/conversion/th/v12&#10;Chained conversion">
-      <created>1678627028157</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
+    <task id="LOCAL-00714" summary="Kotlin/begin/dataTypes/ex4/v3&#10;Use variables">
+      <created>1695753303418</created>
+      <option name="number" value="00714" />
+      <option name="presentableId" value="LOCAL-00714" />
       <option name="project" value="LOCAL" />
-      <updated>1678627028157</updated>
+      <updated>1695753303418</updated>
     </task>
-    <task id="LOCAL-00111" summary="Kotlin/begin/conversion/th/v13&#10;Boolean conversion added">
-      <created>1678627300559</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
+    <task id="LOCAL-00715" summary="Kotlin/begin/jumpRet/ex5/init&#10;Exercise: Unique Characters">
+      <created>1695843066806</created>
+      <option name="number" value="00715" />
+      <option name="presentableId" value="LOCAL-00715" />
       <option name="project" value="LOCAL" />
-      <updated>1678627300559</updated>
+      <updated>1695843066806</updated>
     </task>
-    <task id="LOCAL-00112" summary="Kotlin/begin/stringBasics/init&#10;String Basics: init">
-      <created>1678651578144</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
+    <task id="LOCAL-00716" summary="Kotlin/begin/jumpRet/ex5/v1&#10;Get user input">
+      <created>1695843350917</created>
+      <option name="number" value="00716" />
+      <option name="presentableId" value="LOCAL-00716" />
       <option name="project" value="LOCAL" />
-      <updated>1678651578144</updated>
+      <updated>1695843350917</updated>
     </task>
-    <task id="LOCAL-00113" summary="Kotlin/begin/stringBasics/th/v1&#10;The length of a String">
-      <created>1678652814206</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
+    <task id="LOCAL-00717" summary="Kotlin/begin/jumpRet/ex5/v2&#10;Sort user input alphabetically">
+      <created>1695843413187</created>
+      <option name="number" value="00717" />
+      <option name="presentableId" value="LOCAL-00717" />
       <option name="project" value="LOCAL" />
-      <updated>1678652814206</updated>
+      <updated>1695843413187</updated>
     </task>
-    <task id="LOCAL-00114" summary="Kotlin/begin/stringBasics/th/v2&#10;Concatening Strings">
-      <created>1678653338889</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
+    <task id="LOCAL-00718" summary="Kotlin/begin/jumpRet/ex5/v3&#10;Keep sorted input as array">
+      <created>1695843481280</created>
+      <option name="number" value="00718" />
+      <option name="presentableId" value="LOCAL-00718" />
       <option name="project" value="LOCAL" />
-      <updated>1678653338889</updated>
+      <updated>1695843481280</updated>
     </task>
-    <task id="LOCAL-00115" summary="Kotlin/begin/stringBasics/th/v3&#10;Concatenating Strings: 2nd example">
-      <created>1678653590305</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
+    <task id="LOCAL-00719" summary="Kotlin/begin/jumpRet/ex5/v4&#10;Prepare to count uniques">
+      <created>1695843527751</created>
+      <option name="number" value="00719" />
+      <option name="presentableId" value="LOCAL-00719" />
       <option name="project" value="LOCAL" />
-      <updated>1678653590305</updated>
+      <updated>1695843527752</updated>
     </task>
-    <task id="LOCAL-00116" summary="Kotlin/begin/stringBasics/th/v4&#10;appending values - e.g. 1">
-      <created>1678653848931</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
+    <task id="LOCAL-00720" summary="Kotlin/begin/jumpRet/ex5/v5&#10;Check if unique">
+      <created>1695843888507</created>
+      <option name="number" value="00720" />
+      <option name="presentableId" value="LOCAL-00720" />
       <option name="project" value="LOCAL" />
-      <updated>1678653848931</updated>
+      <updated>1695843888507</updated>
     </task>
-    <task id="LOCAL-00117" summary="Kotlin/begin/stringBasics/th/v5&#10;appending values - e.g. 2">
-      <created>1678653958153</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
+    <task id="LOCAL-00721" summary="Kotlin/begin/jumpRet/ex5/v6&#10;First proposition">
+      <created>1695843917620</created>
+      <option name="number" value="00721" />
+      <option name="presentableId" value="LOCAL-00721" />
       <option name="project" value="LOCAL" />
-      <updated>1678653958154</updated>
+      <updated>1695843917620</updated>
     </task>
-    <task id="LOCAL-00118" summary="Kotlin/begin/stringBasics/th/v6&#10;Repeat: example 1">
-      <created>1678654155969</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
+    <task id="LOCAL-00722" summary="Kotlin/begin/jumpRet/ex5/v7&#10;BUG: treat first 2 elements">
+      <created>1695850882865</created>
+      <option name="number" value="00722" />
+      <option name="presentableId" value="LOCAL-00722" />
       <option name="project" value="LOCAL" />
-      <updated>1678654155969</updated>
+      <updated>1695850882865</updated>
     </task>
-    <task id="LOCAL-00119" summary="Kotlin/begin/stringBasics/th/v7&#10;Repeat: example 2">
-      <created>1678654561937</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
+    <task id="LOCAL-00723" summary="Kotlin/begin/jumpRet/ex5/v8&#10;BUG: treat last 2 elements">
+      <created>1695850965145</created>
+      <option name="number" value="00723" />
+      <option name="presentableId" value="LOCAL-00723" />
       <option name="project" value="LOCAL" />
-      <updated>1678654561937</updated>
+      <updated>1695850965145</updated>
     </task>
-    <task id="LOCAL-00120" summary="Kotlin/begin/stringBasics/th/v8&#10;Raw String - end of theory">
-      <created>1678655064558</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
+    <task id="LOCAL-00724" summary="Kotlin/begin/repBlo/ex5/init&#10;Counting positive numbers">
+      <created>1695967747153</created>
+      <option name="number" value="00724" />
+      <option name="presentableId" value="LOCAL-00724" />
       <option name="project" value="LOCAL" />
-      <updated>1678655064558</updated>
+      <updated>1695967747153</updated>
     </task>
-    <task id="LOCAL-00121" summary="Kotlin/begin/boolLogic/init&#10;Booleans and Logical Operations: init">
-      <created>1678655577946</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
+    <task id="LOCAL-00725" summary="Kotlin/begin/repBlo/ex5/v1&#10;Getting arrayList">
+      <created>1695967923639</created>
+      <option name="number" value="00725" />
+      <option name="presentableId" value="LOCAL-00725" />
       <option name="project" value="LOCAL" />
-      <updated>1678655577946</updated>
+      <updated>1695967923640</updated>
     </task>
-    <task id="LOCAL-00122" summary="Kotlin/begin/boolLogic/th/init&#10;Theory">
-      <created>1678656470791</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
+    <task id="LOCAL-00726" summary="Kotlin/begin/repBlo/ex5/v2&#10;Define variable to count positive numbers">
+      <created>1695968021583</created>
+      <option name="number" value="00726" />
+      <option name="presentableId" value="LOCAL-00726" />
       <option name="project" value="LOCAL" />
-      <updated>1678656470791</updated>
+      <updated>1695968021583</updated>
     </task>
-    <task id="LOCAL-00123" summary="Kotlin/begin/boolLogic/th/v1&#10;2 possible values">
-      <created>1678731406307</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
+    <task id="LOCAL-00727" summary="Kotlin/begin/repBlo/ex5/v3&#10;Count positive numbers">
+      <created>1695968113576</created>
+      <option name="number" value="00727" />
+      <option name="presentableId" value="LOCAL-00727" />
       <option name="project" value="LOCAL" />
-      <updated>1678731406308</updated>
+      <updated>1695968113576</updated>
     </task>
-    <task id="LOCAL-00124" summary="Kotlin/begin/boolLogic/th/v2&#10;String toBoolean">
-      <created>1678736302250</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
+    <task id="LOCAL-00728" summary="Kotlin/begin/repBlo/ex5/v4&#10;Display result">
+      <created>1695968130469</created>
+      <option name="number" value="00728" />
+      <option name="presentableId" value="LOCAL-00728" />
       <option name="project" value="LOCAL" />
-      <updated>1678736302250</updated>
+      <updated>1695968130469</updated>
     </task>
-    <task id="LOCAL-00125" summary="Kotlin/begin/boolLogic/th/v3&#10;operator NOT">
-      <created>1678737873371</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
+    <task id="LOCAL-00729" summary="Kotlin/begin/strFormat/ex3/init&#10;Dynamic Double formatting">
+      <created>1696169215105</created>
+      <option name="number" value="00729" />
+      <option name="presentableId" value="LOCAL-00729" />
       <option name="project" value="LOCAL" />
-      <updated>1678737873371</updated>
+      <updated>1696169215105</updated>
     </task>
-    <task id="LOCAL-00126" summary="Kotlin/begin/boolLogic/th/v4&#10;operator AND">
-      <created>1678737914839</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
+    <task id="LOCAL-00730" summary="Kotlin/begin/strFormat/ex3/v1&#10;doubleFormat signature">
+      <created>1696169291730</created>
+      <option name="number" value="00730" />
+      <option name="presentableId" value="LOCAL-00730" />
       <option name="project" value="LOCAL" />
-      <updated>1678737914839</updated>
+      <updated>1696169291730</updated>
     </task>
-    <task id="LOCAL-00127" summary="Kotlin/begin/boolLogic/th/v5&#10;operator OR">
-      <created>1678737979668</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
+    <task id="LOCAL-00731" summary="Kotlin/begin/strFormat/ex3/v2&#10;return value (no formatting)">
+      <created>1696169521086</created>
+      <option name="number" value="00731" />
+      <option name="presentableId" value="LOCAL-00731" />
       <option name="project" value="LOCAL" />
-      <updated>1678737979669</updated>
+      <updated>1696169521086</updated>
     </task>
-    <task id="LOCAL-00128" summary="Kotlin/begin/boolLogic/th/v6&#10;operator XOR">
-      <created>1678738062517</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
+    <task id="LOCAL-00732" summary="Kotlin/begin/strFormat/ex3/v3&#10;Take precision into account">
+      <created>1696169595390</created>
+      <option name="number" value="00732" />
+      <option name="presentableId" value="LOCAL-00732" />
       <option name="project" value="LOCAL" />
-      <updated>1678738062518</updated>
+      <updated>1696169595390</updated>
     </task>
-    <task id="LOCAL-00129" summary="Kotlin/begin/boolLogic/th/v7&#10;precedence">
-      <created>1678738967210</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
+    <task id="LOCAL-00733" summary="Kotlin/begin/strFormat/ex3/v4&#10;Take width into account">
+      <created>1696169623352</created>
+      <option name="number" value="00733" />
+      <option name="presentableId" value="LOCAL-00733" />
       <option name="project" value="LOCAL" />
-      <updated>1678738967210</updated>
+      <updated>1696169623352</updated>
     </task>
-    <task id="LOCAL-00130" summary="Kotlin/begin/boolLogic/ex1/init&#10;Program a boolean function">
-      <created>1678774668225</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
+    <task id="LOCAL-00734" summary="Kotlin/begin/strFormat/ex3/v5&#10;Final version">
+      <created>1696169771393</created>
+      <option name="number" value="00734" />
+      <option name="presentableId" value="LOCAL-00734" />
       <option name="project" value="LOCAL" />
-      <updated>1678774668225</updated>
+      <updated>1696169771394</updated>
     </task>
-    <task id="LOCAL-00131" summary="Kotlin/begin/boolLogic/ex1/v1&#10;get variables">
-      <created>1678774687483</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
+    <task id="LOCAL-00735" summary="Kotlin/begin/tryCatch/ex2/init&#10;Handling Strings">
+      <created>1696357483684</created>
+      <option name="number" value="00735" />
+      <option name="presentableId" value="LOCAL-00735" />
       <option name="project" value="LOCAL" />
-      <updated>1678774687483</updated>
+      <updated>1696357483685</updated>
     </task>
-    <task id="LOCAL-00132" summary="Kotlin/begin/boolLogic/ex1/v2&#10;First version">
-      <created>1678774774782</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
+    <task id="LOCAL-00736" summary="Kotlin/begin/tryCatch/ex2/v1&#10;Original version, no exception catch">
+      <created>1696357550760</created>
+      <option name="number" value="00736" />
+      <option name="presentableId" value="LOCAL-00736" />
       <option name="project" value="LOCAL" />
-      <updated>1678774774782</updated>
+      <updated>1696357550761</updated>
     </task>
-    <task id="LOCAL-00133" summary="Kotlin/begin/boolLogic/ex1/v3&#10;Second version, without inter val">
-      <created>1678774855442</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
+    <task id="LOCAL-00737" summary="Kotlin/begin/tryCatch/ex2/v2&#10;try...catch structure">
+      <created>1696357668660</created>
+      <option name="number" value="00737" />
+      <option name="presentableId" value="LOCAL-00737" />
       <option name="project" value="LOCAL" />
-      <updated>1678774855442</updated>
+      <updated>1696357668660</updated>
     </task>
-    <task id="LOCAL-00134" summary="Kotlin/begin/conversion/ex1/v1&#10;init">
-      <created>1678819300457</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
+    <task id="LOCAL-00738" summary="Kotlin/begin/tryCatch/ex2/v3&#10;Add exception output">
+      <created>1696357825750</created>
+      <option name="number" value="00738" />
+      <option name="presentableId" value="LOCAL-00738" />
       <option name="project" value="LOCAL" />
-      <updated>1678819300457</updated>
+      <updated>1696357825750</updated>
     </task>
-    <task id="LOCAL-00135" summary="Kotlin/begin/dataTypes/ex3/init&#10;Max values of integer types">
-      <created>1678905234572</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
+    <task id="LOCAL-00739" summary="Kotlin/begin/tryCatch/ex2/v4&#10;Tests">
+      <created>1696358017593</created>
+      <option name="number" value="00739" />
+      <option name="presentableId" value="LOCAL-00739" />
       <option name="project" value="LOCAL" />
-      <updated>1678905234575</updated>
+      <updated>1696358017593</updated>
     </task>
-    <task id="LOCAL-00136" summary="Kotlin/begin/dataTypes/ex3/v1&#10;Int max value">
-      <created>1678907874161</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
+    <task id="LOCAL-00740" summary="Kotlin/begin/tryCatch/ex2/v5&#10;Move return out of try..catch">
+      <created>1696358049719</created>
+      <option name="number" value="00740" />
+      <option name="presentableId" value="LOCAL-00740" />
       <option name="project" value="LOCAL" />
-      <updated>1678907874161</updated>
+      <updated>1696358049719</updated>
     </task>
-    <task id="LOCAL-00137" summary="Kotlin/begin/dataTypes/ex3/v2&#10;Short max value">
-      <created>1678907903764</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
+    <task id="LOCAL-00741" summary="Kotlin/begin/simpleDebug/ex1/init&#10;Exercise: Bitwise and integers">
+      <created>1696445022717</created>
+      <option name="number" value="00741" />
+      <option name="presentableId" value="LOCAL-00741" />
       <option name="project" value="LOCAL" />
-      <updated>1678907903764</updated>
+      <updated>1696445022717</updated>
     </task>
-    <task id="LOCAL-00138" summary="Kotlin/begin/dataTypes/ex3/v3&#10;Long max value">
-      <created>1678907927644</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
+    <task id="LOCAL-00742" summary="Kotlin/begin/simpleDebug/ex2/init&#10;Exercise: Cycles and iterations">
+      <created>1696445483480</created>
+      <option name="number" value="00742" />
+      <option name="presentableId" value="LOCAL-00742" />
       <option name="project" value="LOCAL" />
-      <updated>1678907927644</updated>
+      <updated>1696445483480</updated>
     </task>
-    <task id="LOCAL-00139" summary="Kotlin/begin/dataTypes/ex3/v4&#10;Byte max value">
-      <created>1678908012559</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
+    <task id="LOCAL-00743" summary="Kotlin/begin/simpleDebug/ex3/init&#10;Exercise: Fibonacci sum">
+      <created>1696445973027</created>
+      <option name="number" value="00743" />
+      <option name="presentableId" value="LOCAL-00743" />
       <option name="project" value="LOCAL" />
-      <updated>1678908012560</updated>
+      <updated>1696445973027</updated>
     </task>
-    <task id="LOCAL-00140" summary="Kotlin/begin/objects/init&#10;Objects - Chapter init">
-      <created>1678913068290</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
+    <task id="LOCAL-00744" summary="Kotlin/begin/simpleDebug/ex4/init&#10;Exercise: Primes and how to find them">
+      <created>1696446391186</created>
+      <option name="number" value="00744" />
+      <option name="presentableId" value="LOCAL-00744" />
       <option name="project" value="LOCAL" />
-      <updated>1678913068290</updated>
+      <updated>1696446391186</updated>
     </task>
-    <task id="LOCAL-00141" summary="Kotlin/begin/objects/th/init&#10;Theory: init">
-      <created>1678913104281</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
+    <task id="LOCAL-00745" summary="Kotlin/begin/simpleDebug/ex5/init&#10;Exercise: Divisors finding">
+      <created>1696534865268</created>
+      <option name="number" value="00745" />
+      <option name="presentableId" value="LOCAL-00745" />
       <option name="project" value="LOCAL" />
-      <updated>1678913104281</updated>
+      <updated>1696534865268</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <option name="localTasksCounter" value="746" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,31 +552,75 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Kotlin/begin/stringBasics/th/v5&#10;appending values - e.g. 2" />
-    <MESSAGE value="Kotlin/begin/stringBasics/th/v6&#10;Repeat: example 1" />
-    <MESSAGE value="Kotlin/begin/stringBasics/th/v7&#10;Repeat: example 2" />
-    <MESSAGE value="Kotlin/begin/stringBasics/th/v8&#10;Raw String - end of theory" />
-    <MESSAGE value="Kotlin/begin/boolLogic/init&#10;Booleans and Logical Operations: init" />
-    <MESSAGE value="Kotlin/begin/boolLogic/th/init&#10;Theory" />
-    <MESSAGE value="Kotlin/begin/boolLogic/th/v1&#10;2 possible values" />
-    <MESSAGE value="Kotlin/begin/boolLogic/th/v2&#10;String toBoolean" />
-    <MESSAGE value="Kotlin/begin/boolLogic/th/v3&#10;operator NOT" />
-    <MESSAGE value="Kotlin/begin/boolLogic/th/v4&#10;operator AND" />
-    <MESSAGE value="Kotlin/begin/boolLogic/th/v5&#10;operator OR" />
-    <MESSAGE value="Kotlin/begin/boolLogic/th/v6&#10;operator XOR" />
-    <MESSAGE value="Kotlin/begin/boolLogic/th/v7&#10;precedence" />
-    <MESSAGE value="Kotlin/begin/boolLogic/ex1/init&#10;Program a boolean function" />
-    <MESSAGE value="Kotlin/begin/boolLogic/ex1/v1&#10;get variables" />
-    <MESSAGE value="Kotlin/begin/boolLogic/ex1/v2&#10;First version" />
-    <MESSAGE value="Kotlin/begin/boolLogic/ex1/v3&#10;Second version, without inter val" />
-    <MESSAGE value="Kotlin/begin/conversion/ex1/v1&#10;init" />
-    <MESSAGE value="Kotlin/begin/dataTypes/ex3/init&#10;Max values of integer types" />
-    <MESSAGE value="Kotlin/begin/dataTypes/ex3/v1&#10;Int max value" />
-    <MESSAGE value="Kotlin/begin/dataTypes/ex3/v2&#10;Short max value" />
-    <MESSAGE value="Kotlin/begin/dataTypes/ex3/v3&#10;Long max value" />
-    <MESSAGE value="Kotlin/begin/dataTypes/ex3/v4&#10;Byte max value" />
-    <MESSAGE value="Kotlin/begin/objects/init&#10;Objects - Chapter init" />
-    <MESSAGE value="Kotlin/begin/objects/th/init&#10;Theory: init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kotlin/begin/objects/th/init&#10;Theory: init" />
+    <MESSAGE value="Kotlin/begin/jumpRet/ex5/v6&#10;First proposition" />
+    <MESSAGE value="Kotlin/begin/jumpRet/ex5/v7&#10;BUG: treat first 2 elements" />
+    <MESSAGE value="Kotlin/begin/jumpRet/ex5/v8&#10;BUG: treat last 2 elements" />
+    <MESSAGE value="Kotlin/begin/repBlo/ex5/init&#10;Counting positive numbers" />
+    <MESSAGE value="Kotlin/begin/repBlo/ex5/v1&#10;Getting arrayList" />
+    <MESSAGE value="Kotlin/begin/repBlo/ex5/v2&#10;Define variable to count positive numbers" />
+    <MESSAGE value="Kotlin/begin/repBlo/ex5/v3&#10;Count positive numbers" />
+    <MESSAGE value="Kotlin/begin/repBlo/ex5/v4&#10;Display result" />
+    <MESSAGE value="Kotlin/begin/strFormat/ex3/init&#10;Dynamic Double formatting" />
+    <MESSAGE value="Kotlin/begin/strFormat/ex3/v1&#10;doubleFormat signature" />
+    <MESSAGE value="Kotlin/begin/strFormat/ex3/v2&#10;return value (no formatting)" />
+    <MESSAGE value="Kotlin/begin/strFormat/ex3/v3&#10;Take precision into account" />
+    <MESSAGE value="Kotlin/begin/strFormat/ex3/v4&#10;Take width into account" />
+    <MESSAGE value="Kotlin/begin/strFormat/ex3/v5&#10;Final version" />
+    <MESSAGE value="Kotlin/begin/tryCatch/ex2/init&#10;Handling Strings" />
+    <MESSAGE value="Kotlin/begin/tryCatch/ex2/v1&#10;Original version, no exception catch" />
+    <MESSAGE value="Kotlin/begin/tryCatch/ex2/v2&#10;try...catch structure" />
+    <MESSAGE value="Kotlin/begin/tryCatch/ex2/v3&#10;Add exception output" />
+    <MESSAGE value="Kotlin/begin/tryCatch/ex2/v4&#10;Tests" />
+    <MESSAGE value="Kotlin/begin/tryCatch/ex2/v5&#10;Move return out of try..catch" />
+    <MESSAGE value="Kotlin/begin/simpleDebug/ex1/init&#10;Exercise: Bitwise and integers" />
+    <MESSAGE value="Kotlin/begin/simpleDebug/ex2/init&#10;Exercise: Cycles and iterations" />
+    <MESSAGE value="Kotlin/begin/simpleDebug/ex3/init&#10;Exercise: Fibonacci sum" />
+    <MESSAGE value="Kotlin/begin/simpleDebug/ex4/init&#10;Exercise: Primes and how to find them" />
+    <MESSAGE value="Kotlin/begin/simpleDebug/ex5/init&#10;Exercise: Divisors finding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin/begin/simpleDebug/ex5/init&#10;Exercise: Divisors finding" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/addit/errorless/simple/Theory.kt</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/addit/errorless/simple/Exercise1.kt</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/addit/errorless/simple/Exercise1.kt</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <condition expression="i == 19" language="kotlin" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/addit/errorless/simple/Exercise2.kt</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <condition expression="fibonacciCurrent &gt; 1000" language="kotlin" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/addit/errorless/simple/Exercise3.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <condition expression="number == 459" language="kotlin" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/addit/errorless/simple/Exercise4.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/addit/errorless/simple/Exercise5.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
