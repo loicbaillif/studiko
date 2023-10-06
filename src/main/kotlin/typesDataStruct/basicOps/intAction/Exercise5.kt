@@ -10,9 +10,12 @@ package typesDataStruct.basicOps.intAction
 fun exercise5() {
     println("*** Exercise: Time Difference ***")
 
-    val fromHour = readln().toInt()
+    val fromHours = readln().toInt()
     val fromMinutes = readln().toInt()
     val fromSeconds = readln().toInt()
+    val toHours = readln().toInt()
+    val toMinutes = readln().toInt()
+    val toSeconds = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
