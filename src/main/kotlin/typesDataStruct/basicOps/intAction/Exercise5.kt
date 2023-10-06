@@ -17,5 +17,8 @@ fun exercise5() {
     val toMinutes = readln().toInt()
     val toSeconds = readln().toInt()
 
+    val fromTotal = (fromHours * 60 + fromMinutes) * 60 + fromSeconds
+    val toTotal = (toHours * 60 + toMinutes) * 60 + toSeconds
+
     println("\n*** End of exercise ***")
 }
