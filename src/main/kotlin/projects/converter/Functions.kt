@@ -30,3 +30,12 @@ fun giveHexCode(decNum: Int): Char {
         else -> decNum.digitToChar()
     }
 }
+
+
+fun mainMenu() {
+    var userMenu = ""
+    while (userMenu != "/exit") {
+        println(PROMPT_STAGE2)
+        userMenu = readln()
+    }
+}

@@ -8,9 +8,5 @@ package projects.converter
  */
 
 fun stage2() {
-    println(PROMPT_STAGE2)
-    var userChoice = ""
-    while (userChoice != "/exit") {
-
-    }
+    mainMenu()
 }
