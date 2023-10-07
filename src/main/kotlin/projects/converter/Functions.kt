@@ -37,5 +37,12 @@ fun mainMenu() {
     while (userMenu != "/exit") {
         println(PROMPT_STAGE2)
         userMenu = readln()
+
+        when (userMenu) {
+            "/from" -> println("/from selected ...")
+            "/to" -> println("/to selected ...")
+            "/exit" -> continue
+            else -> println("Not a valid option ...")
+        }
     }
 }
