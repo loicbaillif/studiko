@@ -39,7 +39,13 @@ fun mainMenu() {
         userMenu = readln()
 
         when (userMenu) {
-            "/from" -> println("/from selected ...")
+            "/from" -> {
+                println(INPUT_DECIMAL)
+                val userInput = readln().toInt()
+                println(TARGET_BASE)
+                val radix = readln().toInt()
+                println("$CONVERSION_RESULT ${tenToElse(userInput, radix)}")
+            }
             "/to" -> println("/to selected ...")
             "/exit" -> continue
             else -> println("Not a valid option ...")
