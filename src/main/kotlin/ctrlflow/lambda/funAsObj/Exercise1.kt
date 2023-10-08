@@ -17,3 +17,5 @@ fun exercise1() {
 
 
 fun identity(input: Int) = input
+
+fun half(input: Int) = input / 2
