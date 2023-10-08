@@ -10,7 +10,8 @@ package ctrlflow.lambda.funAsObj
 fun exercise1() {
     println("*** Exercise: Function generator ***")
 
-    generate(readln())
+    val testFun = generate(readln())
+    println(testFun(8))
 
     println("\n*** End of exercise ***")
 }
