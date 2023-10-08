@@ -15,6 +15,11 @@ fun exercise1() {
     println("\n*** End of exercise ***")
 }
 
+fun generate(functionName: String): (Int) -> Int {
+    // TODO: provide implementation here
+
+}
+
 
 fun identity(input: Int) = input
 
