@@ -17,7 +17,7 @@ fun main() {
     // projects.cinema.index()
     // projects.chuckNorris.index()
     // projects.encDec.index()
-    projects.converter.index()
+    // projects.converter.index()
 
     // Old Chapters
     // overview.index()
@@ -58,7 +58,7 @@ fun main() {
     // ctrlflow.func.invokFunc.index()
     // ctrlflow.func.mainFun.index()
     // ctrlflow.func.namedArgs.index()
-    // ctrlflow.lambda.funAsObj.index()
+    ctrlflow.lambda.funAsObj.index()
     // ctrlflow.lambda.lambdaEx.index()
 
     // oop.basics.constructors.index()
