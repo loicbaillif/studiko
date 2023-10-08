@@ -10,18 +10,18 @@ package ctrlflow.lambda.funAsObj
 fun exercise1() {
     println("*** Exercise: Function generator ***")
 
-
+    generate(readln())
 
     println("\n*** End of exercise ***")
 }
 
 fun generate(functionName: String): (Int) -> Int {
     // TODO: provide implementation here
-    when (functionName) {
-        "half" -> return ::half
-        "identity" -> return ::identity
-        "zero" -> return ::zero
-        else -> return ::zero
+    return when (functionName) {
+        "half" -> ::half
+        "identity" -> ::identity
+        "zero" -> ::zero
+        else -> ::zero
     }
 }
 
