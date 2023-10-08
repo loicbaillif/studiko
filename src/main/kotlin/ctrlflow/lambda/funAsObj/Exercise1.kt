@@ -17,12 +17,17 @@ fun exercise1() {
 
 fun generate(functionName: String): (Int) -> Int {
     // TODO: provide implementation here
-
+    when (functionName) {
+        "half" -> return ::half
+        "identity" -> return ::identity
+        "zero" -> return ::zero
+        else -> return ::zero
+    }
 }
 
 
-fun identity(input: Int) = input
-
 fun half(input: Int) = input / 2
+
+fun identity(input: Int) = input
 
 fun zero(input: Int) = 0
