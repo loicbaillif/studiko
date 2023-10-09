@@ -4,9 +4,10 @@ fun elseToTen(input: String, radix: Int): Int {
     var result = 0
     for (c in input) {
         val digit = c.digitToInt(radix)
+        result = result * radix + digit
     }
 
-    return 0
+    return result
 }
 
 
@@ -60,8 +61,7 @@ fun mainMenu() {
                 val userInput = readln()
                 println(SOURCE_OTHER_BASE)
                 val sourceBase = readln().toInt()
-                println("$CONVERSION_RESULT_TO_10")
-                elseToTen(userInput, sourceBase)
+                println("$CONVERSION_RESULT_TO_10 ${ elseToTen(userInput, sourceBase) }")
             }
             "/exit" -> continue
             else -> println("Not a valid option ...")
