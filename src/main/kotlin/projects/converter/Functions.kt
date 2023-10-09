@@ -1,7 +1,12 @@
 package projects.converter
 
 fun elseToTen(input: String, radix: Int): Int {
-    
+    var result = 0
+    for (c in input) {
+        val digit = c.digitToInt(radix)
+    }
+
+    return 0
 }
 
 
@@ -54,8 +59,9 @@ fun mainMenu() {
                 println(SOURCE_NUMBER_OTHER_BASE)
                 val userInput = readln()
                 println(SOURCE_OTHER_BASE)
-                val sourceBase = readln().toInt
+                val sourceBase = readln().toInt()
                 println("$CONVERSION_RESULT_TO_10")
+                elseToTen(userInput, sourceBase)
             }
             "/exit" -> continue
             else -> println("Not a valid option ...")
