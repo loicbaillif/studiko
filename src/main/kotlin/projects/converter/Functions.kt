@@ -1,5 +1,9 @@
 package projects.converter
 
+fun elseToTen(input: String, radix: Int): Int {
+    
+}
+
 
 fun tenToElse(input: Int, radix: Int): String {
     // Variables
@@ -50,7 +54,7 @@ fun mainMenu() {
                 println(SOURCE_NUMBER_OTHER_BASE)
                 val userInput = readln()
                 println(SOURCE_OTHER_BASE)
-                val sourceBase = readln()
+                val sourceBase = readln().toInt
                 println("$CONVERSION_RESULT_TO_10")
             }
             "/exit" -> continue
