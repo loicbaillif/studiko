@@ -7,12 +7,13 @@ package typesDataStruct.strings.basics
  * Solution by Loïc Baillif
  */
 
+const val NB_REPEAT = 6
+const val OUTPUT = "I'm learning Kotlin!"
+
 fun exercise2() {
     println("*** Exercise: I'm learning Kotlin!")
 
-    val output = "I'm learning Kotlin!"
-    val occurences = 6
-    repeat(occurences) { println(output) }
+    repeat(NB_REPEAT) { println(OUTPUT) }
 
     println("\n*** End of exercise ***")
 }
