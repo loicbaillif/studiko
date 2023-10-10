@@ -17,7 +17,7 @@ fun main() {
     // projects.cinema.index()
     // projects.chuckNorris.index()
     // projects.encDec.index()
-    projects.converter.index()
+    // projects.converter.index()
 
     // Old Chapters
     // overview.index()
@@ -84,7 +84,7 @@ fun main() {
     // typesDataStruct.lists.introMut.index()
     // typesDataStruct.lists.multiDim.index()
     // typesDataStruct.lists.workMut.index()
-    // typesDataStruct.strings.basics.index()
+    typesDataStruct.strings.basics.index()
     // typesDataStruct.strings.proc.index()
     // typesDataStruct.strings.subString.index()
     // typesDataStruct.strings.template.index()
