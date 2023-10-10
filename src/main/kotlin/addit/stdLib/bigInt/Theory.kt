@@ -22,6 +22,9 @@ fun theory() {
     println("\tBigInteger.ZERO = ${BigInteger.ZERO}")
     println("\tBigInteger.ONE = ${BigInteger.ONE}")
     println("\tBigInteger.TEN = ${BigInteger.TEN}")
+    val someBigInt2 = 1234.toBigInteger()
+    println("\t1234.toBigInteger() ==> ${someBigInt2::class.java.typeName}")
+
 
     println("\n***** End of theory *****")
 }
