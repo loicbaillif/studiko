@@ -10,6 +10,8 @@ package typesDataStruct.strings.basics
 fun exercise2() {
     println("*** Exercise: I'm learning Kotlin!")
 
+    val output = "I'm learning Kotlin!"
+    val occurences = 6
 
 
     println("\n*** End of exercise ***")
