@@ -12,7 +12,7 @@ fun exercise2() {
 
     val output = "I'm learning Kotlin!"
     val occurences = 6
-
+    repeat(occurences) { println(output) }
 
     println("\n*** End of exercise ***")
 }
