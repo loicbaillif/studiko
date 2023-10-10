@@ -19,6 +19,9 @@ fun theory() {
 
     println("\n*** 2) Creating a BigInteger object")
     val someBigInt = BigInteger("12345678910")
+    println("\tBigInteger.ZERO = ${BigInteger.ZERO}")
+    println("\tBigInteger.ONE = ${BigInteger.ONE}")
+    println("\tBigInteger.TEN = ${BigInteger.TEN}")
 
     println("\n***** End of theory *****")
 }
