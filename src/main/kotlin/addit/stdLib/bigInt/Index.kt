@@ -6,5 +6,5 @@ package addit.stdLib.bigInt
 
 fun index() {
     println("********** BigInteger **********\n")
-
+    theory()
 }
