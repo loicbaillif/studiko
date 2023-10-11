@@ -8,5 +8,6 @@ fun index() {
     println("********** Arrays **********\n")
 
     // theory()
-    exercise1()
+    // exercise1()
+    exercise2()
 }

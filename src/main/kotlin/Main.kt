@@ -65,7 +65,7 @@ fun main() {
     // oop.basics.decClass.index()
 
 
-    // typesDataStruct.arrays.arrays.index()
+    typesDataStruct.arrays.arrays.index()
     // typesDataStruct.arrays.forArrays.index()
     // typesDataStruct.arrays.multiDim.index()
     // typesDataStruct.arrays.strArrays.index()
@@ -93,5 +93,5 @@ fun main() {
     // typesDataStruct.variab.objects.index()
 
     // Current Chapter
-    addit.stdLib.bigInt.index()
+    // addit.stdLib.bigInt.index()
 }
