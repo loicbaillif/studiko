@@ -23,7 +23,13 @@ fun theory() {
     println("\tBigInteger.ONE = ${BigInteger.ONE}")
     println("\tBigInteger.TEN = ${BigInteger.TEN}")
     val someBigInt2 = 1234.toBigInteger()
-    println("\t1234.toBigInteger() ==> ${someBigInt2::class.java.typeName}")
+    println("\t1234.toBigInteger() ==> ${someBigInt2::class.java.simpleName}")
+    val someBigInt3 = "10987654321".toBigInteger()
+    println("\t$someBigInt3.toBigInteger() ==> ${someBigInt3::class.java.simpleName}")
+
+
+    println("\n*** 3) Arithmetic operations")
+
 
 
     println("\n***** End of theory *****")
