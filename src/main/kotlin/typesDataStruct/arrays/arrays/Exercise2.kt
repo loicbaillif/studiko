@@ -15,8 +15,10 @@ fun exercise2() {
     val numberArray1 = IntArray(100)
     val ten = 10.0
     repeat(3) {
-        numberArray1[it - 1] = ten.pow(it).toInt()
+        numberArray1[ten.pow(it).toInt() - 1] = ten.pow(it).toInt()
     }
+
+    println(numberArray1.joinToString("\n"))
 
     println("\n*** End of exercise ***")
 }
