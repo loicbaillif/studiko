@@ -44,6 +44,7 @@ fun theory() {
     val (result, remainder) = oneHundredAndTen.divideAndRemainder(nine)
     println("\tresult = $result; remainder = $remainder")
     println("\t-${BigInteger.TEN}.abs() = ${(-BigInteger.TEN).abs()} ")
+    println("\t$someBigInt.gcd($someBigInt2) = ${someBigInt.gcd(someBigInt2)}")
 
 
     println("\n***** End of theory *****")
