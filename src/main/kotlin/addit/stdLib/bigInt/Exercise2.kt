@@ -14,6 +14,7 @@ fun exercise2() {
     val b = readln().toBigInteger()
     val c = readln().toBigInteger()
     val d = readln().toBigInteger()
+    val result = -a * b + c - d
 
     println("\n*** End of exercise ***")
 }
