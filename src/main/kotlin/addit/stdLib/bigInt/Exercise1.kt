@@ -12,6 +12,7 @@ fun exercise1() {
 
     val a = readln().toBigInteger()
     val b = readln().toBigInteger()
+    val (q, r) = a.divideAndRemainder(b)
 
     println("\n*** End of exercise ***")
 }
