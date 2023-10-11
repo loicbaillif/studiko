@@ -1,5 +1,7 @@
 package addit.stdLib.bigInt
 
+import java.math.BigInteger
+
 /**
  * Exercise: Max
  * https://hyperskill.org/learn/step/12546
@@ -12,7 +14,7 @@ fun exercise3() {
 
     val a = readln().toBigInteger()
     val b = readln().toBigInteger()
-    println(if (a > b) a else b)
+    println((a + b + (a - b).abs()) / BigInteger.valueOf(2))
 
     println("\n*** End of exercise ***")
 }
