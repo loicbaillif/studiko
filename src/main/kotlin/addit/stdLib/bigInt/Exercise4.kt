@@ -12,6 +12,7 @@ fun exercise4() {
 
     val a = readln().toBigInteger()
     val b = readln().toBigInteger()
+    val sum = a + b
 
     println("\n*** End of exercise ***")
 }
