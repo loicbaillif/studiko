@@ -22,7 +22,7 @@ fun theory() {
     println("\tBigInteger.ZERO = ${BigInteger.ZERO}")
     println("\tBigInteger.ONE = ${BigInteger.ONE}")
     println("\tBigInteger.TEN = ${BigInteger.TEN}")
-    val someBigInt2 = 1234.toBigInteger()
+    var someBigInt2 = 1234.toBigInteger()
     println("\t1234.toBigInteger() ==> ${someBigInt2::class.java.simpleName}")
     val someBigInt3 = "10987654321".toBigInteger()
     println("\t$someBigInt3.toBigInteger() ==> ${someBigInt3::class.java.simpleName}")
@@ -33,6 +33,7 @@ fun theory() {
     println("\t$someBigInt3 - BigInteger.TEN = ${someBigInt3 - BigInteger.TEN}")
     println("\tBigInteger.TEN * BigInteger.TEN = ${BigInteger.TEN * BigInteger.TEN}")
     println("\t$someBigInt3 / BigInteger.TEN = ${someBigInt3 / BigInteger.TEN}")
+    println("\t-BigInteger.TEN = ${-BigInteger.TEN }")
 
 
     println("\n***** End of theory *****")
