@@ -14,7 +14,7 @@ fun exercise3() {
 
     val a = readln().toBigInteger()
     val b = readln().toBigInteger()
-    println((a + b + (a - b).abs()) / BigInteger.valueOf(2))
+    println((a + b + (a - b).abs()) / BigInteger.TWO)
 
     println("\n*** End of exercise ***")
 }
