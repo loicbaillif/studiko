@@ -10,7 +10,7 @@ package typesDataStruct.arrays.arrays
 fun exercise2() {
     println("*** Exercise: Initializing an array ***")
 
-
+    val numberArray1 = IntArray(100)
 
     println("\n*** End of exercise ***")
 }
