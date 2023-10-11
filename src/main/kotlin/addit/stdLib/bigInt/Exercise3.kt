@@ -10,7 +10,8 @@ package addit.stdLib.bigInt
 fun exercise3() {
     println("*** Exercise: Max ***")
 
-
+    val a = readln().toBigInteger()
+    val b = readln().toBigInteger()
 
     println("\n*** End of exercise ***")
 }
