@@ -38,5 +38,12 @@ fun theory() {
     println("\t$someBigInt2-- = ${--someBigInt2 }")
 
 
+    println("\n*** 4) Functions of BigInteger")
+    val oneHundredAndTen = 110.toBigInteger()
+    val nine = 9.toBigInteger()
+    val (result, remainder) = oneHundredAndTen.divideAndRemainder(nine)
+    println("result = $result; remainder = $remainder")
+
+
     println("\n***** End of theory *****")
 }
