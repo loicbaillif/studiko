@@ -12,6 +12,7 @@ fun exercise3() {
 
     val a = readln().toBigInteger()
     val b = readln().toBigInteger()
+    println(if (a > b) a else b)
 
     println("\n*** End of exercise ***")
 }
