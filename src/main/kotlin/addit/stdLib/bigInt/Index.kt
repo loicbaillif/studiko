@@ -7,5 +7,6 @@ package addit.stdLib.bigInt
 fun index() {
     println("********** BigInteger **********\n")
     // theory()
-    exercise1()
+    // exercise1()
+    exercise2()
 }
