@@ -29,7 +29,10 @@ fun theory() {
 
 
     println("\n*** 3) Arithmetic operations")
-
+    println("\t$someBigInt3 + BigInteger.ONE = ${someBigInt3 + BigInteger.ONE}")
+    println("\t$someBigInt3 - BigInteger.TEN = ${someBigInt3 - BigInteger.TEN}")
+    println("\tBigInteger.TEN * BigInteger.TEN = ${BigInteger.TEN * BigInteger.TEN}")
+    println("\t$someBigInt3 / BigInteger.TEN = ${someBigInt3 / BigInteger.TEN}")
 
 
     println("\n***** End of theory *****")
