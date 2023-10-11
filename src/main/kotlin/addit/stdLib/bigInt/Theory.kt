@@ -34,6 +34,8 @@ fun theory() {
     println("\tBigInteger.TEN * BigInteger.TEN = ${BigInteger.TEN * BigInteger.TEN}")
     println("\t$someBigInt3 / BigInteger.TEN = ${someBigInt3 / BigInteger.TEN}")
     println("\t-BigInteger.TEN = ${-BigInteger.TEN }")
+    println("\t$someBigInt2++ = ${++someBigInt2 }")
+    println("\t$someBigInt2-- = ${--someBigInt2 }")
 
 
     println("\n***** End of theory *****")
