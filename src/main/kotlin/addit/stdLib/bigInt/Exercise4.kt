@@ -1,7 +1,5 @@
 package addit.stdLib.bigInt
 
-import java.math.BigInteger
-
 /**
  * Exercise: Percentage
  * https://hyperskill.org/learn/step/7971
@@ -15,9 +13,10 @@ fun exercise4() {
     val a = readln().toBigInteger()
     val b = readln().toBigInteger()
     val sum = a + b
-    val hundred = BigInteger(100)
+    val hundred = 100.toBigInteger()
     val per1 = a * hundred / sum
     val per2 = b * hundred / sum
+    println("$per1% $per2%")
 
     println("\n*** End of exercise ***")
 }
