@@ -1,5 +1,7 @@
 package projects.converter
 
+import java.lang.Exception
+
 fun elseToTen(input: String, radix: Int): Int {
     var result = 0
     for (c in input) {
@@ -75,6 +77,13 @@ fun mainMenuSt3() {
     while (userMenu != "/exit") {
         var subMenu = ""
         while (subMenu != "/back") {
+            subMenu = readln()
+            try {
+                val (sourceBase, targetBase) = subMenu.split(" ").map { it.toInt() }
+                println("$sourceBase ==> ${sourceBase::class.java.simpleName}")
+            } catch (e: Exception) {
+
+            }
 
         }
     }
