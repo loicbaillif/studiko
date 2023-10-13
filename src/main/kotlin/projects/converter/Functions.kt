@@ -68,3 +68,11 @@ fun mainMenu() {
         }
     }
 }
+
+
+fun mainMenuSt3() {
+    var userMenu = ""
+    while (userMenu != "exit") {
+
+    }
+}
