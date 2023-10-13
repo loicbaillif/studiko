@@ -72,7 +72,10 @@ fun mainMenu() {
 
 fun mainMenuSt3() {
     var userMenu = ""
-    while (userMenu != "exit") {
+    while (userMenu != "/exit") {
+        var subMenu = ""
+        while (subMenu != "/back") {
 
+        }
     }
 }
