@@ -73,18 +73,21 @@ fun mainMenu() {
 
 
 fun mainMenuSt3() {
-    var userMenu = ""
+    println(MAIN_STAGE3)
+    var userMenu = readln()
     while (userMenu != "/exit") {
         var subMenu = ""
         while (subMenu != "/back") {
-            subMenu = readln()
             try {
-                val (sourceBase, targetBase) = subMenu.split(" ").map { it.toInt() }
-                println("$sourceBase ==> ${sourceBase::class.java.simpleName}")
+                val (sourceBase, targetBase) = userMenu.split(" ").map { it.toInt() }
+                println(INPUT_STAGE3.format(sourceBase, targetBase))
             } catch (e: Exception) {
 
             }
 
+            subMenu = readln()
         }
+        println(MAIN_STAGE3)
+        userMenu = readln()
     }
 }
