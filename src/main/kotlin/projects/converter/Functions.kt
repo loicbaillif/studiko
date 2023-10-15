@@ -31,6 +31,12 @@ fun tenToElse(input: Int, radix: Int): String {
 }
 
 
+fun oneToOther(userInput: String, oneSource: Int, otherSource: Int): String {
+    // Converts number from a base to base 10, then base 10 to other base
+
+}
+
+
 fun giveHexCode(decNum: Int): Char {
     return when (decNum) {
         10 -> 'A'
