@@ -33,7 +33,13 @@ fun tenToElse(input: Int, radix: Int): String {
 
 fun oneToOther(userInput: String, oneSource: Int, otherSource: Int): String {
     // Converts number from a base to base 10, then base 10 to other base
+    val convertNumber = (if (oneSource != 10) elseToTen(userInput, oneSource) else userInput.toInt())
 
+    if (otherSource != 10) {
+        return tenToElse(convertNumber, otherSource)
+    }
+
+    return  convertNumber.toString()
 }
 
 
@@ -81,11 +87,12 @@ fun mainMenu() {
 fun mainMenuSt3() {
     println(MAIN_STAGE3)
     var userMenu = readln()
-    var userInt = ""
     val baseList = intArrayOf(10, 2) // sourceBase, targetBase)
 
 
     while (userMenu != "/exit") {
+
+        var userInt = ""
 
         try {
             repeat(2) { baseList[it] = userMenu.split(" ")[it].toInt() }
@@ -98,7 +105,7 @@ fun mainMenuSt3() {
             userInt = readln()
 
             if (userInt != "/back") {
-
+                println(oneToOther(userInt, baseList[0], baseList[1]))
             }
         }
 
