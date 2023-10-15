@@ -75,7 +75,7 @@ fun mainMenu() {
 fun mainMenuSt3() {
     println(MAIN_STAGE3)
     var userMenu = readln()
-    var subMenu = ""
+    var userInt = ""
     val baseList = intArrayOf(10, 2) // sourceBase, targetBase)
 
 
@@ -87,12 +87,9 @@ fun mainMenuSt3() {
             repeat(2) {baseList[it] = 10 }
         }
 
-        println(INPUT_STAGE3.format(baseList[0], baseList[1]))
-
-        subMenu = readln()
-        while (subMenu != "/back") {
-
-            subMenu = readln()
+        while (userInt != "/back") {
+            println(INPUT_STAGE3.format(baseList[0], baseList[1]))
+            userInt = readln()
         }
 
         println(MAIN_STAGE3)
