@@ -90,6 +90,10 @@ fun mainMenuSt3() {
         while (userInt != "/back") {
             println(INPUT_STAGE3.format(baseList[0], baseList[1]))
             userInt = readln()
+
+            if (userInt != "/back") {
+
+            }
         }
 
         println(MAIN_STAGE3)
