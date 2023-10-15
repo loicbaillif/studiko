@@ -45,15 +45,8 @@ fun oneToOther(userInput: String, oneSource: Int, otherSource: Int): String {
 
 
 fun giveHexCode(decNum: Int): Char {
-    return when (decNum) {
-        10 -> 'A'
-        11 -> 'B'
-        12 -> 'C'
-        13 -> 'D'
-        14 -> 'E'
-        15 -> 'F'
-        else -> decNum.digitToChar()
-    }
+    val alphabet = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    return alphabet[decNum]
 }
 
 
