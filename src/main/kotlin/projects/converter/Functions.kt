@@ -1,29 +1,30 @@
 package projects.converter
 
 import java.lang.Exception
+import java.math.BigInteger
 
-fun elseToTen(input: String, radix: Int): Int {
-    var result = 0
+fun elseToTen(input: String, radix: Int): BigInteger {
+    var result: BigInteger = BigInteger.ZERO
     for (c in input) {
         val digit = c.digitToInt(radix)
-        result = result * radix + digit
+        result = result * radix.toBigInteger() + digit.toBigInteger()
     }
 
     return result
 }
 
 
-fun tenToElse(input: Int, radix: Int): String {
+fun tenToElse(input: BigInteger, radix: Int): String {
     // Variables
     val sbResult = StringBuilder()
     var tempInput = input
     var digit: Int
 
     // Loop
-    while (tempInput > 0) {
-        digit = tempInput % radix
+    while (tempInput > BigInteger.ZERO) {
+        digit = tempInput.remainder(radix.toBigInteger()).toInt()
         sbResult.insert(0, if (digit > 9) giveHexCode(digit) else digit)
-        tempInput /= radix
+        tempInput /= radix.toBigInteger()
     }
 
     // Result
@@ -33,7 +34,7 @@ fun tenToElse(input: Int, radix: Int): String {
 
 fun oneToOther(userInput: String, oneSource: Int, otherSource: Int): String {
     // Converts number from a base to base 10, then base 10 to other base
-    val convertNumber = (if (oneSource != 10) elseToTen(userInput, oneSource) else userInput.toInt())
+    val convertNumber = (if (oneSource != 10) elseToTen(userInput, oneSource) else userInput.toBigInteger())
 
     if (otherSource != 10) {
         return tenToElse(convertNumber, otherSource)
@@ -68,7 +69,7 @@ fun mainMenu() {
                 val userInput = readln().toInt()
                 println(TARGET_BASE)
                 val radix = readln().toInt()
-                println("$CONVERSION_RESULT ${tenToElse(userInput, radix)}")
+                println("$CONVERSION_RESULT ${tenToElse(userInput.toBigInteger(), radix)}")
             }
             "/to" -> {
                 println(SOURCE_NUMBER_OTHER_BASE)

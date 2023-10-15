@@ -15,5 +15,5 @@ fun stage1() {
     val radix = readln().toInt()
 
     // Output
-    println("$CONVERSION_RESULT ${tenToElse(userInput, radix)}")
+    println("$CONVERSION_RESULT ${tenToElse(userInput.toBigInteger(), radix)}")
 }
