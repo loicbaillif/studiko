@@ -1,6 +1,6 @@
 package projects.converter
 
-const val CONVERSION_RESULT = "Conversion result:"
+const val CONVERSION_RESULT = "Conversion result: "
 const val CONVERSION_RESULT_TO_10 = "Conversion to decimal result:"
 const val INPUT_DECIMAL = "Enter number in decimal system:"
 const val INPUT_STAGE3 = "Enter number in base %s to convert to base %s (To go back type /back)"
