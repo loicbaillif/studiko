@@ -75,18 +75,26 @@ fun mainMenu() {
 fun mainMenuSt3() {
     println(MAIN_STAGE3)
     var userMenu = readln()
-    while (userMenu != "/exit") {
-        var subMenu = ""
-        while (subMenu != "/back") {
-            try {
-                val (sourceBase, targetBase) = userMenu.split(" ").map { it.toInt() }
-                println(INPUT_STAGE3.format(sourceBase, targetBase))
-            } catch (e: Exception) {
+    var subMenu = ""
+    val baseList = intArrayOf(10, 2) // sourceBase, targetBase)
 
-            }
+
+    while (userMenu != "/exit") {
+
+        try {
+            repeat(2) { baseList[it] = userMenu.split(" ")[it].toInt() }
+        } catch (e: Exception) {
+            repeat(2) {baseList[it] = 10 }
+        }
+
+        println(INPUT_STAGE3.format(baseList[0], baseList[1]))
+
+        subMenu = readln()
+        while (subMenu != "/back") {
 
             subMenu = readln()
         }
+
         println(MAIN_STAGE3)
         userMenu = readln()
     }
