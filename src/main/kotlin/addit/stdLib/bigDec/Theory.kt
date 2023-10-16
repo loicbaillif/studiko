@@ -22,6 +22,9 @@ fun theory() {
     val someNumber1 = 123.45
     val bigDecimal4 = someNumber1.toBigDecimal()
     println("\tbigDecimal4 = $bigDecimal4")
+    println("\tBigDecimal.ZERO = ${BigDecimal.ZERO}")
+    println("\tBigDecimal.ONE = ${BigDecimal.ONE}")
+    println("\tBigDecimal.TEN = ${BigDecimal.TEN}")
 
 
     println("\n***** End of Theory *****")
