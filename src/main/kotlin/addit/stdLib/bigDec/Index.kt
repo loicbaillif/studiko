@@ -7,4 +7,5 @@ package addit.stdLib.bigDec
 fun index() {
     println("********** BigDecimal **********\n")
 
+    theory()
 }
