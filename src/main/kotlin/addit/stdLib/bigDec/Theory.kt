@@ -16,6 +16,8 @@ fun theory() {
     val bigDecimal2 = BigDecimal(readln()) // From user input
     println("\tBigDecimal1 = $bigDecimal1")
     println("\tBigDecimal2 = $bigDecimal2")
+    val bigDecimal3 = BigDecimal(123456789.13579246)
+    println("\tBigDecimal3 = $bigDecimal3")
 
 
     println("\n***** End of Theory *****")
