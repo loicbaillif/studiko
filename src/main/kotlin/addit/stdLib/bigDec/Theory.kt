@@ -26,6 +26,11 @@ fun theory() {
     println("\tBigDecimal.ONE = ${BigDecimal.ONE}")
     println("\tBigDecimal.TEN = ${BigDecimal.TEN}")
 
+    println("\n*** 2) Arithmetic Operations\n")
+    println("********************************")
+    println("*** BigDecimal ARE IMMUTABLE ***")
+    println("********************************\n")
+
 
     println("\n***** End of Theory *****")
 }
