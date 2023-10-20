@@ -30,6 +30,8 @@ fun theory() {
     println("********************************")
     println("*** BigDecimal ARE IMMUTABLE ***")
     println("********************************\n")
+    println("Float lack of accuracy: 0.2 + 0.1 = ${0.2 + 0.1}") // Different than 0.3
+
 
 
     println("\n***** End of Theory *****")
