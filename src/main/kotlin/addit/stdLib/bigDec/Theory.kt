@@ -31,7 +31,15 @@ fun theory() {
     println("*** BigDecimal ARE IMMUTABLE ***")
     println("********************************\n")
     println("Float lack of accuracy: 0.2 + 0.1 = ${0.2 + 0.1}") // Different than 0.3
-
+    val bigDecimal5 = BigDecimal("0.1")
+    val bigDecimal6 = BigDecimal("0.2")
+    println("\t. oneBD = $bigDecimal5\n\t. twoBD = $bigDecimal6")
+    println("\nBinary operations")
+    println("\t. oneBD + twoBD = ${bigDecimal5 + bigDecimal6}")
+    println("\t. oneBD - twoBD = ${bigDecimal5 - bigDecimal6}")
+    println("\t. oneBD * twoBD = ${bigDecimal5 * bigDecimal6}")
+    println("\t. oneBD / twoBD = ${bigDecimal5 / bigDecimal6}")
+    println("\t. oneBD % twoBD = ${bigDecimal5 % bigDecimal6}")
 
 
     println("\n***** End of Theory *****")
