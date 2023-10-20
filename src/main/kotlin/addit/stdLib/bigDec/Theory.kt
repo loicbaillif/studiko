@@ -43,8 +43,10 @@ fun theory() {
     println("\nUnary operations")
     bigDecimal5++
     println("\t. oneBD++ = $bigDecimal5")
+    println("\t. ++oneBD = ${++bigDecimal5}")
     bigDecimal5--
     println("\t. oneBD-- = $bigDecimal5")
+    println("\t. --oneBD = ${--bigDecimal5}")
     println("\t. -oneBD = ${-bigDecimal5}")
     println("\t. (oneBD - twoBD).abs()")
 
