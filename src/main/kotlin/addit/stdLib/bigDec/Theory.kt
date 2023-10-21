@@ -13,9 +13,9 @@ fun theory() {
 
     println("\n*** 1) Creating objects of BigDecimal")
     val bigDecimal1 = BigDecimal("123456789.135792468") // From String
-    val bigDecimal2 = BigDecimal(readln()) // From user input
+    // val bigDecimal2 = BigDecimal(readln()) // From user input
     println("\tBigDecimal1 = $bigDecimal1")
-    println("\tBigDecimal2 = $bigDecimal2")
+    // println("\tBigDecimal2 = $bigDecimal2")
     val bigDecimal3 = BigDecimal(123456789.13579246)
     println("\tBigDecimal3 = $bigDecimal3")
 
@@ -49,6 +49,10 @@ fun theory() {
     println("\t. --oneBD = ${--bigDecimal5}")
     println("\t. -oneBD = ${-bigDecimal5}")
     println("\t. (oneBD - twoBD).abs()")
+
+    println("\n*** 3) Rounding Control")
+    val bigDecimal7 = 987.12345.toBigDecimal();
+    println("\t$bigDecimal7.scale() = ${bigDecimal7.scale()}")
 
 
     println("\n***** End of Theory *****")
