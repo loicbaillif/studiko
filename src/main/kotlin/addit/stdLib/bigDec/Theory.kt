@@ -1,6 +1,7 @@
 package addit.stdLib.bigDec
 
 import java.math.BigDecimal
+import java.math.RoundingMode
 
 /**
  * Theory: BigDecimal
@@ -53,6 +54,15 @@ fun theory() {
     println("\n*** 3) Rounding Control")
     val bigDecimal7 = 987.12345.toBigDecimal();
     println("\t$bigDecimal7.scale() = ${bigDecimal7.scale()}")
+
+
+    println("\n*** 4) Rounding examples")
+    println("\t$bigDecimal7.setScale(4, RoundingMode.CEILING) = " +
+            "${bigDecimal7.setScale(4, RoundingMode.CEILING)}")
+    println("\t$bigDecimal7.setScale(4, RoundingMode.CEILING) = " +
+            "${bigDecimal7.setScale(4, RoundingMode.HALF_DOWN)}")
+    println("\t$bigDecimal7.setScale(8, RoundingMode.CEILING) = " +
+            "${bigDecimal7.setScale(8, RoundingMode.UNNECESSARY)}")
 
 
     println("\n***** End of Theory *****")
