@@ -13,16 +13,15 @@ fun exercise2() {
     var userInput = readln().toInt() - 1
     var cpt = 2
 
+    // Treat first occurrence
     print(1)
+    if (userInput < 1) return
 
-    if (userInput < 1) {
-        return
-    }
-
+    // Other occurrences if needed
     while (userInput > 0) {
         repeat(cpt) {
             print(" $cpt")
-            userInput--
+            if (--userInput == 0) return
         }
         cpt++
     }
