@@ -10,7 +10,7 @@ package ctrlflow.ctrlStruc.whileBlo
 fun exercise2() {
     println("*** Exercise: The sequence 1 2 2 3 3 3 ...")
 
-
+    var userInput = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
