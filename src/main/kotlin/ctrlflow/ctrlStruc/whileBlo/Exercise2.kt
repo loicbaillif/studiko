@@ -14,7 +14,10 @@ fun exercise2() {
     var cpt = 1
 
     while (userInput > 0) {
-
+        repeat(cpt) {
+            userInput--
+        }
+        cpt++
     }
 
     println("\n*** End of exercise ***")
