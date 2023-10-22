@@ -10,17 +10,18 @@ package ctrlflow.ctrlStruc.whileBlo
 fun exercise2() {
     println("*** Exercise: The sequence 1 2 2 3 3 3 ...")
 
-    var userInput = readln().toInt()
-    var cpt = 1
+    var userInput = readln().toInt() - 1
+    var cpt = 2
 
-    println(1)
+    print(1)
 
-    if (userInput <= 1) {
+    if (userInput < 1) {
         return
     }
 
     while (userInput > 0) {
         repeat(cpt) {
+            print(" $cpt")
             userInput--
         }
         cpt++
