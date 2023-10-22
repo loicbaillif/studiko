@@ -11,6 +11,11 @@ fun exercise2() {
     println("*** Exercise: The sequence 1 2 2 3 3 3 ...")
 
     var userInput = readln().toInt()
+    var cpt = 1
+
+    while (userInput > 0) {
+
+    }
 
     println("\n*** End of exercise ***")
 }
