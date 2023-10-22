@@ -13,6 +13,12 @@ fun exercise2() {
     var userInput = readln().toInt()
     var cpt = 1
 
+    println(1)
+
+    if (userInput <= 1) {
+        return
+    }
+
     while (userInput > 0) {
         repeat(cpt) {
             userInput--
