@@ -10,7 +10,9 @@ package addit.stdLib.bigDec
 fun exercise1() {
     println("*** Exercise: Round and power ***")
 
-
+    val power = readln().toInt()
+    val mode = readln().toInt()
+    val number = readln().toBigDecimal()
 
     println("\n*** End of exercise ***")
 }
