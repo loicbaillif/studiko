@@ -1,5 +1,7 @@
 package addit.stdLib.bigDec
 
+import java.math.RoundingMode
+
 /**
  * Exercise: Round and power
  * https://hyperskill.org/learn/step/14620
@@ -13,6 +15,8 @@ fun exercise1() {
     val power = readln().toInt()
     val mode = readln().toInt()
     val number = readln().toBigDecimal()
+
+    println(number.setScale(mode, RoundingMode.DOWN))
 
     println("\n*** End of exercise ***")
 }
