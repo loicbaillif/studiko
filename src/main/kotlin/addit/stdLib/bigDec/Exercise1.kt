@@ -16,7 +16,7 @@ fun exercise1() {
     val mode = readln().toInt()
     val number = readln().toBigDecimal()
 
-    println(number.setScale(mode, RoundingMode.DOWN))
+    println(number.setScale(mode, RoundingMode.DOWN).pow(power))
 
     println("\n*** End of exercise ***")
 }
