@@ -10,7 +10,9 @@ package addit.stdLib.bigDec
 fun exercise2() {
     println("*** Exercise: Gold mining ***")
 
-
+    val dwalin = readln().toBigDecimal()
+    val balin = readln().toBigDecimal()
+    val thorin = readln().toBigDecimal()
 
     println("\n*** End of exercise ***")
 }
