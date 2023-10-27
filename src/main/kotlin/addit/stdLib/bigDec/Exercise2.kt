@@ -13,6 +13,7 @@ fun exercise2() {
     val dwalin = readln().toBigDecimal()
     val balin = readln().toBigDecimal()
     val thorin = readln().toBigDecimal()
+    println(dwalin + balin + thorin)
 
     println("\n*** End of exercise ***")
 }
