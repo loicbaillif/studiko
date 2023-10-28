@@ -10,7 +10,8 @@ package addit.stdLib.bigDec
 fun exercise3() {
     println("*** Exercise: Rounding with a given precision ***")
 
-
+    val userNumber = readln().toBigDecimal()
+    val newScale = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
