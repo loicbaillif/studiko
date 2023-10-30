@@ -13,6 +13,7 @@ fun exercise4() {
     val userInput1 = readln().toBigDecimal()
     val userInput2 = readln().toBigDecimal()
     val userInput3 = readln().toBigDecimal()
+    val sum = userInput1 + userInput2 + userInput3
 
     println("\n*** End of exercise ***")
 }
