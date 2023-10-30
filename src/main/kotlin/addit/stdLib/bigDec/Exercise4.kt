@@ -17,8 +17,7 @@ fun exercise4() {
     val userInput2 = readln().toBigDecimal()
     val userInput3 = readln().toBigDecimal()
     val sum = userInput1 + userInput2 + userInput3
-    val result = (sum / BigDecimal(3)).setScale(0, RoundingMode.DOWN)
-    println(result)
+    println((sum / BigDecimal(3)).setScale(0, RoundingMode.DOWN))
 
     println("\n*** End of exercise ***")
 }
