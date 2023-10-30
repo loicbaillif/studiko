@@ -10,7 +10,9 @@ package addit.stdLib.bigDec
 fun exercise4() {
     println("*** Exercise: Average ***")
 
-
+    val userInput1 = readln().toBigDecimal()
+    val userInput2 = readln().toBigDecimal()
+    val userInput3 = readln().toBigDecimal()
 
     println("\n*** End of exercise ***")
 }
