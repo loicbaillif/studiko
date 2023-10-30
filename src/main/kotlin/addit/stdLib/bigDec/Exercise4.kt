@@ -1,5 +1,8 @@
 package addit.stdLib.bigDec
 
+import java.math.BigDecimal
+import java.math.RoundingMode
+
 /**
  * Exercise: Average
  * https://hyperskill.org/learn/step/12541
@@ -14,6 +17,8 @@ fun exercise4() {
     val userInput2 = readln().toBigDecimal()
     val userInput3 = readln().toBigDecimal()
     val sum = userInput1 + userInput2 + userInput3
+    val result = (sum / BigDecimal(3)).setScale(0, RoundingMode.DOWN)
+    println(result)
 
     println("\n*** End of exercise ***")
 }
