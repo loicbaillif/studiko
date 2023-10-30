@@ -13,10 +13,7 @@ import java.math.RoundingMode
 fun exercise4() {
     println("*** Exercise: Average ***")
 
-    val userInput1 = readln().toBigDecimal()
-    val userInput2 = readln().toBigDecimal()
-    val userInput3 = readln().toBigDecimal()
-    val sum = userInput1 + userInput2 + userInput3
+    val sum = List(3) { readln().toBigDecimal() }.sumOf { it }
     println((sum / BigDecimal(3)).setScale(0, RoundingMode.DOWN))
 
     println("\n*** End of exercise ***")
