@@ -12,6 +12,7 @@ fun exercise5() {
 
     var result = readln().toBigDecimal()
     result *= readln().toBigDecimal()
+    println(result)
 
     println("\n*** End of exercise ***")
 }
