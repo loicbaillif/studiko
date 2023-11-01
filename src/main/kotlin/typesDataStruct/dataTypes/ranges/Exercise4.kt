@@ -14,6 +14,8 @@ fun exercise4() {
     val toRange1 = readln().toInt()
     val fromRange2 = readln().toInt()
     val toRange2 = readln().toInt()
+    val userNumber = readln().toInt()
+    println(userNumber in fromRange1..toRange1 || userNumber in fromRange2..toRange2)
 
     println("\n*** End of exercise ***")
 }
