@@ -30,6 +30,7 @@ fun main() {
     // addit.errorless.simple.index()
     // addit.files.readFiles.index()
     // addit.files.writeFiles.index()
+    // addit.stdLib.bigDec.index()
     // addit.stdLib.bigInt.index()
 
 
@@ -79,7 +80,7 @@ fun main() {
     // typesDataStruct.basicOps.relOps.index()
     // typesDataStruct.dataTypes.classification.index()
     // typesDataStruct.dataTypes.conver.index()
-    // typesDataStruct.dataTypes.ranges.index()
+    typesDataStruct.dataTypes.ranges.index()
     // typesDataStruct.dataTypes.typeNumEx.index()
     // typesDataStruct.lists.forLoop.index()
     // typesDataStruct.lists.introMut.index()
@@ -94,5 +95,5 @@ fun main() {
     // typesDataStruct.variab.objects.index()
 
     // Current Chapter
-    addit.stdLib.bigDec.index()
+
 }
