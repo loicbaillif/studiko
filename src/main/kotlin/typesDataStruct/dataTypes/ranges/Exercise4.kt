@@ -10,12 +10,8 @@ package typesDataStruct.dataTypes.ranges
 fun exercise4() {
     println("*** Exercise: At least one ***")
 
-    val fromRange1 = readln().toInt()
-    val toRange1 = readln().toInt()
-    val fromRange2 = readln().toInt()
-    val toRange2 = readln().toInt()
-    val userNumber = readln().toInt()
-    println(userNumber in fromRange1..toRange1 || userNumber in fromRange2..toRange2)
+    val (a, b, c, d, e) = List(5) { readln().toInt() }
+    println(e in a..b || e in c..d)
 
     println("\n*** End of exercise ***")
 }
