@@ -10,7 +10,8 @@ package typesDataStruct.dataTypes.ranges
 fun exercise4() {
     println("*** Exercise: At least one ***")
 
-
+    val fromRange1 = readln().toInt()
+    val toRange1 = readln().toInt()
 
     println("\n*** End of exercise ***")
 }
