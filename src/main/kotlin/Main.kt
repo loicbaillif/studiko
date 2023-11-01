@@ -17,7 +17,7 @@ fun main() {
     // projects.cinema.index()
     // projects.chuckNorris.index()
     // projects.encDec.index()
-    // projects.converter.index()
+    projects.converter.index()
 
     // Old Chapters
     // overview.index()
@@ -80,7 +80,7 @@ fun main() {
     // typesDataStruct.basicOps.relOps.index()
     // typesDataStruct.dataTypes.classification.index()
     // typesDataStruct.dataTypes.conver.index()
-    typesDataStruct.dataTypes.ranges.index()
+    // typesDataStruct.dataTypes.ranges.index()
     // typesDataStruct.dataTypes.typeNumEx.index()
     // typesDataStruct.lists.forLoop.index()
     // typesDataStruct.lists.introMut.index()

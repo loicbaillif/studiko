@@ -107,3 +107,8 @@ fun mainMenuSt3() {
         userMenu = readln()
     }
 }
+
+
+fun mainMenuSt4() {
+    println(MAIN_STAGE3)
+}
