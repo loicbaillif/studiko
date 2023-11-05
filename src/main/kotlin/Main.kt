@@ -17,7 +17,7 @@ fun main() {
     // projects.cinema.index()
     // projects.chuckNorris.index()
     // projects.encDec.index()
-    projects.converter.index()
+    // projects.converter.index()
 
     // Old Chapters
     // overview.index()
@@ -56,7 +56,7 @@ fun main() {
     // ctrlflow.except.howTo.tryCatFin.index()
     // ctrlflow.func.declarFun.index()
     // ctrlflow.func.decomp.index()
-    // ctrlflow.func.defaultArgs.index()
+    ctrlflow.func.defaultArgs.index()
     // ctrlflow.func.invokFunc.index()
     // ctrlflow.func.mainFun.index()
     // ctrlflow.func.namedArgs.index()
