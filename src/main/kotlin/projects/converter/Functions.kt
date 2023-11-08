@@ -1,6 +1,7 @@
 package projects.converter
 
 import java.lang.Exception
+import java.math.BigDecimal
 import java.math.BigInteger
 
 fun elseToTen(input: String, radix: Int): BigInteger {
@@ -32,11 +33,15 @@ fun tenToElse(input: BigInteger, radix: Int): String {
 }
 
 
-fun tenToElseDecimal(input: BigInteger, radix: Int): String {
+fun tenToElseDecimal(input: BigDecimal, radix: Int): String {
     // Variables
     val sbResult = StringBuilder()
     var tempInput = input
     var digit: Int
+
+    while (tempInput > BigDecimal.ZERO) {
+        digit = ((tempInput * radix.toBigDecimal()) / BigDecimal.ONE).toInt()
+    }
 }
 
 
