@@ -33,7 +33,10 @@ fun tenToElse(input: BigInteger, radix: Int): String {
 
 
 fun tenToElseDecimal(input: BigInteger, radix: Int): String {
-
+    // Variables
+    val sbResult = StringBuilder()
+    var tempInput = input
+    var digit: Int
 }
 
 
