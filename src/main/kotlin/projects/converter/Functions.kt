@@ -41,6 +41,7 @@ fun tenToElseDecimal(input: BigDecimal, radix: Int): String {
 
     while (tempInput > BigDecimal.ZERO) {
         digit = ((tempInput * radix.toBigDecimal()) / BigDecimal.ONE).toInt()
+        sbResult.append(digit)
     }
 }
 
