@@ -32,6 +32,11 @@ fun tenToElse(input: BigInteger, radix: Int): String {
 }
 
 
+fun tenToElseDecimal(input: BigInteger, radix: Int): String {
+
+}
+
+
 fun oneToOther(userInput: String, oneSource: Int, otherSource: Int): String {
     // Converts number from a base to base 10, then base 10 to other base
     val convertNumber = (if (oneSource != 10) elseToTen(userInput, oneSource) else userInput.toBigInteger())
