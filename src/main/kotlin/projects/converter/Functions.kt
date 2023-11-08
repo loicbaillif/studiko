@@ -40,8 +40,10 @@ fun tenToElseDecimal(input: BigDecimal, radix: Int): String {
     var digit: Int
 
     while (tempInput > BigDecimal.ZERO) {
-        digit = ((tempInput * radix.toBigDecimal()) / BigDecimal.ONE).toInt()
+        val tempVal = tempInput * radix.toBigDecimal()
+        digit = (tempVal / BigDecimal.ONE).toInt()
         sbResult.append(digit)
+        tempInput = tempVal - digit.toBigDecimal()
     }
 }
 
