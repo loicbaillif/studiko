@@ -8,5 +8,6 @@ package projects.converter
  */
 
 fun stage4() {
-    mainMenuSt4()
+    //mainMenuSt4()
+    println(tenToElseDecimal("0.375".toBigDecimal(), 20))
 }

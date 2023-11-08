@@ -42,7 +42,7 @@ fun tenToElseDecimal(input: BigDecimal, radix: Int): String {
     while (tempInput > BigDecimal.ZERO) {
         val tempVal = tempInput * radix.toBigDecimal()
         digit = (tempVal / BigDecimal.ONE).toInt()
-        sbResult.append(digit)
+        sbResult.append(if (digit > 9) giveHexCode(digit) else digit)
         tempInput = tempVal - digit.toBigDecimal()
     }
 
