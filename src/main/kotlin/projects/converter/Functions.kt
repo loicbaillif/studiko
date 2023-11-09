@@ -16,7 +16,10 @@ fun elseToTen(input: String, radix: Int): BigInteger {
 
 
 fun elseToTenDecimal(input: String, radix: Int): BigDecimal {
+    var result: BigDecimal = BigDecimal.ZERO
 
+
+    return result
 }
 
 
