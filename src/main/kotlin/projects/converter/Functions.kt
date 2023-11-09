@@ -15,6 +15,11 @@ fun elseToTen(input: String, radix: Int): BigInteger {
 }
 
 
+fun elseToTenDecimal(input: String, radix: Int): BigDecimal {
+
+}
+
+
 fun tenToElse(input: BigInteger, radix: Int): String {
     // Variables
     val sbResult = StringBuilder()
