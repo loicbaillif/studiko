@@ -16,23 +16,12 @@ fun elseToTen(input: String, radix: Int): BigInteger {
 
 
 fun elseToTenDecimal(input: String, radix: Int): BigDecimal {
-    var result: BigDecimal = BigDecimal.ZERO.setScale(input.length - 2)
+    var result: BigDecimal = BigDecimal.ZERO.setScale(5)
     val radixBigDec = radix.toBigDecimal()
-
-    /*
-    var temp = radix.toBigDecimal().setScale(input.length - 2)
-    temp = BigDecimal.ONE.setScale(input.length - 2) / radix.toBigDecimal()
-    temp /= radix.toBigDecimal()
-    temp /= radix.toBigDecimal()
-
-    for (i in input.lastIndex downTo 2) {
-        println("\t. decimal ${i - 1} = ${input[i]}")
-    }
-    */
 
     for (i in input.lastIndex downTo 2) {
         result += input[i].toString().toBigDecimal()
-        result /= radix.toBigDecimal()
+        result /= radixBigDec
     }
 
     return result
@@ -153,4 +142,31 @@ fun mainMenuSt3() {
 
 fun mainMenuSt4() {
     println(MAIN_STAGE3)
+
+    var userMenu = readln()
+    val baseList = intArrayOf(10, 2) // sourceBase, targetBase)
+
+
+    while (userMenu != "/exit") {
+
+        var userInt = ""
+
+        try {
+            repeat(2) { baseList[it] = userMenu.split(" ")[it].toInt() }
+        } catch (e: Exception) {
+            repeat(2) {baseList[it] = 10 }
+        }
+
+        while (userInt != "/back") {
+            println(INPUT_STAGE3.format(baseList[0], baseList[1]))
+            userInt = readln()
+
+            if (userInt != "/back") {
+                println(CONVERSION_RESULT + oneToOther(userInt, baseList[0], baseList[1]))
+            }
+        }
+
+        println(MAIN_STAGE3)
+        userMenu = readln()
+    }
 }
