@@ -67,6 +67,8 @@ fun oneToOther(userInput: String, oneSource: Int, otherSource: Int): String {
     // Variables
     val decimalPosition = userInput.indexOf(".")
     val intPart = userInput.substringBefore('.')
+    var convertNumberDec = BigDecimal.ZERO
+    var result: String
     var decPart = "0."
 
     if (decimalPosition != -1) decPart += userInput.substringAfter('.')
@@ -75,16 +77,21 @@ fun oneToOther(userInput: String, oneSource: Int, otherSource: Int): String {
     val convertNumberInt = (if (oneSource != 10) elseToTen(intPart, oneSource) else intPart.toBigInteger())
     if (decimalPosition != -1) {
         // Decimal input case
-        val convertNumberDec = (if (oneSource != 10) {
+        convertNumberDec = (if (oneSource != 10) {
             elseToTenDecimal(decPart, oneSource)
         } else decPart.toBigDecimal())
     }
 
+    // ... Then convert from base 10 to requested target base
     if (otherSource != 10) {
-        return tenToElse(convertNumber, otherSource)
+        result = tenToElse(convertNumberInt, otherSource)
+        if (decimalPosition != -1) result += ".${tenToElseDecimal(convertNumberDec, otherSource)}"
+    } else {
+        result = convertNumberInt.toString()
+        if (decimalPosition != -1) result += ".$convertNumberDec"
     }
 
-    return  convertNumber.toString()
+    return result
 }
 
 
