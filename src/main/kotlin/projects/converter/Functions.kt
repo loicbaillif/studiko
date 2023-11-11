@@ -64,6 +64,16 @@ fun tenToElseDecimal(input: BigDecimal, radix: Int): String {
 
 
 fun oneToOther(userInput: String, oneSource: Int, otherSource: Int): String {
+    // Variables
+    val decimalPosition = userInput.indexOf(".")
+    val intPart = userInput.substringBefore('.')
+    val decPart: String
+
+    if (decimalPosition != -1) {
+        // Decimal input
+        decPart = "0." + userInput.substringAfter('.')
+    }
+
     // Converts number from a base to base 10, then base 10 to other base
     val convertNumber = (if (oneSource != 10) elseToTen(userInput, oneSource) else userInput.toBigInteger())
 
@@ -149,7 +159,7 @@ fun mainMenuSt4() {
 
     while (userMenu != "/exit") {
 
-        var userInt = ""
+        var userDec = ""
 
         try {
             repeat(2) { baseList[it] = userMenu.split(" ")[it].toInt() }
@@ -157,12 +167,12 @@ fun mainMenuSt4() {
             repeat(2) {baseList[it] = 10 }
         }
 
-        while (userInt != "/back") {
+        while (userDec != "/back") {
             println(INPUT_STAGE3.format(baseList[0], baseList[1]))
-            userInt = readln()
+            userDec = readln()
 
-            if (userInt != "/back") {
-                println(CONVERSION_RESULT + oneToOther(userInt, baseList[0], baseList[1]))
+            if (userDec != "/back") {
+                println(CONVERSION_RESULT + oneToOther(userDec, baseList[0], baseList[1]))
             }
         }
 
