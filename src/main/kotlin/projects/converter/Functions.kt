@@ -52,7 +52,7 @@ fun tenToElseDecimal(input: BigDecimal, radix: Int): String {
     var tempInput = input
     var digit: Int
 
-    while (tempInput > BigDecimal.ZERO) {
+    repeat(5) {
         val tempVal = tempInput * radix.toBigDecimal()
         digit = (tempVal / BigDecimal.ONE).toInt()
         sbResult.append(if (digit > 9) giveHexCode(digit) else digit)
@@ -68,7 +68,7 @@ fun oneToOther(userInput: String, oneSource: Int, otherSource: Int): String {
     val decimalPosition = userInput.indexOf(".")
     val intPart = userInput.substringBefore('.')
     var convertNumberDec = BigDecimal.ZERO
-    var result: String
+    var result = StringBuilder()
     var decPart = "0."
 
     if (decimalPosition != -1) decPart += userInput.substringAfter('.')
@@ -84,14 +84,14 @@ fun oneToOther(userInput: String, oneSource: Int, otherSource: Int): String {
 
     // ... Then convert from base 10 to requested target base
     if (otherSource != 10) {
-        result = tenToElse(convertNumberInt, otherSource)
-        if (decimalPosition != -1) result += ".${tenToElseDecimal(convertNumberDec, otherSource)}"
+        result.append(tenToElse(convertNumberInt, otherSource))
+        if (decimalPosition != -1) result.append(".${tenToElseDecimal(convertNumberDec, otherSource)}")
     } else {
-        result = convertNumberInt.toString()
-        if (decimalPosition != -1) result += ".$convertNumberDec"
+        result.append(convertNumberInt.toString())
+        if (decimalPosition != -1) result.append(".$convertNumberDec")
     }
 
-    return result
+    return result.toString()
 }
 
 
