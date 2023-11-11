@@ -16,7 +16,10 @@ fun elseToTen(input: String, radix: Int): BigInteger {
 
 
 fun elseToTenDecimal(input: String, radix: Int): BigDecimal {
-    val result: BigDecimal = BigDecimal.ZERO.setScale(input.length - 2)
+    var result: BigDecimal = BigDecimal.ZERO.setScale(input.length - 2)
+    val radixBigDec = radix.toBigDecimal()
+
+    /*
     var temp = radix.toBigDecimal().setScale(input.length - 2)
     temp = BigDecimal.ONE.setScale(input.length - 2) / radix.toBigDecimal()
     temp /= radix.toBigDecimal()
@@ -25,8 +28,14 @@ fun elseToTenDecimal(input: String, radix: Int): BigDecimal {
     for (i in input.lastIndex downTo 2) {
         println("\t. decimal ${i - 1} = ${input[i]}")
     }
+    */
 
-    return temp
+    for (i in input.lastIndex downTo 2) {
+        result += input[i].toString().toBigDecimal()
+        result /= radix.toBigDecimal()
+    }
+
+    return result
 }
 
 
