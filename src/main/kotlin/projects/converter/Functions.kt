@@ -5,6 +5,8 @@ import java.math.BigDecimal
 import java.math.BigInteger
 
 fun elseToTen(input: String, radix: Int): BigInteger {
+    if (radix == 10) return input.toBigInteger()
+
     var result: BigInteger = BigInteger.ZERO
     for (c in input) {
         val digit = c.digitToInt(radix)
@@ -16,6 +18,8 @@ fun elseToTen(input: String, radix: Int): BigInteger {
 
 
 fun elseToTenDecimal(input: String, radix: Int): BigDecimal {
+    if (radix == 10) return input.toBigDecimal()
+
     var result: BigDecimal = BigDecimal.ZERO.setScale(5)
     val radixBigDec = radix.toBigDecimal()
 
@@ -63,13 +67,25 @@ fun tenToElseDecimal(input: BigDecimal, radix: Int): String {
 }
 
 
-fun oneToOther(userInput: String, oneSource: Int, otherSource: Int): String {
+fun oneToOther(userInput: String, sourceBase: Int, targetBase: Int): String {
     // Variables
     val decimalPosition = userInput.indexOf(".")
+    val isDecimal = decimalPosition != -1
+    val userInputInt = userInput.substringBefore('.')
+    val userInputDec = if (isDecimal) "0.${userInput.substringAfter('.')}" else "0"
+    val result = StringBuilder()
+
+    // 1) Convert from source base to 10
+    val userInputIntBase10 = elseToTen(userInputInt, sourceBase) // BigInteger
+    val userInputDecBase10 = if (isDecimal) elseToTenDecimal(userInputDec, sourceBase) else BigDecimal.ZERO
+
+
+    /**
+    val decimalPosition = userInput.indexOf(".")
     val intPart = userInput.substringBefore('.')
+    var decPart = "0."
     var convertNumberDec = BigDecimal.ZERO
     var result = StringBuilder()
-    var decPart = "0."
 
     if (decimalPosition != -1) decPart += userInput.substringAfter('.')
 
@@ -90,6 +106,7 @@ fun oneToOther(userInput: String, oneSource: Int, otherSource: Int): String {
         result.append(convertNumberInt.toString())
         if (decimalPosition != -1) result.append(".$convertNumberDec")
     }
+    */
 
     return result.toString()
 }
