@@ -42,7 +42,7 @@ fun tenToElse(input: BigInteger, radix: Int): String {
     }
 
     // Result
-    return sbResult.toString()
+    return if (sbResult.isEmpty()) "0" else sbResult.toString()
 }
 
 
