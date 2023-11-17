@@ -73,51 +73,19 @@ fun oneToOther(userInput: String, sourceBase: Int, targetBase: Int): String {
     val isDecimal = decimalPosition != -1
     val userInputInt = userInput.substringBefore('.')
     val userInputDec = if (isDecimal) "0.${userInput.substringAfter('.')}" else "0"
-    val result = StringBuilder()
 
     // 1) Convert from source base to 10
     val userInputIntBase10 = elseToTen(userInputInt, sourceBase) // BigInteger
     val userInputDecBase10 = if (isDecimal) elseToTenDecimal(userInputDec, sourceBase) else BigDecimal.ZERO
 
-    println("\tinput = $userInput -\t int part = $userInputInt -\t dec part = $userInputDec")
-    println("\tInt part base 10 = $userInputIntBase10 -\tDec part base 10 = $userInputDecBase10")
 
     // 2) Convert from base 10 to target base
     val resultInt = tenToElse(userInputIntBase10, targetBase)
     val resultDec = tenToElseDecimal(userInputDecBase10, targetBase)
-    result.append(resultInt)
-    result.append(resultDec.substring(1))
 
 
-    /**
-    val decimalPosition = userInput.indexOf(".")
-    val intPart = userInput.substringBefore('.')
-    var decPart = "0."
-    var convertNumberDec = BigDecimal.ZERO
-    var result = StringBuilder()
-
-    if (decimalPosition != -1) decPart += userInput.substringAfter('.')
-
-    // Converts number from given base to base 10 ...
-    val convertNumberInt = (if (oneSource != 10) elseToTen(intPart, oneSource) else intPart.toBigInteger())
-    if (decimalPosition != -1) {
-        // Decimal input case
-        convertNumberDec = (if (oneSource != 10) {
-            elseToTenDecimal(decPart, oneSource)
-        } else decPart.toBigDecimal())
-    }
-
-    // ... Then convert from base 10 to requested target base
-    if (otherSource != 10) {
-        result.append(tenToElse(convertNumberInt, otherSource))
-        if (decimalPosition != -1) result.append(".${tenToElseDecimal(convertNumberDec, otherSource)}")
-    } else {
-        result.append(convertNumberInt.toString())
-        if (decimalPosition != -1) result.append(".$convertNumberDec")
-    }
-    */
-
-    return result.toString()
+    // 3) Build result
+    return "$resultInt${if (isDecimal) "." else ""}${if (isDecimal) resultDec else ""}"
 }
 
 
