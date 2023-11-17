@@ -24,7 +24,7 @@ fun elseToTenDecimal(input: String, radix: Int): BigDecimal {
     val radixBigDec = radix.toBigDecimal()
 
     for (i in input.lastIndex downTo 2) {
-        result += input[i].toString().toBigDecimal()
+        result += input[i].digitToInt(radix).toBigDecimal()
         result /= radixBigDec
     }
 
@@ -79,6 +79,8 @@ fun oneToOther(userInput: String, sourceBase: Int, targetBase: Int): String {
     val userInputIntBase10 = elseToTen(userInputInt, sourceBase) // BigInteger
     val userInputDecBase10 = if (isDecimal) elseToTenDecimal(userInputDec, sourceBase) else BigDecimal.ZERO
 
+    println("\tinput = $userInput -\t int part = $userInputInt -\t dec part = $userInputDec")
+    println("\tInt part base 10 = $userInputIntBase10 -\tDec part base 10 = $userInputDecBase10")
 
     /**
     val decimalPosition = userInput.indexOf(".")
