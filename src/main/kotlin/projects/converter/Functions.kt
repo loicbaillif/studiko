@@ -82,6 +82,13 @@ fun oneToOther(userInput: String, sourceBase: Int, targetBase: Int): String {
     println("\tinput = $userInput -\t int part = $userInputInt -\t dec part = $userInputDec")
     println("\tInt part base 10 = $userInputIntBase10 -\tDec part base 10 = $userInputDecBase10")
 
+    // 2) Convert from base 10 to target base
+    val resultInt = tenToElse(userInputIntBase10, targetBase)
+    val resultDec = tenToElseDecimal(userInputDecBase10, targetBase)
+    result.append(resultInt)
+    result.append(resultDec.substring(1))
+
+
     /**
     val decimalPosition = userInput.indexOf(".")
     val intPart = userInput.substringBefore('.')
