@@ -1,5 +1,7 @@
 package addit.stdLib.random
 
+import kotlin.random.Random
+
 /**
  * Predictable "random" password
  * https://hyperskill.org/learn/step/11806
@@ -10,7 +12,7 @@ package addit.stdLib.random
 fun exercise2() {
     println("*** Exercise: Predictable \"random\" password")
 
-    println(generatePredictablePassword(33))
+    println(generatePredictablePassword(53))
 
 
     println("\n*** End of exercise ***")
@@ -20,9 +22,10 @@ fun exercise2() {
 fun generatePredictablePassword(seed: Int): String {
     var randomPassword = ""
     val passwordSize = 10
+    val randomGeneratorFriend = Random(seed)
 
     repeat(passwordSize) {
-
+        randomPassword += randomGeneratorFriend.nextInt(33, 127).toChar()
     }
 
     return randomPassword
