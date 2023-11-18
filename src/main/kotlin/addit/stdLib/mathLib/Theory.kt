@@ -27,6 +27,11 @@ fun theory() {
     println("\t. 3.0.pow(4.0) = ${3.0.pow(4.0)}")
     println("\t. 16.0.pow(-0.5) = ${16.0.pow(-0.5)}")
 
+    println("\n*** 3) logarithm & exponential")
+    println("\t. e = $E")
+    println("\t. ln(E) = ${ln(E)}")
+    println("\t. log(16.0, 4.0) = ${log(16.0, 4.0)}")
+    println("\t. ln(exp(2.0) * exp(3.0)) = ${ln(exp(2.0) * exp(3.0))}")
 
 
     println("\n\n***** End of theory *****")
