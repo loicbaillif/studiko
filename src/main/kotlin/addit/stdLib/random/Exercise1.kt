@@ -12,6 +12,7 @@ fun exercise1() {
 
     val dice1Size = readln().toInt()
     val dice2Size = readln().toInt()
+    println(rpgDices(dice1Size, dice2Size))
 
     println("\n*** End of exercise ***")
 }
