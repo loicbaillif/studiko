@@ -13,3 +13,6 @@ fun exercise1() {
     println("\n*** End of exercise ***")
 }
 
+fun rpgDices(dice1: Int, dice2: Int): Int {
+
+}
