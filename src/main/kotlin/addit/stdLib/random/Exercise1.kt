@@ -10,6 +10,9 @@ package addit.stdLib.random
 fun exercise1() {
     println("*** Exercise: RPG dices ***")
 
+    val dice1Size = readln().toInt()
+    val dice2Size = readln().toInt()
+
     println("\n*** End of exercise ***")
 }
 
