@@ -22,4 +22,6 @@ fun exercise1() {
 fun rpgDices(dice1: Int, dice2: Int): Int {
     val dice1Result = Random.nextInt(1, dice1)
     val dice2Result = Random.nextInt(1, dice2)
+
+    return dice1Result + dice2Result
 }
