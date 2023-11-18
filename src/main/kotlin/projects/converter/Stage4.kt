@@ -8,5 +8,5 @@ package projects.converter
  */
 
 fun stage4() {
-    mainMenuSt4()
+    mainMenuSt3()
 }
