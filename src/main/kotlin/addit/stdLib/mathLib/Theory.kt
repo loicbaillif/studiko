@@ -20,6 +20,12 @@ fun theory() {
     println("\n\t. min(12, 34) = ${min(12, 34)}")
     println("\t. max(12, 34) = ${max(12, 34)}")
 
+    println("\n*** 2) Power functions")
+    println("\t. sqrt(2.0) = ${sqrt(2.0)}")
+    println("\t. sqrt(9.0) = ${sqrt(9.0)}")
+    println("\t. 5.0.pow(2.0) = ${5.0.pow(2.0)}")
+    println("\t. 3.0.pow(4.0) = ${3.0.pow(4.0)}")
+    println("\t. 16.0.pow(-0.5) = ${16.0.pow(-0.5)}")
 
 
 
