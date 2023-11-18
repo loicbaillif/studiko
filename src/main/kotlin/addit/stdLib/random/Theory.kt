@@ -24,6 +24,13 @@ fun theory() {
     println("\t. Random.nextDouble(0.0, 5.0) = ${Random.nextDouble(0.0, 5.0)}") // Double in [0.0, 5.0[
 
 
+    println("\n*** 3) Pseudorandom numbers and seeding")
+    val randomGenerator42 = Random(42) // Specific seed
+    for (i in 0..5) println("\t. ${randomGenerator42.nextInt(100)}")
+
+    val defaultGenerator = Random.Default
+    println("\n")
+    for (i in 0..5) println("\t. ${defaultGenerator.nextInt(100)}")
 
 
     println("\n\n***** End of theory *****")
