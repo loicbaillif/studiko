@@ -32,6 +32,7 @@ fun main() {
     // addit.files.writeFiles.index()
     // addit.stdLib.bigDec.index()
     // addit.stdLib.bigInt.index()
+    // addit.stdLib.random.index()
 
 
     // basics.codeStyle.comms.index()
@@ -95,5 +96,5 @@ fun main() {
     // typesDataStruct.variab.objects.index()
 
     // Current Chapter
-    addit.stdLib.random.index()
+    addit.stdLib.mathLib.index()
 }
