@@ -17,6 +17,10 @@ fun theory() {
     println("\t. abs(-10.32) = ${abs(-10.32)}")
     println("\t. abs(10.32) = ${abs(10.32)}")
 
+    println("\n\t. min(12, 34) = ${min(12, 34)}")
+    println("\t. max(12, 34) = ${max(12, 34)}")
+
+
 
 
     println("\n\n***** End of theory *****")
