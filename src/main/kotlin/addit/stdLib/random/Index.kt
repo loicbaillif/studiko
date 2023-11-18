@@ -3,5 +3,6 @@ package addit.stdLib.random
 fun index() {
     println("********** Random **********\n")
 
-    theory()
+    // theory()
+    exercise1()
 }
