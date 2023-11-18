@@ -10,7 +10,7 @@ package addit.stdLib.random
 fun exercise2() {
     println("*** Exercise: Predictable \"random\" password")
 
-
+    println(generatePredictablePassword(33))
 
 
     println("\n*** End of exercise ***")
@@ -19,6 +19,11 @@ fun exercise2() {
 
 fun generatePredictablePassword(seed: Int): String {
     var randomPassword = ""
+    val passwordSize = 10
+
+    repeat(passwordSize) {
+
+    }
 
     return randomPassword
 }
