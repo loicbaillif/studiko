@@ -1,5 +1,7 @@
 package addit.stdLib.random
 
+import kotlin.random.Random
+
 /**
  * RPG dices
  * https://hyperskill.org/learn/step/27075
@@ -18,5 +20,6 @@ fun exercise1() {
 }
 
 fun rpgDices(dice1: Int, dice2: Int): Int {
-
+    val dice1Result = Random.nextInt(1, dice1)
+    val dice2Result = Random.nextInt(1, dice2)
 }
