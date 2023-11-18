@@ -15,3 +15,10 @@ fun exercise2() {
 
     println("\n*** End of exercise ***")
 }
+
+
+fun generatePredictablePassword(seed: Int): String {
+    var randomPassword = ""
+
+    return randomPassword
+}
