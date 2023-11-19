@@ -1,5 +1,7 @@
 package addit.stdLib.mathLib
 
+import kotlin.math.pow
+
 /**
  * Exercise: Pow
  * https://hyperskill.org/learn/step/4560
@@ -12,6 +14,7 @@ fun exercise4() {
 
     val a = readln().toFloat()
     val b = readln().toFloat()
+    println(a.pow(b))
 
     println("\n*** End of exercise ***")
 }
