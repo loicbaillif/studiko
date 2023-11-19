@@ -15,6 +15,7 @@ fun exercise5() {
     val (a, b, c, d) = List(4) { readln().toInt() }
     val max1 = max(a, b)
     val max2 = max(c, d)
+    println(max(max1, max2))
 
     println("\n*** End of exercise ***")
 }
