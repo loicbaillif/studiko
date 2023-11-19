@@ -10,7 +10,7 @@ package addit.stdLib.mathLib
 fun exercise1() {
     println("*** Exercise: Sine and cosine ***")
 
-
+    val userAngle = readln().toDouble()
 
     println("\n*** End of exercise ***")
 }
