@@ -4,5 +4,6 @@ fun index() {
     println("********** The Math library **********\n")
 
     // theory()
-    exercise1()
+    // exercise1()
+    exercise2()
 }
