@@ -10,5 +10,8 @@ package addit.stdLib.mathLib
 fun exercise4() {
     println("*** Exercise: pow ***")
 
+    val a = readln().toFloat()
+    val b = readln().toFloat()
+
     println("\n*** End of exercise ***")
 }
