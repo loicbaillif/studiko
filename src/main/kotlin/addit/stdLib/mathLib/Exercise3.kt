@@ -12,9 +12,7 @@ import kotlin.math.sqrt
 fun exercise3() {
     println("*** Exercise: Heron's formula ***")
 
-    val a = readln().toDouble()
-    val b = readln().toDouble()
-    val c = readln().toDouble()
+    val (a, b, c) = List(3) { readln().toDouble() }
 
     val p = ((a + b + c) / 2)
 
