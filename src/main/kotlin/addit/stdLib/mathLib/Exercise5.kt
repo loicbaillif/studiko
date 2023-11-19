@@ -10,7 +10,7 @@ package addit.stdLib.mathLib
 fun exercise5() {
     println("*** Exercise: Max of four numbers ***")
 
-
+    val (a, b, c, d) = List(4) { readln().toInt() }
 
     println("\n*** End of exercise ***")
 }
