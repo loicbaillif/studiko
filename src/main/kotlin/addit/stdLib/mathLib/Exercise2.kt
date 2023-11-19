@@ -10,8 +10,7 @@ package addit.stdLib.mathLib
 fun exercise2() {
     println("*** Exercise: Fractional part ***")
 
-    val userDouble = readln().toDouble()
-    println(((userDouble % 1) * 10).toInt())
+    println(((readln().toDouble() % 1) * 10).toInt())
 
     println("\n*** End of exercise ***")
 }
