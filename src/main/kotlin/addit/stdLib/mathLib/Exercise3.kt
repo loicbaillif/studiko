@@ -1,5 +1,7 @@
 package addit.stdLib.mathLib
 
+import kotlin.math.sqrt
+
 /**
  * Exercise: Heron's Formula
  * https://hyperskill.org/learn/step/4562
@@ -14,7 +16,9 @@ fun exercise3() {
     val b = readln().toInt()
     val c = readln().toInt()
 
-    val p = (a + b + c) / 2
+    val p = ((a + b + c) / 2).toDouble()
+
+    println(sqrt(p * (p - a) * (p - b) * (p - c)))
 
     println("\n*** End of exercise ***")
 }
