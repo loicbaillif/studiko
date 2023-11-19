@@ -33,6 +33,14 @@ fun theory() {
     println("\t. log(16.0, 4.0) = ${log(16.0, 4.0)}")
     println("\t. ln(exp(2.0) * exp(3.0)) = ${ln(exp(2.0) * exp(3.0))}")
 
+    println("\n*** 4) Trigonometric functions")
+    println("\t. PI = $PI")
+    println("\t. sin(PI) = ${sin(PI)}")
+    println("\t. cos(PI) = ${cos(PI)}")
+    println("\t. tan(PI) = ${tan(PI)}")
+    println("\t. hypot(6.0, 8.0) = ${hypot(6.0, 8.0)}")
+
+
 
     println("\n\n***** End of theory *****")
 }
