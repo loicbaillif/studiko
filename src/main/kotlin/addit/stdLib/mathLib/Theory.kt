@@ -40,6 +40,11 @@ fun theory() {
     println("\t. tan(PI) = ${tan(PI)}")
     println("\t. hypot(6.0, 8.0) = ${hypot(6.0, 8.0)}")
 
+    println("\n*** 5) Rounding functions")
+    println("\t. floor(3.45) = ${floor(3.45)}")
+    println("\t. floor(-3.45) = ${floor(-3.45)}")
+    println("\t. ceil(3.45) = ${ceil(3.45)}")
+    println("\t. ceil(-3.45) = ${ceil(-3.45)}")
 
 
     println("\n\n***** End of theory *****")
