@@ -45,6 +45,11 @@ fun theory() {
     println("\t. floor(-3.45) = ${floor(-3.45)}")
     println("\t. ceil(3.45) = ${ceil(3.45)}")
     println("\t. ceil(-3.45) = ${ceil(-3.45)}")
+    println("\t. round(4.15) = ${round(4.15)}")
+    println("\t. 4.15.roundToInt() = ${4.15.roundToInt()}")
+    println("\t. round(3.5) = ${round(3.5)}")
+    println("\t. round(4.5) = ${round(4.5)}")
+    println("\t. Math.round(4.5) = ${Math.round(4.5)} (from Java Math library)")
 
 
     println("\n\n***** End of theory *****")
