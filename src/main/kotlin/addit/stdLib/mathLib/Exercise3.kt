@@ -14,5 +14,7 @@ fun exercise3() {
     val b = readln().toInt()
     val c = readln().toInt()
 
+    val p = (a + b + c) / 2
+
     println("\n*** End of exercise ***")
 }
