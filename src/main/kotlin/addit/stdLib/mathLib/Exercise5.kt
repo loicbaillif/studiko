@@ -13,9 +13,7 @@ fun exercise5() {
     println("*** Exercise: Max of four numbers ***")
 
     val (a, b, c, d) = List(4) { readln().toInt() }
-    val max1 = max(a, b)
-    val max2 = max(c, d)
-    println(max(max1, max2))
+    println(max(max(a, b), max(c, d)))
 
     println("\n*** End of exercise ***")
 }
