@@ -18,6 +18,7 @@ fun main() {
     // projects.chuckNorris.index()
     // projects.encDec.index()
     // projects.converter.index()
+    projects.coffeeMachine.index()
 
     // Old Chapters
     // overview.index()
@@ -32,6 +33,7 @@ fun main() {
     // addit.files.writeFiles.index()
     // addit.stdLib.bigDec.index()
     // addit.stdLib.bigInt.index()
+    // addit.stdLib.mathLib.index()
     // addit.stdLib.random.index()
 
 
@@ -96,5 +98,4 @@ fun main() {
     // typesDataStruct.variab.objects.index()
 
     // Current Chapter
-    addit.stdLib.mathLib.index()
 }
