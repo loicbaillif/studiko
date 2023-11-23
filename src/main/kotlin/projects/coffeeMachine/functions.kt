@@ -9,4 +9,7 @@ fun printCoffeeQty (nbCups: Int): Unit {
     val qtyBeans = nbCups * COFFEE_BEANS_PER_COFFEE
     val qtyMilk = nbCups * MILK_PER_COFFEE
     val qtyWater = nbCups * WATER_PER_COFFEE
+
+    // Result
+    println(QUANTITY_NB_CUPS.format(nbCups, qtyWater, qtyMilk, qtyBeans))
 }
