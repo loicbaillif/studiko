@@ -1,5 +1,12 @@
 package projects.coffeeMachine
 
+import projects.converter.PROMPT_STAGE2
+
+
+fun menuStage2 (): Unit {
+
+}
+
 fun printCoffeeQty (nbCups: Int): Unit {
     /**
      * Print the required quantity of each ingredient for nbCups of coffee
