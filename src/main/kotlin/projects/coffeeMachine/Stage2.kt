@@ -9,4 +9,6 @@ package projects.coffeeMachine
 
 fun stage2() {
 
+    menuStage2()
+
 }

@@ -9,6 +9,8 @@ fun menuStage2 (): Unit {
 
     println(PROMPT_STAGE2)
     nbCups = readln().toInt()
+
+    printCoffeeQty(nbCups)
 }
 
 fun printCoffeeQty (nbCups: Int): Unit {
