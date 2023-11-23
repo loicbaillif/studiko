@@ -1,13 +1,11 @@
 package projects.coffeeMachine
 
-import projects.converter.PROMPT_STAGE2
-
 
 fun menuStage2 (): Unit {
     // Variables
     val nbCups: Int
 
-    println(PROMPT_STAGE2)
+    println(PROMPT_NB_CUPS)
     nbCups = readln().toInt()
 
     printCoffeeQty(nbCups)
