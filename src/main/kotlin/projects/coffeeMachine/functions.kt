@@ -4,7 +4,11 @@ import projects.converter.PROMPT_STAGE2
 
 
 fun menuStage2 (): Unit {
+    // Variables
+    val nbCups: Int
 
+    println(PROMPT_STAGE2)
+    nbCups = readln().toInt()
 }
 
 fun printCoffeeQty (nbCups: Int): Unit {
