@@ -22,6 +22,12 @@ fun menuStage2 (): Unit {
     printCoffeeQty(nbCups)
 }
 
+
+fun menuStage3 (): Unit {
+
+}
+
+
 fun printCoffeeQty (nbCups: Int): Unit {
     /**
      * Print the required quantity of each ingredient for nbCups of coffee
