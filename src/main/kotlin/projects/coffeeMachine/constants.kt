@@ -7,6 +7,9 @@ const val WATER_PER_COFFEE = 200
 
 
 // CONSTANT STRINGS
+const val INIT_COFFEE_BEANS = "Write how many grams of coffee beans the coffee machine has:"
+const val INIT_MILK = "Write how many ml of milk the coffee machine has:"
+const val INIT_WATER = "Write how many ml of water the coffee machine has:"
 const val QUANTITY_NB_CUPS = """
     For %d cups of coffee you will need:
     %d ml of water
