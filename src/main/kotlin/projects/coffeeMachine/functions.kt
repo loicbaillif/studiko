@@ -1,8 +1,13 @@
 package projects.coffeeMachine
 
+import kotlin.math.min
+
 
 fun getNbCoffee (water: Int, milk: Int, coffeeBeans: Int): Int {
+    var maxCups = water / WATER_PER_COFFEE
 
+
+    return maxCups
 }
 
 
