@@ -1,6 +1,11 @@
 package projects.coffeeMachine
 
 
+fun getNbCoffee (water: Int, milk: Int, coffeeBeans: Int): Int {
+
+}
+
+
 fun menuStage2 (): Unit {
     // Variables
     val nbCups: Int
