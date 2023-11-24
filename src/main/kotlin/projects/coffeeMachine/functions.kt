@@ -24,7 +24,12 @@ fun menuStage2 (): Unit {
 
 
 fun menuStage3 (): Unit {
-
+    println(INIT_WATER)
+    val water = readln().toInt()
+    println(INIT_MILK)
+    val milk = readln().toInt()
+    println(INIT_COFFEE_BEANS)
+    val coffeeBeans = readln().toInt()
 }
 
 

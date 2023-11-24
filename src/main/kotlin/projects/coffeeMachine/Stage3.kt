@@ -8,5 +8,5 @@ package projects.coffeeMachine
  */
 
 fun stage3() {
-    println(getNbCoffee(1300, 165, 1000))
+    menuStage3()
 }
