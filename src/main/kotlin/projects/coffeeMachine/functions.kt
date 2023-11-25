@@ -7,9 +7,11 @@ fun checkResources(machineStock: MutableList<Int>, drinkNeeds: MutableList<Int>)
     val resourcesList = listOf<String>("water", "milk", "coffee beans", "disposable cups")
     repeat(drinkNeeds.size) {
         if (machineStock[it] < drinkNeeds[it]) {
-
+            println(MISSING_RESOURCE.format(resourcesList[it]))
+            return false
         }
     }
+    return true
 }
 
 
