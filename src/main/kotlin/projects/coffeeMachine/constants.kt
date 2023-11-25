@@ -17,3 +17,7 @@ const val QUANTITY_NB_CUPS = """
     %d g of coffee beans
 """
 const val PROMPT_NB_CUPS = "Write how many cups of coffee you will need:"
+const val RESULT_MORE = "Yes, I can make that amount of coffee (and even %d more than that)"
+const val RESULT_NOT_ENOUGH = "No, I can make only %d cups of coffee"
+const val RESULT_OK = "Yes, I can make that amount of coffee"
+
