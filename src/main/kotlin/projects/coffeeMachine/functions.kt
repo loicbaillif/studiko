@@ -114,10 +114,17 @@ fun treatBuy (machineStock: MutableList<Int>) {
 
     println(SUBMENU_BUY)
     val userDrink = readln()
+
+    
 }
 
 
 fun treatTake (machineStock: MutableList<Int>) {
     println(SUBMENU_TAKE.format(machineStock.last()))
     machineStock[machineStock.lastIndex] = 0
+}
+
+
+fun updateStock (machineStock: MutableList<Int>, beverageIngredients: MutableList<Int>) {
+
 }
