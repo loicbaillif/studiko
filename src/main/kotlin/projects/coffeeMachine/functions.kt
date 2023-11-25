@@ -5,7 +5,12 @@ import kotlin.math.min
 
 
 fun displayResultSt3(nbCups: Int, maxCups: Int): Unit {
-
+    val delta = maxCups - nbCups
+    println(when {
+        delta > 0 -> RESULT_MORE.format(delta)
+        delta < 0 -> RESULT_NOT_ENOUGH.format(maxCups)
+        else -> RESULT_OK
+    });
 }
 
 
