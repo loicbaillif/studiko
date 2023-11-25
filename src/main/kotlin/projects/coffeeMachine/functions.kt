@@ -91,3 +91,8 @@ fun printMachineStatus (machineStock: MutableList<Int>) {
         machineStock[3],
         machineStock[4]).trimIndent())
 }
+
+
+fun treatUserInput (userChoice: String, machineStock: MutableList<Int>) {
+
+}
