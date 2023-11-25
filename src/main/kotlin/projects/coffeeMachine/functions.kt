@@ -53,11 +53,11 @@ fun menuStage3 () {
 
 fun menuStage4 () {
     // Machine resources
-    val coffeeBeans =
-    val cups =
-    val milk =
-    val money =
-    val water =
+    val coffeeBeans = BEGIN_COFFEE_BEANS
+    val cups = BEGIN_CUPS
+    val milk = BEGIN_MILK
+    val money = BEGIN_MONEY
+    val water = BEGIN_WATER
 }
 
 
