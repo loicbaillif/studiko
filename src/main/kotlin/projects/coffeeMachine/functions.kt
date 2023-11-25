@@ -1,5 +1,6 @@
 package projects.coffeeMachine
 
+import projects.cinema.userChoice
 import kotlin.math.min
 
 
@@ -83,7 +84,11 @@ fun menuStage4 () {
 
 
 fun menuStage5() {
-
+    var userChoice: String
+    do {
+        println(MAIN_MENU)
+        userChoice = readln()
+    } while (userChoice != "exit")
 }
 
 
