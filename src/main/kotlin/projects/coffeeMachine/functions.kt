@@ -4,7 +4,12 @@ import kotlin.math.min
 
 
 fun checkResources(machineStock: MutableList<Int>, drinkNeeds: MutableList<Int>): Boolean {
+    val resourcesList = listOf<String>("water", "milk", "coffee beans", "disposable cups")
+    repeat(drinkNeeds.size) {
+        if (machineStock[it] < drinkNeeds[it]) {
 
+        }
+    }
 }
 
 
