@@ -84,10 +84,15 @@ fun menuStage4 () {
 
 
 fun menuStage5() {
+    // Variables
     var userChoice: String
+    val machineStock = mutableListOf(BEGIN_WATER, BEGIN_MILK, BEGIN_COFFEE_BEANS, BEGIN_CUPS, BEGIN_MONEY)
+
+    // Loop
     do {
         println(MAIN_MENU)
         userChoice = readln()
+        treatUserInput(userChoice, machineStock)
     } while (userChoice != "exit")
 }
 
