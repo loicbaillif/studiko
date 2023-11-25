@@ -145,8 +145,10 @@ fun treatBuy (machineStock: MutableList<Int>) {
 
     println(SUBMENU_BUY)
     val userDrink = readln().toInt()
+    if (checkResources(machineStock, ingredients[userDrink])) {
+        updateStock(machineStock, ingredients[userDrink])
+    }
 
-    updateStock(machineStock, ingredients[userDrink])
 }
 
 
