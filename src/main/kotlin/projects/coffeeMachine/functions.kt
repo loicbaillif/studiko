@@ -94,5 +94,12 @@ fun printMachineStatus (machineStock: MutableList<Int>) {
 
 
 fun treatUserInput (userChoice: String, machineStock: MutableList<Int>) {
+    when (userChoice) {
+        "take" -> treatTake(machineStock)
+    }
+}
+
+
+fun treatTake (machineStock: MutableList<Int>) {
 
 }
