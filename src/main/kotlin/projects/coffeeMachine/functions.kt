@@ -74,3 +74,8 @@ fun printCoffeeQty (nbCups: Int) {
     // Result
     println(QUANTITY_NB_CUPS.format(nbCups, qtyWater, qtyMilk, qtyBeans))
 }
+
+
+fun printMachineStatus (coffee: Int, cups: Int, milk: Int, money: Int, water: Int) {
+
+}
