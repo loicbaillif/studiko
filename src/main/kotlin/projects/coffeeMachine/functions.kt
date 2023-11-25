@@ -97,6 +97,7 @@ fun printMachineStatus (machineStock: MutableList<Int>) {
 
 fun treatUserInput (userChoice: String, machineStock: MutableList<Int>) {
     when (userChoice) {
+        "buy" -> treatBuy(machineStock)
         "take" -> treatTake(machineStock)
         else -> println("Can't do that.")
     }
@@ -113,9 +114,9 @@ fun treatBuy (machineStock: MutableList<Int>) {
     )
 
     println(SUBMENU_BUY)
-    val userDrink = readln()
+    val userDrink = readln().toInt()
 
-    
+    updateStock(machineStock, ingredients[userDrink])
 }
 
 
@@ -126,5 +127,7 @@ fun treatTake (machineStock: MutableList<Int>) {
 
 
 fun updateStock (machineStock: MutableList<Int>, beverageIngredients: MutableList<Int>) {
-
+    repeat(machineStock.size) {
+        machineStock[it] -= beverageIngredients[it]
+    }
 }
