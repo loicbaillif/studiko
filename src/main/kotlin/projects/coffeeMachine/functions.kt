@@ -98,6 +98,7 @@ fun printMachineStatus (machineStock: MutableList<Int>) {
 fun treatUserInput (userChoice: String, machineStock: MutableList<Int>) {
     when (userChoice) {
         "buy" -> treatBuy(machineStock)
+        "fill" -> treatFill(machineStock)
         "take" -> treatTake(machineStock)
         else -> println("Can't do that.")
     }
@@ -121,7 +122,6 @@ fun treatBuy (machineStock: MutableList<Int>) {
 
 
 fun treatFill (machineStock: MutableList<Int>) {
-    val refillQuantities = mutableListOf<Int>(0, 0, 0, 0, 0)
     val promptList = mutableListOf<String>(
         SUBMENU_FILL_WATER,
         SUBMENU_FILL_MILK,
@@ -129,9 +129,11 @@ fun treatFill (machineStock: MutableList<Int>) {
         SUBMENU_FILL_CUPS)
 
     repeat(promptList.size) {
-
+        println(promptList[it])
+        machineStock[it] += readln().toInt()
     }
 
+    println("\n")
 }
 
 
