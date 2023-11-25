@@ -125,7 +125,9 @@ fun printMachineStatus (machineStock: MutableList<Int>) {
 fun treatUserInput (userChoice: String, machineStock: MutableList<Int>) {
     when (userChoice) {
         "buy" -> treatBuy(machineStock)
+        "exit" -> null
         "fill" -> treatFill(machineStock)
+        "remaining" -> printMachineStatus(machineStock)
         "take" -> treatTake(machineStock)
         else -> println("Can't do that.")
     }
