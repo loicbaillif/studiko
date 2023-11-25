@@ -96,10 +96,12 @@ fun printMachineStatus (machineStock: MutableList<Int>) {
 fun treatUserInput (userChoice: String, machineStock: MutableList<Int>) {
     when (userChoice) {
         "take" -> treatTake(machineStock)
+        else -> println("Can't do that.")
     }
 }
 
 
 fun treatTake (machineStock: MutableList<Int>) {
-
+    println(SUBMENU_TAKE.format(machineStock.last()))
+    machineStock[machineStock.lastIndex] = 0
 }
