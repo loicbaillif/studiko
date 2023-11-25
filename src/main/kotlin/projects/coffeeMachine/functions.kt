@@ -104,7 +104,16 @@ fun treatUserInput (userChoice: String, machineStock: MutableList<Int>) {
 
 
 fun treatBuy (machineStock: MutableList<Int>) {
+    // Variables
+    val ingredients = mutableListOf<MutableList<Int>>(
+        mutableListOf(0, 0, 0, 0, 0),           // Placeholder
+        mutableListOf(250, 0, 16, 1, -4),       // Espresso
+        mutableListOf(350, 75, 20, 1, -7),      // Coffee
+        mutableListOf(200, 100, 12, 1, -6)      // Cappuccino
+    )
 
+    println(SUBMENU_BUY)
+    val userDrink = readln()
 }
 
 
