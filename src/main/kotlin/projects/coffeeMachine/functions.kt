@@ -70,6 +70,11 @@ fun menuStage4 () {
 }
 
 
+fun menuStage5() {
+
+}
+
+
 fun printCoffeeQty (nbCups: Int) {
     /**
      * Print the required quantity of each ingredient for nbCups of coffee
