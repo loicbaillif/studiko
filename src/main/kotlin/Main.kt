@@ -18,7 +18,7 @@ fun main() {
     // projects.chuckNorris.index()
     // projects.encDec.index()
     // projects.converter.index()
-    projects.coffeeMachine.index()
+    // projects.coffeeMachine.index()
 
     // Old Chapters
     // overview.index()
@@ -98,4 +98,5 @@ fun main() {
     // typesDataStruct.variab.objects.index()
 
     // Current Chapter
+    oop.basics.memberFunc.index()
 }
