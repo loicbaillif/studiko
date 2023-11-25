@@ -121,6 +121,16 @@ fun treatBuy (machineStock: MutableList<Int>) {
 
 
 fun treatFill (machineStock: MutableList<Int>) {
+    val refillQuantities = mutableListOf<Int>(0, 0, 0, 0, 0)
+    val promptList = mutableListOf<String>(
+        SUBMENU_FILL_WATER,
+        SUBMENU_FILL_MILK,
+        SUBMENU_FILL_COFFEE_BEANS,
+        SUBMENU_FILL_CUPS)
+
+    repeat(promptList.size) {
+
+    }
 
 }
 
