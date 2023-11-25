@@ -64,7 +64,9 @@ fun menuStage4 () {
 
     println(MAIN_MENU)
     val userChoice = readln()
+    treatUserInput(userChoice, machineStock)
 
+    printMachineStatus(machineStock)
 }
 
 
