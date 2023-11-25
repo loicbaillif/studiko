@@ -8,5 +8,5 @@ package projects.coffeeMachine
  */
 
 fun stage4() {
-
+    menuStage4()
 }
