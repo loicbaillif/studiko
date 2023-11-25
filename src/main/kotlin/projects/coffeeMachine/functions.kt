@@ -3,6 +3,11 @@ package projects.coffeeMachine
 import kotlin.math.min
 
 
+fun checkResources(machineStock: MutableList<Int>, drinkNeeds: MutableList<Int>): Boolean {
+
+}
+
+
 fun displayResultSt3(nbCups: Int, maxCups: Int) {
     val delta = maxCups - nbCups
     println(when {
