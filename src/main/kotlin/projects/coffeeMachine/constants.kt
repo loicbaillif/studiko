@@ -1,6 +1,11 @@
 package projects.coffeeMachine
 
 // CONSTANT INTEGERS
+const val BEGIN_COFFEE_BEANS = 120
+const val BEGIN_CUPS = 9
+const val BEGIN_MILK = 540
+const val BEGIN_MONEY = 550
+const val BEGIN_WATER = 400
 const val COFFEE_BEANS_PER_COFFEE = 15
 const val MILK_PER_COFFEE = 50
 const val WATER_PER_COFFEE = 200

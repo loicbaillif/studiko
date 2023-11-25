@@ -52,7 +52,12 @@ fun menuStage3 () {
 
 
 fun menuStage4 () {
-
+    // Machine resources
+    val coffeeBeans =
+    val cups =
+    val milk =
+    val money =
+    val water =
 }
 
 
