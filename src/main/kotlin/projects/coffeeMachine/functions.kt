@@ -1,7 +1,12 @@
 package projects.coffeeMachine
 
+import kotlin.math.max
 import kotlin.math.min
 
+
+fun displayResultSt3(nbCups: Int, maxCups: Int): Unit {
+
+}
 
 
 fun getNbCoffee (water: Int, milk: Int, coffeeBeans: Int): Int {
@@ -36,6 +41,8 @@ fun menuStage3 (): Unit {
 
     // Get nb of coffees
     val nbCups = readln().toInt()
+
+    displayResultSt3(nbCups, maxCups)
 }
 
 
