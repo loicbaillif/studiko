@@ -60,6 +60,9 @@ fun menuStage4 () {
     val water = BEGIN_WATER
 
     printMachineStatus(coffeeBeans, cups, milk, money, water)
+
+    println(MAIN_MENU)
+    val userChoice = readln()
 }
 
 
