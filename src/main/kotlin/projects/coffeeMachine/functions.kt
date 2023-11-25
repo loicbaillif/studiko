@@ -120,6 +120,11 @@ fun treatBuy (machineStock: MutableList<Int>) {
 }
 
 
+fun treatFill (machineStock: MutableList<Int>) {
+
+}
+
+
 fun treatTake (machineStock: MutableList<Int>) {
     println(SUBMENU_TAKE.format(machineStock.last()))
     machineStock[machineStock.lastIndex] = 0
