@@ -1,16 +1,15 @@
 package projects.coffeeMachine
 
-import kotlin.math.max
 import kotlin.math.min
 
 
-fun displayResultSt3(nbCups: Int, maxCups: Int): Unit {
+fun displayResultSt3(nbCups: Int, maxCups: Int) {
     val delta = maxCups - nbCups
     println(when {
         delta > 0 -> RESULT_MORE.format(delta)
         delta < 0 -> RESULT_NOT_ENOUGH.format(maxCups)
         else -> RESULT_OK
-    });
+    })
 }
 
 
@@ -23,7 +22,7 @@ fun getNbCoffee (water: Int, milk: Int, coffeeBeans: Int): Int {
 }
 
 
-fun menuStage2 (): Unit {
+fun menuStage2 () {
     // Variables
     val nbCups: Int
 
@@ -34,7 +33,7 @@ fun menuStage2 (): Unit {
 }
 
 
-fun menuStage3 (): Unit {
+fun menuStage3 () {
     // Initiate quantities
     println(INIT_WATER)
     val water = readln().toInt()
@@ -45,13 +44,14 @@ fun menuStage3 (): Unit {
     val maxCups = getNbCoffee(water, milk, coffeeBeans)
 
     // Get nb of coffees
+    println(PROMPT_NB_CUPS)
     val nbCups = readln().toInt()
 
     displayResultSt3(nbCups, maxCups)
 }
 
 
-fun printCoffeeQty (nbCups: Int): Unit {
+fun printCoffeeQty (nbCups: Int) {
     /**
      * Print the required quantity of each ingredient for nbCups of coffee
      */
