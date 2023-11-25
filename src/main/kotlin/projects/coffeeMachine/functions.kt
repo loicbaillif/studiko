@@ -58,11 +58,13 @@ fun menuStage4 () {
     val milk = BEGIN_MILK
     val money = BEGIN_MONEY
     val water = BEGIN_WATER
+    val machineStock = mutableListOf(water, milk, coffeeBeans, cups, money)
 
-    printMachineStatus(coffeeBeans, cups, milk, money, water)
+    printMachineStatus(machineStock)
 
     println(MAIN_MENU)
     val userChoice = readln()
+
 }
 
 
@@ -81,6 +83,11 @@ fun printCoffeeQty (nbCups: Int) {
 }
 
 
-fun printMachineStatus (coffee: Int, cups: Int, milk: Int, money: Int, water: Int) {
-    println(MACHINE_STATUS.format(water, milk, coffee, cups, money).trimIndent())
+fun printMachineStatus (machineStock: MutableList<Int>) {
+    println(MACHINE_STATUS.format(
+        machineStock[0],
+        machineStock[1],
+        machineStock[2],
+        machineStock[3],
+        machineStock[4]).trimIndent())
 }
