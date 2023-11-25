@@ -15,6 +15,14 @@ const val WATER_PER_COFFEE = 200
 const val INIT_COFFEE_BEANS = "Write how many grams of coffee beans the coffee machine has:"
 const val INIT_MILK = "Write how many ml of milk the coffee machine has:"
 const val INIT_WATER = "Write how many ml of water the coffee machine has:"
+const val MACHINE_STATUS = """
+    The coffee machine has:
+    %d ml of water
+    %d ml of milk
+    %d g of coffee beans
+    %d disposable cups
+    ${'$'}%d of money
+"""
 const val QUANTITY_NB_CUPS = """
     For %d cups of coffee you will need:
     %d ml of water
