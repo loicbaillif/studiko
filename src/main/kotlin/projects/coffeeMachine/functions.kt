@@ -3,6 +3,7 @@ package projects.coffeeMachine
 import kotlin.math.min
 
 
+
 fun getNbCoffee (water: Int, milk: Int, coffeeBeans: Int): Int {
     var maxCups = water / WATER_PER_COFFEE
     maxCups = min(maxCups, milk / MILK_PER_COFFEE)
@@ -24,12 +25,17 @@ fun menuStage2 (): Unit {
 
 
 fun menuStage3 (): Unit {
+    // Initiate quantities
     println(INIT_WATER)
     val water = readln().toInt()
     println(INIT_MILK)
     val milk = readln().toInt()
     println(INIT_COFFEE_BEANS)
     val coffeeBeans = readln().toInt()
+    val maxCups = getNbCoffee(water, milk, coffeeBeans)
+
+    // Get nb of coffees
+    val nbCups = readln().toInt()
 }
 
 
