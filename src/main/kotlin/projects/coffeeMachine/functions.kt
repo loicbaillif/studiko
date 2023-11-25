@@ -58,6 +58,8 @@ fun menuStage4 () {
     val milk = BEGIN_MILK
     val money = BEGIN_MONEY
     val water = BEGIN_WATER
+
+    printMachineStatus(coffeeBeans, cups, milk, money, water)
 }
 
 
@@ -77,5 +79,5 @@ fun printCoffeeQty (nbCups: Int) {
 
 
 fun printMachineStatus (coffee: Int, cups: Int, milk: Int, money: Int, water: Int) {
-
+    println(MACHINE_STATUS.format(water, milk, coffee, cups, money).trimIndent())
 }
