@@ -14,6 +14,7 @@ fun theory() {
     someObject1.printThWithArg(42)
 
     val someObject2 = thClass2(123_456)
+    someObject2.givePop()
 
     println("\n***** End of theory *****")
 }
