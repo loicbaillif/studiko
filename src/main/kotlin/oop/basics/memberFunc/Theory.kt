@@ -13,3 +13,8 @@ fun theory() {
 
     println("\n***** End of theory *****")
 }
+
+
+class thClass1 {
+    fun printTh() = println("I am a function inside a class")  // Member function
+}
