@@ -1,5 +1,7 @@
 package oop.basics.memberFunc
 
+import kotlin.random.Random
+
 /**
  * Member functions: Theory
  * https://hyperskill.org/learn/step/6364
@@ -34,5 +36,29 @@ class thClass2(var population: Int) {
 
     init {
         println("I am alive;")
+    }
+}
+
+
+class Cat(val name: String) {
+    init {
+        println("$name has been summoned.")
+    }
+
+    // Initial status
+    var sleeping: Boolean = false
+
+    fun say() {
+        if (sleeping) {
+            println("zzZZzzz")
+        } else {
+            println("Meow")
+
+            if (Random.nextDouble() < 0.7) sleeping = true
+        }
+    }
+
+    fun wakeUp() {
+        sleeping = false
     }
 }
