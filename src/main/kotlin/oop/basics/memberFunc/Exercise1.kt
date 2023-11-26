@@ -10,14 +10,15 @@ package oop.basics.memberFunc
 fun exercise1() {
     println("*** Exercise: Bugs in a vinyl store ***")
 
-
+    val object1 = VinylStore("Oasis")
+    object1.printVinyl()
 
     println("\n*** End of exercise ***")
 
 }
 
 
-class VinylStore(vinyl: String) {
+class VinylStore(val vinyl: String) {
     fun printVinyl() {
         println(this.vinyl)
     }
