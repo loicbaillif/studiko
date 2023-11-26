@@ -15,3 +15,10 @@ fun exercise1() {
     println("\n*** End of exercise ***")
 
 }
+
+
+class VinylStore(vinyl: String) {
+    fun printVinyl() {
+        println(this.vinyl)
+    }
+}
