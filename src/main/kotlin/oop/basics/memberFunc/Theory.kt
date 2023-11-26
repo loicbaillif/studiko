@@ -22,3 +22,14 @@ class thClass1 {
 
     fun printThWithArg(qty: Int) = println("You gave me $qty") // member function with arg
 }
+
+
+class thClass2(var population: Int) {
+    fun givePop() {
+        println("You initiated me with a population of $population")
+    }
+
+    init {
+        println("I am alive;")
+    }
+}
