@@ -18,6 +18,11 @@ fun theory() {
     val someObject2 = thClass2(123_456)
     someObject2.givePop()
 
+    val someCat1 = Cat("Bada")
+    repeat(5) {
+        someCat1.say()
+    }
+
     println("\n***** End of theory *****")
 }
 
