@@ -9,7 +9,8 @@ package oop.basics.memberFunc
 fun theory() {
     println("***** Theory *****")
 
-
+    val someObject1: thClass1 = thClass1()
+    someObject1.printTh()
 
     println("\n***** End of theory *****")
 }
