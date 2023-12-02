@@ -23,6 +23,13 @@ fun theory() {
     client1.name = "Bravo"
     println(client1.info)
 
+    val client2 = Client1()
+    println(client2.info)
+    client2.age = 33
+    client2.name = "Charlie"
+    println(client2.info)
+
+
 
     println("\n***** End of theory *****")
 }
