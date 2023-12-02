@@ -10,7 +10,21 @@ package oop.usage.enums
 fun exercise1() {
     println("*** Exercise: Currencies ***")
 
-
+    val someMoney = Currency.GBP
+    println(someMoney.name)
 
     println("\n*** End of exercise ***")
+}
+
+
+enum class Currency {
+    CAD,
+    CNY,
+    EUR,
+    GBP,
+    JPY,
+    KZT,
+    RUB,
+    UAH,
+    USD;
 }
