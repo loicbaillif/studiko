@@ -9,7 +9,13 @@ package oop.basics.propAccess
 fun theory() {
     println("***** Theory *****")
 
+    println("*** 1) Property getter")
 
 
     println("\n***** End of theory *****")
+}
+
+
+class Client1 {
+    val name = "Unknown"
 }
