@@ -29,6 +29,11 @@ fun theory() {
     client2.name = "Charlie"
     println(client2.info)
 
+    println("\n*** 3) Property setter")
+    val client3 = ClientB()
+    client3.name = "Delta"
+    println(client3.name)
+
 
 
     println("\n***** End of theory *****")
@@ -39,7 +44,7 @@ class Client1 {
     var name = "Unknown"
         get() {
             if (field == "Unknown") println("You should give a name to this customer")
-            println("Somebody wants to know $field name")
+            println("\n\t!!! Somebody wants to know $field name !!!")
             return field
         }
 
@@ -53,6 +58,9 @@ class Client1 {
 
 class ClientB {
     var name = "Unknown"
+        get() {
+            return "My name is $field"
+        }
         set(value) {
             field = value
         }
