@@ -69,6 +69,7 @@ fun main() {
     // oop.basics.constructors.index()
     // oop.basics.decClass.index()
     // oop.basics.memberFunc.index()
+    // oop.usage.enums.index()
 
 
     // typesDataStruct.arrays.arrays.index()
@@ -99,5 +100,5 @@ fun main() {
     // typesDataStruct.variab.objects.index()
 
     // Current Chapter
-    oop.usage.enums.index()
+    oop.basics.propAccess.index()
 }
