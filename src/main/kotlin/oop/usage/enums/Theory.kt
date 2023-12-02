@@ -26,6 +26,8 @@ fun theory() {
     println(findByRgb("#00AD00"))
     println(findByRgb("#00FF00"))
 
+    println(Rainbow.valueOf("VIOLET"))
+
 
     println("\n***** End of Theory *****")
 }
