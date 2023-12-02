@@ -17,7 +17,9 @@ fun theory() {
     for (elt in repository1.list) println("\t$elt")
 
     println("\n*** 2) Custom getter")
-
+    client1.name = "Alpha"
+    val someName = client1.name
+    println(someName)
 
 
     println("\n***** End of theory *****")
@@ -25,7 +27,7 @@ fun theory() {
 
 
 class Client1 {
-    val name = "Unknown"
+    var name = "Unknown"
         get() {
             if (field == "Unknown") println("You should give a name to this customer")
             println("Somebody wants to know $field name")
