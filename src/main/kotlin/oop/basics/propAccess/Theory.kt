@@ -16,6 +16,7 @@ fun theory() {
     // repository1.list.add(33) // Generates an error, Unresolved reference
     for (elt in repository1.list) println("\t$elt")
 
+
     println("\n*** 2) Custom getter")
     client1.name = "Alpha"
     val someName = client1.name
@@ -29,10 +30,15 @@ fun theory() {
     client2.name = "Charlie"
     println(client2.info)
 
+
     println("\n*** 3) Property setter")
     val client3 = ClientB()
     client3.name = "Delta"
     println(client3.name)
+
+
+    println("\n*** 4) Custom setter")
+
 
 
 
@@ -62,6 +68,7 @@ class ClientB {
             return "My name is $field"
         }
         set(value) {
+            println("[INFO] Changing name from $field to $value")
             field = value
         }
 }
