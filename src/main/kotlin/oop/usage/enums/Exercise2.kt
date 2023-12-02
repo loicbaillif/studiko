@@ -14,3 +14,15 @@ fun exercise2() {
 
     println("\n*** End of exercise ***")
 }
+
+
+enum class Rainbow2(val colorName: String) {
+    RED("Red"),
+    ORANGE("Orange"),
+    YELLOW("Yellow"),
+    GREEN("Green"),
+    BLUE("Blue"),
+    INDIGO("Indigo"),
+    VIOLET("Violet"),
+    NULL("");
+}
