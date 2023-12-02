@@ -20,9 +20,20 @@ fun theory() {
     println("\n*** 2) Inside enum")
     println(color2.name)
     println(color2.ordinal)
+    println(isRainbow(color1))
+    println(isRainbow("Black"))
+
 
 
     println("\n***** End of Theory *****")
+}
+
+
+fun isRainbow(color: String) : Boolean {
+    for (enum in Rainbow.values()) {
+        if (color.uppercase() == enum.name) return true
+    }
+    return false
 }
 
 
