@@ -63,6 +63,7 @@ class Client1 {
 
 
 class ClientB {
+    val defaultAge = 20
     var name = "Unknown"
         get() {
             return "My name is $field"
@@ -70,6 +71,16 @@ class ClientB {
         set(value) {
             println("[INFO] Changing name from $field to $value")
             field = value
+        }
+
+    var age = 18
+        set(value) {
+            if (value < 0) {
+                println("An age cannot be negative ... Assigning default value $defaultAge instead")
+                field = defaultAge
+            } else {
+                field = value
+            }
         }
 }
 
