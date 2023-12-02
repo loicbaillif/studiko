@@ -20,6 +20,8 @@ fun theory() {
     client1.name = "Alpha"
     val someName = client1.name
     println(someName)
+    client1.name = "Bravo"
+    println(client1.info)
 
 
     println("\n***** End of theory *****")
