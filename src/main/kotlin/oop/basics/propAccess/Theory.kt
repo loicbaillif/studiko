@@ -42,6 +42,13 @@ fun theory() {
     client3.age = -5
     println(client3.age)
 
+    println("\n*** 5) Additional features")
+    val client4 = ClientC()
+    println(client4.passport.number)
+    // client4.passport = Passport("2345678") Not possible, defined as val
+    client4.passport.number = "2345678"
+    println(client4.passport.number)
+
 
 
     println("\n***** End of theory *****")
@@ -93,7 +100,7 @@ class ClientC {
 
 
 class IntegerRepository1 {
-    private val _list = mutableListOf<Int>(36, 10, 59, 97)
+    private val _list = mutableListOf(36, 10, 59, 97)
     val list: List<Int> get() = _list
 }
 
