@@ -10,6 +10,8 @@ fun theory() {
     println("***** Theory *****")
 
     println("*** 1) Property getter")
+    val client1 = Client1()
+    println(client1.name)
 
 
     println("\n***** End of theory *****")
