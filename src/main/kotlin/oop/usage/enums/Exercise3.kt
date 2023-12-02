@@ -10,7 +10,10 @@ package oop.usage.enums
 fun exercise3() {
     println("*** Exercise: Danger level ***")
 
+    val high = DangerLevel.HIGH
+    val medium = DangerLevel.MEDIUM
 
+    println(high.getLevel() > medium.getLevel())
 
     println("\n*** End of exercise ***")
 }
