@@ -10,7 +10,7 @@ package oop.usage.enums
 fun exercise2() {
     println("*** Exercise: Ordinal property ***")
 
-
+    testFun()
 
     println("\n*** End of exercise ***")
 }
