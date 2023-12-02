@@ -17,7 +17,8 @@ fun main() {
     // projects.cinema.index()
     // projects.chuckNorris.index()
     // projects.encDec.index()
-    projects.converter.index()
+    // projects.converter.index()
+    // projects.coffeeMachine.index()
 
     // Old Chapters
     // overview.index()
@@ -32,6 +33,8 @@ fun main() {
     // addit.files.writeFiles.index()
     // addit.stdLib.bigDec.index()
     // addit.stdLib.bigInt.index()
+    // addit.stdLib.mathLib.index()
+    // addit.stdLib.random.index()
 
 
     // basics.codeStyle.comms.index()
@@ -95,5 +98,5 @@ fun main() {
     // typesDataStruct.variab.objects.index()
 
     // Current Chapter
-
+    oop.basics.memberFunc.index()
 }

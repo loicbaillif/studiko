@@ -5,6 +5,8 @@ import java.math.BigDecimal
 import java.math.BigInteger
 
 fun elseToTen(input: String, radix: Int): BigInteger {
+    if (radix == 10) return input.toBigInteger()
+
     var result: BigInteger = BigInteger.ZERO
     for (c in input) {
         val digit = c.digitToInt(radix)
@@ -16,8 +18,15 @@ fun elseToTen(input: String, radix: Int): BigInteger {
 
 
 fun elseToTenDecimal(input: String, radix: Int): BigDecimal {
-    var result: BigDecimal = BigDecimal.ZERO
+    if (radix == 10) return input.toBigDecimal()
 
+    var result: BigDecimal = BigDecimal.ZERO.setScale(5)
+    val radixBigDec = radix.toBigDecimal()
+
+    for (i in input.lastIndex downTo 2) {
+        result += input[i].digitToInt(radix).toBigDecimal()
+        result /= radixBigDec
+    }
 
     return result
 }
@@ -37,7 +46,7 @@ fun tenToElse(input: BigInteger, radix: Int): String {
     }
 
     // Result
-    return sbResult.toString()
+    return if (sbResult.isEmpty()) "0" else sbResult.toString()
 }
 
 
@@ -47,7 +56,7 @@ fun tenToElseDecimal(input: BigDecimal, radix: Int): String {
     var tempInput = input
     var digit: Int
 
-    while (tempInput > BigDecimal.ZERO) {
+    repeat(5) {
         val tempVal = tempInput * radix.toBigDecimal()
         digit = (tempVal / BigDecimal.ONE).toInt()
         sbResult.append(if (digit > 9) giveHexCode(digit) else digit)
@@ -58,15 +67,25 @@ fun tenToElseDecimal(input: BigDecimal, radix: Int): String {
 }
 
 
-fun oneToOther(userInput: String, oneSource: Int, otherSource: Int): String {
-    // Converts number from a base to base 10, then base 10 to other base
-    val convertNumber = (if (oneSource != 10) elseToTen(userInput, oneSource) else userInput.toBigInteger())
+fun oneToOther(userInput: String, sourceBase: Int, targetBase: Int): String {
+    // Variables
+    val decimalPosition = userInput.indexOf(".")
+    val isDecimal = decimalPosition != -1
+    val userInputInt = userInput.substringBefore('.')
+    val userInputDec = if (isDecimal) "0.${userInput.substringAfter('.')}" else "0"
 
-    if (otherSource != 10) {
-        return tenToElse(convertNumber, otherSource)
-    }
+    // 1) Convert from source base to 10
+    val userInputIntBase10 = elseToTen(userInputInt, sourceBase) // BigInteger
+    val userInputDecBase10 = if (isDecimal) elseToTenDecimal(userInputDec, sourceBase) else BigDecimal.ZERO
 
-    return  convertNumber.toString()
+
+    // 2) Convert from base 10 to target base
+    val resultInt = tenToElse(userInputIntBase10, targetBase)
+    val resultDec = tenToElseDecimal(userInputDecBase10, targetBase)
+
+
+    // 3) Build result
+    return "$resultInt${if (isDecimal) "." else ""}${if (isDecimal) resultDec else ""}"
 }
 
 
@@ -132,9 +151,4 @@ fun mainMenuSt3() {
         println(MAIN_STAGE3)
         userMenu = readln()
     }
-}
-
-
-fun mainMenuSt4() {
-    println(MAIN_STAGE3)
 }
