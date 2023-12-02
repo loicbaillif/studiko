@@ -38,7 +38,9 @@ fun theory() {
 
 
     println("\n*** 4) Custom setter")
-
+    println(client3.age)
+    client3.age = -5
+    println(client3.age)
 
 
 
