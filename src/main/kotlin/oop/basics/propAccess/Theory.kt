@@ -16,6 +16,9 @@ fun theory() {
     // repository1.list.add(33) // Generates an error, Unresolved reference
     for (elt in repository1.list) println("\t$elt")
 
+    println("\n*** 2) Custom getter")
+
+
 
     println("\n***** End of theory *****")
 }
@@ -23,6 +26,11 @@ fun theory() {
 
 class Client1 {
     val name = "Unknown"
+        get() {
+            if (field == "Unknown") println("You should give a name to this customer")
+            println("Somebody wants to know $field name")
+            return field
+        }
 }
 
 
