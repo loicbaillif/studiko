@@ -14,6 +14,9 @@ fun theory() {
     val status1 = Status.IN_PROGRESS.status
     val material1 = Materials.PLASTIC.material
 
+    val color2 = Rainbow.RED
+    color2.printFullInfo()
+
     println("\n***** End of Theory *****")
 }
 
@@ -25,7 +28,11 @@ enum class Rainbow (val color: String, val rgb: String) {
     GREEN("Green", "#00FF00"),
     BLUE("Blue", "#0000FF"),
     INDIGO("Indigo", "#4B0082"),
-    VIOLET("Violet", "8B00FF")
+    VIOLET("Violet", "8B00FF");
+
+    fun printFullInfo() {
+        println("Color - $color => RGB = $rgb")
+    }
 }
 
 
