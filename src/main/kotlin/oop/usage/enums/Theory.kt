@@ -10,21 +10,41 @@ fun theory() {
     println("***** Theory *****")
 
     println("\n*** 1) Basic enum")
+    val color1 = Rainbow.BLUE.color
+    val status1 = Status.IN_PROGRESS.status
+    val material1 = Materials.PLASTIC.material
 
     println("\n***** End of Theory *****")
 }
 
 
-enum class Rainbow {
-    RED, ORANGE, YELLOW, GREEN, BLUE, INDIGO, VIOLET
+enum class Rainbow (val color: String) {
+    RED("Red"),
+    ORANGE("Orange"),
+    YELLOW("Yellow"),
+    GREEN("Green"),
+    BLUE("Blue"),
+    INDIGO("Indigo"),
+    VIOLET("Violet")
 }
 
 
-enum class Status {
-    OPEN, PENDING, IN_PROGRESS, RESOLVED, REJECTED, CLOSED
+enum class Status (val status: String) {
+    OPEN ("pen"),
+    PENDING("pending"),
+    IN_PROGRESS("in progress"),
+    RESOLVED("resolved"),
+    REJECTED("rejected"),
+    CLOSED("closed")
 }
 
 
-enum class Materials {
-    CONCRETE, GLASS, WOOD, FABRIC, METAL, PLASTIC, ROCK
+enum class Materials (val material: String) {
+    CONCRETE("concrete"),
+    GLASS("glass"),
+    WOOD("wood"),
+    FABRIC("fabric"),
+    METAL("metal"),
+    PLASTIC("plastic"),
+    ROCK("rock")
 }
