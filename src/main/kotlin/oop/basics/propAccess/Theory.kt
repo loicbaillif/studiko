@@ -51,6 +51,14 @@ class Client1 {
 }
 
 
+class ClientB {
+    var name = "Unknown"
+        set(value) {
+            field = value
+        }
+}
+
+
 class IntegerRepository1 {
     private val _list = mutableListOf<Int>(36, 10, 59, 97)
     val list: List<Int> get() = _list
