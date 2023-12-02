@@ -87,7 +87,21 @@ class ClientB {
 }
 
 
+class ClientC {
+    val passport = Passport("1234567")
+}
+
+
 class IntegerRepository1 {
     private val _list = mutableListOf<Int>(36, 10, 59, 97)
     val list: List<Int> get() = _list
+}
+
+
+class Passport(number: String) {
+    var number = number
+        set (value) {
+            println("Passport number has changed")
+            field = value
+        }
 }
