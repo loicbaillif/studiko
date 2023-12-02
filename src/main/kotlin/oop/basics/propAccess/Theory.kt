@@ -33,6 +33,12 @@ class Client1 {
             println("Somebody wants to know $field name")
             return field
         }
+
+    var age: Int = 18
+    val info: String
+        get() {
+            return "name = $name\tage = $age"
+        }
 }
 
 
