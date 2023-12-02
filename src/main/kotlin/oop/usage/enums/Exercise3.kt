@@ -14,3 +14,10 @@ fun exercise3() {
 
     println("\n*** End of exercise ***")
 }
+
+
+enum class DangerLevel (levelName: String, levelValue: Int) {
+    HIGH("High", 3),
+    MEDIUM("Medium", 2),
+    LOW("Low", 1);
+}
