@@ -21,3 +21,9 @@ fun theory() {
 class Client1 {
     val name = "Unknown"
 }
+
+
+class IntegerRepository1 {
+    private val _list = mutableListOf<Int>(36, 10, 59, 97)
+    val list: List<Int> get() = _list
+}
