@@ -17,6 +17,11 @@ fun theory() {
     val color2 = Rainbow.RED
     color2.printFullInfo()
 
+    println("\n*** 2) Inside enum")
+    println(color2.name)
+    println(color2.ordinal)
+
+
     println("\n***** End of Theory *****")
 }
 
