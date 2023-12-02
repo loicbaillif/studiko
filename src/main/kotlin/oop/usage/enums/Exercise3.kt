@@ -16,12 +16,10 @@ fun exercise3() {
 }
 
 
-enum class DangerLevel (levelName: String, levelValue: Int) {
+enum class DangerLevel (val levelName: String, val levelValue: Int) {
     HIGH("High", 3),
     MEDIUM("Medium", 2),
     LOW("Low", 1);
 
-    fun getLevel(): Int {
-
-    }
+    fun getLevel(): Int = levelValue
 }
