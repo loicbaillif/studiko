@@ -23,9 +23,19 @@ fun theory() {
     println(isRainbow(color1))
     println(isRainbow("Black"))
 
+    println(findByRgb("#00AD00"))
+    println(findByRgb("#00FF00"))
 
 
     println("\n***** End of Theory *****")
+}
+
+
+fun findByRgb(rgb: String): Rainbow {
+    for (rainbowColour in Rainbow.values()) {
+        if (rainbowColour.rgb == rgb) return rainbowColour
+    }
+    return Rainbow.NULL
 }
 
 
@@ -44,7 +54,8 @@ enum class Rainbow (val color: String, val rgb: String) {
     GREEN("Green", "#00FF00"),
     BLUE("Blue", "#0000FF"),
     INDIGO("Indigo", "#4B0082"),
-    VIOLET("Violet", "8B00FF");
+    VIOLET("Violet", "8B00FF"),
+    NULL("", "");
 
     fun printFullInfo() {
         println("Color - $color => RGB = $rgb")
