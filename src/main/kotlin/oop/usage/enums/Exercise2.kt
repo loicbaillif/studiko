@@ -34,3 +34,9 @@ fun findByName(name: String): Rainbow2 {
     }
     return Rainbow2.NULL
 }
+
+
+fun testFun() {
+    val color = findByName("Black")
+    println(color.ordinal)
+}
