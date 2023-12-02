@@ -26,3 +26,11 @@ enum class Rainbow2(val colorName: String) {
     VIOLET("Violet"),
     NULL("");
 }
+
+
+fun findByName(name: String): Rainbow2 {
+    for (color in Rainbow2.values()) {
+        if (name == color.colorName) return color
+    }
+    return Rainbow2.NULL
+}
