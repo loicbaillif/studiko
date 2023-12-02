@@ -20,4 +20,8 @@ enum class DangerLevel (levelName: String, levelValue: Int) {
     HIGH("High", 3),
     MEDIUM("Medium", 2),
     LOW("Low", 1);
+
+    fun getLevel(): Int {
+
+    }
 }
