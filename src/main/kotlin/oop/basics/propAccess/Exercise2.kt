@@ -11,14 +11,6 @@ const val AVERAGE_DUBAI = 30
 const val AVERAGE_HANOI = 20
 const val AVERAGE_MOSCOW = 5
 
-fun exercise2() {
-    println("*** Exercise: Weather comparison ***")
-
-
-
-    println("\n*** End of exercise ***")
-}
-
 
 class City(val name: String) {
     val cities = listOf("Dubai", "Moscow", "Hanoi")
@@ -31,4 +23,26 @@ class City(val name: String) {
                 field = value
             }
         }
+}
+
+fun exercise2() {
+    println("*** Exercise: Weather comparison ***")
+
+    val first = 66
+    val second = 43
+    val third = -10
+    val firstCity = City("Dubai")
+    firstCity.degrees = first
+    val secondCity = City("Moscow")
+    secondCity.degrees = second
+    val thirdCity = City("Hanoi")
+    thirdCity.degrees = third
+    println(firstCity.degrees)
+
+    println("\n*** End of exercise ***")
+}
+
+
+fun giveMinTemp(city1: City, city2: City, city3: City): String {
+
 }
