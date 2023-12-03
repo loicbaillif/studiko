@@ -44,5 +44,8 @@ fun exercise2() {
 
 
 fun giveMinTemp(city1: City, city2: City, city3: City): String {
+    var min = minOf(city1.degrees, city2.degrees, city3.degrees)
+    val listTemp = listOf(city1.degrees, city2.degrees, city3.degrees)
 
+    return if (listTemp.indexOf(min) == listTemp.lastIndexOf(min)) min.toString() else "neither"
 }
