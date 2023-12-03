@@ -7,6 +7,10 @@ package oop.basics.propAccess
  * Solution by Loïc Baillif
  */
 
+const val AVERAGE_DUBAI = 30
+const val AVERAGE_HANOI = 20
+const val AVERAGE_MOSCOW = 5
+
 fun exercise2() {
     println("*** Exercise: Weather comparison ***")
 
