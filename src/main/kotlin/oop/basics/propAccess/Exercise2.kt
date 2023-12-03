@@ -21,5 +21,7 @@ fun exercise2() {
 
 
 class City(val name: String) {
+    val cities = listOf("Dubai", "Moscow", "Hanoi")
+    val averageTemps = listOf(AVERAGE_DUBAI, AVERAGE_MOSCOW, AVERAGE_HANOI)
     var degrees: Int
 }
