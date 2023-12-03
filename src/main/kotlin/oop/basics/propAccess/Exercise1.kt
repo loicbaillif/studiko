@@ -10,6 +10,9 @@ package oop.basics.propAccess
 fun exercise1() {
     println("*** Exercise: Custom Getter ***")
 
+    val smartOne = Smartphone1("Ericsong")
+    smartOne.price = -24
+    val smartTwo = Smartphone1("iNokhe")
 
 
     println("\n*** End of exercise ***")
@@ -17,6 +20,6 @@ fun exercise1() {
 
 
 class Smartphone1(val name: String) {
-    val price: Int = -5
+    var price: Int = -5
         get() = name.length - field
 }
