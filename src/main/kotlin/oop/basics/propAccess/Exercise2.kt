@@ -14,3 +14,8 @@ fun exercise2() {
 
     println("\n*** End of exercise ***")
 }
+
+
+class City(val name: String) {
+    var degrees: Int
+}
