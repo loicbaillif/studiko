@@ -3,5 +3,6 @@ package oop.basics.propAccess
 fun index() {
     println("********** Property Accessors **********\n")
 
-    theory()
+    // theory()
+    exercise1()
 }
