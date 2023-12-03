@@ -17,10 +17,10 @@ class City(val name: String) {
     val averageTemps = listOf(AVERAGE_DUBAI, AVERAGE_MOSCOW, AVERAGE_HANOI)
     var degrees: Int = 0
         set(value) {
-            if (value < -92 || value > 57) {
-                field = averageTemps[cities.indexOf(name)]
+            field = if (value < -92 || value > 57) {
+                averageTemps[cities.indexOf(name)]
             } else {
-                field = value
+                value
             }
         }
 }
@@ -44,7 +44,7 @@ fun exercise2() {
 
 
 fun giveMinTemp(city1: City, city2: City, city3: City): String {
-    var min = minOf(city1.degrees, city2.degrees, city3.degrees)
+    val min = minOf(city1.degrees, city2.degrees, city3.degrees)
     val listTemp = listOf(city1.degrees, city2.degrees, city3.degrees)
 
     return if (listTemp.indexOf(min) == listTemp.lastIndexOf(min)) {
