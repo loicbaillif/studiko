@@ -14,3 +14,9 @@ fun exercise1() {
 
     println("\n*** End of exercise ***")
 }
+
+
+class Smartphone1(val name: String) {
+    val price: Int = -5
+        get() = name.length - field
+}
