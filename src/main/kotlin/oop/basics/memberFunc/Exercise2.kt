@@ -10,7 +10,8 @@ package oop.basics.memberFunc
 fun exercise2() {
     println("*** Exercise: Volume of a cube ***")
 
-
+    val box1 = Box(12.3, 2.1, 3.5)
+    println(box1.getVolume())
 
     println("\n*** End of exercise ***")
 }
