@@ -28,16 +28,16 @@ class City(val name: String) {
 fun exercise2() {
     println("*** Exercise: Weather comparison ***")
 
-    val first = 66
-    val second = 43
-    val third = -10
+    val first = 36
+    val second = 33
+    val third = 36
     val firstCity = City("Dubai")
     firstCity.degrees = first
     val secondCity = City("Moscow")
     secondCity.degrees = second
     val thirdCity = City("Hanoi")
     thirdCity.degrees = third
-    println(firstCity.degrees)
+    println(giveMinTemp(firstCity, secondCity, thirdCity))
 
     println("\n*** End of exercise ***")
 }
@@ -47,5 +47,9 @@ fun giveMinTemp(city1: City, city2: City, city3: City): String {
     var min = minOf(city1.degrees, city2.degrees, city3.degrees)
     val listTemp = listOf(city1.degrees, city2.degrees, city3.degrees)
 
-    return if (listTemp.indexOf(min) == listTemp.lastIndexOf(min)) min.toString() else "neither"
+    return if (listTemp.indexOf(min) == listTemp.lastIndexOf(min)) {
+        listOf(city1.name, city2.name, city3.name)[listTemp.indexOf(min)]
+    } else {
+        "neither"
+    }
 }
