@@ -18,4 +18,7 @@ class CoffeeMachine() {
     var milk = BEGIN_MILK
     var money = BEGIN_MONEY
     var water = BEGIN_WATER
+
+    val statusList = listOf("main", "buy", "fill", "take", "remaining", "exit")
+    var currentStatus = statusList[0]
 }
