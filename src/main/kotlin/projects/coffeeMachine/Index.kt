@@ -11,7 +11,8 @@ fun index() {
     // stage2()
     // stage3()
     // stage4()
-    stage5()
+    // stage5()
+    stage6()
 
     println("\n\n********** END OF PROJECT **********")
 }
