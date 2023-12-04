@@ -10,3 +10,12 @@ package projects.coffeeMachine
 fun stage6() {
 
 }
+
+
+class CoffeeMachine() {
+    var coffeeBeans = BEGIN_COFFEE_BEANS // grams
+    var cups = BEGIN_CUPS
+    var milk = BEGIN_MILK
+    var money = BEGIN_MONEY
+    var water = BEGIN_WATER
+}
