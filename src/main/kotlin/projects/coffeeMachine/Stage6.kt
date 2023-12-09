@@ -10,7 +10,10 @@ package projects.coffeeMachine
 fun stage6() {
     val coffeeMachine = CoffeeMachine()
 
-
+    while (coffeeMachine.currentStatus != "exit") {
+        coffeeMachine.getUserInput()
+        println(coffeeMachine.currentStatus)
+    }
 }
 
 
@@ -25,10 +28,13 @@ class CoffeeMachine() {
     val drinksList = listOf("1", "2", "3", "back")
     var currentStatus = statusList[0]
 
-    fun getUserInput() : String {
+    fun getUserInput() : Unit {
         val userInput = readln();
 
-        if (statusList.contains(userInput)) return userInput
-        if (drinksList.contains(userInput)) return userInput else return "main"
+        if (statusList.contains(userInput) || drinksList.contains(userInput)) {
+            this.currentStatus = userInput
+        } else {
+            this.currentStatus = "main"
+        }
     }
 }
