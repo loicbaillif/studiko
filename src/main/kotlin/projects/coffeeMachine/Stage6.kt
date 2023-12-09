@@ -8,6 +8,8 @@ package projects.coffeeMachine
  */
 
 fun stage6() {
+    val coffeeMachine = CoffeeMachine()
+
 
 }
 
