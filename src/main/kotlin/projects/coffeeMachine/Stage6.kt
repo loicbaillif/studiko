@@ -20,5 +20,13 @@ class CoffeeMachine() {
     var water = BEGIN_WATER
 
     val statusList = listOf("main", "buy", "fill", "take", "remaining", "exit")
+    val drinksList = listOf("1", "2", "3", "back")
     var currentStatus = statusList[0]
+
+    fun getUserInput() : String {
+        val userInput = readln();
+
+        if (statusList.contains(userInput)) return userInput
+        if (drinksList.contains(userInput)) return userInput else return "main"
+    }
 }
