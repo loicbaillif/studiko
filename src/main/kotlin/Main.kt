@@ -18,7 +18,9 @@ fun main() {
     // projects.chuckNorris.index()
     // projects.encDec.index()
     // projects.converter.index()
-    projects.coffeeMachine.index()
+    // projects.coffeeMachine.index()
+    projects.bullsCows.index()
+
 
     // Old Chapters
     // overview.index()
