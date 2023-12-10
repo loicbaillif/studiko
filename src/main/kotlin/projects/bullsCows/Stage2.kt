@@ -9,5 +9,5 @@ package projects.bullsCows
 
 fun stage2() {
     val secretCode = "3610";
-
+    assessNumber("1234", secretCode)
 }
