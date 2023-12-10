@@ -12,3 +12,8 @@ fun assessNumber(userNumber: String, solution: String): List<Int> {
 
     return listOf(bulls, cows)
 }
+
+
+fun formatResult(bullsCows: List<Int>): String {
+
+}
