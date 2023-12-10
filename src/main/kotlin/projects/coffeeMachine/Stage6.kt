@@ -32,7 +32,7 @@ class CoffeeMachine() {
     var currentStatus = statusList[0]
 
     fun getUserInput() : String {
-        val userInput = readln();
+        val userInput = readln()
 
         if (statusList.contains(userInput) || drinksListInput.contains(userInput)) return userInput
         return "main"
