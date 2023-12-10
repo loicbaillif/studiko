@@ -8,5 +8,6 @@ package projects.bullsCows
  */
 
 fun stage2() {
+    val secretCode = "3610";
 
 }
