@@ -25,11 +25,15 @@ fun formatResult(bullsCows: List<Int>): String {
 
 
 fun getPasswordSize(): Int {
-    val passwordSize = 4
+    var passwordSize = 4
     try {
-        val passwordSize = readln().toInt()
+        passwordSize = readln().toInt()
     } catch (notFigure: NumberFormatException) {
         println("This is not a number ... Length set to 4")
+    }
+
+    if (passwordSize > 10) {
+        println(INVALID_PASSWORD_LENGTH.format(passwordSize))
     }
 
     return passwordSize
