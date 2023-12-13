@@ -8,10 +8,9 @@ package projects.bullsCows
  */
 
 fun stage3() {
-    var secretCode = ""
     val codeLength = getPasswordLength()
 
     if (codeLength == 0) return
 
-    
+    println("The random secret number is ${getCode(codeLength)}")
 }
