@@ -29,6 +29,9 @@ fun getCode(codeLength: Int): String {
     var nanoTime = getNanoTime()
     var result = ""
     while (result.length < codeLength) {
+        if (result == "") {
+            while (nanoTime[index] == '0') index++
+        }
         if (result.contains(nanoTime[index])) index++ else result += nanoTime[index]
 
         index++
