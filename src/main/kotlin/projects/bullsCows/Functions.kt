@@ -1,5 +1,7 @@
 package projects.bullsCows
 
+import java.lang.NumberFormatException
+
 fun assessNumber(userNumber: String, solution: String): List<Int> {
     var bulls = 0
     var cows = 0
@@ -23,5 +25,12 @@ fun formatResult(bullsCows: List<Int>): String {
 
 
 fun getPasswordSize(): Int {
+    val passwordSize = 4
+    try {
+        val passwordSize = readln().toInt()
+    } catch (notFigure: NumberFormatException) {
+        println("This is not a number ... Length set to 4")
+    }
 
+    return passwordSize
 }
