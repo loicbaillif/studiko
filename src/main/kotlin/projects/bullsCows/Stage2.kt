@@ -10,4 +10,5 @@ package projects.bullsCows
 fun stage2() {
     val secretCode = "3610";
     val assessment = assessNumber(readln(), secretCode)
+    println(RESULT.format(formatResult(assessment), secretCode))
 }
