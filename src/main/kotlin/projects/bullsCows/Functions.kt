@@ -24,8 +24,19 @@ fun formatResult(bullsCows: List<Int>): String {
 }
 
 
-fun getCode(currentCode: String): String {
+fun getCode(codeLength: Int): String {
+    var index = 0
+    var nanoTime = getNanoTime()
+    var result = ""
+    while (result.length < codeLength) {
+        if (result.contains(nanoTime[index])) index++ else result += nanoTime[index]
 
+        index++
+        if (index == nanoTime.length) {
+            nanoTime = getNanoTime()
+            index = 0
+        }
+    }
 
 }
 
