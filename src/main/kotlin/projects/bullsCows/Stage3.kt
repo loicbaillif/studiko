@@ -9,5 +9,11 @@ package projects.bullsCows
 
 fun stage3() {
     var secretCode = ""
-    val passwordLength = getPasswordLength()
+    val codeLength = getPasswordLength()
+
+    if (codeLength == 0) return
+
+    repeat(codeLength) {
+
+    }
 }
