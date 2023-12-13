@@ -24,7 +24,7 @@ fun formatResult(bullsCows: List<Int>): String {
 }
 
 
-fun getPasswordSize(): Int {
+fun getPasswordLength(): Int {
     var passwordSize = 4
     try {
         passwordSize = readln().toInt()

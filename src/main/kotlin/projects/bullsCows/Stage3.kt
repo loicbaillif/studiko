@@ -8,5 +8,6 @@ package projects.bullsCows
  */
 
 fun stage3() {
-
+    var secretCode = ""
+    val passwordLength = getPasswordLength()
 }
