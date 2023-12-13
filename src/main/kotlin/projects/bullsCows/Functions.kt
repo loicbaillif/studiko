@@ -30,6 +30,12 @@ fun getCode(currentCode: String): String {
 }
 
 
+fun getNanoTime(): String {
+    val nanoTime = System.nanoTime().toString()
+    return nanoTime.reversed()
+}
+
+
 fun getPasswordLength(): Int {
     var passwordSize = 4
     try {
