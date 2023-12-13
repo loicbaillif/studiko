@@ -24,6 +24,12 @@ fun formatResult(bullsCows: List<Int>): String {
 }
 
 
+fun getCode(currentCode: String): String {
+
+
+}
+
+
 fun getPasswordLength(): Int {
     var passwordSize = 4
     try {

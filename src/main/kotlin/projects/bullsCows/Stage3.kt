@@ -13,7 +13,5 @@ fun stage3() {
 
     if (codeLength == 0) return
 
-    repeat(codeLength) {
-
-    }
+    
 }
