@@ -20,3 +20,8 @@ fun formatResult(bullsCows: List<Int>): String {
     if (bullsCows[1] == 0) return "${bullsCows[0]} bull(s)"
     return "${bullsCows[0]} bull(s) and ${bullsCows[1]} cow(s)"
 }
+
+
+fun getPasswordSize(): Int {
+
+}
