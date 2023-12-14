@@ -32,10 +32,9 @@ fun getCode(codeLength: Int): String {
         if (result == "") {
             while (nanoTime[index] == '0') index++
         }
-        if (result.contains(nanoTime[index])) index++ else result += nanoTime[index]
+        if (!result.contains(nanoTime[index])) result += nanoTime[index]
 
-        index++
-        if (index == nanoTime.length) {
+        if (++index == nanoTime.length) {
             nanoTime = getNanoTime()
             index = 0
         }

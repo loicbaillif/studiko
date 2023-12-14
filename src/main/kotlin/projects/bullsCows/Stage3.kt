@@ -12,5 +12,5 @@ fun stage3() {
 
     if (codeLength == 0) return
 
-    println("The random secret number is ${getCode(codeLength)}")
+    println("The random secret number is ${getCode(codeLength)}.")
 }
