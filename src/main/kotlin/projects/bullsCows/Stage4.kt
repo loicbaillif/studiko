@@ -8,5 +8,8 @@ package projects.bullsCows
  */
 
 fun stage4() {
+    println(GET_PASSWORD_LENGTH)
+    val codeLength = getPasswordLength()
+    if (codeLength == 0) return
 
 }
