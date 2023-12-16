@@ -13,8 +13,12 @@ fun stage4() {
     if (codeLength == 0) return
 
     println(INIT_GAME)
+    val solution = getCode(codeLength)
+    var nbTurns = 1
     do {
-
+        println("Turn ${nbTurns++}")
+        val userNumber = readln()
+        val bullsCows = assessNumber(userNumber, solution)
     } while (nbCows != GET_PASSWORD_LENGTH)
 
 }
