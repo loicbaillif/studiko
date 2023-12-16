@@ -12,4 +12,9 @@ fun stage4() {
     val codeLength = getPasswordLength()
     if (codeLength == 0) return
 
+    println(INIT_GAME)
+    do {
+
+    } while (nbCows != GET_PASSWORD_LENGTH)
+
 }
