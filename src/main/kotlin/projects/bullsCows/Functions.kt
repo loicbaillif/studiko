@@ -18,9 +18,12 @@ fun assessNumber(userNumber: String, solution: String): List<Int> {
 
 fun formatResult(bullsCows: List<Int>): String {
     if (bullsCows == listOf(0, 0)) return "None"
-    if (bullsCows[0] == 0) return "${bullsCows[1]} cow(s)"
-    if (bullsCows[1] == 0) return "${bullsCows[0]} bull(s)"
-    return "${bullsCows[0]} bull(s) and ${bullsCows[1]} cow(s)"
+    if (bullsCows[0] == 0) return "${bullsCows[1]} cow%s".format(if (bullsCows[1] == 1) "" else "s")
+    if (bullsCows[1] == 0) return "${bullsCows[0]} bull%s".format(if (bullsCows[0] == 1) "" else "s")
+    return "${bullsCows[0]} bull%s and ${bullsCows[1]} cow%s".format(
+        if (bullsCows[0] == 1) "" else "s",
+        if (bullsCows[1] == 1) "" else "s"
+    )
 }
 
 
