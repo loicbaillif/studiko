@@ -19,7 +19,7 @@ fun stage4() {
         println("Turn ${nbTurns++}")
         val userNumber = readln()
         val bullsCows = assessNumber(userNumber, solution)
-
+        println(RESULT.format(formatResult(bullsCows)))
     } while (bullsCows[0] != codeLength)
 
 }
