@@ -22,4 +22,5 @@ fun stage4() {
         println(RESULT.format(formatResult(bullsCows)))
     } while (bullsCows[0] != codeLength)
 
+    println(END_GAME)
 }
