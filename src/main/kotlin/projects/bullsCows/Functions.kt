@@ -54,10 +54,10 @@ fun getNanoTime(): String {
 }
 
 
-fun getRandomCode(codeLength: Int): String {
+fun getRandomCode(codeLength: Int, nbChars: Int = 10): String {
     var result = ""
 
-    result += Random().nextInt(1, 10).toString() // First digit cannot be 0
+    result += ALPHABET[Random().nextInt(1, nbChars)] // First digit cannot be 0
 
     repeat(codeLength - 1)  {
         var digit = ""
