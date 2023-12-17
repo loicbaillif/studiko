@@ -71,6 +71,11 @@ fun getRandomCode(codeLength: Int): String {
 }
 
 
+fun getRandomDigit(span: Int): Char {
+
+}
+
+
 fun getPasswordLength(): Int {
     var passwordSize = 4
     try {
