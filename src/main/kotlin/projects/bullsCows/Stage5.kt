@@ -15,7 +15,7 @@ fun stage5() {
     if (codeLength == 0) return
 
     println(INIT_GAME)
-    val solution = getCode(codeLength)
+    val solution = getRandomCode(codeLength)
     playTurn(solution)
 
     println(END_GAME)
