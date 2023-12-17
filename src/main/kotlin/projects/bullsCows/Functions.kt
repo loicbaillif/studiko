@@ -84,7 +84,7 @@ fun getPasswordLength(): Int {
         println("This is not a number ... Length set to 4")
     }
 
-    if (passwordSize > 10) {
+    if (passwordSize > 36) {
         println(INVALID_PASSWORD_LENGTH.format(passwordSize))
         return 0
     }

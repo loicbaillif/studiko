@@ -8,5 +8,6 @@ package projects.bullsCows
  */
 
 fun stage6() {
-
+    println(GET_PASSWORD_LENGTH)
+    val codeLength = getPasswordLength()
 }
