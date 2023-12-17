@@ -60,9 +60,9 @@ fun getRandomCode(codeLength: Int, nbChars: Int = 10): String {
     result += ALPHABET[Random().nextInt(1, nbChars)] // First digit cannot be 0
 
     repeat(codeLength - 1)  {
-        var digit = ""
+        var digit : Char
         do {
-            digit = Random().nextInt(0, 10).toString()
+            digit = getRandomDigit(nbChars)
         } while (result.contains(digit))
         result += digit
     }
