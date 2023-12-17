@@ -54,7 +54,10 @@ fun getNanoTime(): String {
 
 
 fun getRandomCode(codeLength: Int): String {
+    var result = ""
 
+
+    return result
 }
 
 
