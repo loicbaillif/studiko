@@ -1,6 +1,7 @@
 package projects.bullsCows
 
 import java.lang.NumberFormatException
+import java.util.Random
 
 fun assessNumber(userNumber: String, solution: String): List<Int> {
     var bulls = 0
@@ -56,6 +57,7 @@ fun getNanoTime(): String {
 fun getRandomCode(codeLength: Int): String {
     var result = ""
 
+    result += Random().nextInt(1, 10).toString() // First digit cannot be 0
 
     return result
 }
