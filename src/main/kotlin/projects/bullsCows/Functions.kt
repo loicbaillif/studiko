@@ -72,8 +72,7 @@ fun getRandomCode(codeLength: Int): String {
 
 
 fun getRandomDigit(span: Int): Char {
-    val alphabet = "0123456789abcdefghijklmnopqrstuvwxyz"
-    return alphabet[Random().nextInt(span)]
+    return ALPHABET[Random().nextInt(span)]
 }
 
 

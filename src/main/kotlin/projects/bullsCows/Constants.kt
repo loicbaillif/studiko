@@ -1,6 +1,7 @@
 package projects.bullsCows
 
 // String constants
+const val ALPHABET = "0123456789abcdefghijklmnopqrstuvwxyz"
 const val END_GAME = "Congratulations! You guessed the secret code."
 const val GET_PASSWORD_LENGTH = "Please, enter the secret code's length:"
 const val INIT_GAME = "Okay, let's start a game!"
