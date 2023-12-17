@@ -1,7 +1,5 @@
 package projects.bullsCows
 
-import java.util.Random
-
 /**
  * Stage 5/7: Improve the code generator
  * https://hyperskill.org/projects/364/stages/2159/implement
