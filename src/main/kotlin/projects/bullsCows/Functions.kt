@@ -59,6 +59,14 @@ fun getRandomCode(codeLength: Int): String {
 
     result += Random().nextInt(1, 10).toString() // First digit cannot be 0
 
+    repeat(codeLength - 1)  {
+        var digit = ""
+        do {
+            digit = Random().nextInt(0, 10).toString()
+        } while (result.contains(digit))
+        result += digit
+    }
+
     return result
 }
 
