@@ -90,3 +90,15 @@ fun getPasswordLength(): Int {
 
     return passwordSize
 }
+
+
+fun playTurn(solution: String) {
+    val codeLength = solution.length
+    var nbTurns = 1
+    do {
+        println("Turn ${nbTurns++}:")
+        val userNumber = readln()
+        val bullsCows = assessNumber(userNumber, solution)
+        println(RESULT.format(formatResult(bullsCows)))
+    } while (bullsCows[0] != codeLength)
+}
