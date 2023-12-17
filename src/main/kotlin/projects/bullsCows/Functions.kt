@@ -53,6 +53,11 @@ fun getNanoTime(): String {
 }
 
 
+fun getRandomCode(codeLength: Int): String {
+
+}
+
+
 fun getPasswordLength(): Int {
     var passwordSize = 4
     try {
