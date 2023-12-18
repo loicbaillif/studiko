@@ -18,7 +18,12 @@ fun assessNumber(userNumber: String, solution: String): List<Int> {
 
 
 fun displayCodeFormat(codeLength: Int, nbSymbols: Int): String {
+    var codeFormat = ""
+    repeat(codeLength) {
+        codeFormat += "*"
+    }
 
+    return codeFormat
 }
 
 
