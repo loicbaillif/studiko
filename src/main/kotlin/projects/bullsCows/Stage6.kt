@@ -15,4 +15,6 @@ fun stage6() {
     println(GET_NUMBER_SYMBOLS)
     val nbSymbols = getNumberSymbols(codeLength)
     if (nbSymbols == 0) return
+
+    println(CODE_PREPARED.format(displayCodeFormat(codeLength, nbSymbols)))
 }

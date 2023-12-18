@@ -17,6 +17,11 @@ fun assessNumber(userNumber: String, solution: String): List<Int> {
 }
 
 
+fun displayCodeFormat(codeLength: Int, nbSymbols: Int): String {
+
+}
+
+
 fun formatResult(bullsCows: List<Int>): String {
     if (bullsCows == listOf(0, 0)) return "None"
     if (bullsCows[0] == 0) return "${bullsCows[1]} cow%s".format(if (bullsCows[1] == 1) "" else "s")
