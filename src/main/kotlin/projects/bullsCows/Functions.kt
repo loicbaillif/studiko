@@ -54,25 +54,8 @@ fun getNanoTime(): String {
 }
 
 
-fun getRandomCode(codeLength: Int, nbChars: Int = 10): String {
-    var result = ""
-
-    result += ALPHABET[Random().nextInt(1, nbChars)] // First digit cannot be 0
-
-    repeat(codeLength - 1)  {
-        var digit : Char
-        do {
-            digit = getRandomDigit(nbChars)
-        } while (result.contains(digit))
-        result += digit
-    }
-
-    return result
-}
-
-
-fun getRandomDigit(span: Int): Char {
-    return ALPHABET[Random().nextInt(span)]
+fun getNumberSymbols(): Int {
+    return 0
 }
 
 
@@ -94,6 +77,28 @@ fun getPasswordLength(): Int {
     }
 
     return passwordSize
+}
+
+
+fun getRandomCode(codeLength: Int, nbChars: Int = 10): String {
+    var result = ""
+
+    result += ALPHABET[Random().nextInt(1, nbChars)] // First digit cannot be 0
+
+    repeat(codeLength - 1)  {
+        var digit : Char
+        do {
+            digit = getRandomDigit(nbChars)
+        } while (result.contains(digit))
+        result += digit
+    }
+
+    return result
+}
+
+
+fun getRandomDigit(span: Int): Char {
+    return ALPHABET[Random().nextInt(span)]
 }
 
 
