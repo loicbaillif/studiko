@@ -55,7 +55,14 @@ fun getNanoTime(): String {
 
 
 fun getNumberSymbols(): Int {
-    return 0
+    var numberSymbols = 0
+    try {
+        numberSymbols = readln().toInt()
+    } catch (notNumber: NumberFormatException) {
+        println("This is not a number ... nb of symbols set to 10")
+    }
+
+    return numberSymbols
 }
 
 
