@@ -55,11 +55,16 @@ fun getNanoTime(): String {
 
 
 fun getNumberSymbols(): Int {
-    var numberSymbols = 0
+    var numberSymbols = 10
     try {
         numberSymbols = readln().toInt()
     } catch (notNumber: NumberFormatException) {
         println("This is not a number ... nb of symbols set to 10")
+    }
+
+    if (numberSymbols > 36) {
+        println(INVALID_TOO_MANY_SYMBOLS)
+        return 0
     }
 
     return numberSymbols
