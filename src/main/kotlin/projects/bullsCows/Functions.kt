@@ -24,7 +24,11 @@ fun displayCodeFormat(codeLength: Int, nbSymbols: Int): String {
     }
 
     codeFormat += " (0-"
-    if (nbSymbols < 10) codeFormat += (nbSymbols - 1) else codeFormat += "9"
+    if (nbSymbols <= 10) codeFormat += (nbSymbols - 1) else codeFormat += "9"
+    if (nbSymbols == 11) codeFormat += ", a"
+    if (nbSymbols > 11) codeFormat += ", a-${ALPHABET[nbSymbols-1]}"
+
+    codeFormat += ")."
 
     return codeFormat
 }
