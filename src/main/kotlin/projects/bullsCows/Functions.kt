@@ -54,7 +54,7 @@ fun getNanoTime(): String {
 }
 
 
-fun getNumberSymbols(): Int {
+fun getNumberSymbols(codeLength: Int): Int {
     var numberSymbols = 10
     try {
         numberSymbols = readln().toInt()
@@ -64,6 +64,11 @@ fun getNumberSymbols(): Int {
 
     if (numberSymbols > 36) {
         println(INVALID_TOO_MANY_SYMBOLS)
+        return 0
+    }
+
+    if (numberSymbols < codeLength) {
+        println(INVALID_TOO_FEW_SYMBOLS.format(codeLength, numberSymbols))
         return 0
     }
 

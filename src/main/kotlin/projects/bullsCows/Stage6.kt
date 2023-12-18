@@ -13,5 +13,5 @@ fun stage6() {
     if (codeLength == 0) return
 
     println(GET_NUMBER_SYMBOLS)
-    val nbSymbols = getNumberSymbols()
+    val nbSymbols = getNumberSymbols(codeLength)
 }
