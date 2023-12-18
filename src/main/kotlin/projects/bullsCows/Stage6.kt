@@ -17,4 +17,10 @@ fun stage6() {
     if (nbSymbols == 0) return
 
     println(CODE_PREPARED.format(displayCodeFormat(codeLength, nbSymbols)))
+
+    val solution = getRandomCode(codeLength, nbSymbols)
+    playTurn(solution)
+
+    println(END_GAME)
+
 }

@@ -137,6 +137,7 @@ fun getRandomDigit(span: Int): Char {
 
 
 fun playTurn(solution: String) {
+    println(INIT_GAME)
     val codeLength = solution.length
     var nbTurns = 1
     do {
