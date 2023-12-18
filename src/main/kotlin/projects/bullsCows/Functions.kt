@@ -23,6 +23,9 @@ fun displayCodeFormat(codeLength: Int, nbSymbols: Int): String {
         codeFormat += "*"
     }
 
+    codeFormat += " (0-"
+    if (nbSymbols < 10) codeFormat += (nbSymbols - 1) else codeFormat += "9"
+
     return codeFormat
 }
 
