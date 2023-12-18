@@ -10,4 +10,6 @@ package projects.bullsCows
 fun stage6() {
     println(GET_PASSWORD_LENGTH)
     val codeLength = getPasswordLength()
+    println(GET_NUMBER_SYMBOLS)
+    val nbSymbols = readln()
 }
