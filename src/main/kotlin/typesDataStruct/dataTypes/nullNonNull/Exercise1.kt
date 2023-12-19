@@ -10,7 +10,8 @@ package typesDataStruct.dataTypes.nullNonNull
 fun exercise1() {
     println("*** Exercise: Null or not null ***")
 
-
+    val number: Int? = null
+    println(nullOrNotNull(number))
 
     println("\n*** End of exercise ***")
 }
