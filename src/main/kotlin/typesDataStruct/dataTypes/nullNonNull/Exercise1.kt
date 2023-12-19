@@ -14,3 +14,7 @@ fun exercise1() {
 
     println("\n*** End of exercise ***")
 }
+
+fun nullOrNotNull(number: Int?): Int? {
+
+}
