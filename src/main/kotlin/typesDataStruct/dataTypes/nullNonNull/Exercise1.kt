@@ -16,6 +16,4 @@ fun exercise1() {
     println("\n*** End of exercise ***")
 }
 
-fun nullOrNotNull(number: Int?): Int? {
-    return number ?: -1
-}
+fun nullOrNotNull(number: Int?): Int? = number ?: -1
