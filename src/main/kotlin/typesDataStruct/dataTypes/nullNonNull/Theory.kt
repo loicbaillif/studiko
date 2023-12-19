@@ -13,5 +13,9 @@ fun theory() {
     val name: String? = null
     val age: Int? = null
 
+    println("\n*** 2) Accessing nullable variables")
+    // println(name.length) // Error
+    if (name != null) println(name.length)
+
     println("\n***** End of Theory *****")
 }
