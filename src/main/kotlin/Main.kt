@@ -19,7 +19,7 @@ fun main() {
     // projects.encDec.index()
     // projects.converter.index()
     // projects.coffeeMachine.index()
-    projects.bullsCows.index()
+    // projects.bullsCows.index()
 
 
     // Old Chapters
@@ -71,6 +71,7 @@ fun main() {
     // oop.basics.constructors.index()
     // oop.basics.decClass.index()
     // oop.basics.memberFunc.index()
+    // oop.basics.propAccess.index()
     // oop.usage.enums.index()
 
 
@@ -102,5 +103,5 @@ fun main() {
     // typesDataStruct.variab.objects.index()
 
     // Current Chapter
-    // oop.basics.propAccess.index()
+    typesDataStruct.dataTypes.nullNonNull.index()
 }
