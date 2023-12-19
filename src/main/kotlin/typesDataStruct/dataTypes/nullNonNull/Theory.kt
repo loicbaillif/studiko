@@ -9,7 +9,9 @@ package typesDataStruct.dataTypes.nullNonNull
 fun theory() {
     println("***** Theory *****")
 
-
+    println("\n*** 1) Nullability")
+    val name: String? = null
+    val age: Int? = null
 
     println("\n***** End of Theory *****")
 }
