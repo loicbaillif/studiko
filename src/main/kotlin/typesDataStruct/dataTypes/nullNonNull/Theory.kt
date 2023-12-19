@@ -16,6 +16,7 @@ fun theory() {
     println("\n*** 2) Accessing nullable variables")
     // println(name.length) // Error
     if (name != null) println(name.length)
+    println(name?.length)
 
     println("\n***** End of Theory *****")
 }
