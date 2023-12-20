@@ -35,6 +35,10 @@ fun theory() {
     val userName: String? = readlnOrNull() ?: error("No input from user in third idiom")
     println("user name = $userName")
 
+    var x: String? = readlnOrNull()
+    x = x ?: "Hello instead of null..."
+    println(x)
+
 
     println("\n***** End of Theory *****")
 }
