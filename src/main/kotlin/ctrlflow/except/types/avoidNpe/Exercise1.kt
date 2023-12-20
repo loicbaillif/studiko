@@ -14,3 +14,8 @@ fun exercise1() {
 
     println("\n*** End of exercise ***")
 }
+
+
+fun check(name: String): String? {
+    return if (name.length > 5) null else name
+}
