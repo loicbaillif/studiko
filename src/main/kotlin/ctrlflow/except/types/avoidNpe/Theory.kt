@@ -19,8 +19,16 @@ fun theory() {
     println(length ?: 0)
 
     println("\n*** 2) !! operator")
-    val userString1 = readlnOrNull()
-    println(userString1!!.length)
+    // val userString1 = readlnOrNull()
+    // println(userString1!!.length)
+
+    println("\n*** 3) Idioms")
+    val nullString: String? = null
+    val emptyString: String? = ""
+
+    println(nullString?.length)     // null
+    println(emptyString?.length)    // null
+
 
 
     println("\n***** End of Theory *****")
