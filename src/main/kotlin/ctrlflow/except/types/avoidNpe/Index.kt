@@ -3,5 +3,6 @@ package ctrlflow.except.types.avoidNpe
 fun index() {
     println("********** Avoiding NPEs. Null safety **********\n")
 
-    theory()
+    // theory()
+    exercise1()
 }
