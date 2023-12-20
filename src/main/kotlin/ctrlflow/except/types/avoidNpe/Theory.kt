@@ -29,6 +29,8 @@ fun theory() {
     println(nullString?.length)     // null
     println(emptyString?.length)    // null
 
+    println(nullString?.length ?: -1)   // -1
+    println(emptyString?.length ?: -1)  // 0
 
 
     println("\n***** End of Theory *****")
