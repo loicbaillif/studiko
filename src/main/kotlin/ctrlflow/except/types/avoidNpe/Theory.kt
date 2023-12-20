@@ -15,5 +15,9 @@ fun theory() {
     println(if (length != null) length else 0)
     println(length ?: 0)
 
+    println("\n*** !! operator")
+    val userString1 = readlnOrNull()
+    println(userString1!!.length)
+
     println("\n***** End of Theory *****")
 }
