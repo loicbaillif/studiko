@@ -88,6 +88,7 @@ fun main() {
     // typesDataStruct.basicOps.relOps.index()
     // typesDataStruct.dataTypes.classification.index()
     // typesDataStruct.dataTypes.conver.index()
+    // typesDataStruct.dataTypes.nullNonNull.index()
     // typesDataStruct.dataTypes.ranges.index()
     // typesDataStruct.dataTypes.typeNumEx.index()
     // typesDataStruct.lists.forLoop.index()
@@ -103,5 +104,5 @@ fun main() {
     // typesDataStruct.variab.objects.index()
 
     // Current Chapter
-    typesDataStruct.dataTypes.nullNonNull.index()
+    ctrlflow.except.types.avoidNpe.index()
 }
