@@ -10,7 +10,8 @@ package ctrlflow.except.types.avoidNpe
 fun exercise1() {
     println("*** Exercise: Check length ***")
 
-
+    val argument: String = readln()
+    println(check(argument)?.length ?: 0)
 
     println("\n*** End of exercise ***")
 }
