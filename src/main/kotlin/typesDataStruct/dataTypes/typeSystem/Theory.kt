@@ -29,7 +29,13 @@ fun theory() {
 
     println("\n*** 5) Extension function")
     fun String.addExclamation() = this + "!"
-    println("test".addExclamation())
+    println("\ttest".addExclamation())
+
+    println("\n*** 6) Basic Types in Kotlin")
+    println("\t. Int: 32-bit signed integer")
+    println("\t. Double: 64-bit double-precision floating-point number")
+    println("\t. Char: Single 16-bit Unicode character, enclosed in single quotes")
+    println("\t. Boolean: truth value, either true or false")
 
 
     println("\n***** End of theory *****")
