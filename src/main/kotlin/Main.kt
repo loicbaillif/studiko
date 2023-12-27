@@ -59,6 +59,7 @@ fun main() {
     // ctrlflow.except.howTo.tame.index()
     // ctrlflow.except.howTo.tryCatch.index()
     // ctrlflow.except.howTo.tryCatFin.index()
+    // ctrlflow.except.types.avoidNpe.index()
     // ctrlflow.func.declarFun.index()
     // ctrlflow.func.decomp.index()
     // ctrlflow.func.defaultArgs.index()
@@ -104,5 +105,5 @@ fun main() {
     // typesDataStruct.variab.objects.index()
 
     // Current Chapter
-    ctrlflow.except.types.avoidNpe.index()
+    typesDataStruct.dataTypes.typeSystem.index()
 }
