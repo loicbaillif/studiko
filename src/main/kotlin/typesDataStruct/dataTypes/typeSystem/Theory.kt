@@ -23,6 +23,10 @@ fun theory() {
     println("\n*** 3) Smart casts")
     if (a is String) println(a.length) // Automatic typecasting
 
+    println("\n*** 4) Type inference")
+    val c = "Kotlin"
+    println("\t c = $c ==>\t c is ${c::class.java.simpleName} (automatic)")
+
 
     println("\n***** End of theory *****")
 }
