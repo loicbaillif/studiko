@@ -27,6 +27,10 @@ fun theory() {
     val c = "Kotlin"
     println("\t c = $c ==>\t c is ${c::class.java.simpleName} (automatic)")
 
+    println("\n*** 5) Extension function")
+    fun String.addExclamation() = this + "!"
+    println("test".addExclamation())
+
 
     println("\n***** End of theory *****")
 }
