@@ -9,7 +9,8 @@ package typesDataStruct.dataTypes.typeSystem
 fun theory() {
     println("***** Theory *****")
 
-
+    println("\n*** 1) Static Typing")
+    val message: String = "Hello, Kotlin!"
 
     println("\n***** End of theory *****")
 }
