@@ -20,5 +20,9 @@ fun theory() {
     b = null // No error
     println("\ta = null ==> error\tb = null ==>  $b")
 
+    println("\n*** 3) Smart casts")
+    if (a is String) println(a.length) // Automatic typecasting
+
+
     println("\n***** End of theory *****")
 }
