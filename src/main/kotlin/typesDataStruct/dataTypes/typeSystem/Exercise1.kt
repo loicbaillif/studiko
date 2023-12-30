@@ -10,12 +10,12 @@ package typesDataStruct.dataTypes.typeSystem
 fun exercise1() {
     println("*** Exercise: String length ***")
 
-
+    println(getLength("null"))
 
     println("\n*** End of exercise ***")
 }
 
 
 fun getLength(input: String?): Int {
-    return 0
+    return input?.length ?: 3
 }
