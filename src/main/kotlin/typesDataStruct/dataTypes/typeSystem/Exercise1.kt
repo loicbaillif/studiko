@@ -16,6 +16,4 @@ fun exercise1() {
 }
 
 
-fun getLength(input: String?): Int {
-    return input?.length ?: -1
-}
+fun getLength(input: String?): Int = input?.length ?: -1
