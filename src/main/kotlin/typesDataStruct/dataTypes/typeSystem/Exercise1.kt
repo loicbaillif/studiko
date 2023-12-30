@@ -17,5 +17,5 @@ fun exercise1() {
 
 
 fun getLength(input: String?): Int {
-    return input?.length ?: 3
+    return input?.length ?: 0
 }
