@@ -11,7 +11,8 @@ fun theory() {
 
     println("\n*** 1) Custom Constructor ***")
 
-
+    val size11 = Size1(3, 4)
+    val size21 = Size1(5, 1)
 
     println("\n***** End of theory *****")
 }
