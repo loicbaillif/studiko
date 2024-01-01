@@ -28,8 +28,24 @@ class Size1 {
         println("I have been created...")
     }
 
+    constructor(_width: Int) {
+        width = _width
+        height = 2 // Default value for height
+        println("Default height value applied")
+    }
+
     constructor(_width: Int, _height: Int) {
         width = _width
+        height = _height
+    }
+
+    constructor(_width: Int, _height: Double) {
+        width = _width
+        height = _height.toInt()
+    }
+
+    constructor(_width: Double, _height: Int) {
+        width = _width.toInt()
         height = _height
     }
 }
