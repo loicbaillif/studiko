@@ -14,6 +14,8 @@ fun theory() {
     val size11 = Size1(3, 4)
     val size21 = Size1(5, 1)
 
+
+
     println("\n***** End of theory *****")
 }
 
@@ -21,6 +23,10 @@ fun theory() {
 class Size1 {
     var width: Int = 0
     var height: Int = 0
+
+    init {
+        println("I have been created...")
+    }
 
     constructor(_width: Int, _height: Int) {
         width = _width
