@@ -13,10 +13,15 @@ fun theory() {
 
     val size11 = Size1(3, 4)
     val size21 = Size1(5, 1)
+    println(size11.introduce())
+    println(size21.introduce())
 
     println("\n*** 2) Multiple constructors")
     val size31 = Size1(8)
     val size41 = Size1(3.2, 5)
+    println(size31.introduce())
+    println(size41.introduce())
+
 
 
 
@@ -54,4 +59,7 @@ class Size1 {
         height = _height
         println("Width value converted from Double ... Possible loss of accuracy")
     }
+
+    // Methods
+    fun introduce() = "\tWidth = ${this.width}\t-\tHeight = ${this.height}"
 }
