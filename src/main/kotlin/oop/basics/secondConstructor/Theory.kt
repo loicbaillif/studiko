@@ -38,25 +38,25 @@ class Size1 {
     }
 
     constructor(_width: Int) {
-        width = _width
-        height = 2 // Default value for height
+        this.width = _width
+        this.height = 2 // Default value for height
         println("Default height value applied")
     }
 
     constructor(_width: Int, _height: Int) {
-        width = _width
-        height = _height
+        this.width = _width
+        this.height = _height
     }
 
     constructor(_width: Int, _height: Double) {
-        width = _width
-        height = _height.toInt()
+        this.width = _width
+        this.height = _height.toInt()
         println("Height value converted from Double ... Possible loss of accuracy")
     }
 
     constructor(_width: Double, _height: Int) {
-        width = _width.toInt()
-        height = _height
+        this.width = _width.toInt()
+        this.height = _height
         println("Width value converted from Double ... Possible loss of accuracy")
     }
 
