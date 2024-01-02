@@ -26,6 +26,9 @@ fun theory() {
     val size51 = Size1(3, 5.2)
     println(size51.introduce())
 
+    println("\n*** 4) Constructor execution")
+    val outerObject = Size110(5, 8)
+    val innerObject = Size110(2, 3, outerObject)
 
 
     println("\n***** End of theory *****")
@@ -76,8 +79,12 @@ class Size1 {
 class Size110(val width: Int, val height: Int) {
     var area: Int = width * height
 
-    constructor(_width: Int, _height: Int, _outerSize: Size110): this(_width, _height) {
-        _outerSize.area -= this.area
-        println("Updated outer object's area is equal to ${_outerSize.area}")
+    init {
+        println("Object with area equal to $area is created")
+    }
+
+    constructor(width: Int, height: Int, outerSize: Size110): this(width, height) {
+        outerSize.area -= this.area
+        println("Updated outer object's area is equal to ${outerSize.area}")
     }
 }
