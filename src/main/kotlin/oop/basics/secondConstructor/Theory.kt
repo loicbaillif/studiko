@@ -71,3 +71,13 @@ class Size1 {
     // Methods
     fun introduce() = "\tWidth = ${this.width}\t-\tHeight = ${this.height}\t-\tArea = ${this.area}"
 }
+
+
+class Size110(val width: Int, val height: Int) {
+    var area: Int = width * height
+
+    constructor(_width: Int, _height: Int, _outerSize: Size110): this(_width, _height) {
+        _outerSize.area -= this.area
+        println("Updated outer object's area is equal to ${_outerSize.area}")
+    }
+}
