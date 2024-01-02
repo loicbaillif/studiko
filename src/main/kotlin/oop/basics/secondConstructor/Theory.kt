@@ -22,6 +22,9 @@ fun theory() {
     println(size31.introduce())
     println(size41.introduce())
 
+    println("\n*** 3) Omitting default values")
+    val size51 = Size1(3, 5.2)
+    println(size51.introduce())
 
 
 
@@ -32,6 +35,7 @@ fun theory() {
 class Size1 {
     var width: Int = 0
     var height: Int = 0
+    val area: Int
 
     init {
         println("I have been created...")
@@ -40,26 +44,30 @@ class Size1 {
     constructor(_width: Int) {
         this.width = _width
         this.height = 2 // Default value for height
+        this.area = this.width * this.height
         println("Default height value applied")
     }
 
     constructor(_width: Int, _height: Int) {
         this.width = _width
         this.height = _height
+        this.area = this.width * this.height
     }
 
     constructor(_width: Int, _height: Double) {
         this.width = _width
         this.height = _height.toInt()
+        this.area = this.width * this.height
         println("Height value converted from Double ... Possible loss of accuracy")
     }
 
     constructor(_width: Double, _height: Int) {
         this.width = _width.toInt()
         this.height = _height
+        this.area = this.width * this.height
         println("Width value converted from Double ... Possible loss of accuracy")
     }
 
     // Methods
-    fun introduce() = "\tWidth = ${this.width}\t-\tHeight = ${this.height}"
+    fun introduce() = "\tWidth = ${this.width}\t-\tHeight = ${this.height}\t-\tArea = ${this.area}"
 }
