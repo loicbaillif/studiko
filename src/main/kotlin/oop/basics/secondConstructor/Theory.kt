@@ -28,7 +28,10 @@ fun theory() {
 
     println("\n*** 4) Constructor execution")
     val outerObject = Size110(5, 8)
+    println("\t. outerObject.area = ${outerObject.area}")
     val innerObject = Size110(2, 3, outerObject)
+    println("\t. outerObject.area = ${outerObject.area}")
+    println("\t. innerObject.area = ${innerObject.area}")
 
 
     println("\n***** End of theory *****")
