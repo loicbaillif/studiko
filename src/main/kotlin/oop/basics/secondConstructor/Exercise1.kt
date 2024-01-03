@@ -25,4 +25,8 @@ class Kitty {
     constructor(age: Int, color: String) {
 
     }
+
+    constructor(color: String) {
+
+    }
 }
