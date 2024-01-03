@@ -14,3 +14,11 @@ fun exercise1() {
 
     println("\n*** End of exercise ***")
 }
+
+
+class Kitty {
+
+    constructor(color: String, age: Int) {
+
+    }
+}
