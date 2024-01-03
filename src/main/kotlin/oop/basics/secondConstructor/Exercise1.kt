@@ -16,21 +16,21 @@ fun exercise1() {
 }
 
 
-class Kitty {
+class Kitty() {
 
-    constructor(color: String, age: Int) {
-
-    }
-
-    constructor(age: Int, color: String) {
+    constructor(color: String, age: Int): this() {
 
     }
 
-    constructor(color: String) {
+    constructor(age: Int, color: String): this() {
 
     }
 
-    constructor(age: Int) {
+    constructor(color: String): this() {
+
+    }
+
+    constructor(age: Int): this() {
 
     }
 }
