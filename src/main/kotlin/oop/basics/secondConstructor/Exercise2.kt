@@ -18,5 +18,7 @@ fun exercise2() {
 
 class EspressoMachine() {
 
+    constructor(coffeeCapsulesCount: Int, totalCost: Float): this() {
 
+    }
 }
