@@ -17,12 +17,13 @@ fun exercise2() {
 
 
 class EspressoMachine() {
+    var costPerServing: Float = 0.0F
 
     constructor(coffeeCapsulesCount: Int, totalCost: Float): this() {
-
+        this.costPerServing = totalCost / coffeeCapsulesCount
     }
 
     constructor(coffeeBeansWeight: Float, totalCost: Float): this() {
-
+        this.costPerServing = totalCost / (coffeeBeansWeight / 10)
     }
 }
