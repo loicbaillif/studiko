@@ -21,4 +21,8 @@ class EspressoMachine() {
     constructor(coffeeCapsulesCount: Int, totalCost: Float): this() {
 
     }
+
+    constructor(coffeeBeansWeight: Float, totalCost: Float): this() {
+
+    }
 }
