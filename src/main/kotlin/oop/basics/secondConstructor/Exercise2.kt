@@ -14,3 +14,9 @@ fun exercise2() {
 
     println("\n*** End of exercise ***")
 }
+
+
+class EspressoMachine() {
+
+
+}
