@@ -38,6 +38,17 @@ fun theory() {
     println("\t. identifier = $identifier")
 
 
+    println("\n\n Interaction of scopes")
+    var id = 5
+    if (true) {
+        id = 6
+        println("\t. id = $id")
+        var id = 10
+        println("\t. id = $id")
+    }
+    println("\t. id = $id")
+
+
 
     println("\n***** End of theory *****")
 }
