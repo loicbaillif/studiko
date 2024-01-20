@@ -7,6 +7,7 @@ package ctrlflow.func.scopes
  */
 
 val topLevel = "I am a top-level variable"
+const val CURRENT_CHAPTER = "I am a constant defining scopes chapter"
 
 fun theory() {
     println("***** Theory *****")
@@ -45,7 +46,7 @@ fun theory() {
     if (true) {
         id = 6
         println("\t. id = $id")
-        var id = 10
+        val id = 10
         println("\t. id = $id")
     }
     println("\t. id = $id")
@@ -54,7 +55,7 @@ fun theory() {
     println("\n\n*** 5) Top-level variables")
     println(topLevel)
     localScope2()
-
+    println("\t.CURRENT_CHAPTER")
 
 
     println("\n***** End of theory *****")
