@@ -73,6 +73,7 @@ fun main() {
     // oop.basics.decClass.index()
     // oop.basics.memberFunc.index()
     // oop.basics.propAccess.index()
+    // oop.basics.secondConstructor.index()
     // oop.usage.enums.index()
 
 
@@ -106,5 +107,5 @@ fun main() {
     // typesDataStruct.variab.objects.index()
 
     // Current Chapter
-    oop.basics.secondConstructor.index()
+    ctrlflow.func.scopes.index()
 }
