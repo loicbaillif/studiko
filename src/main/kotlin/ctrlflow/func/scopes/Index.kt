@@ -4,5 +4,6 @@ fun index() {
     println("********** Scopes **********\n")
 
     // theory()
-    exercise1()
+    // exercise1()
+    exercise2()
 }
