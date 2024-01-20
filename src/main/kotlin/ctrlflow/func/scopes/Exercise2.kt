@@ -7,6 +7,8 @@ package ctrlflow.func.scopes
  * Solution by Loïc Baillif
  */
 
+const val unlucky = "My scope should change!"
+
 fun exercise2() {
     println("*** Exercise: Unlucky one ***")
 
