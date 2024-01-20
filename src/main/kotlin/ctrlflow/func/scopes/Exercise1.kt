@@ -1,7 +1,7 @@
 package ctrlflow.func.scopes
 
 /**
- * Exercise: Cat House
+ * Exercise: Cyclist
  * https://hyperskill.org/learn/step/17124
  * @author JetBrains Academy
  * Solution by Loïc Baillif
