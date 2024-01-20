@@ -6,6 +6,8 @@ package ctrlflow.func.scopes
  * @author JetBrains Academy
  */
 
+val topLevel = "I am a top-level variable"
+
 fun theory() {
     println("***** Theory *****")
 
@@ -38,7 +40,7 @@ fun theory() {
     println("\t. identifier = $identifier")
 
 
-    println("\n\n Interaction of scopes")
+    println("\n\n*** 4) Interaction of scopes")
     var id = 5
     if (true) {
         id = 6
@@ -49,6 +51,11 @@ fun theory() {
     println("\t. id = $id")
 
 
+    println("\n\n*** 5) Top-level variables")
+    println(topLevel)
+    localScope2()
+
+
 
     println("\n***** End of theory *****")
 }
@@ -56,4 +63,9 @@ fun theory() {
 fun localScope() {
     val identifier = "Variable in localScope()"
     println("\t. identifier = $identifier")
+}
+
+
+fun localScope2() {
+    println(topLevel)
 }
