@@ -66,6 +66,7 @@ fun main() {
     // ctrlflow.func.invokFunc.index()
     // ctrlflow.func.mainFun.index()
     // ctrlflow.func.namedArgs.index()
+    // ctrlflow.func.scopes.index()
     // ctrlflow.lambda.funAsObj.index()
     // ctrlflow.lambda.lambdaEx.index()
 
@@ -107,5 +108,5 @@ fun main() {
     // typesDataStruct.variab.objects.index()
 
     // Current Chapter
-    ctrlflow.func.scopes.index()
+    oop.classHiearchy.inheritance.index()
 }
