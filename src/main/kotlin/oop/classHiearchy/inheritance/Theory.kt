@@ -11,7 +11,9 @@ fun theory() {
 
     println("\n*** 1) Open the class")
     val germinal = BookTh("Germinal", 435, "Emile Zola", 590)
-    println(germinal.getFullInfo())
+    println("\t. ${germinal.getFullInfo()}")
+    val spidermanComic = ComicsTh("The amazing Spiderman", 60, "Stan Li", 899)
+    println("\t. ${spidermanComic.getFullInfo()}")
 
     println("\n***** End of theory *****")
 }
