@@ -19,5 +19,12 @@ fun theory() {
     print("Spiderman costs ${spidermanComic.getEurCost()} in Europe ... ")
     println("and ${spidermanComic.getUsdCost()} in the United States")
 
+    println("\n*** 3) Reuse it")
+    println("\t. Is \"${germinal.title}\" a big book? ${isBigBook(germinal)}")
+    println("\t. Is \"${spidermanComic.title}\" a big book? ${isBigBook(spidermanComic)}")
+
     println("\n***** End of theory *****")
 }
+
+
+fun isBigBook(bookTh: BookTh): Boolean = bookTh.pages >= 100
