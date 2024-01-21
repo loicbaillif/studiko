@@ -7,7 +7,7 @@ class ComicsTh(title: String, pages: Int, author: String, cost: Int) : BookTh(ti
 
     fun getUsdCost(): String {
         val rateEurUsd = 1.21
-        val usCost = cost * rateEurUsd
+        val usCost = (cost * rateEurUsd).toInt()
         return "${usCost / 100}$${usCost % 100}"
     }
 }

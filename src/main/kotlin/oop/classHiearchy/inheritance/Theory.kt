@@ -15,5 +15,9 @@ fun theory() {
     val spidermanComic = ComicsTh("The amazing Spiderman", 60, "Stan Li", 899)
     println("\t. ${spidermanComic.getFullInfo()}")
 
+    println("\n*** 2) Extend it")
+    print("Spiderman costs ${spidermanComic.getEurCost()} in Europe ... ")
+    println("and ${spidermanComic.getUsdCost()} in the United States")
+
     println("\n***** End of theory *****")
 }
