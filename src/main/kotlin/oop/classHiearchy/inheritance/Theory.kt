@@ -9,6 +9,7 @@ package oop.classHiearchy.inheritance
 fun theory() {
     println("***** Theory *****")
 
+    println("\n*** 1) Open the class")
 
 
     println("\n***** End of theory *****")
