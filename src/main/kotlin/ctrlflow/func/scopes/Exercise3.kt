@@ -9,9 +9,9 @@ package ctrlflow.func.scopes
 
 fun exercise3() {
     println("*** Exercise: Power and Scopes ***")
+    var thirteen = 13L
 
     for (i in 2..10) {
-        var thirteen = 13L
         thirteen *= 13
         println(thirteen)
     }
