@@ -10,7 +10,8 @@ fun theory() {
     println("***** Theory *****")
 
     println("\n*** 1) Open the class")
-    val germinal = Book(435, "Emile Zola")
+    val germinal = Book("Germinal", 435, "Emile Zola", 590)
+    println(germinal.getFullInfo())
 
     println("\n***** End of theory *****")
 }
