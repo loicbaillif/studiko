@@ -40,7 +40,9 @@ open class Fish(name: String): Animal(name) {
 }
 
 class Salmon(name: String): Fish(name) {
-
+    override fun makeSound(): String {
+        return "Splish Splosh"
+    }
 }
 
 class Carp(name: String): Fish(name) {
