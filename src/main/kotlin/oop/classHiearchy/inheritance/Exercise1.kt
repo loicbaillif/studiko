@@ -57,6 +57,8 @@ open class Bird(name: String): Animal(name) {
 
 }
 
-class Eagle(name: String): Bird(name) {
-
+class Eagle(val name: String): Bird(name) {
+    override fun makeSound(): String {
+        return "IiiiiIIIyYYIiiyyy says the $name"
+    }
 }
