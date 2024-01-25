@@ -10,7 +10,15 @@ package oop.classHiearchy.inheritance
 fun exercise1() {
     println("*** Exercise: Unlucky one ***")
 
+    val lion1 = Lion("Simba")
+    val salmon1 = Salmon("Fresh")
+    val carp1 = Carp("Koi")
+    val eagle1 = Eagle("Eye-cherry")
 
+    println(lion1.makeSound())
+    println(salmon1.makeSound())
+    println(carp1.makeSound())
+    println(eagle1.makeSound())
 
     println("\n*** End of exercise ***")
 }
@@ -26,9 +34,9 @@ open class Mammal(name: String): Animal(name) {
 
 }
 
-class Lion(name: String): Mammal(name) {
+class Lion(val name: String): Mammal(name) {
     override fun makeSound(): String {
-        return "rrRrrroaaaAAArrr"
+        return "rrRrrroaaaAAArrr says the $name"
     }
 }
 
@@ -39,15 +47,15 @@ open class Fish(name: String): Animal(name) {
 
 }
 
-class Salmon(name: String): Fish(name) {
+class Salmon(val name: String): Fish(name) {
     override fun makeSound(): String {
-        return "Splish Splosh"
+        return "Splish Splosh says the $name"
     }
 }
 
-class Carp(name: String): Fish(name) {
+class Carp(val name: String): Fish(name) {
     override fun makeSound(): String {
-        return "Blop blop"
+        return "Blop blop says the $name"
     }
 }
 
