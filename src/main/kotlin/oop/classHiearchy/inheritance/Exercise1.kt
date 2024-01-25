@@ -16,39 +16,39 @@ fun exercise1() {
 }
 
 
-open class Animal() {
+open class Animal(name: String) {
 
 }
 
-open class Mammal(): Animal() {
+open class Mammal(name: String): Animal(name) {
 
 }
 
-class Lion(): Mammal() {
-
-}
-
-
-
-
-open class Fish(): Animal() {
-
-}
-
-class Salmon(): Fish() {
-
-}
-
-class Carp(): Fish() {
+class Lion(name: String): Mammal(name) {
 
 }
 
 
 
-open class Bird(): Animal() {
+
+open class Fish(name: String): Animal(name) {
 
 }
 
-class Eagle(): Bird() {
+class Salmon(name: String): Fish(name) {
+
+}
+
+class Carp(name: String): Fish(name) {
+
+}
+
+
+
+open class Bird(name: String): Animal(name) {
+
+}
+
+class Eagle(name: String): Bird(name) {
 
 }
