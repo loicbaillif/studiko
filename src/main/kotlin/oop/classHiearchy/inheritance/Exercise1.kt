@@ -19,3 +19,20 @@ fun exercise1() {
 open class Animal() {
 
 }
+
+open class Mammal(): Animal() {
+
+}
+
+
+
+
+open class Fish(): Animal() {
+
+}
+
+
+
+open class Bird(): Animal() {
+
+}
