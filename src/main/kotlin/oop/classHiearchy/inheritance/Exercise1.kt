@@ -14,3 +14,8 @@ fun exercise1() {
 
     println("\n*** End of exercise ***")
 }
+
+
+open class Animal() {
+
+}
