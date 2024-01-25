@@ -27,7 +27,9 @@ open class Mammal(name: String): Animal(name) {
 }
 
 class Lion(name: String): Mammal(name) {
-
+    override fun makeSound(): String {
+        return "rrRrrroaaaAAArrr"
+    }
 }
 
 
