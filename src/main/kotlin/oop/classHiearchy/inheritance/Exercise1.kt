@@ -17,7 +17,9 @@ fun exercise1() {
 
 
 open class Animal(name: String) {
-
+    open fun makeSound(): String {
+        return "To be defined ..."
+    }
 }
 
 open class Mammal(name: String): Animal(name) {
