@@ -24,17 +24,17 @@ fun exercise1() {
 }
 
 
-open class Animal(name: String) {
+open class AnimalEx1(name: String) {
     open fun makeSound(): String {
         return "To be defined ..."
     }
 }
 
-open class Mammal(name: String): Animal(name) {
+open class MammalEx1(name: String): AnimalEx1(name) {
 
 }
 
-class Lion(val name: String): Mammal(name) {
+class LionEx1(val name: String): MammalEx1(name) {
     override fun makeSound(): String {
         return "rrRrrroaaaAAArrr says the $name"
     }
@@ -43,17 +43,17 @@ class Lion(val name: String): Mammal(name) {
 
 
 
-open class Fish(name: String): Animal(name) {
+open class FishEx1(name: String): AnimalEx1(name) {
 
 }
 
-class Salmon(val name: String): Fish(name) {
+class SalmonEx1(val name: String): FishEx1(name) {
     override fun makeSound(): String {
         return "Splish Splosh says the $name"
     }
 }
 
-class Carp(val name: String): Fish(name) {
+class CarpEx1(val name: String): FishEx1(name) {
     override fun makeSound(): String {
         return "Blop blop says the $name"
     }
@@ -61,11 +61,11 @@ class Carp(val name: String): Fish(name) {
 
 
 
-open class Bird(name: String): Animal(name) {
+open class BirdEx1(name: String): AnimalEx1(name) {
 
 }
 
-class Eagle(val name: String): Bird(name) {
+class EagleEx1(val name: String): BirdEx1(name) {
     override fun makeSound(): String {
         return "IiiiiIIIyYYIiiyyy says the $name"
     }
