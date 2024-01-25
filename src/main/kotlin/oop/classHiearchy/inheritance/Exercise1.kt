@@ -46,7 +46,9 @@ class Salmon(name: String): Fish(name) {
 }
 
 class Carp(name: String): Fish(name) {
-
+    override fun makeSound(): String {
+        return "Blop blop"
+    }
 }
 
 
