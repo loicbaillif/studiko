@@ -75,6 +75,7 @@ fun main() {
     // oop.basics.memberFunc.index()
     // oop.basics.propAccess.index()
     // oop.basics.secondConstructor.index()
+    // oop.classHiearchy.inheritance.index()
     // oop.usage.enums.index()
 
 
@@ -108,5 +109,5 @@ fun main() {
     // typesDataStruct.variab.objects.index()
 
     // Current Chapter
-    oop.classHiearchy.inheritance.index()
+    ctrlflow.except.types.createCustom.index()
 }
