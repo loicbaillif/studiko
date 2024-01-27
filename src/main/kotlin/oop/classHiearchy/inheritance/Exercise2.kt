@@ -10,7 +10,13 @@ package oop.classHiearchy.inheritance
 fun exercise2() {
     println("*** Exercise: Unlucky one ***")
 
-
+    val bus = Bus("Personal", "N4", 130)
+    bus.printInfo()
 
     println("\n*** End of exercise ***")
+}
+
+
+class Bus(val typeOfBus: String, model: String, speed: Int) : Car(model, speed) {
+    fun printInfo() = println("Type of bus: $typeOfBus, model: $model, speed: $speed")
 }
