@@ -20,3 +20,6 @@ fun exercise2() {
 class Bus(val typeOfBus: String, model: String, speed: Int) : Car(model, speed) {
     fun printInfo() = println("Type of bus: $typeOfBus, model: $model, speed: $speed")
 }
+
+
+open class Car(model: String, speed: Int) {}
