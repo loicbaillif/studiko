@@ -10,10 +10,10 @@ package oop.classHiearchy.inheritance
 fun exercise1() {
     println("*** Exercise: Unlucky one ***")
 
-    val lion1 = Lion("Simba")
-    val salmon1 = Salmon("Fresh")
-    val carp1 = Carp("Koi")
-    val eagle1 = Eagle("Eye-cherry")
+    val lion1 = LionEx1("Simba")
+    val salmon1 = SalmonEx1("Fresh")
+    val carp1 = CarpEx1("Koi")
+    val eagle1 = EagleEx1("Eye-cherry")
 
     println(lion1.makeSound())
     println(salmon1.makeSound())
