@@ -1,5 +1,7 @@
 package ctrlflow.except.types.createCustom
 
+import kotlin.Exception
+
 /**
  * Creating custom exceptions: Theory
  * https://hyperskill.org/learn/step/15011
@@ -21,6 +23,11 @@ fun theory() {
     }
      */
 
+    try {
+        testFunTh(1, 0)
+    } catch (e: Exception) {
+        throw Exception("testFunTh() failed", e)
+    }
 
 
 
