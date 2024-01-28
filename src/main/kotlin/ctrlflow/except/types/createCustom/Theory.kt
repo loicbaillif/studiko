@@ -33,7 +33,18 @@ fun theory() {
 
 
     println("\n*** 2) Creating custom Exceptions")
-    myFunctionTh(-5)
+    myFunctionTh(6)
+
+
+    println("\n*** 3) Catching custom Exceptions")
+    try {
+        myFunctionTh(-16)
+    } catch (e: LessThanZero) {
+        println("\t. Less than -10 exception thrown")
+    } catch (e: LessThanZeroButOneDigit) {
+        println("\t. Negative number, but one digit only")
+    }
+
 
 
     println("\n***** End of theory *****")
