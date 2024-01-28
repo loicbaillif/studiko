@@ -24,10 +24,12 @@ fun theory() {
      */
 
     try {
-        testFunTh(1, 0)
+        testFunTh(1, 2)
     } catch (e: Exception) {
         throw Exception("testFunTh() failed", e)
     }
+
+    throw NullPointerException("NPE at Alpha point")
 
 
 
