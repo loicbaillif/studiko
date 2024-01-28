@@ -46,6 +46,9 @@ fun theory() {
     }
 
 
+    println("\n*** 4) Multiple constructors")
+
+
 
     println("\n***** End of theory *****")
 }
@@ -73,3 +76,11 @@ class LessThanZeroButOneDigit: LessThanZero()
 class GreaterThanTen: Exception("Parameter greater than ten")
 
 class MyExceptionTh: ArithmeticException("Same type than ArithmeticException")
+
+
+class MyCustomExceptionTh: Exception {
+    constructor() : super()  // No parameters
+    constructor(message: String?) : super(message)
+    constructor(cause: Throwable?) : super(cause)
+    constructor(message: String?, cause: Throwable?) : super(message, cause)
+}
