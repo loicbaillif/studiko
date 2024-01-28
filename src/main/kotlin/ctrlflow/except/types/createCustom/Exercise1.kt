@@ -17,5 +17,6 @@ fun exercise1() {
 
 
 class ValueIsNegative : Exception {
+    constructor() : super()
     constructor(message: String?) : super(message)
 }
