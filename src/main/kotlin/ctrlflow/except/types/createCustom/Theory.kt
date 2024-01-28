@@ -29,7 +29,10 @@ fun theory() {
         throw Exception("testFunTh() failed", e)
     }
 
-    throw NullPointerException("NPE at Alpha point")
+    // throw NullPointerException("NPE at Alpha point")
+
+
+    println("\n*** 2) Creating custom Exceptions")
 
 
 
@@ -40,3 +43,8 @@ fun theory() {
 fun testFunTh(a: Int, b: Int): Int {
     return a / b
 }
+
+
+class LessThanZero: Exception("Parameter less than zero")
+
+class GreaterThanTen: Exception("Parameter greater than ten")
