@@ -47,6 +47,18 @@ fun theory() {
 
 
     println("\n*** 4) Multiple constructors")
+    val userInput = -5
+    try {
+        when (userInput) {
+            1 -> throw MyCustomExceptionTh()
+            2 -> throw MyCustomExceptionTh("Value 2 detected, exception")
+            -5 -> throw MyCustomExceptionTh(LessThanZeroButOneDigit())
+            4 -> throw MyCustomExceptionTh("Both message and exception", GreaterThanTen())
+            else -> println("No exception here ... Carry on.")
+        }
+    } catch (e: MyCustomExceptionTh) {
+        println("Exception = [${e.cause?: "no cause"}]: [${e.message?: "no message"}]")
+    }
 
 
 
