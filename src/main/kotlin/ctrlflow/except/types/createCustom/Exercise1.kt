@@ -8,9 +8,12 @@ package ctrlflow.except.types.createCustom
  */
 
 fun exercise1() {
-    println("*** Exercise: Unlucky one ***")
+    println("*** Exercise: Create custom exception ***")
 
 
 
     println("\n*** End of exercise ***")
 }
+
+
+class ValueIsNegative : Exception()
