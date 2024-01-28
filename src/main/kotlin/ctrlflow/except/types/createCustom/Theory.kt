@@ -40,6 +40,12 @@ fun theory() {
 }
 
 
+fun myFunctionTh(userInput: Int) {
+    if (userInput < 0) throw LessThanZero()
+    if (userInput > 10) throw GreaterThanTen()
+}
+
+
 fun testFunTh(a: Int, b: Int): Int {
     return a / b
 }
