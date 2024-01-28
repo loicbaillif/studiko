@@ -33,7 +33,7 @@ fun theory() {
 
 
     println("\n*** 2) Creating custom Exceptions")
-
+    myFunctionTh(5)
 
 
     println("\n***** End of theory *****")
@@ -43,6 +43,9 @@ fun theory() {
 fun myFunctionTh(userInput: Int) {
     if (userInput < 0) throw LessThanZero()
     if (userInput > 10) throw GreaterThanTen()
+    if (userInput == 5) throw MyExceptionTh()
+
+    println("\t. No exception thrown")
 }
 
 
@@ -54,3 +57,5 @@ fun testFunTh(a: Int, b: Int): Int {
 class LessThanZero: Exception("Parameter less than zero")
 
 class GreaterThanTen: Exception("Parameter greater than ten")
+
+class MyExceptionTh: ArithmeticException("Same type than ArithmeticException")
