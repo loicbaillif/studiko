@@ -8,7 +8,8 @@ fun index() {
     // stage3()
     // stage4()
     // stage5()
-    stage6()
+    // stage6()
+    stage7()
 
     println("\n\n********** END OF PROJECT **********")
 }

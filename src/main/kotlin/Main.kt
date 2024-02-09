@@ -19,7 +19,7 @@ fun main() {
     // projects.encDec.index()
     // projects.converter.index()
     // projects.coffeeMachine.index()
-    // projects.bullsCows.index()
+    projects.bullsCows.index()
 
 
     // Old Chapters
@@ -109,5 +109,5 @@ fun main() {
     // typesDataStruct.variab.objects.index()
 
     // Current Chapter
-    ctrlflow.except.types.createCustom.index()
+    // ctrlflow.except.types.createCustom.index()
 }
