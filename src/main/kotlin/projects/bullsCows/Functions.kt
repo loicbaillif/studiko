@@ -94,23 +94,25 @@ fun getNumberSymbols(codeLength: Int): Int {
 
 
 fun getPasswordLength(): Int {
-    var passwordSize = 4
+    val passwordSize = readln()
+    var passwordSizeInt = -1
     try {
-        passwordSize = readln().toInt()
+        passwordSizeInt = passwordSize.toInt()
     } catch (notFigure: NumberFormatException) {
-        println("This is not a number ... Length set to 4")
+        println("Error: \"${passwordSize}\" is not a valid number.")
+        return -1
     }
 
-    if (passwordSize > 36) {
-        println(INVALID_PASSWORD_LENGTH.format(passwordSize))
-        return 0
+    if (passwordSizeInt > 36) {
+        println(INVALID_PASSWORD_LENGTH.format(passwordSizeInt))
+        return -1
     }
-    if (passwordSize < 1) {
+    if (passwordSizeInt < 1) {
         println(INVALID_LENGTH_NEGATIVE)
-        return 0
+        return -1
     }
 
-    return passwordSize
+    return passwordSizeInt
 }
 
 
