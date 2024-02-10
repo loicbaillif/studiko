@@ -72,13 +72,10 @@ fun getNanoTime(): String {
 
 
 fun getNumberSymbols(codeLength: Int): Int {
-    val numberSymbols = getPositiveInt()
+    val numberSymbols = getPositiveInt(INVALID_NUMBER)
 
-
-    try {
-        numberSymbols = readln().toInt()
-    } catch (notNumber: NumberFormatException) {
-        println("This is not a number ... nb of symbols set to 10")
+    if (numberSymbols == -1) {
+        return 0
     }
 
     if (numberSymbols > 36) {
