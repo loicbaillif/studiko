@@ -118,9 +118,16 @@ fun getPasswordLength(): Int {
 
 fun getPositiveInt(errorMessage: String): Int {
     var result = -1
+    val userInput = readln()
 
+    try {
+        result = userInput.toInt()
+    } catch (e: NumberFormatException) {
+        println(errorMessage.format(userInput))
+        return result
+    }
 
-    return -1
+    return result
 }
 
 
