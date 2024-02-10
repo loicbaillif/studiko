@@ -162,10 +162,16 @@ fun playTurn(solution: String) {
     println(INIT_GAME)
     val codeLength = solution.length
     var nbTurns = 1
+    var bullsCows: List<Int>
     do {
         println("Turn ${nbTurns++}:")
         val userNumber = readln()
-        val bullsCows = assessNumber(userNumber, solution)
+        if (userNumber.length != codeLength) {
+            println("Size not good")
+            bullsCows = listOf(0, 0)
+            continue
+        }
+        bullsCows = assessNumber(userNumber, solution)
         println(RESULT.format(formatResult(bullsCows)))
     } while (bullsCows[0] != codeLength)
 }
