@@ -116,6 +116,11 @@ fun getPasswordLength(): Int {
 }
 
 
+fun getPositiveInt(zeroAuthorized: Boolean = false): Int {
+
+}
+
+
 fun getRandomCode(codeLength: Int, nbChars: Int = 10): String {
     var result = ""
 
