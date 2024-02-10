@@ -74,18 +74,16 @@ fun getNanoTime(): String {
 fun getNumberSymbols(codeLength: Int): Int {
     val numberSymbols = getPositiveInt(INVALID_NUMBER)
 
-    if (numberSymbols == -1) {
-        return 0
-    }
+    if (numberSymbols == -1) return numberSymbols
 
     if (numberSymbols > 36) {
         println(INVALID_TOO_MANY_SYMBOLS)
-        return 0
+        return -1
     }
 
     if (numberSymbols < codeLength) {
         println(INVALID_TOO_FEW_SYMBOLS.format(codeLength, numberSymbols))
-        return 0
+        return -1
     }
 
     return numberSymbols
@@ -95,9 +93,7 @@ fun getNumberSymbols(codeLength: Int): Int {
 fun getPasswordLength(): Int {
     val passwordSize = getPositiveInt(INVALID_NUMBER)
 
-    if (passwordSize == -1) {
-        return -1
-    }
+    if (passwordSize == -1) return passwordSize
 
     if (passwordSize > 36) {
         println(INVALID_PASSWORD_LENGTH.format(passwordSize))
