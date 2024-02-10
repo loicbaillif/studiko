@@ -8,5 +8,5 @@ package projects.unitConverter
  */
 
 fun stage2() {
-
+    getUserInput()
 }
