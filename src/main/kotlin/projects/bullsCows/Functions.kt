@@ -117,7 +117,15 @@ fun getPasswordLength(): Int {
 
 
 fun getPositiveInt(zeroAuthorized: Boolean = false): Int {
+    var result = -1
 
+    try {
+        result = readln().toInt()
+    } catch (e: NumberFormatException) {
+        return result
+    }
+
+    return result
 }
 
 
