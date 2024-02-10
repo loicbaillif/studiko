@@ -72,7 +72,9 @@ fun getNanoTime(): String {
 
 
 fun getNumberSymbols(codeLength: Int): Int {
-    var numberSymbols = 10
+    val numberSymbols = getPositiveInt()
+
+
     try {
         numberSymbols = readln().toInt()
     } catch (notNumber: NumberFormatException) {
@@ -94,25 +96,31 @@ fun getNumberSymbols(codeLength: Int): Int {
 
 
 fun getPasswordLength(): Int {
-    val passwordSize = readln()
-    var passwordSizeInt = -1
-    try {
-        passwordSizeInt = passwordSize.toInt()
-    } catch (notFigure: NumberFormatException) {
-        println("Error: \"${passwordSize}\" is not a valid number.")
+    val passwordSize = getPositiveInt()
+
+    if (passwordSize == -1) {
+        println("Error: Not a valid length")
         return -1
     }
 
-    if (passwordSizeInt > 36) {
-        println(INVALID_PASSWORD_LENGTH.format(passwordSizeInt))
+    if (passwordSize > 36) {
+        println(INVALID_PASSWORD_LENGTH.format(passwordSize))
         return -1
     }
-    if (passwordSizeInt < 1) {
+    if (passwordSize < 1) {
         println(INVALID_LENGTH_NEGATIVE)
         return -1
     }
 
-    return passwordSizeInt
+    return passwordSize
+}
+
+
+fun getPositiveInt(errorMessage: String): Int {
+    var result = -1
+
+
+    return -1
 }
 
 
