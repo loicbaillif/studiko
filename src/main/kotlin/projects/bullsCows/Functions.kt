@@ -93,10 +93,9 @@ fun getNumberSymbols(codeLength: Int): Int {
 
 
 fun getPasswordLength(): Int {
-    val passwordSize = getPositiveInt()
+    val passwordSize = getPositiveInt(INVALID_NUMBER)
 
     if (passwordSize == -1) {
-        println("Error: Not a valid length")
         return -1
     }
 
