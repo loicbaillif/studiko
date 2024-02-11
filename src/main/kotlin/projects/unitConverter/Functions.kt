@@ -3,6 +3,7 @@ package projects.unitConverter
 
 fun checkInput(userInput: Array<String>): Unit {
     userInput[0] = checkNumber(userInput[0])
+    userInput[1] = checkUnit(userInput[1])
 }
 
 
@@ -23,7 +24,12 @@ fun checkNumber(input: String): String {
 
 
 fun checkUnit(input: String): String {
+    val distanceList = arrayOf("km", "kilometer", "kilometers")
+    val result = "error"
 
+    if (distanceList.indexOf(input) != -1) return distanceList[0]
+
+    return result
 }
 
 
