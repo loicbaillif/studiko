@@ -8,7 +8,7 @@ fun checkInput(userInput: Array<String>) {
 
 
 fun checkInputSt3(userInput: Array<String>) {
-    userInput[0] = checkNumber(userInput[0])
+    userInput[0] = checkDouble(userInput[0])
     userInput[1] = checkUnitDistance(userInput[1])
 }
 
@@ -87,7 +87,7 @@ fun convertDistanceSt3(userInput: Array<String>) {
 
     // Calculus
     val result = sourceDistance * arrayConversion[indexSourceDistance]
-    println("$sourceDistance $sourceUnit is $result meter") // DEBUG
+    println("$sourceDistance $sourceUnit is $result meter${if (result == 1.0) "" else "s"}") // DEBUG
 
 }
 
