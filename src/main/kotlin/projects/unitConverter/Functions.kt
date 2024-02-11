@@ -7,6 +7,12 @@ fun checkInput(userInput: Array<String>) {
 }
 
 
+fun checkInputSt3(userInput: Array<String>) {
+    userInput[0] = checkNumber(userInput[0])
+    userInput[1] = checkUnitDistance(userInput[1])
+}
+
+
 fun checkNumber(input: String): String {
     val result = "error"
     val inputAsInt: Int
