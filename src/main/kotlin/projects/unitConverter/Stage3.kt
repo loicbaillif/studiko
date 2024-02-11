@@ -8,5 +8,6 @@ package projects.unitConverter
  */
 
 fun stage3() {
-
+    val userInput = getUserInput() // ["distance"; "unit"]
+    checkInputSt3(userInput)
 }
