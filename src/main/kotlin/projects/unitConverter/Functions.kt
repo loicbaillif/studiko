@@ -33,7 +33,14 @@ fun checkUnit(input: String): String {
 }
 
 fun checkUnitDistance(input: String): String {
-
+    val distCm = arrayOf("cm", "centimeter", "centimeters")
+    val distFt = arrayOf("ft", "foot", "feet")
+    val distIn = arrayOf("in", "inch", "inches")
+    val distKm = arrayOf("km", "kilometer", "kilometers")
+    val distM = arrayOf("m", "meter", "meters")
+    val distMi = arrayOf("mi", "mile", "miles")
+    val distMm = arrayOf("mm", "millimeter", "millimeters")
+    val distYd = arrayOf("yd", "yard", "yards")
 }
 
 
