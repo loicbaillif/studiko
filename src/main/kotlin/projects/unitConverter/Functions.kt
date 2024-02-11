@@ -21,6 +21,12 @@ fun checkNumber(input: String): String {
     return input
 }
 
+
+fun checkUnit(input: String): String {
+
+}
+
+
 fun getUserInput(): Array<String> {
     println(INPUT_PROMPT)
     val userInput = readln()
