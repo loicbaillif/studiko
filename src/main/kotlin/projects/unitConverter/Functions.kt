@@ -1,7 +1,7 @@
 package projects.unitConverter
 
 
-fun checkInput(userInput: Array<String>): Unit {
+fun checkInput(userInput: Array<String>) {
     userInput[0] = checkNumber(userInput[0])
     userInput[1] = checkUnit(userInput[1])
 }
@@ -30,6 +30,11 @@ fun checkUnit(input: String): String {
     if (distanceList.indexOf(input) != -1) return distanceList[0]
 
     return result
+}
+
+
+fun convert(userInput: Array<String>) {
+
 }
 
 
