@@ -38,6 +38,7 @@ fun convert(userInput: Array<String>) {
     val convertUnit = if (originalDistance > 1) "kilometers" else "kilometer"
     val convertedDistance = originalDistance * 1000
 
+    println(OUTPUT_DISTANCE.format(originalDistance, convertUnit, convertedDistance))
 }
 
 
