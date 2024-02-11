@@ -9,6 +9,11 @@ fun checkInput(userInput: Array<String>): Unit {
     }
 }
 
+
+fun checkNumber(input: String): String {
+
+}
+
 fun getUserInput(): Array<String> {
     println(INPUT_PROMPT)
     val userInput = readln()
