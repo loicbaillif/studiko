@@ -32,6 +32,10 @@ fun checkUnit(input: String): String {
     return result
 }
 
+fun checkUnitDistance(input: String): String {
+
+}
+
 
 fun convert(userInput: Array<String>) {
     val originalDistance = userInput[0].toInt()
