@@ -43,6 +43,16 @@ fun checkUnitDistance(input: String): String {
     val distYd = arrayOf("yd", "yard", "yards")
 
     val distancesList = arrayOf(distCm, distFt, distIn, distKm, distM, distMi, distMm, distYd)
+    val result = "error"
+
+    for (elt in distancesList) {
+        if (elt.indexOf(input) != -1) {
+            println("This unit is valid : ${elt[0]}") // DEBUG
+            return elt[0]
+        }
+    }
+
+    return result
 }
 
 
