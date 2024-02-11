@@ -9,4 +9,7 @@ package projects.unitConverter
 
 fun stage2() {
     val userInput = getUserInput() // ["distance"; "unit"]
+    println(userInput.joinToString(", "))
+    checkInput(userInput)
+    println(userInput.joinToString(", "))
 }
