@@ -5,5 +5,5 @@ fun getUserInput(): List<String> {
     val userInput = readln()
     val result = userInput.lowercase().split(" ");
 
-    return listOf("0", "0")
+    return result
 }
