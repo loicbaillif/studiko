@@ -39,15 +39,6 @@ fun checkUnit(input: String): String {
 }
 
 fun checkUnitDistance(input: String): String {
-    val distCm = arrayOf("cm", "centimeter", "centimeters")
-    val distFt = arrayOf("ft", "foot", "feet")
-    val distIn = arrayOf("in", "inch", "inches")
-    val distKm = arrayOf("km", "kilometer", "kilometers")
-    val distM = arrayOf("m", "meter", "meters")
-    val distMi = arrayOf("mi", "mile", "miles")
-    val distMm = arrayOf("mm", "millimeter", "millimeters")
-    val distYd = arrayOf("yd", "yard", "yards")
-
     val distancesList = arrayOf(distCm, distFt, distIn, distKm, distM, distMi, distMm, distYd)
     val result = "error"
 
@@ -73,7 +64,10 @@ fun convert(userInput: Array<String>) {
 
 
 fun convertDistanceSt3(userInput: Array<String>) {
-
+    val sourceDistance = userInput[0].toFloat()
+    val distancesList = arrayOf(distCm, distFt, distIn, distKm, distM, distMi, distMm, distYd)
+    val arrayUnits = arrayOf("cm", "ft", "in", "km", "m", "mi", "mm", "yd")
+    val indexSourceDistance = arrayUnits.indexOf(userInput[1])
 }
 
 
