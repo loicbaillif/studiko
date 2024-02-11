@@ -11,10 +11,12 @@ fun stage3() {
     val userInput = getUserInput() // ["distance"; "unit"]
     checkInputSt3(userInput)
 
-    if (userInput[0] == "error" || userInput[1] == "error") {
+    if (userInput[0] == "error") {
         println(INPUT_ERROR)
         return
     }
+
+    if (userInput[1] == "error") return
 
     convertDistanceSt3(userInput)
 }
