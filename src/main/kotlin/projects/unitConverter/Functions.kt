@@ -41,6 +41,8 @@ fun checkUnitDistance(input: String): String {
     val distMi = arrayOf("mi", "mile", "miles")
     val distMm = arrayOf("mm", "millimeter", "millimeters")
     val distYd = arrayOf("yd", "yard", "yards")
+
+    val distancesList = arrayOf(distCm, distFt, distIn, distKm, distM, distMi, distMm, distYd)
 }
 
 
