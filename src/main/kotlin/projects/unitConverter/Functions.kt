@@ -13,6 +13,22 @@ fun checkInputSt3(userInput: Array<String>) {
 }
 
 
+fun checkDouble(input: String): String {
+    val error = "error"
+    val inputAsDouble: Double
+
+    try {
+        inputAsDouble = input.toDouble()
+    } catch (e: NumberFormatException) {
+        return error
+    }
+
+    if (inputAsDouble < 0.0) return error
+
+    return input
+}
+
+
 fun checkNumber(input: String): String {
     val result = "error"
     val inputAsInt: Int
@@ -65,11 +81,14 @@ fun convertDistanceSt3(userInput: Array<String>) {
     val sourceDistance = userInput[0].toDouble()
     val distancesList = arrayOf(distCm, distFt, distIn, distKm, distM, distMi, distMm, distYd)
     val arrayUnits = arrayOf("cm", "ft", "in", "km", "m", "mi", "mm", "yd")
+    val arrayConversion = arrayOf(M_PER_CM, M_PER_FT, M_PER_IN, M_PER_KM, M_PER_M, M_PER_MI, M_PER_MM, M_PER_YD)
     val indexSourceDistance = arrayUnits.indexOf(userInput[1])
     val sourceUnit = distancesList[indexSourceDistance][if (sourceDistance == 1.0) 1 else 2]
 
     // Calculus
-    println("$sourceDistance $sourceUnit is XXX") // DEBUG
+    val result = sourceDistance * arrayConversion[indexSourceDistance]
+    println("$sourceDistance $sourceUnit is $result meter") // DEBUG
+
 }
 
 
