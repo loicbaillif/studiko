@@ -58,7 +58,7 @@ fun checkUnitDistance(input: String): String {
         }
     }
 
-    println("INVALID") // DEBUG
+    println(UNIT_ERROR.format(input)) // DEBUG
     return result
 }
 
