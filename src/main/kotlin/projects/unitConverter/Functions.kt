@@ -2,16 +2,21 @@ package projects.unitConverter
 
 
 fun checkInput(userInput: Array<String>): Unit {
-    try {
-        val tempNumber = userInput[0].toInt()
-    } catch (e: NumberFormatException) {
-        userInput[0] = "error"
-    }
+    userInput[0] = checkNumber(userInput[0])
 }
 
 
 fun checkNumber(input: String): String {
+    val result = "error"
+    val inputAsInt: Int
 
+    try {
+        inputAsInt = input.toInt()
+    } catch (e: NumberFormatException) {
+        return result
+    }
+
+    return input
 }
 
 fun getUserInput(): Array<String> {
