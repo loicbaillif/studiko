@@ -72,6 +72,11 @@ fun convert(userInput: Array<String>) {
 }
 
 
+fun convertDistanceSt3(userInput: Array<String>) {
+
+}
+
+
 fun getUserInput(): Array<String> {
     println(INPUT_PROMPT)
     val userInput = readln()
