@@ -31,26 +31,23 @@ fun checkNumber(input: String): String {
 
 fun checkUnit(input: String): String {
     val distanceList = arrayOf("km", "kilometer", "kilometers")
-    val result = "error"
+    val error = "error"
 
     if (distanceList.indexOf(input) != -1) return distanceList[0]
 
-    return result
+    return error
 }
 
 fun checkUnitDistance(input: String): String {
     val distancesList = arrayOf(distCm, distFt, distIn, distKm, distM, distMi, distMm, distYd)
-    val result = "error"
+    val error = "error"
 
     for (elt in distancesList) {
-        if (elt.indexOf(input) != -1) {
-            println("This unit is valid : ${elt[0]}") // DEBUG
-            return elt[0]
-        }
+        if (elt.indexOf(input) != -1) return elt[0]
     }
 
     println(UNIT_ERROR.format(input))
-    return result
+    return error
 }
 
 
@@ -64,10 +61,15 @@ fun convert(userInput: Array<String>) {
 
 
 fun convertDistanceSt3(userInput: Array<String>) {
-    val sourceDistance = userInput[0].toFloat()
+    // Variables
+    val sourceDistance = userInput[0].toDouble()
     val distancesList = arrayOf(distCm, distFt, distIn, distKm, distM, distMi, distMm, distYd)
     val arrayUnits = arrayOf("cm", "ft", "in", "km", "m", "mi", "mm", "yd")
     val indexSourceDistance = arrayUnits.indexOf(userInput[1])
+    val sourceUnit = distancesList[indexSourceDistance][if (sourceDistance == 1.0) 1 else 2]
+
+    // Calculus
+    println("$sourceDistance $sourceUnit is XXX") // DEBUG
 }
 
 
