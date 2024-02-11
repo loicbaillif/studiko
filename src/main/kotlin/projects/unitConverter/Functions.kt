@@ -16,6 +16,8 @@ fun checkNumber(input: String): String {
         return result
     }
 
+    if (inputAsInt < 0) return result
+
     return input
 }
 
