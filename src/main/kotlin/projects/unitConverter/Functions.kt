@@ -34,6 +34,9 @@ fun checkUnit(input: String): String {
 
 
 fun convert(userInput: Array<String>) {
+    val originalDistance = userInput[0].toInt()
+    val convertUnit = if (originalDistance > 1) "kilometers" else "kilometer"
+    val convertedDistance = originalDistance * 1000
 
 }
 
