@@ -99,3 +99,8 @@ fun getUserInput(): Array<String> {
 
     return result
 }
+
+
+fun getUserInputSt4(): Array<String> {
+    println(INPUT_PROMPT_ST4)
+}
