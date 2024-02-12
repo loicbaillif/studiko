@@ -103,4 +103,6 @@ fun getUserInput(): Array<String> {
 
 fun getUserInputSt4(): Array<String> {
     println(INPUT_PROMPT_ST4)
+    val userInput = readln()
+    return userInput.lowercase().split(" ").toTypedArray()
 }
