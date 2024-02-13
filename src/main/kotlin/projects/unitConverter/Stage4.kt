@@ -8,5 +8,11 @@ package projects.unitConverter
  */
 
 fun stage4() {
-    getUserInputSt4()
+    var userInput = arrayOf("init")
+    do {
+        userInput = getUserInputSt4()
+
+    } while (userInput[0] != "exit")
+
+    println("End of program") // DEBUG
 }
