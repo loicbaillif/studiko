@@ -24,6 +24,9 @@ fun checkInputSt4(userInput: Array<String>) {
     // 2. Ensure first elt is a number
     userInput[0] = checkDouble(userInput[0])
     if (userInput[0] == "error") return
+
+    // 3. Ensure second and fourth elements are consistent measure
+
 }
 
 
@@ -79,6 +82,11 @@ fun checkUnitDistance(input: String): String {
 
     println(UNIT_ERROR.format(input))
     return error
+}
+
+
+fun checkUnitSt4(userInput: Array<String>): Boolean {
+
 }
 
 
