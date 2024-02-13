@@ -11,7 +11,17 @@ fun stage4() {
     var userInput = arrayOf("init")
     do {
         userInput = getUserInputSt4()
+        if (userInput[0] == "exit") continue
 
+        checkInputSt4(userInput)
+        if (userInput[0] == "error") {
+            println(REQUEST_ERROR)
+            continue
+        }
+
+        println(userInput.joinToString(", ")) // DEBUG
+
+        println("Something to do") // DEBUG
     } while (userInput[0] != "exit")
 
     println("End of program") // DEBUG

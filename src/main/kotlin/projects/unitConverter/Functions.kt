@@ -14,7 +14,7 @@ fun checkInputSt3(userInput: Array<String>) {
 
 
 fun checkInputSt4(userInput: Array<String>) {
-
+    if (userInput.size != 4) userInput[0] = "error"
 }
 
 
