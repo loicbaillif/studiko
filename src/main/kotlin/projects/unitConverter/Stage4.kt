@@ -14,10 +14,7 @@ fun stage4() {
         if (userInput[0] == "exit") continue
 
         checkInputSt4(userInput)
-        if (userInput[0] == "error") {
-            println(REQUEST_ERROR)
-            continue
-        }
+        if (userInput[0] == "error") continue
 
         println(userInput.joinToString(", ")) // DEBUG
 

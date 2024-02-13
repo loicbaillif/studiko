@@ -3,6 +3,7 @@ package projects.unitConverter
 const val INPUT_ERROR = "Wrong input"
 const val INPUT_PROMPT = "Enter a number and a measure of length:"
 const val INPUT_PROMPT_ST4 = "Enter what you want to convert (or exit):"
+const val INVALID_FIGURE = "Error: %s is not a valid number."
 const val OUTPUT_DISTANCE = "%d %s is %d meters"
 const val REQUEST_ERROR = "Error: Request not recognized."
 const val UNIT_ERROR = "Wrong input. Unknown unit %s."

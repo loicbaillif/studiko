@@ -14,7 +14,16 @@ fun checkInputSt3(userInput: Array<String>) {
 
 
 fun checkInputSt4(userInput: Array<String>) {
-    if (userInput.size != 4) userInput[0] = "error"
+    // 1. Ensure there are 4 "words" e.g. 100 CM in KM
+    if (userInput.size != 4) {
+        userInput[0] = "error"
+        println(REQUEST_ERROR)
+        return
+    }
+
+    // 2. Ensure first elt is a number
+    userInput[0] = checkDouble(userInput[0])
+    if (userInput[0] == "error") return
 }
 
 
@@ -25,6 +34,7 @@ fun checkDouble(input: String): String {
     try {
         inputAsDouble = input.toDouble()
     } catch (e: NumberFormatException) {
+        println(INVALID_FIGURE.format(input))
         return error
     }
 
