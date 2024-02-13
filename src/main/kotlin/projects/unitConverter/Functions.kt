@@ -13,6 +13,11 @@ fun checkInputSt3(userInput: Array<String>) {
 }
 
 
+fun checkInputSt4(userInput: Array<String>) {
+
+}
+
+
 fun checkDouble(input: String): String {
     val error = "error"
     val inputAsDouble: Double
