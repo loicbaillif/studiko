@@ -25,8 +25,8 @@ fun checkInputSt4(userInput: Array<String>) {
     userInput[0] = checkDouble(userInput[0])
     if (userInput[0] == "error") return
 
-    // 3. Ensure second and fourth elements are consistent measure
-
+    // 3. Ensure second and fourth elements are consistent units
+    checkUnitSt4(userInput)
 }
 
 
@@ -86,7 +86,19 @@ fun checkUnitDistance(input: String): String {
 
 
 fun checkUnitSt4(userInput: Array<String>): Boolean {
+    val distancesList = arrayOf(distCm, distFt, distIn, distKm, distM, distMi, distMm, distYd)
+    val weightList = arrayOf(weightG, weightKg, weightLb, weightMg, weightOz)
+    val error = "error"
+    var firstUnit = "???"
 
+    for (elt in distancesList) {
+        if (elt.indexOf(userInput[1]) != -1) {
+            firstUnit = "distance"
+        }
+    }
+
+
+    return false
 }
 
 
