@@ -90,20 +90,22 @@ fun checkUnitSt4(userInput: Array<String>): Boolean {
     val weightList = arrayOf(weightG, weightKg, weightLb, weightMg, weightOz)
     val error = "error"
     var firstUnit = "???"
+    var secondUnit = "???"
 
     for (elt in distancesList) {
-        if (elt.indexOf(userInput[1]) != -1) {
-            firstUnit = "distance"
-            break
-        }
+        if (elt.indexOf(userInput[1]) != -1) firstUnit = "distance"
+        if (elt.indexOf(userInput[3]) != -1) secondUnit = "distance"
+
+        if (firstUnit == "distance" && secondUnit == "distance") break // break if 2 units match distance
     }
 
     for (elt in weightList) {
-        if (firstUnit == "distance") break
-        if (elt.indexOf(userInput[1]) != -1) {
-            firstUnit = "weight"
-            break
-        }
+        if (firstUnit == "distance" && secondUnit == "distance") break
+
+        if (elt.indexOf(userInput[1]) != -1) firstUnit = "weight"
+        if (elt.indexOf(userInput[3]) != -1) secondUnit = "weight"
+
+        if (firstUnit == "weight" && secondUnit == "weight") break // break if 2 units match weight
     }
 
 
