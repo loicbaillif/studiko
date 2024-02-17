@@ -94,8 +94,18 @@ fun checkUnitSt4(userInput: Array<String>): Boolean {
     for (elt in distancesList) {
         if (elt.indexOf(userInput[1]) != -1) {
             firstUnit = "distance"
+            break
         }
     }
+
+    for (elt in weightList) {
+        if (firstUnit == "distance") break
+        if (elt.indexOf(userInput[1]) != -1) {
+            firstUnit = "weight"
+            break
+        }
+    }
+
 
 
     return false
