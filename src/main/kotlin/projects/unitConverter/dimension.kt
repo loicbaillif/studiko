@@ -42,11 +42,15 @@ class dimension(userInput: Array<String>) {
             index = 0
         }
 
-    if(validUnits()) {
-        println("Something to do")
-    }
+        if(!validUnits() && compatibleUnits()) {
+            println("Something to do") // DEBUG
+
+        }
 
     }
+
+
+    fun compatibleUnits(): Boolean = this.sourceType == this.targetType
 
 
     fun getUnitArray(unitType: String) = unitsList[unitsTypes.indexOf(unitType)]
