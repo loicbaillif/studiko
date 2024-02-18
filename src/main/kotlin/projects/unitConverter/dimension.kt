@@ -42,10 +42,24 @@ class dimension(userInput: Array<String>) {
             index = 0
         }
 
+    if(validUnits()) {
+        println("Something to do")
     }
 
-    fun convertUnit() {
+    }
 
+
+    fun getUnitArray(unitType: String) = unitsList[unitsTypes.indexOf(unitType)]
+
+    fun validUnits(): Boolean {
+        if (sourceType == "???" || targetType == "???") {
+            println(UNIT_INVALID.format(
+                if (sourceType == "???") sourceType else getUnitArray(sourceType)[sourceIndex][2],
+                if (targetType == "???") targetType else getUnitArray(targetType)[targetIndex][2])
+                )
+            return false
+        }
+        return true
     }
 
     fun introduce() {

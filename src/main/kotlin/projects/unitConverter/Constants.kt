@@ -7,6 +7,7 @@ const val INVALID_FIGURE = "Error: %s is not a valid number."
 const val OUTPUT_DISTANCE = "%d %s is %d meters"
 const val REQUEST_ERROR = "Error: Request not recognized."
 const val UNIT_ERROR = "Wrong input. Unknown unit %s."
+const val UNIT_INVALID = "Conversion from %s to %s is impossible"
 
 // *** CONVERSION ***
 // 1. Distances (Using ISU standard: meter)
