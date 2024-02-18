@@ -18,6 +18,11 @@ fun stage4() {
 
         println(userInput.joinToString(", ")) // DEBUG
 
+        // New version
+        val userDim = dimension(userInput);
+        userDim.introduce()
+        // End of new version
+
         println("Something to do") // DEBUG
     } while (userInput[0] != "exit")
 

@@ -90,11 +90,21 @@ fun checkUnitSt4(userInput: Array<String>): Boolean {
     val weightList = arrayOf(weightG, weightKg, weightLb, weightMg, weightOz)
     val error = "error"
     var firstUnit = "???"
+    var firstUnitPlural = ""
     var secondUnit = "???"
+    var secondUnitPlural = ""
 
     for (elt in distancesList) {
-        if (elt.indexOf(userInput[1]) != -1) firstUnit = "distance"
-        if (elt.indexOf(userInput[3]) != -1) secondUnit = "distance"
+        if (elt.indexOf(userInput[1]) != -1) {
+            firstUnit = "distance"
+            userInput[1] = elt[0] // Transform 1st unit to its abbreviated version
+            firstUnitPlural = elt[2] // Store plural form to generate error message
+        }
+        if (elt.indexOf(userInput[3]) != -1) {
+            secondUnit = "distance"
+            userInput[3] = elt[0] // Transform 2nd unit to its abbreviated version
+            secondUnitPlural = elt[2] // Store plural form to generate error message
+        }
 
         if (firstUnit == "distance" && secondUnit == "distance") break // break if 2 units match distance
     }
@@ -102,12 +112,19 @@ fun checkUnitSt4(userInput: Array<String>): Boolean {
     for (elt in weightList) {
         if (firstUnit == "distance" && secondUnit == "distance") break
 
-        if (elt.indexOf(userInput[1]) != -1) firstUnit = "weight"
-        if (elt.indexOf(userInput[3]) != -1) secondUnit = "weight"
+        if (elt.indexOf(userInput[1]) != -1) {
+            firstUnit = "weight"
+            userInput[1] = elt[0] // Transform 1st unit to its abbreviated version
+            firstUnitPlural = elt[2] // Store plural form to generate error message
+        }
+        if (elt.indexOf(userInput[3]) != -1) {
+            secondUnit = "weight"
+            userInput[3] = elt[0] // Transform 2nd unit to its abbreviated version
+            secondUnitPlural = elt[2] // Store plural form to generate error message
+        }
 
         if (firstUnit == "weight" && secondUnit == "weight") break // break if 2 units match weight
     }
-
 
 
     return false

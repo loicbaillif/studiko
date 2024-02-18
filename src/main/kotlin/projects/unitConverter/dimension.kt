@@ -1,7 +1,8 @@
 package projects.unitConverter
 
 class dimension(userInput: Array<String>) {
-    var sourceDimension = userInput[1];
+    val sourceDimension = userInput[1];
+    val sourceFigure: Double = userInput[0].toDouble();
     var dimensionPlural = "";
     var dimensionShort = "";
     var dimensionSingular = "";
@@ -27,5 +28,9 @@ class dimension(userInput: Array<String>) {
                 dimensionSingular = elt[1]
             }
         }
+    }
+
+    fun introduce() {
+        println("\t. user provided $sourceFigure $dimensionShort")
     }
 }
