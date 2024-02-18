@@ -6,15 +6,11 @@ class dimension(userInput: Array<String>) {
     val sourceFigureString = userInput[0]
     var sourceIndex = 0
     var sourceType = "???"
-    var sourceDimensionPlural = ""
     var sourceDimensionShort = ""
-    var sourceDimensionSingular = ""
     val targetUnit = userInput[3]
     var targetIndex = 0
     var targetType = "???"
-    var targetDimensionPlural = ""
     var targetDimensionShort = ""
-    var targetDimensionSingular = ""
     val distancesList = arrayOf(distM, distCm, distFt, distIn, distKm, distMi, distMm, distYd)
     val weightsList = arrayOf(weightKg, weightG, weightLb, weightMg, weightOz)
     val unitsList = arrayOf(distancesList, weightsList)
@@ -47,7 +43,6 @@ class dimension(userInput: Array<String>) {
         }
 
         if(validUnits() && compatibleUnits()) convertMeasure()
-
     }
 
 
@@ -67,8 +62,8 @@ class dimension(userInput: Array<String>) {
         // 1. Convert to unit standard (kg or m)
         val intermediateMeasure = sourceFigure * getCoeffArray(targetType)[sourceIndex]
 
+        // 2. convert from unit standard to requested target
         val targetMeasure = intermediateMeasure / getCoeffArray(targetType)[targetIndex]
-
 
         println(OUTPUT_GENERIC.format(
             sourceFigureString,
@@ -84,10 +79,10 @@ class dimension(userInput: Array<String>) {
     fun getUnitArray(unitType: String) = unitsList[unitsTypes.indexOf(unitType)]
 
     fun getUnitForm(unitType: String, unitIndex: Int, quantity: Double): String {
-        if (quantity == 1.0) {
-            return getUnitSingular(unitType, unitIndex)
+        return if (quantity == 1.0) {
+            getUnitSingular(unitType, unitIndex)
         } else {
-            return getUnitPlural(unitType, unitIndex)
+            getUnitPlural(unitType, unitIndex)
         }
     }
 
@@ -98,18 +93,11 @@ class dimension(userInput: Array<String>) {
     fun validUnits(): Boolean {
         if (sourceType == "???" || targetType == "???") {
             println(UNIT_INVALID.format(
-                if (sourceType == "???") sourceType else getUnitArray(sourceType)[sourceIndex][2],
-                if (targetType == "???") targetType else getUnitArray(targetType)[targetIndex][2]
+                if (sourceType == "???") sourceType else getUnitPlural(sourceType, sourceIndex),
+                if (targetType == "???") targetType else getUnitPlural(targetType, targetIndex)
             ))
             return false
         }
         return true
-    }
-
-    fun introduce() {
-        // DEBUG
-        println("\t. User provided $sourceFigure $sourceDimensionShort, which is a $sourceType")
-        println("\t. User would like it to be converted to $targetDimensionShort, which is $targetType")
-        println("\t. Source index = $sourceIndex\n\t. Target index = $targetIndex")
     }
 }

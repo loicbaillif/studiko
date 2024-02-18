@@ -8,22 +8,11 @@ package projects.unitConverter
  */
 
 fun stage4() {
-    var userInput = arrayOf("init")
+    var userInput: Array<String>
     do {
         userInput = getUserInputSt4()
         if (userInput[0] == "exit") continue
-
-        checkInputSt4(userInput)
-        if (userInput[0] == "error") continue
-
-        println(userInput.joinToString(", ")) // DEBUG
-
-        // New version
-        val userDim = dimension(userInput);
-        userDim.introduce() // DEBUG
-        // End of new version
-
-        println("Something to do") // DEBUG
+        dimension(userInput)
     } while (userInput[0] != "exit")
 
     println("End of program") // DEBUG
