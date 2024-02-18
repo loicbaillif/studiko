@@ -51,7 +51,16 @@ class dimension(userInput: Array<String>) {
     }
 
 
-    fun compatibleUnits(): Boolean = this.sourceType == this.targetType
+    fun compatibleUnits(): Boolean {
+        if (this.sourceType != this.targetType) {
+            println(UNIT_INVALID.format(
+                getUnitPlural(sourceType, sourceIndex),
+                getUnitPlural(targetType, targetIndex)
+            ))
+            return false
+        }
+        return true
+    }
 
 
     fun convertMeasure() {
