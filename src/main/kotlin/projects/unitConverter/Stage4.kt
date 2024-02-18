@@ -20,7 +20,7 @@ fun stage4() {
 
         // New version
         val userDim = dimension(userInput);
-        userDim.introduce()
+        userDim.introduce() // DEBUG
         // End of new version
 
         println("Something to do") // DEBUG
